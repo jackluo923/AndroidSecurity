@@ -1,6 +1,6 @@
 # AndoirdSecurity
 
-Intellij Configuration
+## Intellij Configuration</br>
 1. Mark src folder as src</br>
 2. Mark lib/wala folder as lib </br>
 3. Create Run/debug Configuration </br>
