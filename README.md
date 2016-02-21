@@ -4,24 +4,24 @@
 2. Collect output from /output.json
 
 ## Project Structure 
-/AndroidApplications 
-    - vulnerable android APK, decompressed APK, src
-/lib 
-    - vulnerability detector dependencies 
-/preprocess 
-    - some useful tools for preprocessing APK before doing analysis 
-/src 
-    - source files for vulnerability detector 
-/tools 
-    - WALA method signature tool (provided by Professor Lie) 
-/vulnerabilities 
-    - simple vulnerabilities apk containing only the vulnerabilities
-build.gradle 
-    - gradle script (use build.sh to build project) 
-build.sh 
-    - calls gradle and build project 
-run.sh
-    - runs project, first argument is the decompressed apk location
+/AndroidApplications </br>
+    - vulnerable android APK, decompressed APK, src </br>
+/lib </br>
+    - vulnerability detector dependencies </br>
+/preprocess </br>
+    - some useful tools for preprocessing APK before doing analysis </br>
+/src </br>
+    - source files for vulnerability detector </br>
+/tools </br>
+    - WALA method signature tool (provided by Professor Lie) </br>
+/vulnerabilities </br>
+    - simple vulnerabilities apk containing only the vulnerabilities </br>
+build.gradle </br>
+    - gradle script (use build.sh to build project) </br>
+build.sh </br>
+    - calls gradle and build project </br>
+run.sh </br>
+    - runs project, first argument is the decompressed apk location </br>
 
 
 ## Intellij Configuration
