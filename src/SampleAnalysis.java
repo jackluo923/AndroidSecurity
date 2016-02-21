@@ -1,3 +1,7 @@
+/**
+ * This is the main class for wala tutorial. Please start with the project starter file /src/SampleDetector.java
+ */
+
 import com.ibm.wala.types.*;
 import com.ibm.wala.classLoader.*;
 import com.ibm.wala.ipa.cha.*;

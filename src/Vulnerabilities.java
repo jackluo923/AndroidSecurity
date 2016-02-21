@@ -1,5 +1,3 @@
-package edu.toronto.ece1776;
-
 import java.util.*;
 
 // Class containing all vulnerabilities in application.  This class is used to produce

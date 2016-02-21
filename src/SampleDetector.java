@@ -1,4 +1,7 @@
-package edu.toronto.ece1776;
+/**
+ * This is the main class project starter files.
+ */
+
 
 import com.ibm.wala.classLoader.*;
 import com.ibm.wala.types.*;
@@ -15,7 +18,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class SampleDetector {
-    private final String _androidLib = "<path to android.jar>";
+    private final String _androidLib = "lib/android.jar";
     private String _appDir = null;
 
     /*
@@ -25,12 +28,17 @@ public class SampleDetector {
      * expects.
      */
     public static void main(String[] args) throws Exception {
-        if (args.length != 1) {
+
+        String appDir = "AndroidApplications/Endofday"; // default analysis application
+        if (args.length == 0) {
+            // do nothing, use default settings
+        } else if (args.length == 1) {
+            appDir = args[0];
+            System.out.println("Analyzing application: "+ appDir);
+        } else {
             System.err.println("usage: SampleDetector <directory of extracted APK>");
             return;
         }
-
-        String appDir = args[0];
         System.out.println("Starting vulnerability detection for " + appDir);
 
         SampleDetector analysis = new SampleDetector(appDir);
