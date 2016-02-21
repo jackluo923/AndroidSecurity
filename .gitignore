@@ -7,7 +7,6 @@
 /.gradle
 /build
 
-
-
+#Vulnerability Detector Output
 /output.json
 
