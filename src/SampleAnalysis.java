@@ -1,5 +1,5 @@
 /**
- * This is the main class for wala tutorial. Please start with the project starter file /src/SampleDetector.java
+ * This is the main class for wala tutorial. Please start with the project starter file /src/VulnerabilityDetector.java
  */
 
 import com.ibm.wala.types.*;

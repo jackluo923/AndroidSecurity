@@ -1,6 +1,6 @@
 ## How to run program 
-1. Run main class in SampleDetector.java 
-    - usage: SampleDetector <directory of extracted APK>
+1. Run main class in VulnerabilityDetector.java 
+    - usage: VulnerabilityDetector <directory of extracted APK>
 2. Collect output from /output.json
 
 ## Project Structure 
@@ -29,8 +29,8 @@ run.sh </br>
 2. Mark lib/wala folder as lib
 3. Create Run/debug Configuration
 4. Add Application</br>
--Name: Analysis</br>
--Main class: SampleDetector</br>
+-Name: VulnerabilityDetector</br>
+-Main class: VulnerabilityDetector</br>
 -Use classpath of module: AndroidSecurity</br>
 
 ## Gradle Configuration 
