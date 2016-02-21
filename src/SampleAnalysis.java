@@ -13,10 +13,10 @@ import java.util.jar.JarFile;
 
 public class SampleAnalysis {
     // Path to application under analysis
-    private final String appPath = "wala_exercises/SampleApp/bin/classes";
+    private final String appPath = "AndroidApplications/SampleApp/bin/classes";
 
     // Path to android.jar in Android SDK folder
-    private final String androidJarPath = "wala_exercises/lib/android.jar";
+    private final String androidJarPath = "lib/android.jar";
 
     private final String[] activityLifecycleMethods = {
         "onCreate(Landroid/os/Bundle;)V",
