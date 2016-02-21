@@ -1,4 +1,13 @@
+#intellij
 /.idea
 /AndoirdSecurity.iml
 /out
+
+#gradle
+/.gradle
+/build
+
+
+
 /output.json
+
