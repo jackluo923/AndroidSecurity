@@ -1,10 +1,14 @@
 #intellij
 /.idea
 /AndoirdSecurity.iml
+
+#intellij build output
 /out
 
 #gradle
 /.gradle
+
+#gradle build output
 /build
 
 #Vulnerability Detector Output
