@@ -5,6 +5,6 @@
 2. Mark lib/wala folder as lib </br>
 3. Create Run/debug Configuration </br>
 4. Add Application </br>
-- Name: Analysis </br>
-- Main class: SampleAnalysis</br>
-- Use classpath of module: AndroidSecurity</br>
+..* Name: Analysis </br>
+..* Main class: SampleAnalysis</br>
+..* Use classpath of module: AndroidSecurity</br>
