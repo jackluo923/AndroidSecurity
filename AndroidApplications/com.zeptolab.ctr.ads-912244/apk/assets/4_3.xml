@@ -1,0 +1,61 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<tutorialText x='78' y='32' text='Candy maintains its speed when teleporting' locale='en' width='200'/>
+<tutorial09 x='59' moveSpeed='100' y='70' rotateSpeed='100' locale='en'/>
+<target x='253' y='177'/>
+<sock group='0' angle='-180' x='241' y='373'/>
+<sock group='0' angle='-60' x='70' y='235'/>
+<candy x='191' y='379'/>
+<grab gun='false' radius='-1' x='112' y='378' moveLength='80' helicopter='false' kickable='false' invisible='false' moveOffset='80' wheel='false' kicked='false' length='50' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='266' y='321' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='55' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='267' y='432' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='55' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<star x='113' moveSpeed='70' y='169' timeout='-1' path='RW30'/>
+<star x='148' moveSpeed='80' y='154' timeout='-1' path='RC30'/>
+<star x='130' moveSpeed='80' y='158' timeout='-1' path='RC20'/>
+<hidden02 x="66" y="256" angle="210" drawing="10" />
+<hiddenElement x="254" y="80" radius="100" />
+</layer>
+<layer name='Fr'>
+<tutorialText x='66' y='29' text='Le bonbon garde sa vitesse lors de la téléportation' locale='fr' width='200'/>
+<tutorial09 x='50' moveSpeed='100' y='73' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='71' y='28' text='Die Süßigkeit behält ihre Geschwindigkeit' locale='de' width='200'/>
+<tutorial09 x='54' moveSpeed='100' y='72' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Ru'>
+<tutorialText x='62' y='31' text='Леденец сохраняет свою скорость при телепортации' locale='ru' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='55' y='29' text='糖果在传送时
+保持速度' locale='zh' width='200'/>
+<tutorial09 x='75' moveSpeed='100' y='54' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='63' y='48' text='テレポートするとき、*キャンディの*速度は*維持*されます' locale='ja' width='200'/>
+<tutorial09 x='157' moveSpeed='100' y='37' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorialText x='62' y='31' text='I bonbon mantengono la stessa velocità durante il teletrasporto' locale='it' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='62' y='31' text='El caramelo conserva la velocidad al teletransportarse.' locale='es' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='62' y='31' text='사탕이 순간 이동할 *때도 속도는 변하지 *않아요.' locale='ko' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='62' y='31' text='Os doces mantêm sua velocidade ao teleportar' locale='br' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='62' y='31' text='Şeker teleport sırasında hızını korur' locale='tr' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='62' y='31' text='Tijdens het teleporteren behoudt het snoepje dezelfde snelheid' locale='nl' width='240'/>
+<tutorial09 x='43' moveSpeed='100' y='69' rotateSpeed='100' locale='nl'/>
+</layer></map>

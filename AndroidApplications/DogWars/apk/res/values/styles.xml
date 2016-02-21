@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DW_PopUp_Theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/trans_black</item>
+    </style>
+    <style name="DWTheme" parent="@android:style/Theme">
+        <item name="android:background">#00000000</item>
+    </style>
+    <style name="DWThemeDialog" parent="@android:style/Theme.Dialog" />
+    <style name="DW_Theme" parent="@android:style/Theme" />
+    <style name="DW_Theme.Transparent" parent="@style/DW_Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme2" parent="@android:style/Theme.Light" />
+    <style name="Theme2.TransparentTest" parent="@style/Theme2">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="HeaderText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_black</item>
+    </style>
+    <style name="headerTextDark" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_black</item>
+    </style>
+    <style name="buttonText" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_black</item>
+    </style>
+    <style name="titleTextLight" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="textLight" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="ListMainText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="ListSubText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="SmallText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="StatusTextLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_dark_red</item>
+    </style>
+    <style name="StatusTextSmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_dark_red</item>
+    </style>
+    <style name="shoutName" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_red</item>
+    </style>
+    <style name="shoutMessage" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="shoutMessagePitBoss" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dw_red</item>
+    </style>
+    <style name="shoutPosted" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/dw_grey</item>
+    </style>
+    <style name="MyListView" parent="@android:style/Widget.ListView" />
+    <style name="MyButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NextBtn" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dw_black</item>
+    </style>
+    <style name="GameText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="GameTextLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">35.0dip</item>
+        <item name="android:textColor">@color/dirty_white</item>
+    </style>
+    <style name="ListTextMain" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

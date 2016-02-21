@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/gradient_reverse" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:admobsdk="http://schemas.android.com/apk/res/com.pocketools.currency">
+    <TableLayout android:background="@drawable/gradient_reverse" android:padding="5.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*">
+        <TableRow>
+            <TextView android:height="5.0sp" />
+        </TableRow>
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:paddingTop="5.0sp" android:paddingBottom="5.0sp" android:text="Add Exact Currency Symbol (eg EUR for Euro)" />
+        <TableRow>
+            <EditText android:id="@id/add_stock_search" android:hint="Symbol   " />
+            <Button android:id="@id/add_stock_search_image" android:text="Add" />
+        </TableRow>
+        <TextView android:height="20.0sp" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="top" android:id="@id/user_message" android:padding="2.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:height="20.0sp" />
+        <TableRow>
+            <TextView android:background="#ff646d7e" android:padding="2.0sp" android:layout_span="2" android:height="1.0sp" />
+        </TableRow>
+        <TextView android:height="20.0sp" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="top" android:id="@id/currency_symbol_lookup" android:padding="2.0sp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Don't know your Currency Symbol ? Click here !" />
+    </TableLayout>
+</LinearLayout>

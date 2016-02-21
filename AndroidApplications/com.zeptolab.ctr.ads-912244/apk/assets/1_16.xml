@@ -1,0 +1,61 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='64' y='139'/>
+<target x='163' y='427'/>
+<grab gun='false' radius='-1' x='162' y='68' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='66' y='68' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='50' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='163' y='163' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='90' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='162' y='259' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='130' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<spike2 angle='0' size='2' x='161' y='329' toggled='false'/>
+<spike2 angle='0' size='2' x='159' y='229' toggled='false'/>
+<star x='250' y='165' timeout='-1'/>
+<star x='64' y='276' timeout='-1'/>
+<star x='248' y='275' timeout='-1'/>
+<tutorial06 x='249' moveSpeed='100' y='347' rotateSpeed='100' locale='en'/>
+<tutorialText x='190' y='359' text='Keep the candy away from spikes' locale='en' width='120'/>
+<hidden02 x="269" y="426" angle="10" drawing="2" />
+<hiddenElement x="255" y="40" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='ru'/>
+<tutorialText x='92' y='332' text='Не дайте леденцу разбиться о шипы' locale='ru' width='200'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='174' y='358' text='Gardez le bonbon loin des pointes' locale='fr' width='140'/>
+<tutorial06 x='249' moveSpeed='100' y='347' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorial06 x='71' moveSpeed='100' y='367' rotateSpeed='100' locale='de'/>
+<tutorialText x='95' y='326' text='Halte das Bonbon von den Spitzen fern' locale='de' width='200'/>
+</layer>
+<layer name='Zh'>
+<tutorial06 x='71' moveSpeed='100' y='367' rotateSpeed='100' locale='zh'/>
+<tutorialText x='67' y='346' text='让糖果避开尖刺' locale='zh' width='200'/>
+</layer>
+<layer name='Ja'>
+<tutorial06 x='71' moveSpeed='100' y='367' rotateSpeed='100' locale='ja'/>
+<tutorialText x='83' y='324' text='キャンディが*トゲに*触れない*ように*注意*しましょう' locale='ja' width='200'/>
+</layer>
+<layer name='it'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='it'/>
+<tutorialText x='92' y='332' text='Tieni il bonbon lontano dagli aculei' locale='it' width='200'/>
+</layer><layer name='es'>
+<tutorial06 x='77' moveSpeed='100' y='370' rotateSpeed='100' locale='es'/>
+<tutorialText x='97' y='332' text='¡Mantén el caramelo alejado de los pinchos!' locale='es' width='200'/>
+</layer><layer name='ko'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='ko'/>
+<tutorialText x='92' y='332' text='뾰족 장애물을 *조심하세요.' locale='ko' width='200'/>
+</layer><layer name='br'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='br'/>
+<tutorialText x='92' y='332' text='Mantenha os doces longe dos espinhos' locale='br' width='200'/>
+</layer><layer name='tr'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='tr'/>
+<tutorialText x='92' y='332' text='Şekeri dikenlerden uzak tut' locale='tr' width='200'/>
+</layer><layer name='nl'>
+<tutorial06 x='82' moveSpeed='100' y='370' rotateSpeed='100' locale='nl'/>
+<tutorialText x='92' y='332' text='Houd het snoepje uit de buurt van pinnen' locale='nl' width='200'/>
+</layer></map>

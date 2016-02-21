@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="myAlertDialogTheme" format="reference" />
+    <attr name="myAlertDialogAccentColor" format="color" />
+    <attr name="myAlertDialogButtonDrawable" format="integer" />
+    <attr name="MAD_titleStyle" format="reference" />
+    <attr name="MAD_buttonBarStyle" format="integer" />
+    <attr name="MAD_textAppearanceMedium" format="integer" />
+    <attr name="MAD_divider" format="integer" />
+    <attr name="MAD_edgePadding" format="reference|dimension" />
+    <attr name="MAD_messagePadding" format="reference|dimension" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="borderWidth" format="dimension" />
+</resources>

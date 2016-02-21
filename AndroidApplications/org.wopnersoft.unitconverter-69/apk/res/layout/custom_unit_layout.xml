@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/CustomUnitMainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/LinearLayout01" android:background="@drawable/result_text_decor_light" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/txtCustUnitHeader" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Number Base" android:drawableLeft="@drawable/robot_launcher_plus" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:id="@id/lblRefUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_unit_select_ref" />
+            <Spinner android:id="@id/SpinnerFrom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:id="@id/lblfUnit" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/custom_unit_unit_name" />
+                <EditText android:textColorHighlight="@color/text_sel" android:id="@id/EditTxtNewUnitName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@id/EditText01" android:inputType="text" />
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:id="@id/lblUnitValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_unit_multiplier_value" />
+            <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:textColorHighlight="@color/text_sel" android:id="@id/EditTxtNewUnitValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@id/EditText01" android:inputType="phone" />
+            <LinearLayout android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/BtnSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_save" android:layout_weight="1.0" />
+                <Button android:id="@id/BtnCancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_cancel" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:id="@id/btnDeleteCustUnit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_delete" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

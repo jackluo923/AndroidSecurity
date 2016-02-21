@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_general_settings">
+        <PreferenceScreen android:title="@string/pref_cat_general_settings">
+            <Preference android:title="@string/pref_filter_main_list" android:key="filterListORed" android:summary="@string/pref_filter_main_list_desc" />
+            <CheckBoxPreference android:title="@string/pref_filter_enabled" android:key="filterListEnabled" android:summary="@string/pref_filter_enabled_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_custom_keypad" android:key="customKeypad" android:summary="@string/pref_custom_keypad_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_vibrate_on_result" android:key="vibrateResult" android:summary="@string/pref_vibrate_on_result_desc" />
+            <CheckBoxPreference android:title="@string/pref_revert_keyboard" android:key="revertKeyLayout" android:summary="@string/pref_revert_keyboard_desc" android:defaultValue="false" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_cat_display_options">
+            <ListPreference android:entries="@array/appstyle_names" android:title="@string/pref_app_style" android:key="appStyle" android:summary="@string/pref_app_style_desc" android:defaultValue="0" android:entryValues="@array/appstyle_values" />
+            <ListPreference android:entries="@array/fontsize_names" android:title="@string/pref_fontsize" android:key="fontSize" android:summary="@string/pref_fontsize_desc" android:defaultValue="1" android:entryValues="@array/fontsize_values" />
+            <CheckBoxPreference android:title="@string/pref_sort_alpha" android:key="sortAlpha" android:summary="@string/pref_sort_alpha_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_quick_list_button" android:key="quickListButton" android:summary="@string/pref_quick_list_button_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_result_description" android:key="resultDescription" android:summary="@string/pref_result_description_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_force_en_locale" android:key="forceEnLocale" android:summary="@string/pref_force_en_locale_desc" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/pref_skin_keypad" android:key="skinKeypad" android:summary="@string/pref_skin_keypad_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_keypad_position" android:key="keypadBottom" android:summary="@string/pref_keypad_position_desc" android:defaultValue="false" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/pref_cat_format_options">
+            <ListPreference android:entries="@array/decimal_places" android:title="@string/pref_decimal_places" android:key="decimalPlaces" android:summary="@string/pref_decimal_places_desc" android:defaultValue="4" android:entryValues="@array/decimal_places" />
+            <CheckBoxPreference android:title="@string/pref_group_digits" android:key="groupDigits" android:summary="@string/pref_group_digits_desc" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/pref_imperial_unit_format" android:key="smartFormatImpUnits" android:summary="@string/pref_imperial_unit_format_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_scientific_notation" android:key="scientificNotation" android:summary="@string/pref_scientific_notation_desc" />
+            <CheckBoxPreference android:title="@string/pref_trim_trailing_zeros" android:key="trimZeros" android:summary="@string/pref_trim_trailing_zeros" android:defaultValue="true" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_data_options">
+        <PreferenceScreen android:title="@string/pref_cat_currency_options">
+            <CheckBoxPreference android:title="@string/pref_auto_update_currency" android:key="currencyAutoUpdate" android:summary="@string/pref_auto_update_currency_desc" android:defaultValue="true" />
+            <CheckBoxPreference android:title="@string/pref_currency_disable_int_check" android:key="currencyDisableIntCheck" android:summary="@string/pref_currency_disable_int_check_desc" android:defaultValue="false" />
+            <Preference android:title="@string/ctx_menu_deleteallcurrencydata" android:key="deleteCurrency" android:summary="@string/ctx_menu_deleteallcurrencydata" />
+        </PreferenceScreen>
+        <Preference android:title="@string/ctx_menu_deleteallfavorites" android:key="deleteFavs" android:summary="@string/ctx_menu_deleteallfavorites" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_Information">
+        <Preference android:title="@string/lbl_changelog" android:key="changeLog" android:summary="@string/lbl_changelog_desc" />
+        <Preference android:title="@string/error_log_view" android:key="viewErrorLog" />
+        <Preference android:title="Rate Me!" android:key="rateme" android:summary="Rate Unit Converter" />
+        <Preference android:title="@string/app_ver" android:key="about" android:summary="@string/copyright" />
+    </PreferenceCategory>
+</PreferenceScreen>

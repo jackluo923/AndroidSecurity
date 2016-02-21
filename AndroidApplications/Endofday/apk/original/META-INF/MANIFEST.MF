@@ -1,0 +1,96 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_23 (Sun Microsystems Inc.)
+
+Name: res/raw/s002_john_3_16.ogg
+SHA1-Digest: Vpcyb+xWA0WNpBjn5GYZfGGbQNE=
+
+Name: res/raw/s006_matthew_11_28.ogg
+SHA1-Digest: P7YwmT+lRx+ls20BGGXyGqISwMg=
+
+Name: res/drawable/sound_item2.xml
+SHA1-Digest: TTSpN+0bNAAvY5f16G3WvTOTl7s=
+
+Name: res/raw/s003_john_14_6.ogg
+SHA1-Digest: X3TMOED4fPQciGVal3YDwiUjRLE=
+
+Name: res/drawable/background.jpg
+SHA1-Digest: lys1/xpnIonm8N5aoP6q/vzzyWw=
+
+Name: res/raw/s007_genesis_1_26.ogg
+SHA1-Digest: AxpNyt7hF0a3powcPf3a1F8TouE=
+
+Name: resources.arsc
+SHA1-Digest: dYmk/udcnM2UyI//l3V4FtcCr0U=
+
+Name: res/layout/soundboard.xml
+SHA1-Digest: 0XptOafity2/HJUQdbAj5770UGU=
+
+Name: res/drawable/market_icon.png
+SHA1-Digest: xHeeCea7vtm0aw5amTCKE0EEHos=
+
+Name: res/raw/s009_john_1_1.ogg
+SHA1-Digest: dcWq9c5NuEXw5/CbXE0tj2cdqwQ=
+
+Name: res/raw/s001_proverbs_3_5_6.ogg
+SHA1-Digest: GAc2W6m1VbfPeGvooZKLieswV2k=
+
+Name: AndroidManifest.xml
+SHA1-Digest: wsaTzNEoXyITFhs/sBYFRmRNpJg=
+
+Name: res/raw/s015_secret_message.ogg
+SHA1-Digest: Da4kggRZbhJh+w43H/TVt81pjcY=
+
+Name: res/raw/s011_john_11_35.ogg
+SHA1-Digest: RbQ6pQ22WPWF8DDmK+sduzSwbTw=
+
+Name: res/layout/sound_item.xml
+SHA1-Digest: l1a3nFM9WIH5OiOKDvOWaenN0BQ=
+
+Name: res/raw/s012_matthew_19_24.ogg
+SHA1-Digest: 1f29Gou2iHFF+q4zgUEa6skapxM=
+
+Name: res/drawable/sound_item1.xml
+SHA1-Digest: dkeoqNSQ6+HESsgw4+rXdyU8KA4=
+
+Name: assets/hammer.jpg
+SHA1-Digest: usEmMHnM+kcaQ5Voh3Vdb2pV4rM=
+
+Name: classes.dex
+SHA1-Digest: fRJi9SNi2vxorSUg/9WAAf/2w0w=
+
+Name: res/drawable/stop.png
+SHA1-Digest: ikrgpWi26T2bPU2sTgmGCbVSErU=
+
+Name: res/raw/s004_matthew_28_19.ogg
+SHA1-Digest: 5xSs3ifwbsXVLEg5JVjcZDKAZHA=
+
+Name: res/raw/s013_john_8_7.ogg
+SHA1-Digest: fRAzf/WjawmXwc/APLAAJhQhT2o=
+
+Name: res/layout/sound_group.xml
+SHA1-Digest: 5viIcPu7fPQgYVhn+yFI/GVxuhE=
+
+Name: res/raw/s010_psalms_23.ogg
+SHA1-Digest: doWLYlQb81mdYJvAICNqc1Jye0M=
+
+Name: res/raw/s008_romans_15_13.ogg
+SHA1-Digest: FctJAwgFdKwMhwNRJeylPa8ET7s=
+
+Name: res/drawable/icon.png
+SHA1-Digest: tjpBCwhrFQqWftl5g++aYcOEyXY=
+
+Name: res/raw/s005_romans_6_23.ogg
+SHA1-Digest: vqJstS73VhSpXfazQvHY3hK8HFA=
+
+Name: res/drawable/sound_item3.xml
+SHA1-Digest: e8cpjcGiN0Cspjf2Nyd74AtkqWs=
+
+Name: res/raw/s000_lords_prayer.ogg
+SHA1-Digest: 9CkAYThQ5HmffpDRgitd2L/zlPU=
+
+Name: assets/colbert.jpg
+SHA1-Digest: wODZBnirSzf70ssTr1VfCgN++MQ=
+
+Name: res/raw/s014_matthew_7_12.ogg
+SHA1-Digest: ZcOaFuX/URQ6Cet4bcc2ZHDhQ+M=
+

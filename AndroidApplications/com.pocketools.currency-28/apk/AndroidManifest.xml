@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.pocketools.currency">
+    <application android:icon="@drawable/icon_large" android:label="@string/app_name" android:theme="@android:style/Theme.Light">
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".PocketCurrency">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".Graph" android:screenOrientation="landscape"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".GraphDuration" android:theme="@style/CustomDialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".CurrencyList" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".Settings" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".AddCurrency" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".News" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".Info" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".AdsPreferencesManager" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EditBaseCurrency" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".ChooseCurrencyList" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".Flipper" android:theme="@android:style/Theme.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="DealInstructions" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.ads.AdActivity"/>
+        <meta-data android:name="ADMOB_PUBLISHER_ID" android:value="a14b045c31c8875"/>
+        <service android:name="com.pocketools.currency.billing.BillingService"/>
+        <receiver android:name="com.pocketools.currency.billing.BillingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.IN_APP_NOTIFY"/>
+                <action android:name="com.android.vending.billing.RESPONSE_CODE"/>
+                <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <supports-screens android:anyDensity="false" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+</manifest>

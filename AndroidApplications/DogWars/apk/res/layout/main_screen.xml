@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/basic_brick" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/header" layout="@layout/dw_header" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="33.0">
+            <Button android:id="@id/btn_shoutbox" android:background="@drawable/main_button" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="SHOUTBOX" android:layout_weight="33.0" />
+            <Button android:id="@id/btn_fight" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="FIGHT" android:layout_weight="33.0" />
+            <Button android:id="@id/btn_scoreboard" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="SCOREBOARD" android:layout_weight="33.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="33.0">
+            <Button android:id="@id/btn_cred" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:text="CRED" android:layout_weight="33.0" />
+            <TextView android:gravity="center" android:id="@id/fight_status_text" android:padding="0.0dip" android:layout_width="190.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="--------------" android:layout_weight="33.0" style="@style/titleTextLight" />
+            <Button android:id="@id/btn_train" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:text="TRAIN" android:layout_weight="33.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="33.0">
+            <Button android:id="@id/btn_buy" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:text="STORE" android:layout_weight="33.0" />
+            <Button android:id="@id/btn_options" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:text="Options" android:layout_weight="33.0" />
+            <Button android:id="@id/btn_feed" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_margin="20.0dip" android:text="FEED" android:layout_weight="33.0" style="@style/buttonText" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1.0" special="1" twoParts="false" />
+</layer>
+<layer name="Objects">
+<grab x="97" y="59" length="80" wheel="false" gun="false" radius="-1" moveLength="80" moveVertical="true" moveOffset="0" spider="false" part="L" />
+<target x="163" y="437" />
+<grab x="230" y="56" length="80" wheel="false" gun="false" radius="-1" moveLength="80" moveVertical="true" moveOffset="0" spider="false" part="L" />
+<grab x="98" y="296" length="60" wheel="false" gun="false" radius="70" moveLength="80" moveVertical="true" moveOffset="0" spider="false" part="L" />
+<grab x="230" y="295" length="60" wheel="false" gun="false" radius="70" moveLength="80" moveVertical="true" moveOffset="0" spider="false" part="L" />
+<candy x="162" y="141" />
+<electro x="161" y="178" initialDelay="-2.0" offTime="2.0" onTime="2.0" angle="0" size="5" />
+<electro x="165" y="398" initialDelay="0" offTime="2.0" onTime="2.0" angle="0" size="5" />
+<star x="161" y="220" timeout="-1" />
+<star x="162" y="360" timeout="-1" />
+<star x="163" y="293" timeout="-1" />
+<hidden02 x="176" y="48" angle="195" drawing="5" />
+<hiddenElement x="50" y="58" radius="100" />
+</layer>
+</map>

@@ -1,0 +1,278 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: OmBhz3UezPq1yQ12L4RaSKdy+ro=
+Created-By: MOTODEV Studio
+SHA1-Digest-Manifest: U7+d1ygGHrrlcvAOYXL49ivHuDo=
+
+Name: res/drawable-mdpi/timeline.xml
+SHA1-Digest: q0mwPzOu5g+xxZEhZk/1OwyUxk8=
+
+Name: res/drawable-hdpi/timeline_duration.png
+SHA1-Digest: uMKF63Q38YkzJ3jrDGkRWHl/N2Y=
+
+Name: res/drawable-mdpi/pause_button_pressed.png
+SHA1-Digest: 4iuDzz9nG+v7kZzFmR/wsmVd/lU=
+
+Name: res/drawable-hdpi/mp_prev_chp_button_normal.png
+SHA1-Digest: m9r+COKnMgEFGXOzOmuPeQzYg6g=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: PKai2qL0Yz766w37M8UqCHSkBxY=
+
+Name: res/drawable-ldpi/pause_button.png
+SHA1-Digest: d7d6zVpzC+1tfrCEgcQAJ40Mf/M=
+
+Name: res/drawable-hdpi/play_button_pressed.png
+SHA1-Digest: utpfS/R1MK2RAJJHy9pRWrBNs5Y=
+
+Name: res/drawable-mdpi/timeline_scrubber.png
+SHA1-Digest: iu/JybLMFEHLfaAFbrV40YmFVXA=
+
+Name: res/layout/custom_dialog.xml
+SHA1-Digest: d/Jtlo9+Owsy7mI+8gBp1Gx2b2g=
+
+Name: res/drawable-mdpi/mp_button_play.xml
+SHA1-Digest: +tnyUAhkn9kie8Bnq+klx54IEfc=
+
+Name: res/drawable-mdpi/progress_horizontal.xml
+SHA1-Digest: g7i9qFZtJ2/t/b7m5fp/pAPzG1g=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 6NOBRY7SuXi9CKXIFqAsY5d2GZw=
+
+Name: res/drawable-mdpi/play_button_pressed.png
+SHA1-Digest: UtI3//7lQKyQaIYDMiWzk9AVFAY=
+
+Name: res/drawable-mdpi/circleprogressbar.xml
+SHA1-Digest: IFssKRTR3S7om63Hi0J+mtBeDTw=
+
+Name: res/drawable-mdpi/menu_zoom_in_out.png
+SHA1-Digest: zOarC52Tglrm3uwWRnVAtUSt7ps=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: Mql4U05GHTjpW2wzmBXA8ITe6z8=
+
+Name: res/drawable-hdpi/menu_next_episode.png
+SHA1-Digest: vku4JcgdfiAJTmWCuNVcWCzRr6M=
+
+Name: res/drawable-mdpi/mp_next_chp_button_normal.png
+SHA1-Digest: 8a619LqYjsIJ4lOZ/PIHha8WukM=
+
+Name: res/drawable-hdpi/pause_button_pressed.png
+SHA1-Digest: XTVFqaiCyzjFdFL8V8qxs3IXA2s=
+
+Name: res/drawable-hdpi/progress_horizontal.xml
+SHA1-Digest: qIHwHNMuugyaKDVY/k8/CO1GK5g=
+
+Name: res/drawable-hdpi/mp_button_play.xml
+SHA1-Digest: RPnfL0FyrtxjijFrisskcK9s6JA=
+
+Name: res/drawable-ldpi/pause_button_pressed.png
+SHA1-Digest: aMx6lVui9mmcCCmwb3yTJxOu2BY=
+
+Name: res/drawable-mdpi/netflix_bkg.png
+SHA1-Digest: klAmzctDh9JIz9lPY8TN6kQNeKQ=
+
+Name: res/drawable-ldpi/netflix_bkg.png
+SHA1-Digest: O0G2Wj0WbqzCZzOgjEgHz7/nyjQ=
+
+Name: res/drawable-ldpi/custom_dialog.xml
+SHA1-Digest: JFFnwQETmf38W8244xmm6x9aeWE=
+
+Name: res/layout/splash.xml
+SHA1-Digest: NiFr31H1ZOq6RU/BpsNjPQaVxN4=
+
+Name: res/drawable-hdpi/custom_dialog.xml
+SHA1-Digest: HKT1B4urzL+QB9HD0db4bTOI9bQ=
+
+Name: res/drawable-mdpi/pause_button.png
+SHA1-Digest: VBD5m9CKXKp8IfQ0Y7OXzbguV8Y=
+
+Name: assets/lib/armeabi/libnetflixmp_jni.so
+SHA1-Digest: oJvTAsWRB5DdVtZ2Z9DJHwN7hxI=
+
+Name: res/drawable-ldpi/mp_movie_progress_bkg_landscape.png
+SHA1-Digest: oMh5RlmCFljZvQW4ghZIsLdzdi8=
+
+Name: res/drawable-mdpi/logo_splash.png
+SHA1-Digest: j4Hj+el3IHPzXDO0cK6lLy5Jd/g=
+
+Name: res/drawable-ldpi/mp_prev_chp_button_normal.png
+SHA1-Digest: 9g1IafIWj9hr+K2InOeWq/eQ8Ek=
+
+Name: res/drawable-hdpi/mp_movie_progress_bkg_landscape.png
+SHA1-Digest: v0uNYiV1Ou+c9qwud+r/+Rt++9o=
+
+Name: res/drawable-ldpi/menu_prev_episode.png
+SHA1-Digest: R93fHjzwh3/KGbPj+Tdw6qcP6Z0=
+
+Name: res/drawable-mdpi/custom_dialog.xml
+SHA1-Digest: HTDFSY3phOWX/reTqkX9zEZHyl0=
+
+Name: res/drawable-ldpi/timeline_duration.png
+SHA1-Digest: EkpkwwkUu621AV5J+EFdYzv0G44=
+
+Name: res/drawable-mdpi/play_button.png
+SHA1-Digest: 06ZTiy5QrfRYlYvu2NqbXW7k2SE=
+
+Name: res/drawable-ldpi/menu_next_episode.png
+SHA1-Digest: QmyzA9i0psfgPiZYAtudlk5mJkg=
+
+Name: res/drawable-mdpi/menu_rate_this_title.png
+SHA1-Digest: pGlVKW3rnvPHrG2V4w/2z3d7r00=
+
+Name: res/layout/main.xml
+SHA1-Digest: 8a17HjpqCt7KhNnKnSyReawffN8=
+
+Name: res/drawable-mdpi/play_control_background.png
+SHA1-Digest: rUK9xAz0nbL/zd1nFrDTPLjV+BQ=
+
+Name: res/drawable-mdpi/timeline_elapsed.png
+SHA1-Digest: L8eRoDuSNQO4h3EyS7WZPlbXRq4=
+
+Name: res/drawable-hdpi/play_control_background.png
+SHA1-Digest: 5k7+6BuAsqwrIJaS55dAINKbqeg=
+
+Name: res/drawable-mdpi/menu_prev_episode.png
+SHA1-Digest: D2Oku78Txke68+dk0zdsJIoRANs=
+
+Name: res/drawable-ldpi/timeline.xml
+SHA1-Digest: Sti9tb9AtSAQLCEOpE/Ia/boGCU=
+
+Name: res/drawable-ldpi/circleprogressbar.xml
+SHA1-Digest: 8nYQqxs2iPRXoqqNqNIE4nzLy6I=
+
+Name: res/drawable-hdpi/timeline.xml
+SHA1-Digest: WBNiKec/tx35uHT7Uo/a9u0qJU8=
+
+Name: res/drawable-ldpi/mp_next_chp_button_normal.png
+SHA1-Digest: OHaHgD5vDlsK5FgYhXsUowhRsTI=
+
+Name: res/drawable-ldpi/timeline_scrubber_pressed.png
+SHA1-Digest: 61ocsYu+FP4TUcd3jG2/EVU4CwE=
+
+Name: res/drawable-ldpi/mp_button_pause.xml
+SHA1-Digest: qnQJ0/F2PJil+eJqR22xWGrnK7U=
+
+Name: resources.arsc
+SHA1-Digest: vbR+Rv/JyZ95jlZCx41yTx9lWas=
+
+Name: res/drawable-ldpi/logo_splash.png
+SHA1-Digest: Bva/dv0xl8Bff1tR6/FJUYT/L/I=
+
+Name: res/drawable-mdpi/pixel.png
+SHA1-Digest: d83OMexUwPt/Yy51+qJvGWt7Pek=
+
+Name: res/drawable-hdpi/mp_button_pause.xml
+SHA1-Digest: bE1+tfl4lzhE/E8yfznUgQypgok=
+
+Name: res/drawable-mdpi/mp_movie_progress_bkg_landscape.png
+SHA1-Digest: qlPQ2FdVeFWWWTS+NlALBD3PotA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: SvqDaXFpZ+8/R9qhHI/MwPb4tgA=
+
+Name: res/drawable-hdpi/timeline_scrubber.png
+SHA1-Digest: ZsoiC69cuRQ9qrG8Y1pqEI4ti80=
+
+Name: res/drawable-mdpi/timeline_scrubber_pressed.png
+SHA1-Digest: 0VQdTFMiHMvyMu2HeedNOgQcIGA=
+
+Name: res/drawable-mdpi/menu_30s_back.png
+SHA1-Digest: L3TbL4hBmQI1VqvP34GbW2lub+Y=
+
+Name: res/drawable-hdpi/mp_next_chp_button_normal.png
+SHA1-Digest: m8HOtPBjnOhE+FOCTEZiBb+AZYk=
+
+Name: res/drawable-hdpi/menu_zoom_in_out.png
+SHA1-Digest: 0EQNgWKUshx4S0VbPO5MtVAQQ7U=
+
+Name: res/drawable-hdpi/menu_prev_episode.png
+SHA1-Digest: bsF4w8bjtEDfLDQ9YWIAahiuocU=
+
+Name: res/drawable-mdpi/splash.png
+SHA1-Digest: dcF9PPzvwIrDZ0WRMe8ipLkHCvE=
+
+Name: res/drawable-hdpi/menu_rate_this_title.png
+SHA1-Digest: S4sl02mlTwnmWPCC0oFYD4h+S80=
+
+Name: res/drawable-mdpi/mp_button_pause.xml
+SHA1-Digest: 10X++glEfYQvdwvgmpZe5EHEOPY=
+
+Name: assets/lib/armeabi/gdbserver
+SHA1-Digest: nPBCBVojlk2nZB/nB07+vKOtUt8=
+
+Name: res/drawable-ldpi/menu_30s_back.png
+SHA1-Digest: /nfcxNZbL40zaKZAiwMV5wG0dDU=
+
+Name: res/drawable-hdpi/timeline_scrubber_pressed.png
+SHA1-Digest: J+r2einQb9jy2VRXvogJUBKvk90=
+
+Name: res/drawable-mdpi/menu_next_episode.png
+SHA1-Digest: swWVvKogpjuzr16+r9ujzkSmU6U=
+
+Name: res/drawable-hdpi/netflix_bkg.png
+SHA1-Digest: vbfrRSeHe3NNFBrcg8B92XS/UXw=
+
+Name: res/drawable-ldpi/play_button_pressed.png
+SHA1-Digest: XuAYBvWoajZRDIue1wxONKsAcOA=
+
+Name: res/drawable-ldpi/timeline_scrubber.png
+SHA1-Digest: 1T2wOIYZBLVNH1EIFCFfuWx18yA=
+
+Name: res/drawable-mdpi/mp_prev_chp_button_normal.png
+SHA1-Digest: 5z0f5WDCr0v9SDwnXM8tqmY35kg=
+
+Name: res/drawable-hdpi/circleprogressbar.xml
+SHA1-Digest: H51sXJr40cvSTe9aO3k5/3khELY=
+
+Name: res/drawable-mdpi/timeline_duration.png
+SHA1-Digest: Az33zLeUzaXSOEe++/X4zravl7Q=
+
+Name: res/drawable-hdpi/logo_splash.png
+SHA1-Digest: +VTA0jS7/4V+2zgvCzM3T3oQ8zI=
+
+Name: res/drawable-ldpi/mp_button_play.xml
+SHA1-Digest: iMo9cL+8n8bXTRn8Nboyfo25rh0=
+
+Name: classes.dex
+SHA1-Digest: z4pBW/UnFiHS96xIzviqQjkn6Hc=
+
+Name: res/drawable-ldpi/pixel.png
+SHA1-Digest: EL23Q2pkhZ36neiwETv2sBBMoCc=
+
+Name: res/drawable-hdpi/menu_30s_back.png
+SHA1-Digest: D18k+ieX3Mjjt6K1e6b2qR6giPs=
+
+Name: res/drawable-ldpi/play_control_background.png
+SHA1-Digest: s6Rxau4kMBVA188thMfbp+6Dpqs=
+
+Name: res/drawable-ldpi/play_button.png
+SHA1-Digest: OsNsKbzjHCMzBUTEy3vpH7K7YWY=
+
+Name: res/drawable-hdpi/timeline_elapsed.png
+SHA1-Digest: OAkrtqA0Zoe//br/jgr5D1j4Mcg=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: r+4h1h33cHF3wKt0qYjacXF18PA=
+
+Name: res/drawable-hdpi/pause_button.png
+SHA1-Digest: gFYqik+l7RuBRiWW1tkiQkk28YE=
+
+Name: res/drawable-hdpi/pixel.png
+SHA1-Digest: 0jSuJJG281SPcF3XvsVgWW1MFKU=
+
+Name: res/drawable-ldpi/menu_rate_this_title.png
+SHA1-Digest: Ez4O74AKFRKV4Ly8D0Y+BQV7SRA=
+
+Name: res/drawable-ldpi/menu_zoom_in_out.png
+SHA1-Digest: SGir4o28+J4xRxfRx+YsBBfr3k0=
+
+Name: res/drawable-hdpi/play_button.png
+SHA1-Digest: kj5EdyArMOp3iW5DRWilYGhBzTA=
+
+Name: res/drawable-ldpi/timeline_elapsed.png
+SHA1-Digest: fsLyBxT9JHNlVC0JaTuHVrWYwwI=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: fbne1sixG69mD81tjWZZsNJ4Eu8=
+

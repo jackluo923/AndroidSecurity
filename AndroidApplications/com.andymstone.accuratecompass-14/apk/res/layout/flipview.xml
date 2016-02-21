@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/full1" android:background="@drawable/board_display" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="" />
+    <TextView android:textSize="36.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/full2" android:background="@drawable/board_display" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_half1" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textSize="36.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_half1_txt" android:background="@drawable/board_display" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/top_half2" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textSize="36.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/top_half2_txt" android:background="@drawable/board_display" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="" />
+    </LinearLayout>
+    <View android:background="@drawable/board_center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+</merge>

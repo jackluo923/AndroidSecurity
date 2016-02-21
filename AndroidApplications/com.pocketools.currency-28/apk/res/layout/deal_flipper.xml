@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:background="#ff5dc4e3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*">
+        <TableLayout android:background="#ff8ab641" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="2">
+            <TableRow android:id="@id/deals_settings_row" android:clickable="true">
+                <ImageView android:layout_gravity="center|left" android:padding="5.0sp" android:src="@drawable/deal_settings" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left" android:id="@id/deals_head_division" android:padding="5.0sp" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="left" android:id="@id/deal_number_of_total" android:padding="5.0sp" />
+            </TableRow>
+        </TableLayout>
+        <TableRow android:layout_weight="1.0">
+            <android.support.v4.view.ViewPager android:id="@id/awesomepager" android:background="@drawable/hourglass_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

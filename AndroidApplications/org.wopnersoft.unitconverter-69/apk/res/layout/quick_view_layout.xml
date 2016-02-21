@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/LinearLayout01" android:background="@drawable/result_text_decor_light" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/txtQuickViewHeader" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5.0 xxx =" android:drawableLeft="@drawable/robot_launcher_plus" />
+    </LinearLayout>
+    <ListView android:id="@id/lstQuickView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+</LinearLayout>

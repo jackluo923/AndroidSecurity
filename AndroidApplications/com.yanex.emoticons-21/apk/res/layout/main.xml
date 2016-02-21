@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <com.google.ads.AdView android:layout_gravity="center_horizontal" android:id="@id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="a14e56c8d0ab910" ads:loadAdOnCreate="true" ads:testDevices="TEST_EMULATOR" />
+    <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:gravity="center" android:id="@id/menu" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_panel" android:background="@drawable/abs__ab_bottom_solid_dark_holo" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <com.yanex.emoticons.gui.ActionView android:layout_gravity="center|left" android:id="@id/button_6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/abs__ic_search" android:scaleType="centerInside" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

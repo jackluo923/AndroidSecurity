@@ -1,0 +1,58 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<target x='264' y='430'/>
+<grab gun='false' radius='45' x='88' y='189' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='45' x='216' y='352' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='45' x='152' y='270' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<candy x='39' y='110'/>
+<star x='84' y='270' timeout='-1'/>
+<star x='204' y='432' timeout='-1'/>
+<star x='148' y='354' timeout='-1'/>
+<grab gun='false' radius='-1' x='42' y='43' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='50' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<tutorialText x='129' y='51' text='Automatic ropes appear when candy gets into their area' locale='en' width='140'/>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='en'/>
+<hiddenElement x="264" y="80" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='ru'/>
+<tutorialText x='81' y='66' text='Авто-веревки появляются, когда леденец попадает в их радиус' locale='ru' width='220'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='54' y='40' text='Des cordes automatiques apparaissent quand le bonbon pénètre dans leur zone' locale='fr' width='260'/>
+<tutorial04 x='162' moveSpeed='100' y='144' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='99' y='47' text='Seile erscheinen automatisch, wenn die Süßigkeit in ihrem Bereich ist' locale='de' width='180'/>
+<tutorial04 x='172' moveSpeed='100' y='170' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='128' y='84' text='自动绳会在糖果进入*相应区域时出现' locale='zh' width='180'/>
+<tutorial04 x='172' moveSpeed='100' y='170' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='60' y='82' text='キャンディが*接近すると*自動式ロープが*現われます' locale='ja' width='260'/>
+<tutorial04 x='168' moveSpeed='100' y='164' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='it'/>
+<tutorialText x='81' y='66' text='Le corde automatiche compaiono quando un bonbon si avvicina' locale='it' width='220'/>
+</layer><layer name='es'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='es'/>
+<tutorialText x='81' y='66' text='Las autocuerdas aparecen cuando el caramelo se acerca a ellas.' locale='es' width='225'/>
+</layer><layer name='ko'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='ko'/>
+<tutorialText x='81' y='66' text='사탕이 영역에 들어오면 *자동으로 줄이 이어져요.' locale='ko' width='220'/>
+</layer><layer name='br'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='br'/>
+<tutorialText x='81' y='66' text='Cordas aparecem automaticamente quando há doces na área delas' locale='br' width='220'/>
+</layer><layer name='tr'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='tr'/>
+<tutorialText x='81' y='66' text='Şeker alanlarına girdiğinde otomatik ipler görünür' locale='tr' width='220'/>
+</layer><layer name='nl'>
+<tutorial04 x='172' moveSpeed='100' y='171' rotateSpeed='100' locale='nl'/>
+<tutorialText x='81' y='50' text='Er verschijnen automatisch touwen wanneer het snoepje er in de buurt komt' locale='nl' width='220'/>
+</layer></map>

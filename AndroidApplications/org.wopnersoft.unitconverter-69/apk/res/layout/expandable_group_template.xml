@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="?android:expandableListPreferredItemPaddingLeft" android:paddingRight="?android:expandableListPreferredItemPaddingLeft" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/Group_Row_Image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:src="@drawable/acceleration_lin_icon" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_vertical" android:id="@id/Group_Row_Text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Text" android:layout_weight="1.0" />
+</LinearLayout>

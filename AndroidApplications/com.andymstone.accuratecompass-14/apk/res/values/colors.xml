@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="app_green">#ff80a73c</color>
+    <color name="app_green_selected">#ff49aa9c</color>
+    <color name="app_red">#ffa83b40</color>
+    <color name="main_text">#ff3b3b3b</color>
+    <color name="button_shadow">#ff5a5d52</color>
+    <color name="compass_ok">#ffffffff</color>
+    <color name="compass_warning_active">#ffff0000</color>
+    <color name="actionbar_color">#ff222222</color>
+    <color name="menu_background">#ffffffff</color>
+</resources>

@@ -1,0 +1,27 @@
+version: 2.0.0-RC4
+apkFileName: com.andymstone.accuratecompass-14.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '17'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '14'
+  versionName: 1.4.0
+compressionType: false
+unknownFiles:
+  defaultresources/bar.png: '8'
+  defaultresources/browser_back.png: '8'
+  defaultresources/browser_external.png: '8'
+  defaultresources/browser_forward.png: '8'
+  defaultresources/browser_reload.png: '8'
+  defaultresources/close_button_normal.png: '8'
+  defaultresources/close_button_pressed.png: '8'
+  defaultresources/skip.png: '8'
+  defaultresources/video_pause.png: '8'
+  defaultresources/video_play.png: '8'
+  defaultresources/video_replay.png: '8'

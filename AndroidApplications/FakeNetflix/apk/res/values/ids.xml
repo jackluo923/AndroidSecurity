@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ImageView01">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="TextView01">false</item>
+    <item type="id" name="Button01">false</item>
+    <item type="id" name="textView4">false</item>
+    <item type="id" name="textView3">false</item>
+    <item type="id" name="relativeLayout1">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="tableLayout1">false</item>
+    <item type="id" name="relativeLayout2">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="widget31">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="textView5">false</item>
+    <item type="id" name="widget32">false</item>
+    <item type="id" name="widget34">false</item>
+    <item type="id" name="ProgressBar01">false</item>
+</resources>

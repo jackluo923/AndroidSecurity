@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_chat_dashboard" android:id="@id/split_tip" android:title="@string/mnu_tip_split" android:titleCondensed="@string/mnu_tip_split" />
+    <item android:icon="@drawable/ic_menu_close_clear_cancel" android:id="@id/clear" android:title="@string/mnu_reset_input" android:titleCondensed="@string/mnu_reset_input" />
+</menu>

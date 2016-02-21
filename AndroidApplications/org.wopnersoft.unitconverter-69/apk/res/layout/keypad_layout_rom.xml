@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:orientation="vertical" android:id="@id/keypad" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="*"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lin_keypad_output" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:textSize="26.0sp" android:id="@id/keypad_output" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:ems="10">
+            <requestFocus />
+        </com.wopnersoft.unitconverter.plus.util.ClearableEditText>
+    </LinearLayout>
+    <TableRow>
+        <Button android:textStyle="bold" android:id="@id/keypad_i" android:layout_margin="1.0dip" android:text="I" android:layout_weight="1.0" />
+        <Button android:textStyle="bold" android:id="@id/keypad_v" android:layout_margin="1.0dip" android:text="V" android:layout_weight="1.0" />
+        <Button android:textStyle="bold" android:id="@id/keypad_x" android:layout_margin="1.0dip" android:text="X" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow>
+        <Button android:textStyle="bold" android:id="@id/keypad_l" android:layout_margin="1.0dip" android:text="L" android:layout_weight="1.0" />
+        <Button android:textStyle="bold" android:id="@id/keypad_c" android:layout_margin="1.0dip" android:text="C" android:layout_weight="1.0" />
+        <Button android:textStyle="bold" android:id="@id/keypad_d" android:layout_margin="1.0dip" android:text="D" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow>
+        <Button android:textStyle="bold" android:id="@id/keypad_m" android:layout_margin="1.0dip" android:text="M" android:layout_weight="1.0" />
+        <Button android:id="@id/blank" android:visibility="invisible" android:layout_margin="1.0dip" android:text="" android:layout_weight="1.0" />
+        <Button android:textStyle="bold" android:id="@id/keypad_backspace" android:layout_margin="1.0dip" android:text="←" android:layout_weight="1.0" />
+    </TableRow>
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/keypad_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="Cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/keypad_submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@android:string/ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</TableLayout>

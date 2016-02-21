@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_sort_by_size" android:id="@id/toggle_filter" android:visible="false" android:title="@string/mnu_toggle_list_filter" android:titleCondensed="@string/mnu_toggle_list_filter" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/prefs" android:title="@string/mnu_preferences" />
+    <item android:icon="@drawable/ic_menu_info_details" android:id="@id/about" android:title="@string/mnu_about" android:titleCondensed="@string/mnu_about" />
+    <item android:icon="@drawable/ic_menu_star" android:id="@id/upgrade" android:title="@string/mnu_upgrade" android:titleCondensed="@string/mnu_upgrade" />
+    <item android:icon="@drawable/ic_lock_power_off" android:id="@id/exit" android:title="@string/mnu_exit" android:titleCondensed="@string/mnu_exit" />
+</menu>

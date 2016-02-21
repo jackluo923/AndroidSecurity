@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollview1" android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/tablelayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <LinearLayout android:id="@id/btnStopSound" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/stop" />
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stop Playback" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="10.0dip" android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Long press sound name for more options" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/category_text" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cash" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/category_icon" android:paddingLeft="5.0dip" android:layout_width="23.0dip" android:layout_height="24.0dip" android:src="@drawable/cash_icon" android:scaleType="fitXY" android:layout_toRightOf="@id/category_text" android:layout_centerVertical="true" />
+    <TextView android:id="@id/value" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="546,225" android:layout_toRightOf="@id/category_icon" android:layout_centerVertical="true" style="@style/textLight" />
+    <ImageView android:id="@id/owner_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitXY" android:layout_toRightOf="@id/value" />
+    <ImageView android:id="@id/dog_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/dog_default_icon" android:scaleType="fitXY" android:layout_toRightOf="@id/owner_icon" />
+    <ImageView android:id="@id/list_dog_tags_img" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="20.0dip" android:scaleType="fitXY" android:layout_alignLeft="@id/dog_icon" />
+    <TextView android:id="@id/owner_name" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BigPapa" android:layout_toRightOf="@id/dog_icon" style="@style/textLight" />
+    <TextView android:id="@id/dog_name" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AjaxGroovepack" android:layout_toRightOf="@id/dog_icon" android:layout_below="@id/owner_name" style="@style/textLight" />
+</RelativeLayout>

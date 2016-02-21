@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/basic_brick" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/header" layout="@layout/dw_header_short" />
+        <TextView android:layout_gravity="center" android:id="@id/main_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Let's Get it On!" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/titleTextLight" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/dog_name1" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="AjaxGroovepack" android:layout_centerHorizontal="true" style="@style/ListMainText" />
+                <ImageView android:id="@id/dog_icon1" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/dog_default_icon" android:scaleType="fitXY" android:layout_below="@id/dog_name1" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_tags1" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="95.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/dog_name2" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="KillerDog 87" android:layout_centerHorizontal="true" style="@style/ListMainText" />
+                <ImageView android:id="@id/dog_icon2" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/dog_default_icon" android:scaleType="fitXY" android:layout_below="@id/dog_name2" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_tags2" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="95.0dip" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

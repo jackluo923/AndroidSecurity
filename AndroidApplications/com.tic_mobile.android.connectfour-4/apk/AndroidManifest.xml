@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.tic_mobile.android.connectfour">
+    <application android:debuggable="false" android:icon="@drawable/icon_application" android:label="@string/applicationName">
+        <provider android:authorities="com.tic_mobile.android.connectfour" android:name="GamesProvider"/>
+        <activity android:label="@string/applicationName" android:name=".activities.MainScreen" android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.SplashScreen" android:screenOrientation="nosensor"/>
+        <activity android:name=".activities.GameScreen"/>
+        <activity android:name=".activities.OptionsScreen"/>
+        <activity android:name=".activities.StatisticsScreen"/>
+        <activity android:name=".activities.AboutScreen"/>
+        <meta-data android:name="ADMOB_PUBLISHER_ID" android:value="a14bd6a398ca65b"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

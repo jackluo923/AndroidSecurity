@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dog Wars - Beta</string>
+    <string name="widget_name">Dog Wars Widget - Beta</string>
+    <string name="cardinal_north">N</string>
+    <string name="cardinal_east">E</string>
+    <string name="cardinal_south">S</string>
+    <string name="cardinal_west">W</string>
+    <string name="instructions_link"><u>Click for Instructions...</u></string>
+    <string name="configure_intro">Images Widget Configuration</string>
+    <string name="configure_update">Update Time</string>
+    <string name="udpate_rate_hint">value in seconds</string>
+    <string name="save_config">Save</string>
+</resources>

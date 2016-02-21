@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:admobsdk="http://schemas.android.com/apk/res/kagegames.apps.DWBeta">
+    <ImageView android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/basic_brick" android:scaleType="centerCrop" />
+    <com.admob.android.ads.AdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" admobsdk:testing="false" admobsdk:keywords="" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <include android:id="@id/header" layout="@layout/dw_header_short" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/layout_spacer_left" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="70.0">
+                <TextView android:layout_gravity="center" android:id="@id/label1" android:padding="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Enter a Tag #:" style="@style/titleTextLight" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/ed_tags" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="" />
+                    <Button android:id="@id/btn_submit" android:background="@drawable/main_button" android:padding="5.0dip" android:visibility="visible" android:layout_width="125.0dip" android:layout_height="41.0dip" android:text="Send" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/icon_cred" android:layout_width="36.0dip" android:layout_height="34.0dip" android:src="@drawable/cred_icon" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                    <TextView android:layout_gravity="center|left" android:id="@id/cred_value" android:padding="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="3,456" android:layout_toRightOf="@id/icon_cred" style="@style/titleTextLight" />
+                </RelativeLayout>
+                <TextView android:layout_gravity="center" android:id="@id/your_tag" android:paddingTop="5.0dip" android:paddingBottom="25.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your Tag # is:" style="@style/titleTextLight" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="left" android:id="@id/label3" android:padding="5.0dip" android:paddingBottom="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="150.0dip" android:text="Post your Tag # and find Tags in the Comments on the Market." style="@style/textLight" />
+                    <Button android:id="@id/btn_market" android:background="@drawable/main_button" android:padding="10.0dip" android:visibility="visible" android:layout_width="135.0dip" android:layout_height="wrap_content" android:text="Show Comments" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:id="@id/layout_spacer_right" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

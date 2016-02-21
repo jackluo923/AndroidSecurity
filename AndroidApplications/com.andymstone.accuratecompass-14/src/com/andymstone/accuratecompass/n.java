@@ -1,0 +1,48 @@
+package com.andymstone.accuratecompass;
+
+public final class n {
+    public static final int background = 2130837504;
+    public static final int board_center = 2130837505;
+    public static final int board_display = 2130837506;
+    public static final int border = 2130837507;
+    public static final int brass1 = 2130837508;
+    public static final int btn_back = 2130837509;
+    public static final int btn_dialog = 2130837510;
+    public static final int btn_dialog_disable = 2130837511;
+    public static final int btn_dialog_normal = 2130837512;
+    public static final int btn_dialog_pressed = 2130837513;
+    public static final int btn_dialog_selected = 2130837514;
+    public static final int btn_disabled = 2130837515;
+    public static final int btn_disabled_focused = 2130837516;
+    public static final int btn_normal = 2130837517;
+    public static final int btn_pressed = 2130837518;
+    public static final int btn_selected = 2130837519;
+    public static final int btn_selector = 2130837520;
+    public static final int calibration_screen_background = 2130837521;
+    public static final int compass_calibration = 2130837522;
+    public static final int compass_image_256 = 2130837523;
+    public static final int compass_image_512 = 2130837524;
+    public static final int dialog_full_holo_dark = 2130837525;
+    public static final int dialog_full_holo_light = 2130837526;
+    public static final int drawer_handle = 2130837527;
+    public static final int focused = 2130837528;
+    public static final int ic_btn_calibrate = 2130837529;
+    public static final int ic_dialog_alert_holo_dark = 2130837530;
+    public static final int ic_dismiss_warning = 2130837531;
+    public static final int ic_launcher = 2130837532;
+    public static final int ic_menu_add = 2130837533;
+    public static final int ic_menu_calibrate = 2130837534;
+    public static final int ic_menu_help = 2130837535;
+    public static final int ic_menu_info_details = 2130837536;
+    public static final int ic_menu_play_clip = 2130837537;
+    public static final int ic_menu_star = 2130837538;
+    public static final int ic_more_info = 2130837539;
+    public static final int list_divider_holo_dark = 2130837540;
+    public static final int list_divider_holo_light = 2130837541;
+    public static final int longpressed = 2130837542;
+    public static final int pressed = 2130837543;
+    public static final int selector_background = 2130837544;
+    public static final int selector_background_transition = 2130837545;
+    public static final int selector_disabled_dark = 2130837546;
+    public static final int warning_triangle = 2130837547;
+}

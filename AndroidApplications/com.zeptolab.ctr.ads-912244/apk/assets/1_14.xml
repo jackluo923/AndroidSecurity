@@ -1,0 +1,66 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='64' y='310'/>
+<target x='244' y='77'/>
+<grab gun='false' radius='-1' x='66' y='248' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='60' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<bubble x='65' y='424'/>
+<grab gun='false' radius='75' x='143' y='159' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<bubble x='238' y='201'/>
+<star x='65' y='425' timeout='-1'/>
+<star x='63' y='195' timeout='-1'/>
+<star x='239' y='201' timeout='-1'/>
+<tutorialText x='118' y='324' text='Having trouble completing the level? Unleash Superpowers of Om Nom!' locale='en' width='180' superpowersEnabled='true'/>
+<tutorialText x='135' y='326' text='You can skip the level in the pause menu' locale='en' width='140' superpowersEnabled='false'/>
+<tutorial09 x='203' moveSpeed='100' y='313' rotateSpeed='100' locale='en'/>
+<hiddenElement x="193" y="426" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='118' y='324' text='Не удается пройти уровень? Суперсилы Ам Няма помогут вам!' locale='ru' width='180' superpowersEnabled='true'/>
+<tutorialText x='137' y='322' text='Вы можете пропустить уровень в меню паузы' locale='ru' width='140' superpowersEnabled='false'/>
+<tutorial09 x='205' moveSpeed='100' y='312' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='129' y='325' text='Le niveau est trop dur ? Utilise les super-pouvoirs de Om Nom !' locale='fr' width='160' superpowersEnabled='true'/>
+<tutorialText x='140' y='325' text='Vous pouvez passer le niveau dans le menu pause' locale='fr' width='140' superpowersEnabled='false'/>
+<tutorial09 x='206' moveSpeed='100' y='313' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='132' y='323' text='Probleme mit dem Level? Entfessele Om Noms Superkräfte!' locale='de' width='160' superpowersEnabled='true'/>
+<tutorialText x='141' y='320' text='Im Pausemenü kannst du den Level überspringen.' locale='de' width='150' superpowersEnabled='false'/>
+<tutorial09 x='210' moveSpeed='100' y='312' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='129' y='312' text='无法*完成*这个关卡*吗？*那就释放* Om Nom *的超能力吧！' locale='zh' width='160' superpowersEnabled='true'/>
+<tutorialText x='141' y='312' text='你可以在“暂停”菜单中*跳过这一关' locale='zh' width='150' superpowersEnabled='false'/>
+<tutorial09 x='203' moveSpeed='100' y='298' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='147' y='312' text='なかなか*クリア*できませんか？*Om Nomの*超能力を*使ってみましょう！' locale='ja' width='130' superpowersEnabled='true'/>
+<tutorialText x='141' y='315' text='ポーズメニューで*レベルステージを*スキップ*できます' locale='ja' width='150' superpowersEnabled='false'/>
+<tutorial09 x='208' moveSpeed='100' y='298' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorialText x='137' y='312' text='Non riesci a completare il livello? Scatena i superpoteri di Om Nom!' locale='it' width='140' superpowersEnabled='true'/>
+<tutorialText x='137' y='312' text='Puoi saltare il livello dal Menu di pausa' locale='it' width='140' superpowersEnabled='false'/>
+<tutorial09 x='202' moveSpeed='100' y='301' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='137' y='312' text='¿Tienes problemas con el nivel? ¡Desata los poderes de Om Nom!' locale='es' width='140' superpowersEnabled='true'/>
+<tutorialText x='137' y='312' text='Puedes saltarte el nivel desde el menú de pausa.' locale='es' width='140' superpowersEnabled='false'/>
+<tutorial09 x='202' moveSpeed='100' y='297' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='137' y='312' text='레벨을 완료하기 어려우신가요? Om Nom의 초능력을 써보세요!' locale='ko' width='140' superpowersEnabled='true'/>
+<tutorialText x='137' y='312' text='일시 정지 메뉴에서 *레벨을 건너뛸 수 있어요.' locale='ko' width='140' superpowersEnabled='false'/>
+<tutorial09 x='202' moveSpeed='100' y='297' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='137' y='312' text='Está difícil completar o nível? Liberte os superpoderes de Om Nom!' locale='br' width='140' superpowersEnabled='true'/>
+<tutorialText x='137' y='312' text='Você pode pular o nível no menu de pausa' locale='br' width='140' superpowersEnabled='false'/>
+<tutorial09 x='202' moveSpeed='100' y='297' rotateSpeed='100' locale='br'/>
+</layer><layer name='nl'>
+<tutorialText x='137' y='312' text='Lukt het niet om je level te halen? Ontketen Om Noms superkrachten!' locale='nl' width='160' superpowersEnabled='true'/>
+<tutorialText x='137' y='312' text='Je kunt het level ook overslaan via het pauzemenu' locale='nl' width='140' superpowersEnabled='false'/>
+<tutorial09 x='202' moveSpeed='100' y='297' rotateSpeed='100' locale='nl'/>
+</layer></map>

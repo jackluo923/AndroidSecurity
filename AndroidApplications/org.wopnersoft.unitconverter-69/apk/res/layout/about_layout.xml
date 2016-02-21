@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/robot_launcher_plus" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_ver" />
+            <TextView android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/copyright" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:autoLink="email|web" android:id="@id/TxtAbout" android:background="@drawable/color_picker_frame" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="8.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/BtnChangeLog" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lbl_changelog" android:layout_weight="1.0" />
+            <Button android:id="@id/BtnClose" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

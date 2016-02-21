@@ -1,0 +1,4 @@
+#This file contains the proguard version.
+#Fri, 22 Aug 2014 15:56:45 -0700
+
+proguard_version=517

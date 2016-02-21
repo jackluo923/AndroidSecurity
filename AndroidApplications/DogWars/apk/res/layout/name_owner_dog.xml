@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/widget54" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/basic_brick" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:gravity="left" android:id="@id/title" android:background="#00000000" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Make a Name for Yourself" android:layout_alignParentTop="true" android:visible="false" style="@style/titleTextLight" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:layout_gravity="left" android:padding="5.0dip" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="Your Name:" style="@style/textLight" />
+                <EditText android:id="@id/ed_owner_name" android:visibility="visible" android:layout_width="290.0dip" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:layout_gravity="left" android:padding="5.0dip" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="Your Dog's Name:" style="@style/textLight" />
+                <EditText android:id="@id/ed_dog_name" android:visibility="visible" android:layout_width="290.0dip" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:layout_gravity="left" android:padding="5.0dip" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="Your Dog's Sex:" style="@style/textLight" />
+                <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:id="@id/radio_male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male" />
+                    <RadioButton android:id="@id/radio_female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:layout_gravity="left" android:id="@id/label_email" android:padding="5.0dip" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="email address*" style="@style/textLight" />
+                <EditText android:id="@id/ed_email" android:visibility="visible" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:layout_gravity="left" android:id="@id/label_spacer" android:padding="5.0dip" android:visibility="visible" android:layout_width="180.0dip" android:layout_height="wrap_content" android:text="" style="@style/textLight" />
+                <TextView android:layout_gravity="left" android:paddingLeft="15.0dip" android:paddingTop="0.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="* optional, but required to continue the game if you get a new phone.  We do not rent or sell your email address." style="@style/textLight" />
+            </LinearLayout>
+            <Button android:id="@id/btn_submit" android:visibility="visible" android:layout_width="130.0dip" android:layout_height="45.0dip" android:layout_marginRight="0.0dip" android:text="Done" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

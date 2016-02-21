@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="background" id="0x7f020000" />
+    <public type="drawable" name="icon" id="0x7f020001" />
+    <public type="drawable" name="market_icon" id="0x7f020002" />
+    <public type="drawable" name="sound_item1" id="0x7f020003" />
+    <public type="drawable" name="sound_item2" id="0x7f020004" />
+    <public type="drawable" name="sound_item3" id="0x7f020005" />
+    <public type="drawable" name="stop" id="0x7f020006" />
+    <public type="layout" name="sound_group" id="0x7f030000" />
+    <public type="layout" name="sound_item" id="0x7f030001" />
+    <public type="layout" name="soundboard" id="0x7f030002" />
+    <public type="raw" name="s000_lords_prayer" id="0x7f040000" />
+    <public type="raw" name="s001_proverbs_3_5_6" id="0x7f040001" />
+    <public type="raw" name="s002_john_3_16" id="0x7f040002" />
+    <public type="raw" name="s003_john_14_6" id="0x7f040003" />
+    <public type="raw" name="s004_matthew_28_19" id="0x7f040004" />
+    <public type="raw" name="s005_romans_6_23" id="0x7f040005" />
+    <public type="raw" name="s006_matthew_11_28" id="0x7f040006" />
+    <public type="raw" name="s007_genesis_1_26" id="0x7f040007" />
+    <public type="raw" name="s008_romans_15_13" id="0x7f040008" />
+    <public type="raw" name="s009_john_1_1" id="0x7f040009" />
+    <public type="raw" name="s010_psalms_23" id="0x7f04000a" />
+    <public type="raw" name="s011_john_11_35" id="0x7f04000b" />
+    <public type="raw" name="s012_matthew_19_24" id="0x7f04000c" />
+    <public type="raw" name="s013_john_8_7" id="0x7f04000d" />
+    <public type="raw" name="s014_matthew_7_12" id="0x7f04000e" />
+    <public type="raw" name="s015_secret_message" id="0x7f04000f" />
+    <public type="color" name="button_pressed" id="0x7f050000" />
+    <public type="color" name="transparent" id="0x7f050001" />
+    <public type="color" name="transparent1" id="0x7f050002" />
+    <public type="color" name="transparent2" id="0x7f050003" />
+    <public type="color" name="transparent3" id="0x7f050004" />
+    <public type="color" name="transparent4" id="0x7f050005" />
+    <public type="string" name="app_name" id="0x7f060000" />
+    <public type="string" name="title" id="0x7f060001" />
+    <public type="string" name="search" id="0x7f060002" />
+    <public type="string" name="set_as_ringtone" id="0x7f060003" />
+    <public type="string" name="set_as_notification" id="0x7f060004" />
+    <public type="string" name="set_as_alarm" id="0x7f060005" />
+    <public type="string" name="remove_alert" id="0x7f060006" />
+    <public type="id" name="mainLayout" id="0x7f070000" />
+    <public type="id" name="scrollview1" id="0x7f070001" />
+    <public type="id" name="tablelayout1" id="0x7f070002" />
+    <public type="id" name="btnStopSound" id="0x7f070003" />
+</resources>

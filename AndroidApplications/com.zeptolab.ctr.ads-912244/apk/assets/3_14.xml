@@ -1,0 +1,58 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='28' y='122'/>
+<grab gun='false' radius='-1' x='33' y='51' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='40' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<target x='229' y='427'/>
+<grab gun='false' radius='70' x='95' y='220' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='true' hidePath='false' part='L'/>
+<star x='289' y='303' timeout='-1'/>
+<grab gun='false' radius='65' x='227' y='221' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='true' hidePath='false' part='L'/>
+<star x='32' y='220' timeout='-1'/>
+<electro angle='0' size='5' x='225' initialDelay='0.0' y='368' onTime='2.0' offTime='2.0' toggled='false'/>
+<star x='160' y='285' timeout='-1'/>
+<tutorialText x='20' y='366' text='Avoid the electric sparks' locale='en' width='140'/>
+<tutorial06 x='89' moveSpeed='100' y='350' rotateSpeed='100' locale='en'/>
+<hiddenElement x="174" y="82" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='ru'/>
+<tutorialText x='19' y='367' text='Избегайте электрических искр' locale='ru' width='140'/>
+</layer>
+<layer name='Fr'>
+<tutorial06 x='89' moveSpeed='100' y='335' rotateSpeed='100' locale='fr'/>
+<tutorialText x='20' y='351' text='Évitez les étincelles électriques' locale='fr' width='140'/>
+</layer>
+<layer name='De'>
+<tutorial06 x='89' moveSpeed='100' y='350' rotateSpeed='100' locale='de'/>
+<tutorialText x='20' y='366' text='Weiche den elektrischen Funken aus.' locale='de' width='140'/>
+</layer>
+<layer name='Zh'>
+<tutorial06 x='89' moveSpeed='100' y='350' rotateSpeed='100' locale='zh'/>
+<tutorialText x='20' y='366' text='避开电火花' locale='zh' width='140'/>
+</layer>
+<layer name='Ja'>
+<tutorial06 x='89' moveSpeed='100' y='350' rotateSpeed='100' locale='ja'/>
+<tutorialText x='20' y='366' text='電気スパークは*避け*ましょう' locale='ja' width='140'/>
+</layer>
+<layer name='it'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='it'/>
+<tutorialText x='19' y='367' text='Evita le cariche elettriche' locale='it' width='140'/>
+</layer><layer name='es'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='es'/>
+<tutorialText x='19' y='367' text='Ten cuidado con las chispas.' locale='es' width='140'/>
+</layer><layer name='ko'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='ko'/>
+<tutorialText x='19' y='367' text='전기 불꽃을 *피하세요.' locale='ko' width='140'/>
+</layer><layer name='br'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='br'/>
+<tutorialText x='19' y='367' text='Evite as faíscas elétricas' locale='br' width='140'/>
+</layer><layer name='tr'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='tr'/>
+<tutorialText x='19' y='367' text='Elektrik kıvılcımlarından kaçın' locale='tr' width='140'/>
+</layer><layer name='nl'>
+<tutorial06 x='88' moveSpeed='100' y='351' rotateSpeed='100' locale='nl'/>
+<tutorialText x='19' y='367' text='Probeer de stroomvonken te ontwijken' locale='nl' width='140'/>
+</layer></map>

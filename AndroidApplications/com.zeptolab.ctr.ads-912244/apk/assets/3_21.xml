@@ -1,0 +1,50 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="640" height="480" />
+<gameDesign special="1" ropePhysicsSpeed="1.0" />
+</layer>
+<layer name="Objects">
+<target x="588" y="429" />
+<candy x="120" y="329" />
+<bubble x="122" y="405" />
+<grab x="123" y="262" length="50" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<pump x="57" y="191" angle="0" />
+<bubble x="186" y="186" />
+<bubble x="248" y="186" />
+<bubble x="309" y="186" />
+<bubble x="375" y="189" />
+<pump x="250" y="126" angle="0" />
+<pump x="187" y="307" angle="0" />
+<bubble x="186" y="127" />
+<bubble x="314" y="124" />
+<bubble x="375" y="124" />
+<bubble x="187" y="247" />
+<bubble x="249" y="249" />
+<bubble x="374" y="256" />
+<bubble x="436" y="124" />
+<bubble x="434" y="256" />
+<bubble x="250" y="315" />
+<bubble x="313" y="313" />
+<bubble x="374" y="315" />
+<pump x="311" y="251" angle="0" />
+<pump x="435" y="192" angle="0" />
+<bubble x="498" y="190" />
+<bubble x="497" y="252" />
+<bubble x="500" y="125" />
+<bubble x="500" y="314" />
+<bubble x="561" y="125" />
+<bubble x="561" y="188" />
+<bubble x="561" y="251" />
+<bubble x="563" y="313" />
+<pump x="440" y="317" angle="0" />
+<star x="310" y="187" timeout="-1" />
+<star x="501" y="315" timeout="-1" />
+<star x="560" y="126" timeout="-1" />
+<bubble x="125" y="189" />
+<bubble x="123" y="129" />
+<bubble x="60" y="131" />
+<bubble x="59" y="254" />
+<bubble x="61" y="316" />
+<hiddenElement x="437" y="416" radius="100" />
+</layer>
+</map>

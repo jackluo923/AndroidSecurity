@@ -1,0 +1,56 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<star x='161' y='371' timeout='-1'/>
+<star x='163' y='293' timeout='-1'/>
+<target x='160' y='432'/>
+<candy x='160' y='217'/>
+<grab gun='false' radius='-1' x='163' y='152' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='50' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<bubble x='161' y='293'/>
+<star x='161' y='91' timeout='-1'/>
+<tutorialText x='20' y='80' text='Don&apos;t let the candy leave the box' locale='en' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='en'/>
+<hiddenElement x="45" y="291" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='20' y='80' text='Не дайте леденцу вылететь за пределы коробки' locale='ru' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='20' y='80' text='Ne laissez pas le bonbon sortir de la boîte' locale='fr' width='130'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='14' y='80' text='Lass die Süßigkeit nicht aus der Box' locale='de' width='140'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='17' y='94' text='切勿让糖果离开盒子' locale='zh' width='140'/>
+<tutorial09 x='82' moveSpeed='100' y='79' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='38' y='85' text='キャンディが*箱から*出ない*ように*注意*しましょう' locale='ja' width='120'/>
+<tutorial09 x='89' moveSpeed='100' y='69' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorialText x='20' y='80' text='Non far uscire il bonbon dalla scatola' locale='it' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='20' y='80' text='No dejes que el caramelo se salga de la caja.' locale='es' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='20' y='80' text='사탕이 상자 *밖으로 나오지 않게 *하세요.' locale='ko' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='20' y='80' text='Não deixe os doces saírem da caixa' locale='br' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='20' y='80' text='Şekerin kutudan çıkmamasını sağla' locale='tr' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='20' y='80' text='Zorg dat het snoepje in de doos blijft' locale='nl' width='120'/>
+<tutorial09 x='79' moveSpeed='100' y='65' rotateSpeed='100' locale='nl'/>
+</layer></map>

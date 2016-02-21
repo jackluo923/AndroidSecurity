@@ -1,0 +1,28 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="960" />
+<gameDesign ropePhysicsSpeed="1.0" special="1" twoParts="false" />
+</layer>
+<layer name="Objects">
+<candy x="160" y="740" />
+<grab x="163" y="630" length="70" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+<sock x="160" y="829" group="0" angle="90" />
+<sock x="65" y="588" group="0" angle="270" />
+<grab x="129" y="355" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<grab x="225" y="357" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<sock x="244" y="453" group="1" angle="180" />
+<sock x="79" y="65" group="1" angle="0" />
+<star x="161" y="860" timeout="-1" />
+<star x="63" y="354" timeout="-1" />
+<target x="241" y="63" />
+<pump x="48" y="186" angle="0" />
+<bubble x="162" y="189" />
+<star x="238" y="192" timeout="-1" />
+<spike4 x="217" y="599" angle="0" size="4" />
+<spike3 x="230" y="256" angle="0" size="3" />
+<spike3 x="89" y="256" angle="0" size="3" />
+<bubble x="63" y="554" />
+<pump x="160" y="917" angle="-90" />
+<hiddenElement x="251" y="556" radius="100" />
+</layer>
+</map>

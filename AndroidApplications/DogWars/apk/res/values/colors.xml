@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dw_dark_red">#ff0b9d8b</color>
+    <color name="dw_red">#ffbd1f0d</color>
+    <color name="dirty_white">#ffdddddd</color>
+    <color name="dw_yellow">#ffeafc33</color>
+    <color name="dw_grey">#ff888888</color>
+    <color name="trans_black">#cc000000</color>
+    <color name="dw_black">#ff000000</color>
+    <color name="translucent_blue">#ffbbbbff</color>
+    <color name="translucent_red">#ffffbbbb</color>
+    <color name="btn_enabled_text">#ff000044</color>
+    <color name="btn_disabled_text">#ff888888</color>
+</resources>

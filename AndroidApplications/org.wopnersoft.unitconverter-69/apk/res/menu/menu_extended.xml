@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/reloadCurrency" android:title="@string/mnu_reload_currency" android:titleCondensed="@string/mnu_reload_currency" />
+    <item android:icon="@drawable/ic_menu_agenda" android:id="@id/quickview" android:title="@string/mnu_quick_list_view" android:titleCondensed="@string/mnu_quick_list_view" />
+    <item android:icon="@drawable/ic_menu_close_clear_cancel" android:id="@id/clear" android:title="@string/mnu_reset_input" android:titleCondensed="@string/mnu_reset_input" />
+    <item android:icon="@drawable/ic_menu_rotate" android:id="@id/swap" android:title="@string/mnu_swap_to_from" android:titleCondensed="@string/mnu_swap_to_from" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/addfav" android:title="@string/mnu_add_favorite" android:titleCondensed="@string/mnu_add_favorite" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/prefs" android:title="@string/mnu_preferences" android:titleCondensed="@string/mnu_preferences" />
+</menu>

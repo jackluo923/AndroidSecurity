@@ -1,0 +1,525 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/fight_main_activity.xml
+SHA1-Digest: Y3b2iGCUd8xOtF8W77Xck2mbuPY=
+
+Name: res/drawable/offchain3.png
+SHA1-Digest: voRNEPcCMZtlIopVynVOzpViUrE=
+
+Name: res/layout/dw_header.xml
+SHA1-Digest: uSwdMuywYtMMKNmBv7OwEMXHix0=
+
+Name: res/drawable/icon1_petal.png
+SHA1-Digest: e6frJqdJGigqURPuzbx0ltiPglM=
+
+Name: res/drawable-hdpi/scoreboard.png
+SHA1-Digest: tz/JBNltzPipzTZNhCHzUFjyss8=
+
+Name: res/layout/list_item.xml
+SHA1-Digest: DpEY2/ztwHJBJ1ghnnm2CsYSrM8=
+
+Name: res/layout/fight_start_old.xml
+SHA1-Digest: /TOvVPJBCWCehLHdbi2sM0mOHNA=
+
+Name: res/drawable/item_first_aid.png
+SHA1-Digest: hix2LM9h5QmRHrtJ8GO0SJ/3HnY=
+
+Name: res/drawable/dw_icon_export.png
+SHA1-Digest: RJdhoJEUa9olQRvYT1xfW2ryZpY=
+
+Name: res/drawable/item_jose_diamond_tags.png
+SHA1-Digest: Yqeyc6d5q3ifoLy63Au3ycRAMf4=
+
+Name: res/drawable/status_background.png
+SHA1-Digest: d4oDbkXOfh63dcueonqoAHHsyTM=
+
+Name: res/layout/train_dragging.xml
+SHA1-Digest: IMzrOyovDb3CUvA+a//NsFDhiUo=
+
+Name: res/raw/growl_normal.ogg
+SHA1-Digest: a3hRc2crr3/sQzeGVYV/epiAuJw=
+
+Name: res/drawable/item_frame.png
+SHA1-Digest: iMSVLPfUoN3zFH1i6EkyeKnVp0o=
+
+Name: res/drawable/item_platinum_tags.png
+SHA1-Digest: oaXaiYSc6711gvm3qk9wtNuBvn0=
+
+Name: res/drawable/main_button_normal.9.png
+SHA1-Digest: 3K7a+Vjhs0INIzYKC+l//gKqAGI=
+
+Name: res/drawable/item_shotgun.png
+SHA1-Digest: BxeZR4yCq8UbjUDQoygGT7OOGm4=
+
+Name: res/layout/fight_card_splash.xml
+SHA1-Digest: FNjevj31txyQYPS3yyZWk1Kjq3U=
+
+Name: res/drawable/train_biting_dog.png
+SHA1-Digest: Ggs1KV+4a5DuBt6LRVB+KVfwgBY=
+
+Name: res/drawable-hdpi/dog_legend.png
+SHA1-Digest: OrQpfJIfRo/jl4o5gnxaCQVhAwQ=
+
+Name: res/layout/fight_list_activity.xml
+SHA1-Digest: ZVmTlJtOV4tGvUruvQxqU56sTEs=
+
+Name: res/layout/row_training_game.xml
+SHA1-Digest: NZX5J7O47ztfKa7u9kuTIsNh1ao=
+
+Name: res/drawable-hdpi/transparent_gradient.png
+SHA1-Digest: lVYELp7bJj497OXIwNSZYte0m9A=
+
+Name: res/drawable/hustler3.png
+SHA1-Digest: 7lEHTKtwhVJwTTEmGNRjRlWhtqU=
+
+Name: res/drawable/gangster5_petal.png
+SHA1-Digest: MsWSIl77uFfj9M/0qzdK6PsmqAc=
+
+Name: res/drawable/bling_tags_diamond.png
+SHA1-Digest: +wkBvxgt12bbee3gUgy5lIufdCI=
+
+Name: res/drawable/train_biting_dog_f4.png
+SHA1-Digest: FHXrYWiTHL3b0p77OJM33V+thsE=
+
+Name: res/drawable/train_biting_rope.png
+SHA1-Digest: sBy0TwsBVohW9UIsBVquOUPVOVo=
+
+Name: res/layout/splash_screen.xml
+SHA1-Digest: v+rnvLZwuBK+HuGNX9Nac+/OI8A=
+
+Name: res/drawable/item_whistle.png
+SHA1-Digest: O4oHqWm5/BdDLU/qBETQLpE9KAs=
+
+Name: res/drawable-hdpi/prm_food_icon.png
+SHA1-Digest: rGNhxZiTWvQcLoYDmeJPYS5wJOg=
+
+Name: res/drawable/arrow_on.png
+SHA1-Digest: 7CXFjr/ka5OMc0Nz9fzTRfGYEAs=
+
+Name: res/drawable/puppy.jpg
+SHA1-Digest: jEyWqzp3MXAdJLM5bh7CAwh4JCo=
+
+Name: res/drawable/dog_not_found_icon.png
+SHA1-Digest: CroZ/fJ1C4+8j7si7fGsWalZ2Hw=
+
+Name: res/drawable/dog_head_clipped.png
+SHA1-Digest: z3IOsvwmhMvD6eL9v0IrpS9Sd/A=
+
+Name: res/raw/theme_full2.ogg
+SHA1-Digest: zgTxPoTI0xldfi6zm5KNWUGFuJA=
+
+Name: res/drawable/bully2.png
+SHA1-Digest: FkhoY2vsWLae70GDEgqV/DK2Wrs=
+
+Name: res/drawable-hdpi/basic_brick.jpg
+SHA1-Digest: 6D4inKaf7cDNR+XdWaaTr/IXk0I=
+
+Name: res/drawable/item_knife.png
+SHA1-Digest: UCQbB+GEddeLwj1O9CFtDB9HNUE=
+
+Name: res/layout/main_screen.xml
+SHA1-Digest: XvYWKkbPeamxfgisFH39v2AKZtI=
+
+Name: res/drawable/item_assault_rifle.png
+SHA1-Digest: LwCAxc4/Yo/rVpTmnfvMu1XKTgQ=
+
+Name: res/drawable/main_button.xml
+SHA1-Digest: DDrX+4POR4WCFa42ASX/wTwJ6m0=
+
+Name: res/layout/row_shoutbox.xml
+SHA1-Digest: 2hFSfYCZ4ys5sD+g29QiCDo5yio=
+
+Name: res/layout/row_inventory.xml
+SHA1-Digest: OsAv9qJ1lj1FXRkA3penlzq6bEM=
+
+Name: res/drawable-hdpi/money.jpg
+SHA1-Digest: 44d3HmvZENQc+yvpJmdctM9/wKg=
+
+Name: res/layout/feed.xml
+SHA1-Digest: ei3mL4lXOENJNkd9/r/TRnZS5j0=
+
+Name: res/drawable-hdpi/health_icon.png
+SHA1-Digest: WABLNG4vs9IUcHlXWR5YINdQNCs=
+
+Name: res/drawable/exit.png
+SHA1-Digest: x/ejAt4xia8K1ZWIq5nMm8L26f4=
+
+Name: res/layout/puppylove_widget_provider.xml
+SHA1-Digest: 8PUNPMCTkGhGv7dTBgESFGrPSxE=
+
+Name: res/raw/growl_short.ogg
+SHA1-Digest: 4qV+IwNc/GZ+OgjZDwNKT8i1fcc=
+
+Name: res/layout/options_activity.xml
+SHA1-Digest: X4spUPCqgOZzJ90njJKI2UwqOrc=
+
+Name: res/drawable/status_btn_red.png
+SHA1-Digest: I3DTyfDy3hgEk59TYzkpHvbBZw8=
+
+Name: res/drawable/athlete4.png
+SHA1-Digest: YXZyhN9v8EmkpGeqR9EqhlAnbJM=
+
+Name: res/drawable/kid2.png
+SHA1-Digest: BQfqddC8x7BXEZfYWdllLfJUgGY=
+
+Name: resources.arsc
+SHA1-Digest: 29JIewv49TnMfbuquAjAomum8UQ=
+
+Name: res/layout/scoreboard_webview.xml
+SHA1-Digest: FZtVVnNoyJdbdD6SRFfJLS3Wizs=
+
+Name: res/drawable-hdpi/escalade.jpg
+SHA1-Digest: FEZqWjg24Yfo/0Iqm09DGdKwnP0=
+
+Name: res/drawable/tire1.png
+SHA1-Digest: rMycUveSBgxuLOp2csei3kdqTGo=
+
+Name: res/drawable-hdpi/cred_icon.png
+SHA1-Digest: pRCA0gDmoEqOYZB7Q8Gv/fxTg2k=
+
+Name: res/drawable-hdpi/player_legend.png
+SHA1-Digest: 5Vz2AqRTDK0rlcDYq4JQdZZdBvo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 4ogodLjifLi87ivLLtwUsxVV0/U=
+
+Name: res/drawable/train_biting_rope3.png
+SHA1-Digest: tN5O2z2nN95DgNgTY5YqI6XvH/I=
+
+Name: res/drawable/player_legend.png
+SHA1-Digest: 5Vz2AqRTDK0rlcDYq4JQdZZdBvo=
+
+Name: res/layout/status_bar.xml
+SHA1-Digest: ZDJQReRVZQdJu9K7hzZx+6T6JUA=
+
+Name: res/drawable-hdpi/empty_bmp.png
+SHA1-Digest: /NmJrX4dsASHL9KHWTfo7xDn9QI=
+
+Name: res/drawable/item_jose_diamond_collar.png
+SHA1-Digest: pgXggV8TKaOIqxZk5vx9TCnSQ20=
+
+Name: res/drawable/athlete_petal1.png
+SHA1-Digest: AJO7H8LljloyUu2okHpKp8Ef46Q=
+
+Name: res/layout/upload_pic.xml
+SHA1-Digest: DuTZaqHlpAyYC+lRHOzfp62xTMg=
+
+Name: res/anim/slide_right_in.xml
+SHA1-Digest: aZFNhJ/0p4Sj9P8jhrnHzmWkl0c=
+
+Name: res/layout/row_fight.xml
+SHA1-Digest: i8OOQVkypGnyCPAwSJ2cu4Nidnw=
+
+Name: res/drawable/escalade.jpg
+SHA1-Digest: FEZqWjg24Yfo/0Iqm09DGdKwnP0=
+
+Name: res/drawable/bling_collar_spiked.png
+SHA1-Digest: sFk/ia2lLcQToJpZm7fdW/G3n34=
+
+Name: res/drawable/politician7.png
+SHA1-Digest: VJXLaHxY2K90jcz1xrpD/hN1ppA=
+
+Name: res/drawable/offchain3_petal.png
+SHA1-Digest: RKu160/3MaVaiNsvYQ1dXIEGe2g=
+
+Name: res/drawable-hdpi/dog_dragging.png
+SHA1-Digest: iaf7ON2dX5mh/Ws5X6SiPn2tbhQ=
+
+Name: res/drawable/item_jose_adrenaline.png
+SHA1-Digest: MEi4M7VVmJAHNscn1A7HA3ARYsM=
+
+Name: res/drawable/athlete4_petal.png
+SHA1-Digest: lnMpQidN2x1gfMOn15JifdyVUrg=
+
+Name: assets/level1.txt
+SHA1-Digest: 166eWIe1hJVLcgamwJQ7srDzd3E=
+
+Name: classes.dex
+SHA1-Digest: GR/lqFUX7xlXod5AeTuLharpVQ4=
+
+Name: res/drawable/bully2_petal.png
+SHA1-Digest: 9nhn6pdDwCSyiPXs0R4ZC68jh2E=
+
+Name: res/drawable/header_bar.png
+SHA1-Digest: 3UJrCc5xOAOvXMivPRitLYcf/zg=
+
+Name: res/drawable/train_biting_dog_f1.png
+SHA1-Digest: W2VC+0g/eY5kgQmkjOyrZA7EdUE=
+
+Name: res/layout/train_activity.xml
+SHA1-Digest: XOGz6X0CGU91lN+iV3kL4v8CoGg=
+
+Name: res/drawable/item_raw_meat.png
+SHA1-Digest: ov3QHHpL3gOjTOeJYjy4o60SP+I=
+
+Name: res/drawable/owner_not_found_icon.png
+SHA1-Digest: 70ygZdc/c3plyFVcUlA1V/A+jA0=
+
+Name: res/drawable/train_biting_pan_background.png
+SHA1-Digest: Z0d45PdMI1gNpZSInmWSRzbPrfA=
+
+Name: res/drawable/item_pills.png
+SHA1-Digest: fojpt3mi/Y8iMvtvHsY6PvhFPXo=
+
+Name: res/drawable/item_shock_collar.png
+SHA1-Digest: AuCNsehmbwiR1McbV5OOe6vuw/8=
+
+Name: res/layout/main_screen_old.xml
+SHA1-Digest: gSYawcyWGhxH4BmywABeI1Cbu/w=
+
+Name: res/drawable-hdpi/aggr_icon.png
+SHA1-Digest: lZTSBzxrf28GsW6OpFu7e38bY8Q=
+
+Name: res/drawable/arrow_off.png
+SHA1-Digest: P7dDJ4bVd6ZsKVWCDRJ34meGVLs=
+
+Name: res/layout/new_owner_activity.xml
+SHA1-Digest: Yc4rhUVNsuocOYN/iWU3oadCk9U=
+
+Name: res/anim/slide_left_in.xml
+SHA1-Digest: YRSPAQgN9Q6ilKOdyrzGg8oZ0bU=
+
+Name: res/drawable/icon_petal1.png
+SHA1-Digest: e6frJqdJGigqURPuzbx0ltiPglM=
+
+Name: res/drawable/item_tire2.png
+SHA1-Digest: qcNKlq+XkRp6GP4cirF5go3gZkw=
+
+Name: res/layout/build_cred.xml
+SHA1-Digest: WBMlG8J3Tj3a+3kGUSAxprJhmWA=
+
+Name: res/layout/shoutbox_activity.xml
+SHA1-Digest: xWfBSNAdnQx+89PDazsJL4MQa2s=
+
+Name: assets/bohemian_typewriter.ttf
+SHA1-Digest: HqynVrufI/epnGsxfh9YO0K5c58=
+
+Name: res/drawable/politician7_petal.png
+SHA1-Digest: o5AGox1GOS2gk/z1oTeznqXENVw=
+
+Name: res/drawable/item_rope.png
+SHA1-Digest: Lw62z9CnWhHrvYVlKUA2Rvhh/Gw=
+
+Name: res/drawable/item_spiked_collar.png
+SHA1-Digest: 8b8sCgSO689+5q1ME8otgoFbfog=
+
+Name: res/drawable/path.png
+SHA1-Digest: OWsJBbWsVsxK0i8L7s8ZWwOm3nI=
+
+Name: res/drawable-hdpi/reg_food_icon.png
+SHA1-Digest: OGA64P19r/Y2+iNm3HyglTeaTZ8=
+
+Name: res/drawable-hdpi/food_meter.png
+SHA1-Digest: c/Kx7GGESogSew9Nm8h7d9iF6Lk=
+
+Name: res/drawable-hdpi/water_meter.png
+SHA1-Digest: XovS4hqxtylyu+2RSFdHr7konXk=
+
+Name: res/drawable/brains5.png
+SHA1-Digest: cB3hQeiGnxacBkoh2qNI3bWiLdc=
+
+Name: res/layout/intro_story_activity.xml
+SHA1-Digest: z+8qJT3sfZ5B0vd3YnU/ACGL7FA=
+
+Name: res/drawable-hdpi/cash_icon.png
+SHA1-Digest: TfpLL6UnAmafKmTtPATf+j4VNXY=
+
+Name: res/drawable-hdpi/win_loss_icon.png
+SHA1-Digest: yd6V/uGgmvAhmp2OyJqd/h3UjhM=
+
+Name: res/layout/row_scoreboard.xml
+SHA1-Digest: JY2ParQLewxUNHRxVRp3ND8l7NY=
+
+Name: res/drawable/dog_legend.png
+SHA1-Digest: OrQpfJIfRo/jl4o5gnxaCQVhAwQ=
+
+Name: res/drawable/brains5_petal.png
+SHA1-Digest: b6tfxm64ulPuXk7+L6kwEh6vW3M=
+
+Name: res/drawable/hustler3_petal.png
+SHA1-Digest: wVdJswtt9MPWIWfgGWS8+wjSAMo=
+
+Name: res/drawable-hdpi/strength_icon.png
+SHA1-Digest: NM3zg66OhWvFWsKTdNDE2aboalI=
+
+Name: res/layout/puppylove_widget.xml
+SHA1-Digest: MxDX7Y8u2dbtVoeefHv8UETvwPo=
+
+Name: res/layout/new_dog_activity.xml
+SHA1-Digest: a8kyCKrsxOUFex3lauPDpWU9udE=
+
+Name: res/drawable/item_tire1.png
+SHA1-Digest: 9BEazmZXyUb+mWTjP9evm2ujM5U=
+
+Name: res/drawable/title_bar.png
+SHA1-Digest: V8J3MzPxAsTxPDD2aus2saRnvA8=
+
+Name: res/drawable/icon1.png
+SHA1-Digest: /mJgIEgCsCfrjdsLVDeuDKbxL7U=
+
+Name: assets/level1_test.txt
+SHA1-Digest: d2jWFIZpFR3MM3Bgc4nyMhHRfqg=
+
+Name: res/drawable/braveheart4_petal.png
+SHA1-Digest: HJ1MjlnH+rPq+RJHjkUGvTxw0YE=
+
+Name: res/drawable/trainer6_petal.png
+SHA1-Digest: RWMVFAdvevi0viQclHAK6odo1xM=
+
+Name: res/drawable-hdpi/info.png
+SHA1-Digest: Hm2qGVBFv13QD4NqbrqYEQpNWuI=
+
+Name: res/drawable/bling_tags_platinum.png
+SHA1-Digest: PTVZmDw2/RZ79R3xr6H/7l4kq3g=
+
+Name: res/drawable/dog_default_icon.png
+SHA1-Digest: JLtATcotKHk+xDBByDm7ONy4GeU=
+
+Name: res/anim/slide_left_out.xml
+SHA1-Digest: 6UNF1hPsLelrdOfee8HVsT+W6SU=
+
+Name: res/drawable/item_steroids.png
+SHA1-Digest: g4WpFlVA2AxvHEEQCNuM6yVO504=
+
+Name: res/drawable/item_jose_bazooka.png
+SHA1-Digest: 7gxlRsgJ9CwA3EsFp2QZdIswu1g=
+
+Name: res/drawable/item_prm_food.png
+SHA1-Digest: iFJvHCGAD1niST9Qv6155adWBHg=
+
+Name: res/drawable/item_jose_steriod_kit.png
+SHA1-Digest: ZwmeSMgFczAN4WRnFKvd1feCR20=
+
+Name: res/drawable/train_running_background.png
+SHA1-Digest: +uDnxe8VhyedBRZv3jO/Tttv26Q=
+
+Name: res/drawable/item_gold_tags.png
+SHA1-Digest: TXAUBqUedk/tQUCSTxPvkrPTR1M=
+
+Name: res/drawable/train_biting_dog_f5.png
+SHA1-Digest: rdhygJ9xe9VEo0B2WxiM3l/lZiE=
+
+Name: res/drawable/main_button_disabled.9.png
+SHA1-Digest: VranXa38NJC2Nap6GIk4mIgzUIs=
+
+Name: res/drawable-hdpi/exp_icon.png
+SHA1-Digest: K83CeMBhOTiaym5jrVLRLJYwe+s=
+
+Name: res/drawable/kid_petal2.png
+SHA1-Digest: dNZlShrpWMaPtpNtFGN1QwfCciI=
+
+Name: res/drawable/trainer6.png
+SHA1-Digest: zB5o0onZ5oTTSi/fBU3TVECqbl0=
+
+Name: res/drawable-hdpi/puppy.jpg
+SHA1-Digest: jEyWqzp3MXAdJLM5bh7CAwh4JCo=
+
+Name: res/drawable-hdpi/dragging_background.png
+SHA1-Digest: m+FXGkAzbryBAfpQSv/4YWkEmmo=
+
+Name: res/drawable/bully_petal2.png
+SHA1-Digest: 9nhn6pdDwCSyiPXs0R4ZC68jh2E=
+
+Name: res/drawable/athlete1_petal.png
+SHA1-Digest: AJO7H8LljloyUu2okHpKp8Ef46Q=
+
+Name: res/layout/store_activity.xml
+SHA1-Digest: 9rLVSqfkLs6Hh8H7WKkSDv+3TsM=
+
+Name: res/drawable/bling_tags_gold.png
+SHA1-Digest: +WNZooicLuq3uaa2/3m7vPKcLyU=
+
+Name: res/drawable/item_pistol.png
+SHA1-Digest: NV5azY6uAdwjRQE5Zcq57MtG4nM=
+
+Name: res/drawable/tire2.png
+SHA1-Digest: kAN1/6ZzUGjiQ6GQFYiaCChRXeA=
+
+Name: res/drawable/train_biting_dog_f2.png
+SHA1-Digest: HOHetwX166fnjV3kXVZbqWHrmZA=
+
+Name: res/drawable/kid2_petal.png
+SHA1-Digest: dNZlShrpWMaPtpNtFGN1QwfCciI=
+
+Name: res/drawable/item_tire3.png
+SHA1-Digest: UwEt2zGscXv2E0rjbDHCCJT0clw=
+
+Name: res/drawable/main_button_pressed.9.png
+SHA1-Digest: oUkVwQH8sYxA/sWHUGdsFPdPecI=
+
+Name: res/layout/scoreboard.xml
+SHA1-Digest: 2m3wkTwRSO5Ujbb9oYJ/8CDNwAw=
+
+Name: res/raw/growl_loud.ogg
+SHA1-Digest: Eq+2rbmpuctkLBLDQXybgYiDCLE=
+
+Name: res/layout/dw_progress_bar.xml
+SHA1-Digest: DkaN7YhiHqJqXSgjn02RgajIrEA=
+
+Name: res/layout/system_message_modal.xml
+SHA1-Digest: mfPkazlWkqkwAOwSv5yTOdBeTk0=
+
+Name: res/drawable-hdpi/splashscreen.png
+SHA1-Digest: m4HCH5fc1bALfAc7VF0gonRtIVg=
+
+Name: res/anim/slide_right_out.xml
+SHA1-Digest: GHkIZQPi397d7CXcRsqU8IyYVPM=
+
+Name: res/drawable/item_reg_food.png
+SHA1-Digest: 3hmJVUv62kcGOp+rhpEyhaoUcrE=
+
+Name: res/drawable/braveheart4.png
+SHA1-Digest: 6jcygHQQC0eolhR31J/+d3M4Q3E=
+
+Name: res/drawable/train_biting_rope2.png
+SHA1-Digest: ciRqAoCXe+LsMWAq5MHNKRREH+4=
+
+Name: res/drawable-hdpi/refresh.png
+SHA1-Digest: uhcsUt0Sns3YLUgebEVg5mYApec=
+
+Name: res/layout/fight_challenge.xml
+SHA1-Digest: 17UFUcBUyAPbALCXyPa0a70ljpM=
+
+Name: res/drawable/athlete1.png
+SHA1-Digest: B3IAyjwfjn4+yNIofGRnGC8aNjI=
+
+Name: res/drawable/bling_collar_diamond.png
+SHA1-Digest: wrBbzNMR+FeT8BfafKyx3Q3Zg7M=
+
+Name: res/layout/stats_activity.xml
+SHA1-Digest: xNjXOK1tyNqAwtNgSXhxjGEcOns=
+
+Name: res/layout/train_biting.xml
+SHA1-Digest: IMzrOyovDb3CUvA+a//NsFDhiUo=
+
+Name: res/layout/name_owner_dog.xml
+SHA1-Digest: lVzpN++99SNnn7Cklv1mIqRZ6jM=
+
+Name: res/drawable/train_biting_dog_f3.png
+SHA1-Digest: heshJZzfZttCivfVyqbTDmrU5Rw=
+
+Name: res/drawable/item_harness.png
+SHA1-Digest: wOfdjbAdqEoIk14FqoH7zA9r8P4=
+
+Name: res/layout/fight_activity.xml
+SHA1-Digest: Gm+iPse2oh0WMNs8VxjtyrkHtWk=
+
+Name: res/drawable/gangster5.png
+SHA1-Digest: HZa72OYYARBulAcnXmKrurer14E=
+
+Name: res/layout/puppylove_widget_config.xml
+SHA1-Digest: OflkydbKwYwWEksUzZtpCoXZ4+Y=
+
+Name: res/layout/dw_header_short.xml
+SHA1-Digest: Cc3KutpsyFl7cIQ8o3PMmkgsdfs=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: 73lINe0gSDC0MvySiXxkyeKbTyQ=
+
+Name: res/drawable/money.jpg
+SHA1-Digest: 44d3HmvZENQc+yvpJmdctM9/wKg=
+
+Name: res/drawable/tire3.png
+SHA1-Digest: ueJJebywu+pZRVxl0p65gv9KTdQ=
+

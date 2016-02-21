@@ -1,0 +1,31 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="640" height="480" />
+<gameDesign special="1" twoParts="false" ropePhysicsSpeed="1.0" bounceMinPower="250" bounceMultiplier="55" bounceXImpulseDivider="2" />
+</layer>
+<layer name="Objects">
+<target x="54" y="415" />
+<pump x="52" y="185" angle="0" />
+<grab x="131" y="92" length="50" wheel="false" gun="false" kickable="false" radius="-1" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+<grab x="263" y="85" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<grab x="389" y="85" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<grab x="514" y="84" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+<grab x="514" y="340" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+<grab x="388" y="341" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<grab x="260" y="343" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" part="L" />
+<grab x="132" y="343" length="100" wheel="false" gun="false" kickable="false" radius="40" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" />
+<pump x="200" y="184" angle="0" />
+<pump x="590" y="434" angle="180" />
+<pump x="457" y="435" angle="180" />
+<star x="549" y="282" timeout="-1" />
+<star x="468" y="83" timeout="-1" />
+<star x="192" y="343" timeout="-1" />
+<spike4 x="187" y="250" angle="0" size="4" toggled="false" />
+<spike4 x="365" y="250" angle="0" size="4" toggled="false" />
+<candy x="131" y="184" />
+<pump x="332" y="436" angle="180" />
+<pump x="194" y="433" angle="180" />
+<pump x="316" y="182" angle="0" />
+<hiddenElement x="62" y="64" radius="100" />
+</layer>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Holy Fucking Bible</string>
+    <string name="title">The Holy Fucking Bible</string>
+    <string name="search">More Soundboards</string>
+    <string name="set_as_ringtone">Set as Ringtone</string>
+    <string name="set_as_notification">Set as Notification</string>
+    <string name="set_as_alarm">Set as Alarm</string>
+    <string name="remove_alert">Remove Alert</string>
+</resources>

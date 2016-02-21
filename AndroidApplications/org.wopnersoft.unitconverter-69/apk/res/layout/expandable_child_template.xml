@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/child_color_line" android:layout_width="4.0dip" android:layout_height="fill_parent" android:src="@color/clrdlg_blue" />
+    <TwoLineListItem android:id="@id/two_line_list" android:paddingLeft="?android:expandableListPreferredItemPaddingLeft" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:mode="twoLine" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/Child_Row_Text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/Child_Row_Text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/Child_Row_Text1" android:layout_alignLeft="@id/Child_Row_Text1" />
+    </TwoLineListItem>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<rotatedCircle size='120' x='155' y='230' handleAngle='-15' oneHandle='false'/>
+<target x='55' y='427'/>
+<candy x='152' y='387'/>
+<grab gun='false' radius='-1' x='60' y='165' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='200' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='252' y='166' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='200' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='156' y='348' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='70' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<star x='54' y='226' timeout='-1'/>
+<star x='154' y='444' timeout='-1'/>
+<spike1 angle='25' size='1' x='76' y='381' toggled='false'/>
+<spike1 angle='-25' size='1' x='232' y='381' toggled='false'/>
+<spike1 angle='53' size='1' x='28' y='343' toggled='false'/>
+<spike1 angle='-53' size='1' x='279' y='343' toggled='false'/>
+<star x='251' y='238' timeout='-1'/>
+<tutorialText x='142' y='43' text='Rotate the record using this handle' locale='en' width='155'/>
+<tutorial04 angle='-55' x='291' moveSpeed='100' y='135' rotateSpeed='100' locale='en'/>
+<hiddenElement x="154" y="69" radius="30" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='126' y='45' text='Вращайте пластинку этой ручкой' locale='ru' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='De'>
+<tutorialText x='117' y='42' text='Drehe die Schallplatte mit diesem Griff' locale='de' width='200'/>
+<tutorial04 angle='-55' x='291' moveSpeed='100' y='136' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='87' y='41' text='Fais tourner le disque en agrippant cette poignée' locale='fr' width='210'/>
+<tutorial04 angle='-55' x='291' moveSpeed='100' y='135' rotateSpeed='100' locale='fr'/>
+</layer>
+
+<layer name='Ja'>
+<tutorialText x='126' y='45' text='このハンドルを使って
+レコードを回します' locale='ja' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='ja'/>
+</layer>
+
+<layer name='Zh'>
+<tutorialText x='127' y='60' text='用此手柄*旋转唱片' locale='zh' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='zh'/>
+</layer>
+
+<layer name='it'>
+<tutorialText x='116' y='45' text='Fai girare il disco usando questa maniglia' locale='it' width='195'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='146' y='55' text='Gira el disco usando este mando' locale='es' width='170'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='126' y='45' text='이 손잡이로 원판을 돌리세요.' locale='ko' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='126' y='45' text='Gire o disco usando esse apoio' locale='br' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='126' y='45' text='Bu tutacağı kullanarak plağı çevir' locale='tr' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='126' y='45' text='Draai de plaat met dit handvat' locale='nl' width='200'/>
+<tutorial04 angle='-55' x='290' moveSpeed='100' y='135' rotateSpeed='100' locale='nl'/>
+</layer></map>

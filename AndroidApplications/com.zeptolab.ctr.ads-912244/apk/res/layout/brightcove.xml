@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.brightcove.player.view.BrightcoveVideoView android:layout_gravity="center" android:id="@id/brightcove_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/ad_frame" android:background="#ff0dbd5f" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/brightcove_button_close" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/brightcove_button_close" />
+</FrameLayout>

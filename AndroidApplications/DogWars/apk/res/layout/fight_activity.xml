@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/basic_brick" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/header" layout="@layout/dw_header_short" />
+        <TextView android:layout_gravity="center" android:id="@id/main_text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Let's Get it On!" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/titleTextLight" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/dog_name1" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="" android:layout_centerHorizontal="true" style="@style/ListMainText" />
+                <ProgressBar android:id="@id/progress_health1" android:layout_width="108.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="26.0dip" android:max="100" android:progress="0" android:layout_below="@id/dog_name1" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:id="@id/icon_health1" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/health_icon" android:scaleType="fitXY" android:layout_alignBottom="@id/progress_health1" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/dog_icon1" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/bully2" android:scaleType="fitXY" android:layout_below="@id/progress_health1" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_tags1" android:layout_width="110.0dip" android:layout_height="64.0dip" android:layout_marginTop="119.0dip" android:src="@drawable/bling_tags_gold" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_collar1" android:layout_width="110.0dip" android:layout_height="64.0dip" android:layout_marginTop="119.0dip" android:src="@drawable/bling_collar_spiked" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@id/btn_attack" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" android:text="Attack!" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/btn_give_up" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="82.0dip" android:layout_marginRight="25.0dip" android:text="Give Up" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/btn_adrenaline" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="136.0dip" android:layout_marginRight="10.0dip" android:text="Adrenaline Shot!" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/dog_name2" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="" android:layout_centerHorizontal="true" style="@style/ListMainText" />
+                <ProgressBar android:id="@id/progress_health2" android:layout_width="100.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="26.0dip" android:max="100" android:progress="0" android:layout_below="@id/dog_name2" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:id="@id/icon_health2" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/health_icon" android:scaleType="fitXY" android:layout_alignBottom="@id/progress_health2" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/dog_icon2" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/braveheart4" android:scaleType="fitXY" android:layout_below="@id/progress_health2" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_tags2" android:layout_width="110.0dip" android:layout_height="64.0dip" android:layout_marginTop="119.0dip" android:src="@drawable/bling_tags_gold" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_collar2" android:layout_width="110.0dip" android:layout_height="64.0dip" android:layout_marginTop="119.0dip" android:src="@drawable/bling_collar_spiked" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:layout_gravity="center" android:id="@id/sub_text" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="you have 5 seconds each time to respond!" android:layout_centerHorizontal="true" style="@style/textLight" />
+    </LinearLayout>
+</RelativeLayout>

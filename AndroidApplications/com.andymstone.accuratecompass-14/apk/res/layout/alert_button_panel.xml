@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andymstone.core.IcsLinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?MAD_divider" android:minHeight="@dimen/alert_dialog_button_bar_height" android:showDividers="beginning" android:dividerPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.andymstone.core.IcsLinearLayout android:orientation="horizontal" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?MAD_divider" android:measureWithLargestChild="true" android:showDividers="middle">
+        <Button android:layout_gravity="left" android:id="@id/button2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?MAD_buttonBarStyle" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/button3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?MAD_buttonBarStyle" />
+        <Button android:layout_gravity="right" android:id="@id/button1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?MAD_buttonBarStyle" />
+    </com.andymstone.core.IcsLinearLayout>
+</com.andymstone.core.IcsLinearLayout>

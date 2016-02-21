@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="currency_prompt">Choose Currency</string>
+    <string name="default_page_prompt">Choose Default Page</string>
+    <string name="status_bar_refresh_message">Refreshing Exchange Rates</string>
+    <string name="end_user_agreement_title">End User Agreement</string>
+    <string name="billing_not_supported_title">"Can't make purchases"</string>
+    <string name="billing_not_supported_message">"The Market billing service is not available at this time. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="cannot_connect_title">"Can't connect to Market"</string>
+    <string name="cannot_connect_message">This app cannot connect to Market.</string>
+    <string name="default_timeframe_prompt">Choose Default Graph Timeframe</string>
+    <string name="default_location_prompt">Choose Location for Daily Deals</string>
+    <string name="end_user_agreement_text">By downloading, installing or using this application you agree to the terms and conditions located at http://www.pocketools.com/eula (also found by clicking the EULA button below).</string>
+</resources>

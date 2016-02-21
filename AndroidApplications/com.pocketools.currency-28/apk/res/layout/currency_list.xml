@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0sp" android:stretchColumns="0,2" android:shrinkColumns="*">
+        <Gallery android:id="@id/gallery_portfolio" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </TableLayout>
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@null" android:layout_weight="1.0" />
+    <TableLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0sp" android:stretchColumns="0,2" android:shrinkColumns="*">
+        <TableRow>
+            <TableLayout android:gravity="center" android:id="@id/list_adwhirl_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3" />
+        </TableRow>
+        <TableRow>
+            <TableLayout android:background="#ffffffff" android:layout_span="3">
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/xrate_list_update_message" android:background="#ff000000" android:paddingLeft="10.0sp" />
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

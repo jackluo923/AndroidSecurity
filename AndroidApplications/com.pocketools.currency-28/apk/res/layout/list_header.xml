@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/list_header_content" android:layout_width="fill_parent" android:stretchColumns="1" android:layout_span="3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:background="@drawable/gradient_reverse">
+        <TextView />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/currency_list_heading" android:height="50.0sp" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/edit_base_button" android:background="@null" android:paddingRight="10.0sp" android:src="@drawable/edit" />
+    </TableRow>
+</TableLayout>

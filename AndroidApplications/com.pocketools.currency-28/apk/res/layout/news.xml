@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*">
+        <Gallery android:id="@id/gallery_currencies" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TableRow android:id="@id/company_news_row" android:layout_weight="1.0">
+            <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@null" />
+        </TableRow>
+        <TableRow android:gravity="center_horizontal" android:id="@id/company_info_animation" android:layout_weight="1.0">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,2">
+                <TableRow>
+                    <TextView />
+                    <ImageView android:id="@id/company_info_loading" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" />
+                    <TextView />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout android:layout_gravity="center" android:id="@id/news_adwhirl_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

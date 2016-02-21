@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:admobsdk="http://schemas.android.com/apk/res/kagegames.apps.DWBeta">
+    <ImageView android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/basic_brick" android:scaleType="centerCrop" />
+    <com.admob.android.ads.AdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" admobsdk:testing="false" admobsdk:keywords="" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <include android:id="@id/header" layout="@layout/dw_header_short" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:id="@id/dog_name1" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="AjaxGroovepack" android:layout_centerHorizontal="true" style="@style/ListMainText" />
+                <RelativeLayout android:id="@id/meters_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dog_name1" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/icon_food" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/food_meter" android:scaleType="fitXY" />
+                    <TextView android:gravity="center" android:id="@id/food_value" android:paddingTop="0.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="8" android:layout_alignLeft="@id/icon_food" android:layout_alignBottom="@id/icon_food" style="@style/headerTextDark" />
+                    <ImageView android:id="@id/icon_water" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/water_meter" android:scaleType="fitXY" android:layout_toRightOf="@id/icon_food" android:layout_below="@id/dog_name1" />
+                    <TextView android:gravity="center" android:id="@id/water_value" android:paddingTop="0.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="9" android:layout_alignLeft="@id/icon_water" android:layout_alignBottom="@id/icon_water" style="@style/headerTextDark" />
+                </RelativeLayout>
+                <ImageView android:id="@id/dog_icon1" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/bully2" android:scaleType="fitXY" android:layout_below="@id/meters_layout" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_tags1" android:layout_width="120.0dip" android:layout_height="70.0dip" android:layout_marginTop="159.0dip" android:src="@drawable/bling_tags_gold" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/dog_collar1" android:layout_width="120.0dip" android:layout_height="70.0dip" android:layout_marginTop="159.0dip" android:src="@drawable/bling_collar_spiked" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginTop="10.0dip"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageView android:id="@id/icon_water_spacer" android:visibility="invisible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/reg_food_icon" android:scaleType="fitXY" />
+                    <Button android:id="@id/btn_water" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Water" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="57.0dip"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageView android:id="@id/icon_reg_food" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/reg_food_icon" android:scaleType="fitXY" />
+                    <Button android:id="@id/btn_reg_food" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Dog Food" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="57.0dip"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageView android:id="@id/icon_prm_food" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/prm_food_icon" android:scaleType="fitXY" />
+                    <Button android:id="@id/btn_prm_food" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Premium Food" android:layout_centerVertical="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="57.0dip"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageView android:id="@id/icon_raw_meat" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/item_raw_meat" android:scaleType="fitXY" />
+                    <Button android:id="@id/btn_raw_meat" android:background="@drawable/main_button" android:padding="10.0dip" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="Raw Meat" android:layout_centerInParent="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

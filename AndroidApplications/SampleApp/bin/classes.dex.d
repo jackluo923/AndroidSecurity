@@ -1,0 +1,23 @@
+/home/michelle/ece1776/SampleApp/bin/classes.dex : \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/BuildConfig.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$menu.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$3.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$string.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$LocationHandler.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/Leaker.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$id.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$layout.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$MultipleUIClasses.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$2.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$4.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$style.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/SecondActivity.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/MainActivity$1.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$drawable.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$attr.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/WebHistoryToWebLeaker.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/R$dimen.class \
+/home/michelle/ece1776/SampleApp/bin/classes/com/example/sampleapp/WebHistoryToSmsLeaker.class \
+/home/michelle/ece1776/SampleApp/bin/dexedLibs/android-support-v4-71f3d928797876c31a93fc495ca3d461.jar \

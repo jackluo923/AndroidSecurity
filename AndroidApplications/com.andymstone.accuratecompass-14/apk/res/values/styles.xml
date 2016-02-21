@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyAlertDialog" parent="" />
+    <style name="Theme.MyAlertDialog.Dark" parent="@style/Theme.MyAlertDialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@drawable/dialog_full_holo_dark</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/MAD_DialogWindowTitle.Dark</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="MAD_titleStyle">?android:windowTitleStyle</item>
+        <item name="MAD_buttonBarStyle">@style/MADbuttonBarButton</item>
+        <item name="MAD_textAppearanceMedium">@style/MAD_TextAppearanceMedium</item>
+        <item name="MAD_divider">@drawable/list_divider_holo_dark</item>
+        <item name="MAD_edgePadding">0.0dip</item>
+        <item name="MAD_messagePadding">16.0dip</item>
+    </style>
+    <style name="Theme.MyAlertDialog.Light" parent="@style/Theme.MyAlertDialog.Dark">
+        <item name="android:windowBackground">@drawable/dialog_full_holo_light</item>
+        <item name="android:windowTitleStyle">@style/MAD_DialogWindowTitle.Light</item>
+        <item name="MAD_buttonBarStyle">@style/MADbuttonBarButton.Light</item>
+        <item name="MAD_textAppearanceMedium">@style/MAD_TextAppearanceMedium.Light</item>
+        <item name="MAD_divider">@drawable/list_divider_holo_light</item>
+    </style>
+    <style name="MADbuttonBarButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">?myAlertDialogButtonDrawable</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:minHeight">@dimen/alert_dialog_button_bar_height</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="MADbuttonBarButton.Light" parent="@style/MADbuttonBarButton">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MAD_DialogWindowTitle">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:minHeight">64.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="MAD_DialogWindowTitle.Dark" parent="@style/MAD_DialogWindowTitle">
+        <item name="android:textAppearance">@style/MAD_TextAppearanceDialogWindowTitle</item>
+    </style>
+    <style name="MAD_DialogWindowTitle.Light" parent="@style/MAD_DialogWindowTitle">
+        <item name="android:textAppearance">@style/MAD_TextAppearanceDialogWindowTitle.Light</item>
+    </style>
+    <style name="MAD_TextAppearanceDialogWindowTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MAD_TextAppearanceDialogWindowTitle.Light" parent="@style/MAD_TextAppearanceDialogWindowTitle">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="MAD_TextAppearanceMedium">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MAD_TextAppearanceMedium.Light" parent="@style/MAD_TextAppearanceMedium">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="ac_button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/ac_normal_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="ac_large_text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/ac_large_text_size</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+    <style name="ac_normal_text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/ac_normal_text_size</item>
+        <item name="android:textColor">@color/main_text</item>
+    </style>
+    <style name="ac_large_text_serif" parent="@style/ac_large_text">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ac_title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/ac_title_text_size</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/app_green</item>
+        <item name="android:minHeight">@dimen/ac_title_bar_height</item>
+    </style>
+    <style name="Theme.AccurateCompassBase" parent="@android:style/Theme.NoTitleBar" />
+    <style name="Theme.AccurateCompass" parent="@style/Theme.AccurateCompassBase">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="myAlertDialogTheme">@style/Theme.MyAlertDialog.Light.Compass</item>
+        <item name="myAlertDialogAccentColor">@color/app_green</item>
+        <item name="myAlertDialogButtonDrawable">@drawable/selector_background</item>
+    </style>
+    <style name="Theme.MyAlertDialog.Light.Compass" parent="@style/Theme.MyAlertDialog.Light">
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="MAD_buttonBarStyle">@style/MADbuttonBarButton.Light.Compass</item>
+        <item name="MAD_textAppearanceMedium">@style/MAD_TextAppearanceMedium.Light.Compass</item>
+    </style>
+    <style name="WindowTitleStyle" parent="@style/MAD_DialogWindowTitle.Light">
+        <item name="android:textAppearance">@style/TextAppearanceDialogWindowTitle.Light.Compass</item>
+        <item name="android:background">@color/app_green</item>
+    </style>
+    <style name="TextAppearanceDialogWindowTitle.Light.Compass" parent="@style/MAD_TextAppearanceDialogWindowTitle.Light">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="MAD_TextAppearanceMedium.Light.Compass" parent="@style/MAD_TextAppearanceMedium.Light">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="MADbuttonBarButton.Light.Compass" parent="@style/MADbuttonBarButton.Light">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.AccurateCompassBase.NoTitle" parent="@android:style/Theme.NoTitleBar" />
+    <style name="Theme.AccurateCompass.NoTitle" parent="@style/Theme.AccurateCompassBase.NoTitle" />
+    <style name="side_menu_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ff505050</item>
+    </style>
+</resources>

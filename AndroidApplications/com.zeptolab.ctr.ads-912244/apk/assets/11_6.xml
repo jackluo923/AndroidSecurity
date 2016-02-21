@@ -1,0 +1,63 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<target x='269' y='74'/>
+<rotatedCircle size='75' x='226' y='348' handleAngle='90' oneHandle='false'/>
+<rotatedCircle size='75' x='100' y='349' handleAngle='90' oneHandle='false'/>
+<grab gun='false' radius='-1' x='32' y='347' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='70' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<candy x='35' y='249'/>
+<star x='164' y='250' timeout='-1'/>
+<star x='270' y='145' timeout='-1'/>
+<star x='270' y='251' timeout='-1'/>
+<bubble x='35' y='246'/>
+<tutorialText x='46' y='130' text='Move the rope holder from one record to another' locale='en' width='200'/>
+<tutorial09 x='146' moveSpeed='100' y='113' rotateSpeed='100' locale='en'/>
+<hiddenElement x="32" y="146" radius="30" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='52' y='131' text='Переместите крепеж веревки с одной пластинки на другую' locale='ru' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='De'>
+<tutorialText x='53' y='130' text='Bewege den Seilhalter von einer Schallplatte zur anderen' locale='de' width='200'/>
+<tutorial09 x='147' moveSpeed='100' y='114' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='fr'>
+<tutorialText x='50' y='129' text='Fais passer l&apos;attache de la corde d&apos;un disque à l&apos;autre' locale='fr' width='200'/>
+<tutorial09 x='146' moveSpeed='100' y='114' rotateSpeed='100' locale='fr'/>
+</layer>
+
+<layer name='Zh'>
+<tutorialText x='50' y='129' text='将此绳柄*从一个唱片*移至另一个' locale='zh' width='200'/>
+<tutorial09 x='146' moveSpeed='100' y='114' rotateSpeed='100' locale='zh'/>
+</layer>
+
+<layer name='Ja'>
+<tutorialText x='50' y='129' text='ロープホルダーを
+        レコードから
+        レコードへと移します' locale='ja' width='200'/>
+<tutorial09 x='146' moveSpeed='100' y='114' rotateSpeed='100' locale='ja'/>
+</layer>
+
+<layer name='it'>
+<tutorialText x='52' y='131' text='Sposta il fermo da un disco all&apos;altro' locale='it' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='52' y='131' text='Mueve el soporte de la cuerda de un disco a otro' locale='es' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='52' y='131' text='한 원판에서 다른 원판으로 줄 고정대를 움직이세요.' locale='ko' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='52' y='131' text='Mova o suporte da corda de um disco para outro' locale='br' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='52' y='131' text='İp tutacağını bir plaktan diğerine götür' locale='tr' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='52' y='131' text='Verplaats de touwhouder van de ene plaat naar de andere' locale='nl' width='200'/>
+<tutorial09 x='148' moveSpeed='100' y='115' rotateSpeed='100' locale='nl'/>
+</layer></map>

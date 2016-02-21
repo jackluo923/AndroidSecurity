@@ -1,0 +1,3750 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/menu_extra_buttons_320_480.png
+SHA1-Digest: fOh9wA29lNrvP5gfO0AjkOsBZho=
+
+Name: assets/6_15.xml
+SHA1-Digest: sI3Kg5rkignEO+oYWkFsDxco4dc=
+
+Name: assets/obj_hook_movable_480_800.raw
+SHA1-Digest: QggDQ24FD91GwyO9RISJPACk+TE=
+
+Name: assets/SLAwards.bundle/Award.1058327768.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/bgr_15_320_480.jpeg
+SHA1-Digest: s3Vx/aumynxErz7yd7Z8I/OvgEw=
+
+Name: assets/drawings_thumb_18_480_800.png
+SHA1-Digest: S06CWKaDREJSoyxv2fKSD7m9S9U=
+
+Name: assets/drawing_11_480_800.png
+SHA1-Digest: SLzbwNM/uadEU2HY3rDDDTlmO5c=
+
+Name: assets/SLAwards.bundle/Award.1432722351.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: UUeGKfmWgJl/rutroPXP57LpkoU=
+
+Name: assets/menu_promo_banner_320_480.jpeg
+SHA1-Digest: SyB8l43ZV9qGHmYu/IOSdVH7cRE=
+
+Name: assets/menu_pack_selection_320_480.png
+SHA1-Digest: d+HvsfcYvDkGg+ILYKzdr5CIk8A=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: dAIabshO7sf8DA0quqZILhJ5V4A=
+
+Name: assets/char_support_01_320_480.raw
+SHA1-Digest: RdB9e5n2N5whrIIMPmAxwgnyZA0=
+
+Name: assets/drawing_05_480_800.png
+SHA1-Digest: GPCrNJsTZr3JT+3Q456XqpE2g9w=
+
+Name: assets/1_14.xml
+SHA1-Digest: IAE9N/G5F/SrbM02jDdCRsdTKis=
+
+Name: assets/7_5.xml
+SHA1-Digest: CVAm9ZZ3QLjxlZoUU6Yjvb++/aY=
+
+Name: assets/bouncer.ogg
+SHA1-Digest: FpEa9vC5wIfmyzq5ZO64WZNHH/0=
+
+Name: assets/menu_popup_320_480.raw
+SHA1-Digest: 83uDFxxj2QZGwXpR1uzzhDTpCss=
+
+Name: assets/menu_extra_buttons_ru_480_800.raw
+SHA1-Digest: EsrMbQ44Df3Fak9dnvIkNrPXLMY=
+
+Name: assets/drawings_menu_markers_320_480.raw
+SHA1-Digest: PgIfhSphniKMBZWyL3vgR5UtGfI=
+
+Name: assets/obj_bubble_pop_320_480.raw
+SHA1-Digest: aITRhuS2/TbgMF6/XbMer+DC9Xk=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: bENWi8ZugwD88Ech+3ZELNcC/Kw=
+
+Name: assets/obj_ghost_320_480.raw
+SHA1-Digest: ZXD856WPMrVNPStE9hDWfmzEfrM=
+
+Name: assets/2_9.xml
+SHA1-Digest: 4kllxtPoWnCGZ+j3w0N43dFzGYw=
+
+Name: assets/bgr_04_480_800.jpeg
+SHA1-Digest: 2cvbn5gnUQdgifbCjNewp3wWrYU=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: UUeGKfmWgJl/rutroPXP57LpkoU=
+
+Name: res/drawable-hdpi/com_mixpanel_android_arrowright_faded.png
+SHA1-Digest: /1V4dbhMlnO/OKZAvNaPOEtG3NQ=
+
+Name: assets/menu_pack_selection_boxes_1_480_800.jpeg
+SHA1-Digest: p/Q99LRTKjkY66E507GGvJ6sX2w=
+
+Name: assets/menu_pack_selection_ko_480_800.raw
+SHA1-Digest: AkZHafQSS/hB7mGa0Ppk/56al5A=
+
+Name: assets/menu_pack_selection_boxes_2_320_480_alpha.png
+SHA1-Digest: VDj8Dd8BkhK/twygLIQvXWkZRhA=
+
+Name: assets/obj_rotatable_spikes_03_320_480.raw
+SHA1-Digest: yWUu5EvvneYzxr8W0b1q5BkmiTQ=
+
+Name: assets/16_13.xml
+SHA1-Digest: n/ZFt+pWOgqAisnJTq55dStBLbQ=
+
+Name: assets/SLAwards.bundle/Award.1432721430.achieved.png
+SHA1-Digest: MgDTuwljLVWaNuFpBeJzjphLJ6o=
+
+Name: assets/6_17.xml
+SHA1-Digest: 0NScuD1OJLyTmeGKSJcIYHQ5nkE=
+
+Name: assets/5_22.xml
+SHA1-Digest: J5huJY29Rc9dv8usW9u7+OABqkU=
+
+Name: assets/menu_shadow_320_480.raw
+SHA1-Digest: 3iGpy5EFZAmGCn2fq4jLQN7A7as=
+
+Name: assets/15_5.xml
+SHA1-Digest: v9KEiQT7Jq3fS2cZyfLo35F5YzM=
+
+Name: assets/13_15.xml
+SHA1-Digest: il9FDyKm3RjBTekWruUDqgH5qgE=
+
+Name: res/drawable-xxhdpi/ic_plusone_small_off_client.png
+SHA1-Digest: QITJ8CHL6O6NtaNSW5zIXy1Z3PY=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.djboxcompleted.una
+ chieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_arrowright.png
+SHA1-Digest: neqzj1TSnisIiy8IY3j9ia7Hejo=
+
+Name: assets/7_17.xml
+SHA1-Digest: d+AWq+0u9jY2okziUzNR50+OPBQ=
+
+Name: assets/drawing_01_480_800.png
+SHA1-Digest: KRpgkYbh2Y5CUH9JG5u2BdkX2zY=
+
+Name: assets/font_numbers_big_320_480.png
+SHA1-Digest: jYbsllS7ARPeVFcd/4V3/b/dNCM=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.
+ 9.png
+SHA1-Digest: AhN8QSMQGVEiuDPw+ArDAL+kX1o=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: ox+dpz35Obt4x0bfiE1AVRokddo=
+
+Name: assets/12_25.xml
+SHA1-Digest: 9FOZtMY9roWkln+6z6jJTZCERhg=
+
+Name: assets/2_23.xml
+SHA1-Digest: LoZ5gwt1cYqjaFoPr9sbVvuJGgY=
+
+Name: assets/hud_buttons_ko_320_480.raw
+SHA1-Digest: 9zQG/FwECy8q1pC3Ej+VzlOpJfs=
+
+Name: assets/SLAwards.bundle/Award.681520253.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_promo_320_480.png
+SHA1-Digest: Y0KlO9VtAeIJqTTdB/kSOXoV6zw=
+
+Name: assets/pump_2.ogg
+SHA1-Digest: kvb/qfYLnPWptYgmhFTge2auGi8=
+
+Name: assets/hud_buttons_gr_480_800.raw
+SHA1-Digest: jusrDDoB8s7MvLRASR7YRSVGk9w=
+
+Name: assets/hud_buttons_sp_320_480.raw
+SHA1-Digest: r5CQgGb7et/LGLjdZLB1wnD+P1I=
+
+Name: assets/menu_result_it_320_480.raw
+SHA1-Digest: IfWM6Ky8QpBleQuq7nNMnLFp/FU=
+
+Name: assets/14_19.xml
+SHA1-Digest: FgeVXKFT7UWbN/QF3i2dOcPryWc=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: 5yTFZLZtCPpeiVFtQvpG2K4xDdE=
+
+Name: assets/obj_rotatable_spikes_03_480_800.raw
+SHA1-Digest: b3FXecHX1K1+onTNNOErly8QbzI=
+
+Name: assets/SLAwards.bundle/Award.681508316.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/3_6.xml
+SHA1-Digest: DzZNGT7NFMIV2l8BXA9NP9USxvE=
+
+Name: assets/menu_agepopup_320_480.raw
+SHA1-Digest: SIC5lmsAiz6kLe4jG9nu4PVCFw8=
+
+Name: assets/2_15.xml
+SHA1-Digest: wQtXEWNVKm3VG1WLqPmMxpPSISw=
+
+Name: assets/15_17.xml
+SHA1-Digest: kZdIRM1UinpWY3XniV9xQ75Id78=
+
+Name: assets/vg_cta_disabled.png
+SHA1-Digest: v8Iim7wfMOn1YX3/+LR4zkG/hUY=
+
+Name: assets/menu_extra_buttons_fr_480_800.raw
+SHA1-Digest: YrXELRblySk4l/KMQsCAa4uhjVU=
+
+Name: assets/hint_firefly_320_480.raw
+SHA1-Digest: LNpELmPaREyg8c8WHZR48yjrbRs=
+
+Name: assets/menu_loading_480_800.raw
+SHA1-Digest: 4XwpevDW8XVEdn0Wt/hgHLLcOWQ=
+
+Name: assets/hud_buttons_480_800.raw
+SHA1-Digest: vP6XyCUSDJg2MhgW8XiimsDKccg=
+
+Name: res/drawable-mdpi/com_mixpanel_android_checkmark.png
+SHA1-Digest: RHuHPRs1+5nyBa8Ke1t01ydbmoQ=
+
+Name: assets/SLAwards.bundle/Award.1991474812.achieved.png
+SHA1-Digest: MDsujZAWlqaQsk/lKqgzIb6wT04=
+
+Name: res/drawable-hdpi/com_mixpanel_android_checkmark.png
+SHA1-Digest: rfePZxSCnJtzUqOycK5ts7/V58A=
+
+Name: res/drawable-xxhdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: 5jta9QUYJ9k9tMHwzhYqoefVy+o=
+
+Name: assets/menu_pack_selection_es_480_800.raw
+SHA1-Digest: uMBrP7xDJOL6d4xlIrQQLA3k5aA=
+
+Name: assets/char_support_06_320_480.raw
+SHA1-Digest: oQ2NEykvphyCJ90FxyvVhiI09W8=
+
+Name: assets/15_12.xml
+SHA1-Digest: zERaqH4ZnsAsT0d7iNeckLMBpjI=
+
+Name: assets/3_8.xml
+SHA1-Digest: QbegGerUTn6GJuXeGDZf00egGGc=
+
+Name: res/drawable-xxhdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: GsuPJv1dNcolfrnKEL4GX2NHRmk=
+
+Name: assets/6_9.xml
+SHA1-Digest: HgMj3jDpP7IV+DGKQ71VZ0zrl6Q=
+
+Name: assets/menu_pack_selection_boxes_2_480_800_alpha.png
+SHA1-Digest: IWueUJGk5RWOhiQzc9EuuJiUxOE=
+
+Name: assets/2_1.xml
+SHA1-Digest: H/N7Txm3J/WZuTXesRIlIv5pnfU=
+
+Name: res/layout/com_mixpanel_android_middle_choice_answer.xml
+SHA1-Digest: 2jVGCAj+gF5BUjMT6L8YWWIp4tk=
+
+Name: assets/menu_extra_buttons_ja_480_800.raw
+SHA1-Digest: 5WeW/tS7nLJ6saKWSnuAaT3W3V4=
+
+Name: assets/1_1.xml
+SHA1-Digest: 2fgh6ohwvNBcyUefirRJP5OKeuI=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_arrowleft.png
+SHA1-Digest: F+TqFmwbYEgDMYIy0XgsIDvLdgM=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: oslddavjaxT0f8U4Mn8PG9Z+jNM=
+
+Name: assets/8_7.xml
+SHA1-Digest: r57G//grG/17u9Meh+tfxQ7Kl1A=
+
+Name: assets/11_15.xml
+SHA1-Digest: tdmphELJT/XYn8M1bVDeB6NesqI=
+
+Name: assets/7_1.xml
+SHA1-Digest: hWbgeOcc9JEdRxDYS8xQc0li/jM=
+
+Name: assets/menu_extra_buttons_nl_320_480.raw
+SHA1-Digest: 0jTVMfQbZXW+ScbyPdMOlGZucRk=
+
+Name: assets/menu_result_fr_320_480.raw
+SHA1-Digest: aFfKrmy+9M9nCSbWxAXsrnmPuZY=
+
+Name: assets/obj_pollen_320_480.raw
+SHA1-Digest: l9vy1kdTKYRC8rzgcfGgqVMtO/Q=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.spookyboxperfect.a
+ chieved.png
+SHA1-Digest: A3W0iCa91ztOriURXEYqbtb8mJo=
+
+Name: assets/bgr_06_320_480.jpeg
+SHA1-Digest: QwVtP6iEfgfT+FFpVjpl4a99quk=
+
+Name: assets/drawing_02_480_800.png
+SHA1-Digest: Aq9/BCKtYbCN1Udh+ew4c5bOXIU=
+
+Name: assets/obj_electrodes_480_800.raw
+SHA1-Digest: 4h5vLoSZNQU3JjtJfdltEc7qKfM=
+
+Name: assets/obj_electrodes_320_480.raw
+SHA1-Digest: gRrZp8C3kUKgo7C8RnsatOJuMCk=
+
+Name: assets/9_19.xml
+SHA1-Digest: m1DBMpC+ht9r+dd2dXdxoB6cGuM=
+
+Name: assets/14_13.xml
+SHA1-Digest: Ygt3gKkibqAKTc3aofd8DNLpaqM=
+
+Name: assets/11_4.xml
+SHA1-Digest: VOdrfHEEYldRJ7kCAT9fg8N5of4=
+
+Name: assets/1_22.xml
+SHA1-Digest: aavI3k4vLEi31oRQNpxhVCBPs6U=
+
+Name: assets/star_3.ogg
+SHA1-Digest: hhQ5m9XLBe2iShFWZUnFGyl5GNQ=
+
+Name: assets/buzz.ogg
+SHA1-Digest: ATngWEn9a3DxnmHYVcQsPn+fT08=
+
+Name: assets/SLAwards.bundle/en.lproj/Localizable.strings
+SHA1-Digest: HLasn6WoI+bGt8MbviM7N5/HSJA=
+
+Name: assets/drawing_14_320_480.png
+SHA1-Digest: JSpk7fsIiPRdC71Dg4Bh9KjWfRA=
+
+Name: assets/7_23.xml
+SHA1-Digest: OK+Mr71FykHOn50WpVc9kGlO9KM=
+
+Name: assets/6_13.xml
+SHA1-Digest: kB+e0oJNTKU6L/Jf7mKlJ2a0Jl4=
+
+Name: assets/16_17.xml
+SHA1-Digest: Dss5EfHYckP02hv74XBr8srlSHI=
+
+Name: assets/SLAwards.bundle/Award.1335599628.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.lanternboxperfect.
+ achieved.png
+SHA1-Digest: cl7g4sZvnHFMFmggWopsk+r8qiU=
+
+Name: assets/bgr_01_cover_480_800.jpeg
+SHA1-Digest: JU6t0zjqpaN6gEbfBLrGvWYDjSM=
+
+Name: assets/bgr_10_320_480.jpeg
+SHA1-Digest: YwsLyz8tByMEcdyQf3M1N127eb4=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_checkmark.png
+SHA1-Digest: QgYxd1Bz8qyZqw0470wU+mkSXHo=
+
+Name: assets/3_4.xml
+SHA1-Digest: 6OxB2qS23dJnfIspcMiAqKq99vc=
+
+Name: assets/bgr_02_320_480.jpeg
+SHA1-Digest: N0L6V/CT29U+EU8LbdrIV+OhyAM=
+
+Name: assets/3_17.xml
+SHA1-Digest: qzkgwKuyGcN31SZ+HyhLfSiP1ts=
+
+Name: assets/SLAwards.bundle/Award.1991641832.achieved.png
+SHA1-Digest: 21ZfD7j6Rw+Zka2n0IQwjMjwtWE=
+
+Name: assets/hud_buttons_es_320_480.raw
+SHA1-Digest: cVWQc8ii4Q2//Bfm/hWI6g3F6C8=
+
+Name: assets/menu_logo_320_480.raw
+SHA1-Digest: iwDVetRfaeD/jyxh9S8vSPv2j+A=
+
+Name: assets/proguard_version.txt
+SHA1-Digest: LO6cNbEtvD558bMos4UzZSzdGvA=
+
+Name: res/drawable/com_mixpanel_android_rounded_bottom.9.png
+SHA1-Digest: LFNp9F6dn0uGKIlu5bdJFULX3Qs=
+
+Name: assets/drawings_thumb_09_320_480.png
+SHA1-Digest: vK7bmS02fDozr6zQniuz0ynUpPs=
+
+Name: assets/2_4.xml
+SHA1-Digest: HHKAgG7TObMNnzdMScGlFjxT9pI=
+
+Name: assets/11_24.xml
+SHA1-Digest: x76kMXXQ/eEIOs6aNdX60W2XbwE=
+
+Name: assets/4_1.xml
+SHA1-Digest: 65m5DX79r4n98aqypVEWTncL+UU=
+
+Name: assets/star_1.ogg
+SHA1-Digest: N5A4iEfL/kgb357QfpJHnAhaOqA=
+
+Name: assets/2_19.xml
+SHA1-Digest: 8btcMLFVcxWhtUQgm3f1WKOuazA=
+
+Name: assets/hud_buttons_gr_320_480.raw
+SHA1-Digest: FA1sMlYb7Hx75zArHX3BJkgvOs0=
+
+Name: assets/13_16.xml
+SHA1-Digest: 8o0wjIPqNOLm1m0etcMR3q1Sbns=
+
+Name: assets/char_animations_320_480.raw
+SHA1-Digest: 0apKQ8t+4AUC5eZynVZwzzNHLNI=
+
+Name: assets/16_12.xml
+SHA1-Digest: RTBIxxVDnFphXIS5KJcu8ywAokM=
+
+Name: assets/2_5.xml
+SHA1-Digest: Yw+0goRQy0XdbJUr1f2rxirrqiI=
+
+Name: assets/16_21.xml
+SHA1-Digest: 1lcS9RD5ZdUZQmAYMIb/9XcAj/g=
+
+Name: res/drawable-ldpi/com_mixpanel_android_checkmark.png
+SHA1-Digest: mklTUocd4xdaRiWTtnZmUlCrR1g=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9
+ .png
+SHA1-Digest: AhN8QSMQGVEiuDPw+ArDAL+kX1o=
+
+Name: assets/menu_content_screen_480_800.png
+SHA1-Digest: pjqZpqS2ez6iuXGMhWi0KcEN/AY=
+
+Name: assets/hud_buttons_sp_480_800.raw
+SHA1-Digest: QrPpiCZpve38FT5E+9pQWHNNhUE=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.cheeseboxperfect.u
+ nachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable/common_signin_btn_icon_dark.xml
+SHA1-Digest: QHg2/5Cjpy7Q6h8bYWzO2jzdlTw=
+
+Name: assets/menu_promo_480_800.png
+SHA1-Digest: cVT+r1aCe+QWU9+rvWKVttyhfJE=
+
+Name: assets/13_22.xml
+SHA1-Digest: lTz2XjNPfyVb+YlkNr3U/IYBOfU=
+
+Name: assets/menu_banner_480_800.raw
+SHA1-Digest: bo2hS5SQ/wBM6aQBzQKipkX5Ua0=
+
+Name: assets/8_24.xml
+SHA1-Digest: 7Fm2PdBetA7pEduN388ursUUmtY=
+
+Name: assets/drawing_13_480_800.png
+SHA1-Digest: 1I6khKNPjVXcCH1U1HyZq7sfpZU=
+
+Name: assets/SLAwards.bundle/Award.1058310903.achieved.png
+SHA1-Digest: ZsuH2UzMFUcpx3mlFV0nskrFMs4=
+
+Name: assets/11_14.xml
+SHA1-Digest: gBYFUlGEHRHirONXKiFHyKhm7wU=
+
+Name: assets/drawing_05_320_480.png
+SHA1-Digest: JZ2A2gd3H826DL9yNovADXwORz8=
+
+Name: assets/10_24.xml
+SHA1-Digest: mwRnHxKHj+Yo8nXN8LoQhFWPSiE=
+
+Name: assets/hud_buttons_zh_480_800.raw
+SHA1-Digest: obj1E1HFyR87kASkCYakVt997ZY=
+
+Name: assets/menu_button_options_icon_480_800.raw
+SHA1-Digest: YtTXiQCPXuUtVn7ggHxR6CjNGKk=
+
+Name: assets/1_18.xml
+SHA1-Digest: rw2byBn0lwlM/dhndPz4HfuPwGw=
+
+Name: assets/char_support_11_480_800.raw
+SHA1-Digest: Gqwbshfy2mfffW0JfzeF/VLir3M=
+
+Name: res/drawable/com_mixpanel_android_choice_middle_states.xml
+SHA1-Digest: C/j6BpN4yKEHobZgPNZL1lI8DnE=
+
+Name: assets/char_animations3_320_480.raw
+SHA1-Digest: 20+ArNa73U9/RyRMk7rCr31LWz0=
+
+Name: assets/sp_field_bounce.ogg
+SHA1-Digest: RvVoVjP8pNcbHwRKEwVqYm1Jtas=
+
+Name: res/drawable-mdpi/zeptolab_logo.png
+SHA1-Digest: 19sCRXUDWXfY0c89R4oPzFDKOs0=
+
+Name: assets/9_3.xml
+SHA1-Digest: JhEcfI8jcj9B0SVMBQ57fkja8zU=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: +YXDOKcowsglHKYLvgWRriKCdQI=
+
+Name: assets/12_5.xml
+SHA1-Digest: vJdBK07n9ZRzQS0Ns+KUpDTRjh8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: EJ6Vqirv8VvnXRyLmOrbw9Y/8Oc=
+
+Name: res/layout/mappicker.xml
+SHA1-Digest: djlnPgwIU7crjpvdi1ZMXP5Fqlc=
+
+Name: assets/16_19.xml
+SHA1-Digest: JIJYRFxDWfDvAkp7AXf0KRPXJWA=
+
+Name: assets/10_17.xml
+SHA1-Digest: mTMwl6XlzsPmjIBLsOTQEccefgY=
+
+Name: assets/SLAwards.bundle/Award.1058341297.achieved.png
+SHA1-Digest: IbIcRAOazQ+9hUEl5DJ6ukOuSbY=
+
+Name: assets/drawings_thumb_08_480_800.png
+SHA1-Digest: ItqTeacpuMrixfQHQ6BKyQ/vsfY=
+
+Name: assets/10_20.xml
+SHA1-Digest: QylpiWoQ9+FghSzDsRFYndn+9JI=
+
+Name: assets/hud_buttons_320_480.raw
+SHA1-Digest: lP8uMQ0I2ziIwUL4xRFo3/mhdjw=
+
+Name: assets/bubble_break.ogg
+SHA1-Digest: lsRblq5sFcILY8vdO5GqFnnDsUc=
+
+Name: assets/5_3.xml
+SHA1-Digest: tHRN4nZjXHH/E29drYEKit9Fdoc=
+
+Name: assets/obj_star_idle_480_800.png
+SHA1-Digest: nmJQARgwd6CsUJZBhx3NWAXoUyM=
+
+Name: assets/14_23.xml
+SHA1-Digest: mSCjztjmD5kSi47qyqYvreiavF8=
+
+Name: assets/drawing_07_320_480.png
+SHA1-Digest: IJjqHuhyk0T6XcjmqBwVeauXSQE=
+
+Name: assets/7_2.xml
+SHA1-Digest: 4HgtBOX7QiwnC2wtzZp8GOWPXjM=
+
+Name: res/drawable-hdpi/com_mixpanel_android_arrowleft.png
+SHA1-Digest: RvTBb6OdQQhS+z15Icu55GP687g=
+
+Name: assets/7_12.xml
+SHA1-Digest: uRGLtVg+pVwDvQDOJJv1XgSLNrk=
+
+Name: assets/10_9.xml
+SHA1-Digest: bIYc1AkntD5mWHnPAc/8xquJJ20=
+
+Name: assets/15_8.xml
+SHA1-Digest: CI5DWq2XYEpH58gSZbHHf61ztqw=
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: dF5oQhWFz2szuye4UCQeGH4CFRk=
+
+Name: assets/obj_pipe_320_480.raw
+SHA1-Digest: BabDeBGFjQOib9I12KruzfCutHU=
+
+Name: res/drawable-ldpi/com_mixpanel_android_logo.png
+SHA1-Digest: Zg9BqkoFIMf4Tkayi6Wcx0tK3A4=
+
+Name: assets/1_19.xml
+SHA1-Digest: EEQoM56upqmnep0qWtfbLHzRQuo=
+
+Name: assets/obj_hook_02_320_480.raw
+SHA1-Digest: QQdN/ceWurXn5JFojKgxkW8KnRo=
+
+Name: assets/1_23.xml
+SHA1-Digest: He0XNOCkh2VxurHBLmC/9swGZW0=
+
+Name: assets/15_16.xml
+SHA1-Digest: O+6Ovp8tVTdtUBVNUlE+gitdnKo=
+
+Name: assets/16_4.xml
+SHA1-Digest: xHbinRJo3MUO+qCJw+RZ+DAuhsQ=
+
+Name: assets/SLAwards.bundle/Award.1991474812.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/14_9.xml
+SHA1-Digest: cjbem2M8IwQOIJliJOdgH5Bg0bY=
+
+Name: assets/13_1.xml
+SHA1-Digest: knV0qH7omdz7VoWpLLSJ7lOkdTo=
+
+Name: assets/obj_bouncer_01_320_480.raw
+SHA1-Digest: qmj9hdr92Wgl0+jjcPHPop9f/28=
+
+Name: assets/drawing_18_480_800.png
+SHA1-Digest: GunnvFGVhVwEob82tl6eqGn1fV8=
+
+Name: assets/monster_sad.ogg
+SHA1-Digest: B0d44jV4+j8IviUNHxpwAuoAH1s=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.steamboxperfect.ac
+ hieved.png
+SHA1-Digest: UXYflnhcRgDpvwDXEl9Zom91tL0=
+
+Name: assets/mask_480_800.png
+SHA1-Digest: V75dPl7hMMJNdtbDkHvZQ+Qvsao=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.lanternboxcomplete
+ d.achieved.png
+SHA1-Digest: 5b3AkyyTRvRY5u/PCx5RTJkrgOQ=
+
+Name: assets/SLAwards.bundle/Award.681464917.achieved.png
+SHA1-Digest: j9CqfO60UEKremH/pUeBpFtOmo8=
+
+Name: assets/8_17.xml
+SHA1-Digest: VPb00+AxxzGZTTuWaGgWIqIEoGk=
+
+Name: assets/obj_bee_320_480.raw
+SHA1-Digest: i9ElYl6QK6/5ollnt/elUge9WLo=
+
+Name: assets/15_23.xml
+SHA1-Digest: tdnBZs9JZwvZJDkHE9C0/lVpACE=
+
+Name: assets/1_7.xml
+SHA1-Digest: uiR5ZM6nAJlhWEV+wAIHPzBpziA=
+
+Name: assets/monster_sleep02.ogg
+SHA1-Digest: NwmOmcsAhEEeqzvsmShqSGP2EdI=
+
+Name: assets/16_1.xml
+SHA1-Digest: QhQLP4dLLHVEFnIZT3OryYYnIwk=
+
+Name: res/drawable/com_mixpanel_android_arrowright_states.xml
+SHA1-Digest: YR48chmfapxtsep9NFcPa92cNiw=
+
+Name: assets/bgr_15_cover_480_800.jpeg
+SHA1-Digest: c+z0Fu+olyrwPDmtq70O8J33e3E=
+
+Name: assets/obj_mouse_480_800.raw
+SHA1-Digest: DbdImM/nyEpUzIYIEd2tIMrxojE=
+
+Name: assets/14_16.xml
+SHA1-Digest: gPOSSrcA/bidxgUCW6pID9benII=
+
+Name: assets/hint_panel_480_800_alpha.png
+SHA1-Digest: JLWm4j50DwuHYYxu2KqBOfnVKcM=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.djboxperfect.achie
+ ved.png
+SHA1-Digest: 6+Wd+lk20FUn6cJ6fluHCaTOy/4=
+
+Name: assets/10_6.xml
+SHA1-Digest: yD1jiB92UGQEzGnjWwh+6/tHPm0=
+
+Name: assets/13_20.xml
+SHA1-Digest: BS0iip1il+BdMd5RTnfaUHAA/ss=
+
+Name: assets/SLAwards.bundle/Award.1991641832.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/6_22.xml
+SHA1-Digest: wLGFIH0jzj/+/di1YxnrTwuv9As=
+
+Name: assets/bgr_10_480_800.jpeg
+SHA1-Digest: eqolFifyp5PPKWeA73hT1mosYXY=
+
+Name: assets/hud_buttons_ko_480_800.raw
+SHA1-Digest: 5mtG+jkYliPCCo5ifVjUPAz4NSQ=
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: AT9w5rSAMWW0uoROEE4O/DyXQj4=
+
+Name: assets/menu_button_short_2_480_800.raw
+SHA1-Digest: A556F9OliHAYL74xpB+DOArbQS0=
+
+Name: assets/drawing_13_320_480.png
+SHA1-Digest: HwIQlJVOLq1cdUU81h9SEjLuofw=
+
+Name: assets/mouse_idle.ogg
+SHA1-Digest: +qqrcBEbRKdphVc15l34TPNu9MQ=
+
+Name: assets/monster_chewing.ogg
+SHA1-Digest: QhWr+SQCeFyrm+MV5H/isMThabU=
+
+Name: assets/4_11.xml
+SHA1-Digest: 4A/S7oCpfk3nZeG/mpcnxTXC0b0=
+
+Name: assets/bgr_11_480_800.jpeg
+SHA1-Digest: uQfY+DnoFJuzEKzMJ4VkIOF4N7Y=
+
+Name: assets/drawing_canvas_320_480.png
+SHA1-Digest: 1nUE0zSFvstvL6+Fsoo7cAVammA=
+
+Name: assets/12_7.xml
+SHA1-Digest: 6pMzGNovDGmfpU3g1UIDgNCneYs=
+
+Name: assets/hud_buttons_hint_320_480.raw
+SHA1-Digest: fV+HF5LgQlkSK9Mv26450qm4vVw=
+
+Name: assets/drawing_06_320_480.png
+SHA1-Digest: hxf8Gp4bOIU9KyAyRObsgQFql84=
+
+Name: assets/ghost_puff.ogg
+SHA1-Digest: bP60QJk4dZicKppg9SLKBaFHhZg=
+
+Name: assets/drawings_thumb_15_480_800.png
+SHA1-Digest: smd2RVHXUz05Qs3CDe34DEYc+J8=
+
+Name: assets/menu_button_scores_480_800.raw
+SHA1-Digest: bFksBK34go0+MasTXhYXleuGhng=
+
+Name: assets/2_10.xml
+SHA1-Digest: oXrIlMDRkBadBRPvTc78LxhQaUw=
+
+Name: assets/drawing_canvas_locked_480_800.png
+SHA1-Digest: NsLG5Flzg6UFmA5YxHjpnR/KCIY=
+
+Name: assets/obj_hook_regulated_480_800.raw
+SHA1-Digest: x5OmmqX6wSThEQ77+3nyjqf76H4=
+
+Name: assets/drawing_10_480_800.png
+SHA1-Digest: iybR4hQz9eGU7x8iVrOyAP9ZJv8=
+
+Name: assets/10_2.xml
+SHA1-Digest: izs2g8HPCJyD5/zOXS4BrWJtLmo=
+
+Name: assets/SLAwards.bundle/Award.681512374.achieved.png
+SHA1-Digest: X2r8oCFkZt/Yw0Y5E4Z9roTfTVE=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: f0EJjdbMj9zLfOj/d3UbE5N6BjA=
+
+Name: assets/11_3.xml
+SHA1-Digest: l2cNIl8y90oHJ6/MxsQftbOEtxM=
+
+Name: assets/menu_result_es_320_480.raw
+SHA1-Digest: sN6JCTYY1TQjNET+Ai7jMyNNGmw=
+
+Name: assets/12_16.xml
+SHA1-Digest: b8VaNqR/SaMYYX9n1vvIX5CdBCU=
+
+Name: assets/char_support_08_480_800.raw
+SHA1-Digest: XOIJ+S6OsxpusEdVaIdFOC1tJG4=
+
+Name: assets/bgr_16_320_480.jpeg
+SHA1-Digest: AhqIhBhbzI4X4tSg7oQywwRSfOo=
+
+Name: assets/5_16.xml
+SHA1-Digest: jJsumk4vP5AQRodZSjEmvwQ5Wuo=
+
+Name: assets/SLAwards.bundle/Award.1515793567.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-mdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: xWYT0qzRVNaGybBaBeMKbeGgkgE=
+
+Name: assets/super_powers_320_480.raw
+SHA1-Digest: EJaM0t926BJcMYdGNakING58jfM=
+
+Name: assets/menu_button_short_480_800.raw
+SHA1-Digest: bP5a2YXhqSLi6gfO12kJkL4J7tw=
+
+Name: assets/SLAwards.bundle/Award.23523272771.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/drawings_thumb_14_320_480.png
+SHA1-Digest: Yazbnzyy4HViiBKX+yuaZiObKkk=
+
+Name: res/drawable-ldpi/com_mixpanel_android_arrowleft_faded.png
+SHA1-Digest: nJUr+lf41J+EHhK41rzYFhAwKZs=
+
+Name: assets/sp_telekinesis.ogg
+SHA1-Digest: LUw9Q1T285UQFfrFaRX1ix0Y7Rk=
+
+Name: assets/obj_bouncer_01_480_800.raw
+SHA1-Digest: jLEO+IM0Cwy++twE5/CwiI9hmeg=
+
+Name: assets/1_3.xml
+SHA1-Digest: +enZMRm6oO26JlF55CDAmqIWdBQ=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.djboxcompleted.ach
+ ieved.png
+SHA1-Digest: +HSpesdIH/0+vaJIxgPVDotkm8M=
+
+Name: assets/menu_bgr_480_800.jpeg
+SHA1-Digest: xE0dnIK5fDrnhaZiLWFvs1Jmsng=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: vgTn+pEQhSLa5buaCqjDd3w3UWU=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: rk4+RrLhcP6lThhrsLhux6sOaW0=
+
+Name: assets/drawing_12_480_800.png
+SHA1-Digest: 9aDQVLSb85BWOg8GK+GTjWhX84g=
+
+Name: assets/menu_pack_selection_boxes_2_320_480.jpeg
+SHA1-Digest: K/b6aEwpqgUdsvpssJA6r1luxVM=
+
+Name: assets/menu_extra_buttons_nl_480_800.raw
+SHA1-Digest: 2TOCq/G8Q4BuwpMG65YOKanWnP8=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: s3lSTPQfUPFfksebXDIa/Gyw/0U=
+
+Name: assets/9_7.xml
+SHA1-Digest: CkRtTHoWFqCKRqdJzHRkFgetVAY=
+
+Name: assets/drawing_06_480_800.png
+SHA1-Digest: JRLEG/G+WVzrBx/cnI0S83OZCVk=
+
+Name: assets/2_22.xml
+SHA1-Digest: qgXCtNFCXwchbCrXe47cjebDBuI=
+
+Name: assets/SLAwards.bundle/Award.23523272771.achieved.png
+SHA1-Digest: O9CdRNzxehuV+IKFf+OQplbq6wI=
+
+Name: assets/obj_rotatable_spikes_01_480_800.raw
+SHA1-Digest: MVMr4GJ/KvFz6HJ/Qy8W1Eo7yG4=
+
+Name: assets/menu_pack_selection_gr_480_800.raw
+SHA1-Digest: LOFgmBD0QMWHFCdBDW48V0WDvBA=
+
+Name: assets/13_13.xml
+SHA1-Digest: TiCJbTeUu7bfXdn9CpxocOR2ho4=
+
+Name: assets/menu_pack_selection_boxes_1_480_800_alpha.png
+SHA1-Digest: lWLRjtjTiPCmzLUtgbmU0AXTlC4=
+
+Name: assets/11_19.xml
+SHA1-Digest: kVpIc972eR10BqiZzqN8RvTkVgA=
+
+Name: assets/obj_spikes_03_320_480.raw
+SHA1-Digest: vebC5yDLp5LaXYY9p676U/2pCAI=
+
+Name: assets/scratch_in.ogg
+SHA1-Digest: BNbhCvfYn//QXXM05VOM/J/5dW0=
+
+Name: assets/15_9.xml
+SHA1-Digest: Fd1EpYbDgvWsgP63dBm3VDA3opo=
+
+Name: assets/11_9.xml
+SHA1-Digest: HZnzSS5ZUIHbQ/TmpSmQpTlu0X0=
+
+Name: assets/menu_button_achievements_480_800.raw
+SHA1-Digest: J74xUkcI6+UaGA+501tMRU0ZoGY=
+
+Name: assets/small_font_320_480.png
+SHA1-Digest: zKR04P1HTg64lAonzd21MEKqvq8=
+
+Name: assets/menu_result_gr_480_800.raw
+SHA1-Digest: tH0e75CE18UmXNSNMhk44dRq6Fc=
+
+Name: assets/popup_hint_gift_320_480.raw
+SHA1-Digest: OTEZ4jctNlEZ9uEZH85Y9rl79wE=
+
+Name: assets/obj_spider_320_480.raw
+SHA1-Digest: 9lEShEJyZ8se5bDatKd5+U+vi+E=
+
+Name: assets/7_20.xml
+SHA1-Digest: mCEaLzfxv63SOT0peHashqVBAGY=
+
+Name: assets/drawings_thumb_05_320_480.png
+SHA1-Digest: qopy4rp07Hx+IdTkJ9PeWUA5EHo=
+
+Name: res/drawable/com_mixpanel_android_choice_last_states.xml
+SHA1-Digest: xoBEZR9pkuYmeIUAyn+A9UK6a2g=
+
+Name: assets/menu_popup_noads_320_480.png
+SHA1-Digest: 1TSaPCGRMfqZXMyoLViNbBjsaiQ=
+
+Name: assets/hint_particle_480_800.raw
+SHA1-Digest: KHZ039ApVzw97dlJfSYqCMB82pw=
+
+Name: assets/char_support_14_480_800.raw
+SHA1-Digest: J3XNHR/wk+1GL2OzXo5PZYgIG20=
+
+Name: assets/omnom_artist_320_480.raw
+SHA1-Digest: 9IbQ/E7DapKxUcw/jGhsvUJlq6I=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: nvg7KMKsHZx5cXiXMrsOUZ1pQs8=
+
+Name: assets/bgr_16_cover_480_800.jpeg
+SHA1-Digest: qbILdTLwCJW3CUwvEpJwGddH6MY=
+
+Name: assets/6_6.xml
+SHA1-Digest: MEuiUk+zcQIetIEvTa1YSIE1qdA=
+
+Name: assets/char_support_13_480_800.raw
+SHA1-Digest: 5/FadELYCsQ/7Ff9jZLjmC/1d3k=
+
+Name: assets/4_6.xml
+SHA1-Digest: YLFBxwvMf8hT+kBJw0KAqJV6TUM=
+
+Name: assets/menu_extra_buttons_en_320_480.raw
+SHA1-Digest: 8y35inbH2K6CkF1ECg5kOTwCL7U=
+
+Name: assets/bgr_15_480_800.jpeg
+SHA1-Digest: 1NzE/sjUuz9lQiGSbJJVpE2DBF8=
+
+Name: assets/12_15.xml
+SHA1-Digest: EhrJGA29+7X/i6HRlMYm1stSbu4=
+
+Name: assets/bgr_10_cover_320_480.jpeg
+SHA1-Digest: aiXOaSObGOR6NZUZDGHHFpD6Tw4=
+
+Name: assets/10_14.xml
+SHA1-Digest: BsANekqVEgG5FLYARwOLKxmrNGI=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_arrowleft.png
+SHA1-Digest: XCdMBQ3p9IwPXaUqWq9+FQA/PR0=
+
+Name: assets/menu_shadow_480_800.raw
+SHA1-Digest: HiUueqdj6jWVxzO+bwtRhBGbDXg=
+
+Name: assets/drawing_14_480_800.png
+SHA1-Digest: rfMpmkzBNikQj6vPNZ7yI832Yes=
+
+Name: assets/9_15.xml
+SHA1-Digest: ERRwOxBsBGMWGbYeSfkYkJFDPz8=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.
+ png
+SHA1-Digest: YmWnuLFTsxsuwRBtvQiQ6Y6KnsI=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.spookyboxperfect.u
+ nachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.
+ png
+SHA1-Digest: 0ky7hJW6fNsa6m2tmjhllqHXHfg=
+
+Name: assets/rope_bleak_3.ogg
+SHA1-Digest: KfMm6A6LW5+98cBio4wlEhW4DhA=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: VuHJWuT/6iilvSab3F78/jbS8VQ=
+
+Name: assets/12_21.xml
+SHA1-Digest: akw1rW/H7qvEH8O0chMojBDJQzo=
+
+Name: assets/7_15.xml
+SHA1-Digest: 3yD6QHExYTRXlh6mHe9467isKZw=
+
+Name: assets/SLAwards.bundle/Award.1432722351.achieved.png
+SHA1-Digest: VRYVS1KtVjFHF+tECi/nSy8I97k=
+
+Name: assets/bgr_07_cover_320_480.jpeg
+SHA1-Digest: yzrVSEy5wf/nt36JsuCE613Vvd0=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: +8VV/AnKHH5wKvUBef+P4zz+5dU=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: vo5IER5aYP04fs9WVhNf8ZG8h6g=
+
+Name: assets/bgr_05_cover_480_800.jpeg
+SHA1-Digest: WM57z2ggw85yrH54jruB73G6LLM=
+
+Name: assets/monster_open.ogg
+SHA1-Digest: LsyPEsYpbQo7XUz1178JNW2vyVE=
+
+Name: assets/bgr_12_320_480.jpeg
+SHA1-Digest: 0Jn/VY9UWNpzVTMOwIUCY/pVakc=
+
+Name: assets/14_2.xml
+SHA1-Digest: qmc43iVXz7UM7uyOZCNL0txtDUk=
+
+Name: assets/15_25.xml
+SHA1-Digest: j03Fydogtc4G4dX+kbx6+gf16EM=
+
+Name: assets/obj_pump_320_480.raw
+SHA1-Digest: +6D76QScDO15FIStq5DZWA04roY=
+
+Name: assets/15_10.xml
+SHA1-Digest: 8/29il4k6wQXDRKaAWmEgJn3cVE=
+
+Name: BrightcoveErrorMessages.properties
+SHA1-Digest: 0VN10dnsyQQbBEExZEgacKQkjEo=
+
+Name: assets/3_23.xml
+SHA1-Digest: FJLt68ClVMS0xT52+YPERKdlNs8=
+
+Name: assets/9_16.xml
+SHA1-Digest: ryRWlPX//bWe7SF8Hv3bMER/LGo=
+
+Name: assets/13_17.xml
+SHA1-Digest: tFYQ2KzwpEbJzxB8xeFkCqvYK0c=
+
+Name: assets/8_18.xml
+SHA1-Digest: ZcKYPJvq2B/eps93yCAejigI7Y4=
+
+Name: assets/menu_button_leaderboards_480_800.raw
+SHA1-Digest: VuDtyMAa0y0DmFOdgTreU61NCms=
+
+Name: assets/menu_agepopup_480_800.raw
+SHA1-Digest: u9atjQGZRuAO6vlQ/hXfUk1eEGs=
+
+Name: assets/obj_hook_regulated_320_480.raw
+SHA1-Digest: XcGuomSZJOb8KtMUokzkswYVdZY=
+
+Name: assets/14_17.xml
+SHA1-Digest: VuorZ+j+k5I40R2EWHqQnl44XB4=
+
+Name: assets/SLAwards.bundle/Award.1432760157.achieved.png
+SHA1-Digest: lc1ejYWYqIXltY/+uH7eJeeMsKk=
+
+Name: assets/8_23.xml
+SHA1-Digest: hWMYYasqg/1ZUIpay9yugFDPuxk=
+
+Name: assets/10_13.xml
+SHA1-Digest: /E2hypX8N1deYyzwLns9EAJU4bs=
+
+Name: assets/SLAwards.bundle/Award.681508185.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/9_4.xml
+SHA1-Digest: nRAQzG2fJTstggGX1YlZGJ08DDg=
+
+Name: assets/menu_button_short_2_320_480.raw
+SHA1-Digest: Jro7afurwDGDRnaCeto7p4G1Rvg=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: zXl4gOYVm22pGbkGC4i82wLIMyg=
+
+Name: res/drawable-mdpi/kp_notification_bg.9.png
+SHA1-Digest: v615bzyxwNKRfSphrzjxUTEs4q4=
+
+Name: assets/drawings_thumb_03_320_480.png
+SHA1-Digest: qgAPyTpNmdBTedhHCtFQgl3cuUU=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: sa6MQEFa8whxq6hug+zvczJa8Ss=
+
+Name: assets/15_20.xml
+SHA1-Digest: 6kp0hl+7bSMKHKY4ohc2tryfkV4=
+
+Name: assets/char_support_07_480_800.raw
+SHA1-Digest: AgDBHmyBHpyM7G19dg/J9ZK83M4=
+
+Name: assets/drawings_thumb_10_320_480.png
+SHA1-Digest: Luw45fJ02sytMWsVYMOviVoKM1s=
+
+Name: assets/5_21.xml
+SHA1-Digest: MAOQ6ZDJbe6Jf9CPY1P7JCHsD5A=
+
+Name: assets/10_16.xml
+SHA1-Digest: yFpnCBLvPsG4XEYuZm9+YOYxqvg=
+
+Name: assets/obj_pollen_480_800.raw
+SHA1-Digest: aBmblDoZxjb8bnBWry0G3SOCEN0=
+
+Name: assets/4_9.xml
+SHA1-Digest: 5TiVcLDuAbkimuTCU82aSgvpemI=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: IXqmYG4624bef7DnPxFG+Uwx1ak=
+
+Name: assets/menu_button_leaderboards_320_480.raw
+SHA1-Digest: b0uX5Z0j6aLb1m52/t/+NXgItkA=
+
+Name: assets/win.ogg
+SHA1-Digest: bzdZU8dEssJkUNVJ2GmZn5iDq6c=
+
+Name: assets/1_15.xml
+SHA1-Digest: u5brpgnMilXCNuT6IBYU4CMdFBk=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: 3+x2t/WZmDnWpRsGihxGb1wjfKk=
+
+Name: assets/SLAwards.bundle/Award.1058328727.achieved.png
+SHA1-Digest: cuDnXbHY6Qoc9r6ENWzQtJV5cYs=
+
+Name: assets/14_5.xml
+SHA1-Digest: gbKIaUBHH8lIGQKIJisTKiosrbI=
+
+Name: assets/SLAwards.bundle/Award.99928734496.achieved.png
+SHA1-Digest: /EjVSn5+DZ3i404Pkcf3IPiYub0=
+
+Name: assets/SLAwards.bundle/Award.681508185.achieved.png
+SHA1-Digest: 180qeLQTduAnhvl3NI0yIu82nao=
+
+Name: assets/mouse_tap.ogg
+SHA1-Digest: dVhmRe7ANdKGdXuwWCjP0+RGdKw=
+
+Name: assets/5_19.xml
+SHA1-Digest: kYStBCief05bZINSxKiZeNhxhl4=
+
+Name: lib/armeabi/libctr-jni.so
+SHA1-Digest: ajX2BvJt+uSZgrbp5ZqaLivr2aE=
+
+Name: assets/9_25.xml
+SHA1-Digest: GY8CRBZI14hm9rWq03POedBn2gc=
+
+Name: assets/menu_button_short_320_480.raw
+SHA1-Digest: BO5mW1UVXssXy4o9cZUxd5uJHnM=
+
+Name: assets/SLAwards.bundle/Award.1321820679.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/bgr_11_cover_480_800.jpeg
+SHA1-Digest: 4wIZ9S0s8iwsplEFJDLGYKw3c6g=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.cheeseboxcompleted
+ .unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-xhdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: znT4P8AI3xcWsBof3ElTFY2hDrk=
+
+Name: assets/11_10.xml
+SHA1-Digest: 6qgzTLmHQCDjNgd+bilfnMVM42g=
+
+Name: assets/SLAwards.bundle/Award.1515813296.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/obj_pump_480_800.raw
+SHA1-Digest: U09d6dLCwixdpGQ4dG8R6E5+2a8=
+
+Name: assets/menu_pack_selection_480_800.png
+SHA1-Digest: 5eguDdwrlvpTJkHKILaXrCJs2Mk=
+
+Name: assets/SLAwards.bundle/Award.1058407145.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_extra_buttons_480_800.png
+SHA1-Digest: S/VHlUUEqzf+4lDiE5CLUBpHNoE=
+
+Name: assets/lantern_teleport_out.ogg
+SHA1-Digest: ks7ykvfd3ImHgqBuu+aHqwfLCiU=
+
+Name: assets/4_15.xml
+SHA1-Digest: +JrLJg0efipCcg+/D/ma8/05gcw=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_arrowright_faded.png
+SHA1-Digest: /T+v8jDtGwo1jGevFwsgIaYKpf0=
+
+Name: assets/drawing_19_480_800.png
+SHA1-Digest: P+dtDPS4rCfbWiOYABiNp9IqSck=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.cheeseboxperfect.a
+ chieved.png
+SHA1-Digest: /7Y5+NsmAv30NL1U35mxKwycbew=
+
+Name: assets/9_23.xml
+SHA1-Digest: 348WIk6jdaJ27TTZ+YiBn40Eors=
+
+Name: assets/11_1.xml
+SHA1-Digest: Cu2cO0TMk+pvlgPlVQvRmiyqimo=
+
+Name: assets/12_11.xml
+SHA1-Digest: jGNi2H/v6AFqOOh6Oq/6AeHa4c0=
+
+Name: assets/10_1.xml
+SHA1-Digest: gxUaN0lImRnO5Kg8YEqq0EgxV6M=
+
+Name: assets/SLAwards.bundle/Award.677900534.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/bgr_14_cover_480_800.jpeg
+SHA1-Digest: DZTvuSKGh96FXO0XoOfh4FG31hY=
+
+Name: assets/menu_result_480_800.raw
+SHA1-Digest: e0TANbWAU3qfN1vNHJ/8sCAqAvE=
+
+Name: assets/5_11.xml
+SHA1-Digest: JAN2UOE5qiWJz9tAmUnygomo3vk=
+
+Name: assets/13_4.xml
+SHA1-Digest: N4GQw4Nb2Pfr0nXp9fOLQ4YlKSU=
+
+Name: assets/15_15.xml
+SHA1-Digest: D0kCp7qRpYabxy6R+uw/tC3y3TU=
+
+Name: assets/6_21.xml
+SHA1-Digest: QtCtBGOvC77JhcH/u7jUV/1Yt4Q=
+
+Name: assets/4_22.xml
+SHA1-Digest: nVEChCQ+cDLZOEsM+EJAeX8OuZM=
+
+Name: assets/8_12.xml
+SHA1-Digest: hoIQUeFD3r4T+EIfvS2jjDTQdjw=
+
+Name: assets/drawing_03_320_480.png
+SHA1-Digest: RnzIpq7w7/97ZdHgivfoGcAtIWg=
+
+Name: assets/15_14.xml
+SHA1-Digest: 1hzh0vlwjoSMBcTb6JnIVQwQm/0=
+
+Name: assets/1_2.xml
+SHA1-Digest: uL6NuBP12p1QxOuUQwrXoJ7chK8=
+
+Name: assets/16_25.xml
+SHA1-Digest: HgvuB8C2mPB6T+CjHeugip74Mx0=
+
+Name: assets/9_10.xml
+SHA1-Digest: szgFALTiqWvaLP/3OwyHyPiS5nQ=
+
+Name: assets/4_3.xml
+SHA1-Digest: nBG8+lSNNbTEDOP1xZh82vomoKQ=
+
+Name: assets/9_18.xml
+SHA1-Digest: ozHp7Fk70UkA93+KSDPXWvviAFY=
+
+Name: assets/8_14.xml
+SHA1-Digest: QPbQkZzkdQT4+U5f2Z83iwA07u8=
+
+Name: assets/menu_pack_selection_gr_320_480.raw
+SHA1-Digest: JzBhQ8J6ubvJqBT6HfVUKMXpm6Q=
+
+Name: assets/3_13.xml
+SHA1-Digest: D3D5R5/P46a9+6z7RIkOrV7Somg=
+
+Name: assets/bgr_09_480_800.jpeg
+SHA1-Digest: gXER6Aqh5hZxH4WaVCJh0ablcXw=
+
+Name: assets/bgr_02_cover_320_480.jpeg
+SHA1-Digest: BrbJTSnNYoM8/m+T3WYCVsMkeEM=
+
+Name: assets/SLAwards.bundle/Award.681486608.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/1_25.xml
+SHA1-Digest: Zw14/L0Ae3PtBU0ZCtswTHFt24c=
+
+Name: assets/6_12.xml
+SHA1-Digest: F7QZL6BkZuepKXkycuM4lv6iv6M=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.lanternboxperfect.
+ unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/SLAwards.bundle/Award.1058310903.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/obj_candy_02_480_800.raw
+SHA1-Digest: iuU1LUMnqaPQMAoGpRT7pGjBIgs=
+
+Name: assets/15_4.xml
+SHA1-Digest: VyOn9q27wm2JOcM2ukkeAqKKMDo=
+
+Name: assets/6_23.xml
+SHA1-Digest: xfA+foj9PmA4AgCPUuIX64kvr8I=
+
+Name: assets/1_20.xml
+SHA1-Digest: wI2b0WipyC1NNvcQJsNgaKnGKGw=
+
+Name: assets/7_18.xml
+SHA1-Digest: /Ir6pEHIOuJo0+UuMX/L6zlfBEA=
+
+Name: assets/drawing_08_480_800.png
+SHA1-Digest: 3fluksVwSdye+JdF65gIKvOdzrI=
+
+Name: assets/drawings_thumb_19_320_480.png
+SHA1-Digest: dJFeTUIYdG5p6L2vS3203b0Osn4=
+
+Name: assets/SLAwards.bundle/Award.681457931.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/16_2.xml
+SHA1-Digest: fKVrWFyApxCbsA0J1x1j2NJnMBs=
+
+Name: assets/15_7.xml
+SHA1-Digest: 0C58QzZX309YckhfnIsqluNOGEY=
+
+Name: assets/6_5.xml
+SHA1-Digest: LAL1LmrZJbMWMZlLXqA342LWxrY=
+
+Name: assets/char_support_04_480_800.raw
+SHA1-Digest: ELjAVR8pwhF6jEfYIuvG9IGOymM=
+
+Name: assets/2_7.xml
+SHA1-Digest: ekyo2Mk5tWBOkVPm6cux+1VBI+w=
+
+Name: assets/13_8.xml
+SHA1-Digest: 5GTPF3LWK7YuHICDXLtKg3w/hxQ=
+
+Name: assets/10_11.xml
+SHA1-Digest: PpN3WNLHdNUO3hM0r3Q3jUwY/Bc=
+
+Name: assets/SLAwards.bundle/Award.681473653.achieved.png
+SHA1-Digest: VcsP4Iil1RItqUkrTZrzad+Av2I=
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: MQsj73rqoxGdFvNYEPkKJZPqXBU=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: KUWcrP9v7FORu4ojRjzVSn0JZio=
+
+Name: assets/16_24.xml
+SHA1-Digest: tbV468ZBEj8B4L/xHydwWKdDJbo=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.
+ png
+SHA1-Digest: 5te3wznPBVYtZMjVj49FYN5YlRA=
+
+Name: assets/bgr_03_cover_320_480.jpeg
+SHA1-Digest: +Ycub+u/V2DmXCyv4NDcG2m+8e0=
+
+Name: assets/obj_rotatable_spikes_button_320_480.raw
+SHA1-Digest: Ifs9QQvwPa9OmOFY5gjXalCaVJA=
+
+Name: assets/SLAwards.bundle/Award.681486798.achieved.png
+SHA1-Digest: aninGs2v/wQ8HF/4W8R7KFfX5oc=
+
+Name: assets/SLAwards.bundle/Award.1058324751.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_more_games_480_800.png
+SHA1-Digest: xPbmEg65uG4CsTt+JIT0zeLahKU=
+
+Name: assets/bgr_04_cover_480_800.jpeg
+SHA1-Digest: mr4nVIKulYlQfMjftwxutqs9w00=
+
+Name: assets/3_1.xml
+SHA1-Digest: lc+Duwd51w11jXuKrKZTKcFnKwY=
+
+Name: assets/SLAwards.bundle/Award.681473653.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/tap.ogg
+SHA1-Digest: LC7QlyWmt99s4L3kIfdkU7l/048=
+
+Name: res/raw/intro.mp4
+SHA1-Digest: NT9gUs4fsBuagWbpzp853ZRx16s=
+
+Name: assets/4_18.xml
+SHA1-Digest: saAbQylXFlfR5t1xxpJwaERJaxQ=
+
+Name: assets/menu_pack_selection_ru_320_480.raw
+SHA1-Digest: UHwEjSWUwT1tidgc7hDQumVw6co=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: uRAyDpH07H9tazGPj+pquxEo+4U=
+
+Name: res/drawable-hdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: NHqkBfIL0tvXQGsGHO91mUCAPyI=
+
+Name: assets/char_support_01_480_800.raw
+SHA1-Digest: /IkBcNpxUBJSWuZytqiLdzJrCmw=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: 1nB29gilkMG21U2c1UzWz5vtjpc=
+
+Name: assets/bgr_09_cover_320_480.jpeg
+SHA1-Digest: bT7vbF52sBt14HVqmTd77B8F1o4=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: Bdyi8PRk2107rc0T/q6Ek8orFjU=
+
+Name: assets/menu_pack_selection_br_480_800.raw
+SHA1-Digest: bg8KjUEIMNREwxrpLA2vzQL9Xd8=
+
+Name: assets/1_12.xml
+SHA1-Digest: hJZhRZtTJ80DGnlqSGSx745rdfw=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.djboxperfect.unach
+ ieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/obj_hook_01_320_480.raw
+SHA1-Digest: tUxD59oZa7tjQpMN7e/+1B2ze68=
+
+Name: assets/char_support_14_320_480.raw
+SHA1-Digest: r6uyCHgxB+ocEl1oOwjCvsB10SQ=
+
+Name: assets/menu_extra_buttons_gr_480_800.raw
+SHA1-Digest: 2EGUJCgQyYVh52dVUDPQlR4D7EQ=
+
+Name: assets/menu_drawings_thumb_page_320_480.png
+SHA1-Digest: mx9O/MiLqpunyu7AtDNj8Oxk12Q=
+
+Name: res/drawable-hdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: mKmFlpzPqO2eN1UQWWTrY/HvgmA=
+
+Name: assets/2_25.xml
+SHA1-Digest: XRYLFhM2QhSm5SEm1KA6+LsOYzs=
+
+Name: assets/obj_bubble_flight_320_480.raw
+SHA1-Digest: 2ZdkG7Ky3jdhQzBvStDwHRtb0nA=
+
+Name: assets/obj_lantern_320_480.raw
+SHA1-Digest: txsdOvDiBHChiR6DSABtnCo7b7I=
+
+Name: assets/char_support_04_320_480.raw
+SHA1-Digest: xe89gT6fd6rgQRWyaUI5HbJqgtk=
+
+Name: assets/6_24.xml
+SHA1-Digest: G7oGFjQ5K7GALF8+Yn3ypCQY4mo=
+
+Name: assets/8_10.xml
+SHA1-Digest: luVUyo19R3yxkb1VCk8/mN2O/tw=
+
+Name: assets/3_11.xml
+SHA1-Digest: q6fJKost7wrCjmF4vb/NCrHl0zI=
+
+Name: assets/8_2.xml
+SHA1-Digest: O/yPGz/h2TMeyhLsfaA8TVkZZYs=
+
+Name: assets/font_numbers_big_480_800.png
+SHA1-Digest: joEPwI6IMJs1VYgcZlhVgfDrz4w=
+
+Name: res/drawable-hdpi/kp_notification_bg.9.png
+SHA1-Digest: HtrQFh+q4efeazy65Vi/SiKmRXs=
+
+Name: res/drawable/close_button.png
+SHA1-Digest: 83s6JAt8l51vCwbXoOphqREkvwk=
+
+Name: assets/obj_vinil_320_480.raw
+SHA1-Digest: kwv1VsJP9vwWxqEePAFk18VIoFY=
+
+Name: res/layout/item_description.xml
+SHA1-Digest: SYCNmo5O7scvMZIXtrGh3O2py6A=
+
+Name: assets/menu_result_zh_480_800.raw
+SHA1-Digest: 16/ixfF+vZBmhaTO3D0GUS4N3AQ=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: he0SlIYzLlZChBg6d38hheLzBns=
+
+Name: assets/drawing_15_480_800.png
+SHA1-Digest: GucF8CamkQL9oCfmzIZ3Eq9SwA4=
+
+Name: assets/6_25.xml
+SHA1-Digest: z0plCdoFlHPU7G/hzUQIEuA/ikQ=
+
+Name: assets/12_22.xml
+SHA1-Digest: xmoITlGvOaBKSfNYRLs/tOEpVYw=
+
+Name: res/drawable-mdpi/ic_plusone_small_off_client.png
+SHA1-Digest: lOwgiwPxI8R2+0EZBBOzp3VD+bg=
+
+Name: res/drawable-mdpi/com_mixpanel_android_arrowleft.png
+SHA1-Digest: taKGH39rrwsTAvHZTjh//xO65fs=
+
+Name: assets/12_4.xml
+SHA1-Digest: hUraZ1I9Bo6LkZc7PJIl97M8FrE=
+
+Name: assets/obj_bouncer_02_480_800.raw
+SHA1-Digest: 2gi9E1gHSBmFVWigFAAcFfxMxYI=
+
+Name: res/drawable/com_mixpanel_android_rounded_top_selected.9.png
+SHA1-Digest: AIwzdFSENgpQb1WcE88wDzVCyjk=
+
+Name: assets/3_22.xml
+SHA1-Digest: 31cufVKa/YW5J0HNDmsvExkUgzk=
+
+Name: assets/SLAwards.bundle/Award.1058407145.achieved.png
+SHA1-Digest: 55B6NSkyIU4cmrS1pN0iKSRR0UQ=
+
+Name: assets/obj_ghost_bubbles_480_800.raw
+SHA1-Digest: DC9HjnWXAmoyvJA3UyYoQBjJ8gc=
+
+Name: assets/menu_result_it_480_800.raw
+SHA1-Digest: r/k1ZJSXbD7o1de7N+h8N/yqXWY=
+
+Name: assets/drawing_07_480_800.png
+SHA1-Digest: JGukyMc/AcDAnw+WVa1yM44FQ94=
+
+Name: assets/16_22.xml
+SHA1-Digest: qSYJ+qK9xC1MAVeHi78rsTeTw14=
+
+Name: assets/8_15.xml
+SHA1-Digest: 4/dQbZ1DVvKzWuP7BYmrsMLflqc=
+
+Name: assets/obj_star_disappear_320_480.png
+SHA1-Digest: By3GMdsMXnixDF2pJ/M2wpXiFtw=
+
+Name: assets/2_24.xml
+SHA1-Digest: VnG/4/tg+qbNsnxRiZCoKZXe9cM=
+
+Name: assets/3_10.xml
+SHA1-Digest: OK2MQhaVyzUtN82BttVJ+2pgc1A=
+
+Name: assets/12_24.xml
+SHA1-Digest: 7QdpqSFKMuiAL+lWcwFdBvL3QME=
+
+Name: assets/candy_select_fx_demo_480_800.raw
+SHA1-Digest: i5st9wUJC51FJUAM2sXaCvEPz8w=
+
+Name: assets/SLAwards.bundle/Award.681457931.achieved.png
+SHA1-Digest: 5fYCOlVswvbLJ8iDTraCk7C/QnI=
+
+Name: assets/electric.ogg
+SHA1-Digest: 5DsWn9/NwMwrz5Jz4d5VHFJNC3Q=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_checkmark.png
+SHA1-Digest: qVDNe2xzyobQBNKG1k6e2rSLXOA=
+
+Name: assets/13_11.xml
+SHA1-Digest: HKJKGcQDTWg3aZj7rW6KG1KKh4w=
+
+Name: assets/SLAwards.bundle/Award.1058341284.achieved.png
+SHA1-Digest: c4qn+tp/euxAkiuXeaF2cX24bsc=
+
+Name: assets/11_6.xml
+SHA1-Digest: s/DqNWKHvGgr7nPN9yC8CVrdtz0=
+
+Name: assets/spider_activate.ogg
+SHA1-Digest: oZrrN9Xr0vsw0osbAM5nbRTEOE0=
+
+Name: assets/13_23.xml
+SHA1-Digest: pvgqq1K6aQaBtlZGEm0vlKpA7cI=
+
+Name: assets/drawing_03_480_800.png
+SHA1-Digest: k8D9mrnV8IJal3cZMmNfPfYdGdU=
+
+Name: assets/bgr_12_480_800.jpeg
+SHA1-Digest: UOzVUW/gGuBfrhAp7uoDONFCleE=
+
+Name: res/layout/com_mixpanel_android_last_choice_answer.xml
+SHA1-Digest: d/reqAuFXr85VvAPsrwuram7s3k=
+
+Name: assets/wheel.ogg
+SHA1-Digest: oTUQ3O8e2ez5X6SIUD3EnUSiugY=
+
+Name: assets/bubble.ogg
+SHA1-Digest: uUsqXG+MbI28bz8x2b/j4+5UtIM=
+
+Name: assets/bgr_14_480_800.jpeg
+SHA1-Digest: QZt5MakwVd/TOmpTy1lDEN/AE/c=
+
+Name: assets/drawings_thumb_07_320_480.png
+SHA1-Digest: 1yPen7eagnOI7nFYAFvNL6zyLR0=
+
+Name: assets/hint_gradients_320_480.raw
+SHA1-Digest: +yAX5y/fFiOiz3g5GUryfNIMcFE=
+
+Name: assets/13_12.xml
+SHA1-Digest: zFCHv9gYWRkR6xUZjo381rs771Q=
+
+Name: assets/2_21.xml
+SHA1-Digest: 9eldifwlnCh6K+dgXLsWz3WqOhc=
+
+Name: assets/16_5.xml
+SHA1-Digest: KXkiO0Zh53MFLHg0KbA25e0ym9c=
+
+Name: assets/drawing_canvas_480_800.png
+SHA1-Digest: sopUFJVnIf5pM9lyzF8wQ4nBdK0=
+
+Name: assets/hud_buttons_en_320_480.raw
+SHA1-Digest: h2TXU/AkJvTmSzHdhiLxNEhLBqY=
+
+Name: assets/menu_pack_selection_nl_480_800.raw
+SHA1-Digest: QT8LtW5JxKgqGIWMfLAPySDmJWU=
+
+Name: assets/bgr_06_cover_480_800.jpeg
+SHA1-Digest: yV9pKdPD6YqT0W1pyYOtZJDKoP0=
+
+Name: res/drawable/com_mixpanel_android_arrowright_insets.xml
+SHA1-Digest: WEPaXOYX5gFtkS9U23CMhjNzBFw=
+
+Name: assets/menu_pause_480_800.raw
+SHA1-Digest: VhQCQ/KQ16tQE6b+Lx2co0GLbi0=
+
+Name: assets/hud_star_480_800.raw
+SHA1-Digest: NH3h4yJPGaU0uVuN8MpJwJfIr0I=
+
+Name: assets/obj_blue_star_320_480.raw
+SHA1-Digest: edQ3GwxLBr03pSAtse+aI33qzYs=
+
+Name: assets/16_8.xml
+SHA1-Digest: Z9fAXsDGWHcK8Q4hwYz2HjzDJ70=
+
+Name: assets/obj_candy_01_320_480.raw
+SHA1-Digest: +l+KBTfRQvDGrKKIgNduVHFyF8A=
+
+Name: assets/bgr_16_cover_320_480.jpeg
+SHA1-Digest: NBKY/ySLlIX2+bVrsXcUbR/NGP0=
+
+Name: assets/drawings_thumb_11_480_800.png
+SHA1-Digest: FlM6fURXB1cfWw0RrvHNMEVFzK4=
+
+Name: assets/obj_bubble_attached_320_480.raw
+SHA1-Digest: /+mjC/1PvPrJa0jD7ihzl2gca7g=
+
+Name: assets/4_16.xml
+SHA1-Digest: rjH00dpUL+bNGe2alPmSj7RQqPs=
+
+Name: assets/drawing_17_480_800.png
+SHA1-Digest: FB9NJBnMBcY2A3CzNvYDDEOcO/Q=
+
+Name: res/drawable-xhdpi/zeptolab_logo.png
+SHA1-Digest: +U+Cn+fuOhwuxR7eCHoqYuwgePY=
+
+Name: res/layout/mappicker_textview.xml
+SHA1-Digest: aWXGceKvkNf8tsxuai/bXETZfb4=
+
+Name: res/drawable/com_mixpanel_android_square_selected.9.png
+SHA1-Digest: JHzPpAjCDpfc9wCSMjsG438MS9I=
+
+Name: assets/13_7.xml
+SHA1-Digest: vmsj8G2R85Qre0TZrMkN6EZ2f6E=
+
+Name: assets/11_22.xml
+SHA1-Digest: U/DI+OqlVQe1oFxE+RLl9TBhmYU=
+
+Name: assets/obj_rotatable_spikes_button_480_800.raw
+SHA1-Digest: 8W7IGxoUeRyu15YzAmyJdEAAl5A=
+
+Name: assets/hint_gradients_480_800.raw
+SHA1-Digest: jTTvmuz1yNc0VpA7lF2FPn6iis0=
+
+Name: assets/menu_result_en_320_480.raw
+SHA1-Digest: fcvwgicc+V5uGZ2NxxsQyxSXycg=
+
+Name: assets/14_21.xml
+SHA1-Digest: jA9SgruWXm5Ei65IIr6FDLRDWqg=
+
+Name: assets/bgr_01_cover_320_480.jpeg
+SHA1-Digest: oPRD0stHvpa0SQlZWVtXb1RtZeI=
+
+Name: assets/hint_panel_480_800.jpeg
+SHA1-Digest: lZ50oTALEWIg4z82LX6H8h3KiJM=
+
+Name: assets/menu_button_achievements_320_480.raw
+SHA1-Digest: txfBgFGV3voc0rwFPG9jjsOc5yY=
+
+Name: res/drawable-mdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: 7vLApczB6mEex3xCchwoPVizP8w=
+
+Name: assets/SLAwards.bundle/Award.1058327768.achieved.png
+SHA1-Digest: WkNnC4XnMpVhQYk/I69dF7ABl68=
+
+Name: assets/menu_audio_icons_480_800.raw
+SHA1-Digest: agdnoltjZiO9ppuSC+2q23BwDzw=
+
+Name: assets/SLAwards.bundle/Award.681520253.achieved.png
+SHA1-Digest: 9hNa89FK1+ztEta9sBTnjrj+hu4=
+
+Name: assets/char_support_15_480_800.raw
+SHA1-Digest: v3kJNotxp9uyFaX7PL8kM6QurL8=
+
+Name: assets/12_14.xml
+SHA1-Digest: qKvdA9HaQ1Rv8UA+mumkrLK1wXQ=
+
+Name: assets/star_2.ogg
+SHA1-Digest: NsSXpYW4alDmtkRIY8vmbaY2UxE=
+
+Name: assets/menu_drawings_empty_page_480_800.raw
+SHA1-Digest: 3hboXHA7ucBOXt/KQfb4X7ZsH1o=
+
+Name: assets/4_2.xml
+SHA1-Digest: LUWhH9o3kgK0VkPBqKOmrEi8YJg=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_arrowleft_faded.png
+SHA1-Digest: LmI62mt4dwhUKjkNLucLQWfvUp4=
+
+Name: assets/4_12.xml
+SHA1-Digest: KNg1+qM3Bs5MuwRtRdqwvyfD0so=
+
+Name: res/drawable/com_mixpanel_android_nocolor_list.xml
+SHA1-Digest: v6URk8yj2xgb+DppWnLu9skR/c4=
+
+Name: assets/bgr_08_480_800.jpeg
+SHA1-Digest: xmipzWfkgRqzH5ZWbzwAgQoJIdI=
+
+Name: assets/menu_button_default_320_480.raw
+SHA1-Digest: InAFon1T3xMchgtQT4zPGof21/M=
+
+Name: assets/8_9.xml
+SHA1-Digest: l9i+SX9vHp7oSUHzqIXWaiZXfcI=
+
+Name: assets/16_18.xml
+SHA1-Digest: CXH6Mbw22V9p6y4TKKJ+mw6rL2Q=
+
+Name: assets/obj_hook_auto_480_800.raw
+SHA1-Digest: IuEgA88oXMKsMcs3tcWio8pwfsI=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.cheeseboxcompleted
+ .achieved.png
+SHA1-Digest: Sf9cUhWtrVWIIAwQwqCNKRoyyOc=
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: VBdIt82ioiZO0Qmr7/J+8sPnop8=
+
+Name: assets/12_3.xml
+SHA1-Digest: HnNGy2kfnLwL148oT5SbetDIz4o=
+
+Name: res/drawable/com_mixpanel_android_arrowleft_insets.xml
+SHA1-Digest: ABxM55t3LKIKDYtYsDnt4vmjiYQ=
+
+Name: assets/menu_extra_buttons_ko_320_480.raw
+SHA1-Digest: umnkRv/QAA1dzOqnNiLapUwmjFA=
+
+Name: assets/bgr_06_480_800.jpeg
+SHA1-Digest: 5phYu248GGB71qLqLODfeg5Go+Q=
+
+Name: assets/5_7.xml
+SHA1-Digest: KRduSRiEaAgVoEfqxU1h1nGVfIU=
+
+Name: assets/bgr_02_480_800.jpeg
+SHA1-Digest: LoRsQ1jk/zYv4J9hjk2FLpTit9w=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.steamboxcompleted.
+ achieved.png
+SHA1-Digest: rHunaH2Msky6c9uNQQQqi21QBHc=
+
+Name: res/drawable-mdpi/com_mixpanel_android_arrowleft_faded.png
+SHA1-Digest: lz1/6ZUP+k/XHUGmk8lKKgrm3mQ=
+
+Name: assets/6_8.xml
+SHA1-Digest: 5r7h2STHxRf00oXTO682LlG6KeU=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: UbXqMwM30HBljuHn+la04UPzB1Y=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_arrowright.png
+SHA1-Digest: AgFkbuemlWkUEeUSD1x7H/LUHWM=
+
+Name: assets/menu_drawings_bigpage_markers_480_800.raw
+SHA1-Digest: 6nAklXCOIM6s+PM+CKLsEkl34EY=
+
+Name: assets/drawings_particles_320_480.raw
+SHA1-Digest: kaK2grAtwZccdOHxufdHC3Rs6kI=
+
+Name: assets/SLAwards.bundle/Award.681464917.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_result_ja_480_800.raw
+SHA1-Digest: eOLTBzjqYkQFoMuwmNoO9NLdQa4=
+
+Name: assets/obj_spikes_04_320_480.raw
+SHA1-Digest: qTIykevB26zMkasab2On1gd06aA=
+
+Name: assets/15_18.xml
+SHA1-Digest: s60n2AclLplMUtAG4V4xs/tia7M=
+
+Name: assets/4_24.xml
+SHA1-Digest: jIblAg+FdxGKFgltJLIdB7F+1K4=
+
+Name: assets/bgr_13_480_800.jpeg
+SHA1-Digest: aCxhrrZURzdHixR6wXUhmrUrNM0=
+
+Name: assets/drawings_thumb_14_480_800.png
+SHA1-Digest: 6YVXJEr79ivCajbZ+9dFPW4c7Js=
+
+Name: assets/13_10.xml
+SHA1-Digest: ds7t+Ag0qMAdQekJOwkyrBjrt6s=
+
+Name: assets/char_animations_480_800.raw
+SHA1-Digest: xO+hMeg0F2T4eBH4I1GXj2SeedI=
+
+Name: assets/hud_buttons_ja_320_480.raw
+SHA1-Digest: Qfp0lWMFiTrOySaJ98tLDOk6xPs=
+
+Name: assets/obj_candy_03_480_800.raw
+SHA1-Digest: gVXG/rNhz2oqk4QvlniNgKu9ewM=
+
+Name: assets/7_22.xml
+SHA1-Digest: 8HSfaWwQI8y1RVfjMfKQ79cD0Ww=
+
+Name: assets/obj_ghost_480_800.raw
+SHA1-Digest: 0Z+zbi3KYVKoh69VCwY+wrvQawE=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.
+ 9.png
+SHA1-Digest: HzOQHYhhJxxzbZqK40hTgOfRhlo=
+
+Name: assets/drawings_thumb_20_320_480.png
+SHA1-Digest: nCmX4VQ67c8q0zdYctfTCLZGKcQ=
+
+Name: assets/monster_sleep01.ogg
+SHA1-Digest: NYHWkvkx9OIABGE2NSjxGvSBosc=
+
+Name: assets/char_support_03_480_800.raw
+SHA1-Digest: b438q6M3scEHvhKvxUrO/v8p/sM=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: 1Hnpvj2UzKDvPZv175SFBfp0Gn8=
+
+Name: assets/drawings_thumb_12_320_480.png
+SHA1-Digest: GHKFSReUuVy3VlVjTvUWP0giDR0=
+
+Name: assets/14_14.xml
+SHA1-Digest: S38yyN8fT7t4y/Pjd3H+TA17UPc=
+
+Name: assets/10_7.xml
+SHA1-Digest: h3/1B0tGuWZAwFH6uYqcg2VH8RE=
+
+Name: res/drawable-mdpi/com_mixpanel_android_arrowright_faded.png
+SHA1-Digest: ADHLkW0sQF5iR30gNfYshyMrIvc=
+
+Name: assets/1_8.xml
+SHA1-Digest: LlB2yGk9qbzNZiy7zzSU7nC2iQE=
+
+Name: res/drawable/brightcove_button_close.png
+SHA1-Digest: 0jqr0KsmnpWh6ta93yV1lsQtOYE=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.
+ png
+SHA1-Digest: /ps9lLPOdDdwDt2YyGRRyGkRCMw=
+
+Name: assets/pump_4.ogg
+SHA1-Digest: b4IwtCy9PnhzAENcxPQ/cloLrIk=
+
+Name: assets/bgr_03_cover_480_800.jpeg
+SHA1-Digest: a6P3Q2IsWY+QVYxfJWIVKJXkytM=
+
+Name: assets/12_6.xml
+SHA1-Digest: VVO6oxEKebqFDgZA8ARhKYPH4jQ=
+
+Name: assets/char_support_03_320_480.raw
+SHA1-Digest: VUlBFSS54oV7ahqrFUXXQ3hIwc0=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png
+SHA1-Digest: IkOjI29UDeEmriO620NWQRYQBQM=
+
+Name: assets/14_7.xml
+SHA1-Digest: +FPjTUdqrmXDF/znBlAJ0LQgSfA=
+
+Name: assets/drawings_thumb_04_320_480.png
+SHA1-Digest: Tngg+2DpWvQX0cqOMRVPp/tzfBg=
+
+Name: assets/7_3.xml
+SHA1-Digest: 4MRXGKurhegPZy8U/aoalt6eDWc=
+
+Name: assets/5_10.xml
+SHA1-Digest: nUfF3EPw+ZTOJUqNx1Euot3Q+fY=
+
+Name: assets/char_animations2_480_800.raw
+SHA1-Digest: 6qN4ld96sBBBI2GVe85X/ukWq+A=
+
+Name: assets/menu_button_album_icon_480_800.raw
+SHA1-Digest: nViII/MiSkvWw+vzRvoZW6+sTak=
+
+Name: assets/14_1.xml
+SHA1-Digest: 6TsVoleohIDOoRl1c2AvZq/qbqQ=
+
+Name: assets/bgr_08_cover_480_800.jpeg
+SHA1-Digest: qG/syrMmY7m0kcsRqpWJaYMzVLU=
+
+Name: assets/menu_popup_pic_480_800.png
+SHA1-Digest: NuDGBOfB+xfDi4YfJJbQp9R7G9w=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_logo.png
+SHA1-Digest: g8jtAlOu6FcTqHBdbTyYfu3hv1Y=
+
+Name: assets/drawing_18_320_480.png
+SHA1-Digest: PWnYtUq6FtJXafnsMmgMEII0Y2w=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: 2Zfa+F80lrkHKDHQCM2OErZr3Cg=
+
+Name: assets/menu_popup_480_800.raw
+SHA1-Digest: bqsdi0cPhQKHwR1q9ClsC8G4ums=
+
+Name: assets/menu_extra_buttons_it_320_480.raw
+SHA1-Digest: dQbI/ihVUF+0V9mmxvfAfkUecGU=
+
+Name: assets/7_6.xml
+SHA1-Digest: VTcrSV8aJ8hP+Fepy4/MhP37nzs=
+
+Name: assets/obj_candy_03_320_480.raw
+SHA1-Digest: JDjz6k5MaYRmCZgJiyyvtPLrywY=
+
+Name: res/drawable-xhdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: pxNZ8SkEfPjyfAiSKNlW4SZk60Q=
+
+Name: assets/rope_bleak_2.ogg
+SHA1-Digest: 0Wt/xp76rprMMFamvRgu3vrT9+k=
+
+Name: assets/13_2.xml
+SHA1-Digest: Hd7Oy+RsUhWh2nQS9QfeYthq6no=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: re+zLFhPUMSpBod/+8AnbiOF95E=
+
+Name: assets/bgr_10_cover_480_800.jpeg
+SHA1-Digest: zTMlMCEu+DTtqUAi+I/CChCG/rc=
+
+Name: res/drawable/com_mixpanel_android_square.9.png
+SHA1-Digest: PztjcKGOnIw5h40Ro5ncDfp5DOI=
+
+Name: assets/5_2.xml
+SHA1-Digest: evIO9K8xNp4pV4qQ7FVu0LPV1Yw=
+
+Name: assets/14_4.xml
+SHA1-Digest: tO/KtP4hmJy98gbFetKxeHLDfiI=
+
+Name: assets/SLAwards.bundle/Award.1058364368.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/9_12.xml
+SHA1-Digest: 0DJsp+96yzECqCLCjDRHWSd3lqs=
+
+Name: res/layout/brightcove.xml
+SHA1-Digest: +7sjjNzkg2iaSw7Y5/QsaIMzeZQ=
+
+Name: assets/menu_button_crystal_480_800.raw
+SHA1-Digest: J84J4PAmiq92wpPusPEs14s4PLw=
+
+Name: assets/drawing_04_320_480.png
+SHA1-Digest: Iy76gIzaDgpAGyPb2MY40umFND4=
+
+Name: assets/drawing_02_320_480.png
+SHA1-Digest: H0DaDbgzMAkdQyTrUr8ya6GWl6I=
+
+Name: assets/menu_processing_480_800.raw
+SHA1-Digest: rMrPsJqfJwgCt/rhc9LNV+F9k5Q=
+
+Name: assets/1_24.xml
+SHA1-Digest: fCjvN8NN3KiticuWY9Yrh8ujVb0=
+
+Name: assets/1_10.xml
+SHA1-Digest: heOmB1EZJiAtJSbJYmr1FPtbExQ=
+
+Name: assets/SLAwards.bundle/Award.1335599628.achieved.png
+SHA1-Digest: bqjLFCPXvaQwFo3I0Vdl3M1zLro=
+
+Name: assets/SLAwards.bundle/Award.1432760157.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/obj_lighter_320_480.raw
+SHA1-Digest: Jqphv0YL7Q+yUSeysrn1CfpVJUM=
+
+Name: assets/menu_button_google_play_320_480.raw
+SHA1-Digest: 4zCmOP5ddYuHXI1SBr0Sacsfn3Y=
+
+Name: assets/fx_sleep_320_480.raw
+SHA1-Digest: aXoye+1ohl+tyTnimhAqoDgZfx0=
+
+Name: assets/drawings_menu_markers_480_800.raw
+SHA1-Digest: PgIfhSphniKMBZWyL3vgR5UtGfI=
+
+Name: assets/menu_banner_320_480.raw
+SHA1-Digest: YdPn5pobqqpaYvP52swpejuLSEA=
+
+Name: assets/menu_audio_icons_320_480.raw
+SHA1-Digest: LetLeaOTn37FqyN5luVHQhXguiU=
+
+Name: assets/11_17.xml
+SHA1-Digest: NEMvgNjoMF3IflogpDyC2+NQi9g=
+
+Name: assets/12_20.xml
+SHA1-Digest: c1xCz+e6SpD4Y6O7vRzBj/Rx4oA=
+
+Name: assets/bgr_07_cover_480_800.jpeg
+SHA1-Digest: zJ6KvgGjvZT/FTePb0ogIDZ4vRo=
+
+Name: assets/12_13.xml
+SHA1-Digest: ppIFB9xGlHcsBv/BwIlWTC8NmSY=
+
+Name: assets/13_21.xml
+SHA1-Digest: afRwW/0WGykDuTsKnZRhMhZqXzk=
+
+Name: assets/12_2.xml
+SHA1-Digest: 7JeWKSDUM2UwT2Ct+n0joImS7q0=
+
+Name: res/drawable-mdpi/ic_plusone_medium_off_client.png
+SHA1-Digest: HHc+sqWu5XtWgMQhN1F5cAwzeew=
+
+Name: assets/5_18.xml
+SHA1-Digest: iOkarG2ezmo4OKaUZdlj0+d1NEg=
+
+Name: assets/11_20.xml
+SHA1-Digest: TgHXA5aN4d8JbkkakOTYEnNbk64=
+
+Name: assets/drawing_facebook_320_480.png
+SHA1-Digest: QEVf3Fj4UCF2AU2JgWh/bqU0lrY=
+
+Name: assets/menu_extra_buttons_br_320_480.raw
+SHA1-Digest: p9pXtfssJ2JWBuTFXMsvSHyOJJ4=
+
+Name: assets/10_3.xml
+SHA1-Digest: e1X/Zdz5cAA5DGlVyjPEH+ygliw=
+
+Name: assets/drawings_thumb_11_320_480.png
+SHA1-Digest: 7Cg1amY9p+SGG+rvnduCB9JIWss=
+
+Name: assets/12_23.xml
+SHA1-Digest: +wMKcSaUCLtuBiNPfRcl96jX18I=
+
+Name: assets/drawing_16_320_480.png
+SHA1-Digest: uia+s9M2f5yHKmR8NfKHoRY4bek=
+
+Name: assets/obj_spikes_01_320_480.raw
+SHA1-Digest: fXr7HuqC5rWdyvyDaJmEHVcnf5g=
+
+Name: assets/menu_extra_buttons_ru_320_480.raw
+SHA1-Digest: lFFWlM2rPE7MxeDdjDMTA5pH/BA=
+
+Name: assets/11_8.xml
+SHA1-Digest: creuai03FXW2Hh37v7IIP6HT7As=
+
+Name: assets/menu_result_nl_320_480.raw
+SHA1-Digest: qP4m71ZY0Gvykv1imAlbk6iopaA=
+
+Name: assets/4_4.xml
+SHA1-Digest: CtuD/G3s1Iekx3Mo70VsQdDswXA=
+
+Name: assets/menu_gallery_480_800.raw
+SHA1-Digest: PryiEmuMxVlEWYWuaas5ZgvPlKw=
+
+Name: assets/16_23.xml
+SHA1-Digest: 7CZyiqsfdQBqgk/DUld3xNGVvds=
+
+Name: assets/drawings_thumb_12_480_800.png
+SHA1-Digest: YdxFV3XG0AKSWwuNMVCbN2GAK60=
+
+Name: assets/4_10.xml
+SHA1-Digest: FcwDCUmfJEiVuvVzD9Mb0fHlRLs=
+
+Name: assets/SLAwards.bundle/Award.1515793567.achieved.png
+SHA1-Digest: R/mCVCPNvuoFn3YaPY/vYJ1qMBg=
+
+Name: assets/6_20.xml
+SHA1-Digest: hkB3T22mgNdutLu+ojPp9v3Cexw=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.lanternboxcomplete
+ d.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/10_25.xml
+SHA1-Digest: PcU4OrZnG+wuayXUZQ+owf38hxg=
+
+Name: assets/bgr_05_320_480.jpeg
+SHA1-Digest: YtvTmryeIzI4C//CkWtzscAQb9Q=
+
+Name: assets/9_22.xml
+SHA1-Digest: D9ohjgQSFA6zPMs3gEbVKgEgl9g=
+
+Name: assets/5_5.xml
+SHA1-Digest: iGimUpO0hkP317n28p9NXW6XA4k=
+
+Name: assets/drawings_thumb_02_320_480.png
+SHA1-Digest: HcIfBkyXY/Re1pi38um8OTlkqQ0=
+
+Name: assets/tutorial_signs_320_480.raw
+SHA1-Digest: C4MA6kMtzRo6bNPfrWOKrLmJrO0=
+
+Name: assets/menu_pack_selection_fr_480_800.raw
+SHA1-Digest: b3fJpsbuA8ChmLbDADGzrx8CA7s=
+
+Name: assets/5_23.xml
+SHA1-Digest: X1E691K7uE61fE3NmgHYZNn//Cw=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_logo.png
+SHA1-Digest: N1oVoTn+841n4r6W9qtzkhG4SLk=
+
+Name: assets/drawings_thumb_17_480_800.png
+SHA1-Digest: SF9JY7VzFDHZqFM9WTFY/GJFo+A=
+
+Name: assets/hud_buttons_hint_480_800.raw
+SHA1-Digest: W4fFBLKDmAbsHJgnxOG3yXUkqmM=
+
+Name: assets/SLAwards.bundle/Award.1058328727.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/9_9.xml
+SHA1-Digest: XH+ft16MaAyQsxs9t1TKxnQX1kI=
+
+Name: assets/drawings_thumb_09_480_800.png
+SHA1-Digest: 2HDXO85TF4/UOLKINmttl/9WtrY=
+
+Name: assets/10_23.xml
+SHA1-Digest: 41D1ZMqyfCP7bWjgtbO6/OVPGqs=
+
+Name: res/drawable/common_signin_btn_text_light.xml
+SHA1-Digest: 5lxJl6+WJ0jH2q49wZKVc+MOWB0=
+
+Name: assets/5_12.xml
+SHA1-Digest: AVIu0inmggn5T2/0nBAH6R8Uq/Y=
+
+Name: assets/drawings_thumb_16_320_480.png
+SHA1-Digest: RgdrmPsuJz0opwO+T6X2vw22UqY=
+
+Name: assets/drawing_15_320_480.png
+SHA1-Digest: Q8dbHGQAc1mLX67x+gc/jyJo2nA=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: 1nB29gilkMG21U2c1UzWz5vtjpc=
+
+Name: res/drawable/banner1_big.png
+SHA1-Digest: rn3BQGVNLA/1YeywTORCMhWCB+Q=
+
+Name: res/drawable-xhdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: NEAofQuoLcRt99gbmL+/kRTDnUE=
+
+Name: assets/gravity_on.ogg
+SHA1-Digest: mphZwyOyrVCp5oRcyacnofpZZaA=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9
+ .png
+SHA1-Digest: 5te3wznPBVYtZMjVj49FYN5YlRA=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: ppRAUb4e8AfMY+hiTgUxYeX8bDw=
+
+Name: assets/1_11.xml
+SHA1-Digest: speDvvb9w1tyTQJm4dTeTA6Ez1g=
+
+Name: assets/13_25.xml
+SHA1-Digest: xB9KqFYvoMpI3fp4kKsx7D47Qow=
+
+Name: assets/obj_rotatable_spikes_04_320_480.raw
+SHA1-Digest: 2JsQ3eOGTEfabpdo4vyTJanoYGU=
+
+Name: assets/7_8.xml
+SHA1-Digest: NgshLvJMcNK2B4Z0KE73AYeQ+JQ=
+
+Name: assets/drawing_20_320_480.png
+SHA1-Digest: zjcM1qQtmxs+w7xp9tDI+vM5PQI=
+
+Name: res/drawable-mdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: CFcKGCNCXdElgRyG3GU1cR7Lpck=
+
+Name: assets/3_25.xml
+SHA1-Digest: mFRi9fg2pUBoyZb5tGvagOazPcY=
+
+Name: assets/13_14.xml
+SHA1-Digest: Gz99btrP5+Z/CDi+29IBZZIENq4=
+
+Name: assets/menu_strings.xml
+SHA1-Digest: YKXXuyIJV98/nNRAZ2+U5c80aS4=
+
+Name: assets/15_2.xml
+SHA1-Digest: dwnzcl/3lf8qUlyoI0RN+bv+c6s=
+
+Name: assets/char_support_16_480_800.raw
+SHA1-Digest: YTv2TB5fxbBGqbvaSSZ9Efz1aLw=
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_light.9.png
+SHA1-Digest: cyroPBwNNxlz5xXq1uSZsOxhnH0=
+
+Name: res/layout/com_mixpanel_android_question_card.xml
+SHA1-Digest: fY3HmddX+zSMSC5PbUsvTxUjAdc=
+
+Name: assets/hud_star_320_480.raw
+SHA1-Digest: nS6HP8Uth4MprVwQL7Xow3aQoVc=
+
+Name: assets/drawing_20_480_800.png
+SHA1-Digest: SJpXRhZ/XEKfJJtVDOMzJ9vRB8U=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: qeM5rd2iODmcmiwbxvt0gCvbkog=
+
+Name: assets/6_16.xml
+SHA1-Digest: w2ocKFw3pwf++SUr+/6USw7ieew=
+
+Name: assets/obj_lighter_480_800.raw
+SHA1-Digest: O9odpMUG5nHGSpmybJ4ZA6JUVmk=
+
+Name: assets/obj_spikes_04_480_800.raw
+SHA1-Digest: SLGQCm3SGfO+QazjgbGoso88ptQ=
+
+Name: assets/bgr_11_cover_320_480.jpeg
+SHA1-Digest: v0ryfGPfcKJoe/JUgIsEav+pX/4=
+
+Name: assets/13_3.xml
+SHA1-Digest: cmZOxY2iHxHMzagsjqbfcJJ2nUE=
+
+Name: res/drawable-ldpi/com_mixpanel_android_arrowright_faded.png
+SHA1-Digest: DPOUb+1UhIbK983hxePZBgs9Gm0=
+
+Name: assets/obj_bubble_flight_480_800.raw
+SHA1-Digest: EAbS0FF0LGda/q6hcxD7wCtLsks=
+
+Name: assets/monster_sleep03.ogg
+SHA1-Digest: VnmthOR/TYuCQapgo6lz/qTGnzM=
+
+Name: res/drawable-hdpi/ic_plusone_small_off_client.png
+SHA1-Digest: MDqgTVve/ECWdg1RF1Xo/IJ49zo=
+
+Name: assets/sp_hint_popup_320_480.png
+SHA1-Digest: A7KaqFNfiYetCuiTJQUBNq9DcLo=
+
+Name: assets/SLAwards.bundle/Award.99928734496.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/sp_hint_popup_480_800.png
+SHA1-Digest: OLoHKMQXPzUqxRM2DKPAEVJZTIw=
+
+Name: res/drawable-xhdpi/ic_plusone_small_off_client.png
+SHA1-Digest: LtV8CfoAmgWuTGWNZXeWeNDR1hY=
+
+Name: assets/SLAwards.bundle/Award.681462993.achieved.png
+SHA1-Digest: jezQ8W68Ba4bhe8hbbrbiBa+fYI=
+
+Name: assets/bgr_01_480_800.jpeg
+SHA1-Digest: XX/laLPneWldo5zEyaTFYklhrkY=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: THnQ9r/oTuPB60ajOYXvK1GrUsE=
+
+Name: assets/1_4.xml
+SHA1-Digest: jIhEfLlO4w5hbpld8ZAjfAJMLFA=
+
+Name: assets/spider_win.ogg
+SHA1-Digest: YRB7GPX5QbD5+rsrQ2dAcaxzet8=
+
+Name: assets/obj_blue_star_480_800.raw
+SHA1-Digest: ZS94S1autLgSdkzzYpsg/QBYbBg=
+
+Name: assets/7_25.xml
+SHA1-Digest: t5uA+7AcqjateAjbzQrqO7F6xXM=
+
+Name: assets/vg_mute_on.png
+SHA1-Digest: 4JDaX13RiPW/OBOTIEOVqWs5S+Q=
+
+Name: assets/9_20.xml
+SHA1-Digest: 9C3cirr50zSNcaiSv+G75XcNUxw=
+
+Name: assets/10_8.xml
+SHA1-Digest: WJ7KWTZKgYYQFtKyzljJGKKlcEg=
+
+Name: assets/menu_more_games_320_480.png
+SHA1-Digest: PKqET8hGbaHf+1S7zY/MXEVx+X4=
+
+Name: assets/bgr_07_320_480.jpeg
+SHA1-Digest: mVwytNHNHguoRNzHRRSMiUx5ako=
+
+Name: assets/candy_select_fx_demo_320_480.raw
+SHA1-Digest: WyenTbi32k/NzJzWVaEniQkbabQ=
+
+Name: assets/bgr_08_cover_320_480.jpeg
+SHA1-Digest: vxt2cnCpfS4NOgxaFWjUPN+7wt0=
+
+Name: assets/12_9.xml
+SHA1-Digest: 6J3Itd6HPSMFh1vux8qoVYXBl2Y=
+
+Name: assets/7_10.xml
+SHA1-Digest: +/Ql422e2XBcWw0wMsIzorQOpO8=
+
+Name: assets/bgr_12_cover_480_800.jpeg
+SHA1-Digest: 9JzUYv16VrneWXO3ruYa3S+HzBo=
+
+Name: assets/14_6.xml
+SHA1-Digest: QUuyA3sYTAuEUWyPuqyQFeikvs4=
+
+Name: assets/char_support_06_480_800.raw
+SHA1-Digest: cHtmuByLlqR0D8qPtZj+I7DFCjA=
+
+Name: assets/12_1.xml
+SHA1-Digest: GxDClu1YrFze5oVATlvSsVuj1B0=
+
+Name: assets/11_13.xml
+SHA1-Digest: xyI/Ghw666Dh3fzVdfotZshONhA=
+
+Name: assets/menu_pack_selection_nl_320_480.raw
+SHA1-Digest: YoRl8hM3JQNFn4N5cusxQHihmro=
+
+Name: res/drawable-hdpi/kp_activity_indicator.png
+SHA1-Digest: NspknxCzpdqDfpSYFhBtm9nSSlg=
+
+Name: assets/menu_result_ru_320_480.raw
+SHA1-Digest: kR5ypCcRlRMBpPaOInYNoLJHMoI=
+
+Name: res/layout/debug_view.xml
+SHA1-Digest: BKebt9Z9qJtLxRfeJlmogD2kf7Y=
+
+Name: assets/drawings_thumb_13_480_800.png
+SHA1-Digest: HCfXaqWhA15m/5LKeTOm+Fb9hIY=
+
+Name: assets/9_21.xml
+SHA1-Digest: CL2L+akGA7XYMVPJrPoP+UmS4OE=
+
+Name: assets/menu_extra_buttons_zh_480_800.raw
+SHA1-Digest: E4F2WTDoNpoDOgHQPg4+FUjUpd4=
+
+Name: assets/13_24.xml
+SHA1-Digest: g02Tv+7e7MlNWdhB0IefZOgzZUY=
+
+Name: assets/drawings_particles_480_800.raw
+SHA1-Digest: nhXiAEu6YUpJSASsQMa3gdJqbbw=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: 29jlpwaYo8yADFvg53lRNdVbvt0=
+
+Name: assets/3_14.xml
+SHA1-Digest: dB6xEuGFMZWSC0KYXxsDEVub6gM=
+
+Name: assets/bgr_07_480_800.jpeg
+SHA1-Digest: OdOFNUSQ+B/vodbr7mY8ktJm1GM=
+
+Name: assets/menu_drawings_bigpage_markers_320_480.raw
+SHA1-Digest: zl8t6I8aL5wuj/9+ae9ccKDBMnw=
+
+Name: assets/menu_extra_buttons_fr_320_480.raw
+SHA1-Digest: 2iA/ywCSdiOt4ZvHVteBoa8LHSE=
+
+Name: res/drawable-xxhdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: nnQrYOSge8+DJ/aZ1dVTUztprv8=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: 2Zfa+F80lrkHKDHQCM2OErZr3Cg=
+
+Name: assets/star_light01.ogg
+SHA1-Digest: haqOGQabX4/UwNEDWzbp+piqU+E=
+
+Name: assets/SLAwards.bundle/Award.1058364368.achieved.png
+SHA1-Digest: 7sSBPu3YOaAoLlzhoTvwC72zVPg=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: WqQF3y/vDvl0c3tlpCQMUlAGR90=
+
+Name: assets/4_23.xml
+SHA1-Digest: 7mMfXiP+WIpPhXbakREsfqZOeYo=
+
+Name: assets/star_light02.ogg
+SHA1-Digest: PbiqsH21OiWGKQ0nQJaSqls7Ii4=
+
+Name: assets/15_24.xml
+SHA1-Digest: 6W/bN70T1d4EGT4HoaZ4+AuRGJ8=
+
+Name: assets/bgr_13_cover_320_480.jpeg
+SHA1-Digest: QR2PrYQZrkHg5+YnIW/PmaFj5uw=
+
+Name: assets/bgr_13_cover_480_800.jpeg
+SHA1-Digest: 2kHaML3hWtrBfOaN/985AcLkrqY=
+
+Name: assets/SLAwards.bundle/Award.1058248892.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/14_22.xml
+SHA1-Digest: rdWRSCWkB7zkAk1u4OWOrmD1wQ8=
+
+Name: assets/obj_rotatable_spikes_02_480_800.raw
+SHA1-Digest: 3eXBIVJO9mATwkOTKONM5O3+v2Y=
+
+Name: assets/10_18.xml
+SHA1-Digest: RuF68aLh2kJaqCWQc68YcVYBa0M=
+
+Name: assets/bgr_09_cover_480_800.jpeg
+SHA1-Digest: x5Tml7irHXhz5oZM/fhLFC64F6s=
+
+Name: assets/SLAwards.bundle/Award.681486608.achieved.png
+SHA1-Digest: i6pX23Bcd7trrc7Dfdi80pPi/cA=
+
+Name: assets/steam_end.ogg
+SHA1-Digest: WTp2gbOeWMrxYz75ppKU0Qus5+o=
+
+Name: assets/drawing_11_320_480.png
+SHA1-Digest: pprA9B1ASuVfP6ueESDOsWcJXw4=
+
+Name: assets/drawing_10_320_480.png
+SHA1-Digest: FNL2p4/y6NAUhlR4lDIrwio2gvg=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png
+SHA1-Digest: DS5PrTsz70UomI8fFnGBLzl5gOc=
+
+Name: assets/9_6.xml
+SHA1-Digest: reRtzNmJjP0NLGRswDLhjArj0gA=
+
+Name: assets/8_25.xml
+SHA1-Digest: 46YO0UtZojyDStkL4XQFXO3lycw=
+
+Name: assets/drawings_thumb_10_480_800.png
+SHA1-Digest: P1p4iDdY919xuNtzsG2UmL+5r4s=
+
+Name: assets/5_25.xml
+SHA1-Digest: VTwq2mT5OqXMrtFJ+DN8q3pV+U0=
+
+Name: assets/bgr_16_480_800.jpeg
+SHA1-Digest: 8nz5RYkco0Fq2sqeShlCLIN9uL0=
+
+Name: assets/7_7.xml
+SHA1-Digest: M9mSgrzzbqA+Z0uo4HBhqkL6ZZo=
+
+Name: assets/14_12.xml
+SHA1-Digest: p54T3jTUSZBysM5pYHKWqXSK428=
+
+Name: assets/drawing_16_480_800.png
+SHA1-Digest: xnENnw6XE48n7FJovDtwZNi/T4o=
+
+Name: res/drawable/com_mixpanel_android_arrowleft_states.xml
+SHA1-Digest: 0mqlj81ZlYYDM3yH7hXeY2PCDZs=
+
+Name: assets/bgr_12_cover_320_480.jpeg
+SHA1-Digest: zaxGuN1MD8de5tfFkf9fIYN1ACU=
+
+Name: assets/14_3.xml
+SHA1-Digest: YzBDeg7/qE7i9oDxZd+7/1/F5l0=
+
+Name: assets/1_9.xml
+SHA1-Digest: RKwtPcHAYuhddXvW87RxWaCXtPQ=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png
+SHA1-Digest: ZDogSdlgVekmFIAbKguvig7+XGg=
+
+Name: assets/menu_extra_buttons_en_480_800.raw
+SHA1-Digest: 3VyD1v9pM5pkC8o7UfGVLeD3E4M=
+
+Name: assets/bgr_05_480_800.jpeg
+SHA1-Digest: bKMjqeSN3GycR2VLnPfe6XZySaE=
+
+Name: res/drawable-hdpi/com_mixpanel_android_logo.png
+SHA1-Digest: +QFq4htAQEht4GzZ8PhOJ2/uaoI=
+
+Name: assets/10_21.xml
+SHA1-Digest: AmKJ04wGgVPeeChLbxS5Z3UjmKI=
+
+Name: assets/menu_result_ko_480_800.raw
+SHA1-Digest: MEBIz/FR7U6lVs0kltjVuc76nrU=
+
+Name: assets/2_2.xml
+SHA1-Digest: GP6LrQIDSOvhP2e21U1G5G8+Z+4=
+
+Name: assets/6_3.xml
+SHA1-Digest: ivPx+oREJURN9v0eMEAQQmB1mpY=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: EwWcs/fw+373a3OwPUSxps04S70=
+
+Name: assets/sp_cloverleaf.ogg
+SHA1-Digest: JaWu12+qoXnGatij9ymU1D2730k=
+
+Name: assets/obj_ghost_bubbles_320_480.raw
+SHA1-Digest: DB4omB9SQ2yJvY0fOtO4nGLae9k=
+
+Name: assets/SLAwards.bundle/Award.1058281905.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_pack_selection_ko_320_480.raw
+SHA1-Digest: dMfnE1q6pZotLThMaBO8E5/Ywgw=
+
+Name: assets/drawings_thumb_18_320_480.png
+SHA1-Digest: EuK9Fa3CBcrgFkFvgKmo1bYH0fM=
+
+Name: assets/bgr_06_cover_320_480.jpeg
+SHA1-Digest: 6w9k3nY6/OuqdzfrMOs+zLhuxxE=
+
+Name: assets/hud_buttons_zh_320_480.raw
+SHA1-Digest: zst1g4YRYRXJRzNepe2YWATs0F8=
+
+Name: assets/3_7.xml
+SHA1-Digest: gbKiEJ2ZRO0K+jug1TAv54z+sq4=
+
+Name: assets/12_19.xml
+SHA1-Digest: +2WR8VA+iUa4hQbNGGBEnuFQa7o=
+
+Name: assets/4_21.xml
+SHA1-Digest: RMLVFOioRT0lRbNRmbbJ3f2fpzI=
+
+Name: assets/3_5.xml
+SHA1-Digest: A5mnz67C7DXcnAd5eDMWuza8fGI=
+
+Name: assets/hint_panel_320_480_alpha.png
+SHA1-Digest: w5oDj0x+VrJfDxZU8gfiQYW1cqk=
+
+Name: assets/char_support_02_320_480.raw
+SHA1-Digest: FwWPXKwL9c9yie1WNPa25ihqb7U=
+
+Name: assets/menu_result_es_480_800.raw
+SHA1-Digest: nZtyorluw7tsU1ZmDgp/Ms1UbB0=
+
+Name: assets/drawings_thumb_08_320_480.png
+SHA1-Digest: 0KVubzeQkw/lYx7pw4tqrVBvxGc=
+
+Name: assets/char_support_09_320_480.raw
+SHA1-Digest: Lw9LAPIfL/z7SwV+7CP3/Q3MrOk=
+
+Name: assets/3_3.xml
+SHA1-Digest: SeMEcn5ZQVp/LyWLFWwPjuSEYME=
+
+Name: assets/fx_sleep_480_800.raw
+SHA1-Digest: 1NuiaHKC8kqIZJTxj7cW6oONRzQ=
+
+Name: assets/menu_pack_selection_en_320_480.raw
+SHA1-Digest: KxyV93fbr1YLQImXX/NjwbugkPE=
+
+Name: assets/menu_extra_buttons_br_480_800.raw
+SHA1-Digest: XyR83EEXxNFKghtmcM7B99utCsE=
+
+Name: assets/scrape.ogg
+SHA1-Digest: r7nSVwuu8NSjIHfsv44gkOPSTCM=
+
+Name: assets/15_13.xml
+SHA1-Digest: AYC/8MZ0FIGEeh4EZe+Zz6kWSgc=
+
+Name: assets/SLAwards.bundle/Award.677900534.achieved.png
+SHA1-Digest: NloBKp0Ui7NLncvNS5nuFdhnGvY=
+
+Name: assets/6_4.xml
+SHA1-Digest: hL91cDDL+ePR6gDK/iGSZyTjxDo=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.
+ png
+SHA1-Digest: 29jlpwaYo8yADFvg53lRNdVbvt0=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png
+SHA1-Digest: xU1/PAMBwttiSnTFn14OqOMMcm0=
+
+Name: assets/char_support_11_320_480.raw
+SHA1-Digest: aq6Hvyg+p0prqBNxsHCvkVzs98o=
+
+Name: res/drawable/com_mixpanel_android_checkmark_states.xml
+SHA1-Digest: U/VovHDYM8Z9h9Rn1yIzv9K6OPo=
+
+Name: assets/12_12.xml
+SHA1-Digest: C/6eybpAMXIsyObw2N848GDPHVM=
+
+Name: assets/big_font_480_800.png
+SHA1-Digest: dGdmmO1HTTLtD7j5V8lMBM3w8WE=
+
+Name: assets/15_19.xml
+SHA1-Digest: 9Q4es6JsHY8Ucv1GPVewv6xQT7s=
+
+Name: assets/menu_extra_buttons_es_480_800.raw
+SHA1-Digest: au9nEsKxoz7fE8N0AQCeTKNRg0A=
+
+Name: assets/drawing_04_480_800.png
+SHA1-Digest: prWItR3nFasrUxEEIXTuwYC8lxI=
+
+Name: assets/obj_hook_02_480_800.raw
+SHA1-Digest: /wFCCVq8M0TBGWTdc1FVWtX3pn8=
+
+Name: assets/14_11.xml
+SHA1-Digest: C1uaap+3VaaGtLsE41LzTMbVbmg=
+
+Name: assets/obj_hat_480_800.raw
+SHA1-Digest: MRyuLb/8yv7WHMoGclqfutgHnXE=
+
+Name: assets/SLAwards.bundle/Award.1432721430.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/small_font_480_800.png
+SHA1-Digest: C0wenHOfFi6zKzrC/QV3CS34Y98=
+
+Name: AndroidManifest.xml
+SHA1-Digest: EvhHxotlF8cNCPA/kpivnt5aGmQ=
+
+Name: assets/menu_agepopup_bgr_480_800.jpeg
+SHA1-Digest: qXSUvH1qm7uUXmfZuJPV6P9cvfs=
+
+Name: assets/SLAwards.bundle/Award.681513183.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/color/common_signin_btn_text_light.xml
+SHA1-Digest: eAfgBs0hEAYvSYpmTMWpYxApgjU=
+
+Name: assets/4_8.xml
+SHA1-Digest: ShGq9q06kQwHpgAIzT+FEOdJef0=
+
+Name: assets/drawings_thumb_01_320_480.png
+SHA1-Digest: l2C8lrLxkw4a062VIqTcCEyLCQU=
+
+Name: assets/red_cross_480_800.raw
+SHA1-Digest: fJz8if8CEbLF/9Pzv8/mk5ERpeY=
+
+Name: assets/11_5.xml
+SHA1-Digest: VC5nSqz+T9ftbWfdyxdgtcguWRY=
+
+Name: assets/menu_pack_selection_zh_320_480.raw
+SHA1-Digest: 3FS6XFI7RSq02NucDumtu44ttaM=
+
+Name: assets/drawings_thumb_19_480_800.png
+SHA1-Digest: D1zs9usny0unHH42r7FQDR9ozUQ=
+
+Name: assets/11_12.xml
+SHA1-Digest: hEGvGOyz4di0Vy1zaJ7/wObyr44=
+
+Name: assets/menu_pack_selection_it_480_800.raw
+SHA1-Digest: chqySpfzO5t80EOCl7YbtKGc/vY=
+
+Name: assets/8_16.xml
+SHA1-Digest: YHkeDlN5Yc5xBR9ocLpIAgHOEZI=
+
+Name: assets/15_21.xml
+SHA1-Digest: EAtnsEFcqvWVxX/TkTd+WBVi5f8=
+
+Name: assets/char_animations3_480_800.raw
+SHA1-Digest: 616qSmGvnP138LjCrfREc0cKfBk=
+
+Name: assets/menu_result_br_480_800.raw
+SHA1-Digest: PO8J/2B5AxDXNMQ3lL2ZmM30+7I=
+
+Name: classes.dex
+SHA1-Digest: lupXSr8cL4riMcFq8UfAElvHziU=
+
+Name: assets/menu_pack_selection_ja_320_480.raw
+SHA1-Digest: rXpmWERIr4CNdeZJHnLXDzeEe+Y=
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: /w/b5Ahd692RhVH4wOIahCMTR9s=
+
+Name: assets/8_11.xml
+SHA1-Digest: kHDFrdQDgBzi1yZrP/g4Cc9W9OM=
+
+Name: assets/drawings_thumb_02_480_800.png
+SHA1-Digest: iWj/v0cwEy2AT/Z0fOTTpzCOobk=
+
+Name: assets/obj_hook_01_480_800.raw
+SHA1-Digest: D04qhlwqJv9V1CLMOPJ2s/fZ6a4=
+
+Name: res/drawable-hdpi/com_mixpanel_android_arrowright.png
+SHA1-Digest: VJQwsk1drfMgNdrBZWTCSQ8RiDA=
+
+Name: assets/2_16.xml
+SHA1-Digest: XjEqy+/Zi4N+tpjSMEprVuZULpc=
+
+Name: res/drawable-mdpi/ic_plusone_tall_off_client.png
+SHA1-Digest: AD2aFw6TcqHuDE1AdYky7h+et9s=
+
+Name: assets/obj_vinil_480_800.raw
+SHA1-Digest: YwnFq6+NHdQqpAl/SIGENvbcbRg=
+
+Name: assets/scoreloop.properties
+SHA1-Digest: DklOs4qMO86LZVOSWPHxXB9xkHk=
+
+Name: assets/menu_button_default_480_800.raw
+SHA1-Digest: k4raMfd25oaGnjcPjKgvVvkd+Wk=
+
+Name: assets/15_22.xml
+SHA1-Digest: pJV0GXp8S27SUS/0l16LgXuCldM=
+
+Name: assets/12_8.xml
+SHA1-Digest: 9kC7cwmuKvWx5h2AsbApSVy7edw=
+
+Name: assets/menu_drawings_bgr_320_480.png
+SHA1-Digest: jr2lnbOm0QXwUr5nPOUVXX9LJ0k=
+
+Name: assets/13_19.xml
+SHA1-Digest: RAb/hqbPqVC2BgI09MqjLFpSfGk=
+
+Name: res/drawable/com_mixpanel_android_rounded_top.9.png
+SHA1-Digest: NNEBFj/WwldadtUgiLwZ7t8wLik=
+
+Name: assets/menu_extra_buttons_gr_320_480.raw
+SHA1-Digest: qYecAprmZ2bVaUS8Sv+U7qTcm00=
+
+Name: res/drawable-ldpi/zeptolab_logo.png
+SHA1-Digest: 9jrkafyu9HfZ33TZOG5pjTREDzw=
+
+Name: assets/SLAwards.bundle/Award.1058345234.achieved.png
+SHA1-Digest: JPNsxBC2yAV5VYeGK6mxTRoH4n8=
+
+Name: assets/hints.bin
+SHA1-Digest: WJicUulvt80ZxvZCFGIiSOxOCc8=
+
+Name: assets/3_15.xml
+SHA1-Digest: ZRuK3ULCJ3v7dgmq0N9JuyPBefQ=
+
+Name: build-version.properties
+SHA1-Digest: 8fxgsCSxqbaXCPWlyNbJEkf59xw=
+
+Name: res/drawable-hdpi/zeptolab_logo.png
+SHA1-Digest: 04uVLwv9dYNMPnr7s8xkJgtj/lo=
+
+Name: assets/spike_rotate_out.ogg
+SHA1-Digest: tq/id5DELVTSob8+IaO3CeipcAw=
+
+Name: assets/menu_pause_320_480.raw
+SHA1-Digest: LPewF4N+tEVKZiqWq+mOpr8wSso=
+
+Name: assets/2_14.xml
+SHA1-Digest: fKZCc8A5VCnGv2I8EX9ocGKSF/0=
+
+Name: assets/16_16.xml
+SHA1-Digest: 49Kp4IBYLE1ZOmT6B8uk2IPC0x0=
+
+Name: assets/6_11.xml
+SHA1-Digest: eylz3E/4m/aWJ1hWk8KpPc9PpLE=
+
+Name: assets/menu_button_crystal_320_480.raw
+SHA1-Digest: SdrwmczQVK04csjp/ETCcvao+dA=
+
+Name: assets/SLAwards.bundle/Award.1515796440.achieved.png
+SHA1-Digest: Pt123EnyFTcyLg5SATW7QfSrauM=
+
+Name: assets/drawing_17_320_480.png
+SHA1-Digest: NQ/UXLLJdPA3LD0pT9sBQrG1sH8=
+
+Name: assets/16_9.xml
+SHA1-Digest: Juu/UyVLgtsUiLNt6w1ExXjlGL4=
+
+Name: assets/SLAwards.bundle/Award.1515813296.achieved.png
+SHA1-Digest: MY8R3FbcmfhnKOneuxi+v08o7m4=
+
+Name: assets/game_music.ogg
+SHA1-Digest: R9QJs75h3sFgtGveOoKG6umso/U=
+
+Name: assets/obj_hat_320_480.raw
+SHA1-Digest: cNyXGpph7qpUM01ZjhHpsOk1b0A=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.steamboxperfect.un
+ achieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: 1Hnpvj2UzKDvPZv175SFBfp0Gn8=
+
+Name: assets/drawings_thumb_16_480_800.png
+SHA1-Digest: PrXtIYUn5oWudHDr3DeU14mWOUs=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9
+ .png
+SHA1-Digest: /ps9lLPOdDdwDt2YyGRRyGkRCMw=
+
+Name: assets/4_5.xml
+SHA1-Digest: I7Vs/VlM6ij+DcN9QEzPbJqw5wo=
+
+Name: res/drawable-xhdpi/kp_activity_indicator.png
+SHA1-Digest: NB5vEEUsHdUNCzzd3Mj3BTV5SYI=
+
+Name: assets/drawings_thumb_07_480_800.png
+SHA1-Digest: Tww7YN0oU1Rj0kTWcmeHbDM4gRU=
+
+Name: assets/2_12.xml
+SHA1-Digest: gnOZwZpe+KlD4G/6at7c8FjWCuc=
+
+Name: assets/drawing_12_320_480.png
+SHA1-Digest: 106+zNsD67kdURKyREmAsheE5U4=
+
+Name: assets/mask_320_480.png
+SHA1-Digest: xia9gKR2RmpS29ts+ounU9NDxiE=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: 3McbND4RRGV4vpt6LNxDafkdK4A=
+
+Name: assets/menu_agepopup_bgr_320_480.jpeg
+SHA1-Digest: tY3iq3J9C4rEGokIcbcuuXOWwp8=
+
+Name: assets/bgr_05_cover_320_480.jpeg
+SHA1-Digest: cXt5S62knTjkqRMx0DW4TOcCXA8=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: w/L+nKDDWadDlwiDybC+JmpbqaI=
+
+Name: assets/drawings_thumb_04_480_800.png
+SHA1-Digest: Hn5NPd2f6sZ6R6zK6abAGFJCOP8=
+
+Name: assets/monster_close.ogg
+SHA1-Digest: jhmNVXUzhZSHDh4CEo2KBL/goBc=
+
+Name: assets/SLAwards.bundle/Award.681461850.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/confetti_particles_480_800.raw
+SHA1-Digest: Tfn3HNfT13jpwGGymqpV7XEDa38=
+
+Name: assets/1_17.xml
+SHA1-Digest: 3FgdEmIIrRAs2pPpGx8uA++oBlg=
+
+Name: assets/drawing_09_320_480.png
+SHA1-Digest: UbMTHSIk2OckXFOF/Y39hzPLphM=
+
+Name: assets/8_1.xml
+SHA1-Digest: nS+3wXZgr2FCw8J+1wNE83tsm1o=
+
+Name: res/drawable/banner1.png
+SHA1-Digest: aaH7lTmZk6S31W8UarFkOJ9TCAc=
+
+Name: assets/16_10.xml
+SHA1-Digest: ELzIxHsa3WtwEEraEQ6X86UM0jY=
+
+Name: assets/omnom_artist_480_800.raw
+SHA1-Digest: XZFvDD0w4k1Wt2hqz0ydXEiMaKc=
+
+Name: assets/7_16.xml
+SHA1-Digest: subNGsLbE7aLKI+vdPd0ulH+AiM=
+
+Name: assets/9_14.xml
+SHA1-Digest: w8kBMzFtMW7pcCmT9j6aLr4oEM0=
+
+Name: assets/drawings_thumb_05_480_800.png
+SHA1-Digest: 08I4wF8R60ihU28W66x66K060Zs=
+
+Name: assets/menu_result_320_480.raw
+SHA1-Digest: fhBNnR/C7/edCMMiq5fzK38PS/U=
+
+Name: assets/candy_break.ogg
+SHA1-Digest: VyMytGiWjqYkdoYeD66wnjhaWZs=
+
+Name: assets/15_3.xml
+SHA1-Digest: C/KOdAk3Qd/cDB+Q0xi+wCFOzWQ=
+
+Name: res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.
+ png
+SHA1-Digest: IXqmYG4624bef7DnPxFG+Uwx1ak=
+
+Name: assets/SLAwards.bundle/Award.681497443.achieved.png
+SHA1-Digest: XhqPjKNh3x8xUEUdEeck7OPAgVs=
+
+Name: assets/drawings_thumb_17_320_480.png
+SHA1-Digest: oAW+PTQdL3XVjKpfE9GYKvsng2w=
+
+Name: assets/8_3.xml
+SHA1-Digest: nMKruwSdoyE1x61bFH4d6MHQBc8=
+
+Name: assets/SLAwards.bundle/Award.681513183.achieved.png
+SHA1-Digest: +nSUBbI/9jUg35WWjPhiKNSrN7Y=
+
+Name: assets/7_14.xml
+SHA1-Digest: lPXltuO9gOIVWfSzXCzBeOLMh6k=
+
+Name: assets/menu_content_screen_320_480.png
+SHA1-Digest: gKShY5Uu+JliP22e50qKFfMc2zY=
+
+Name: assets/SLAwards.bundle/Info.plist.checksum
+SHA1-Digest: GskqlLHotZb1h3XSUJM2SO+6dSk=
+
+Name: assets/drawing_facebook_480_800.png
+SHA1-Digest: ijxURw73rthW2a+TgQAYzr3eCSk=
+
+Name: assets/1_13.xml
+SHA1-Digest: 1fakxesL4VHl6gvTENnF3JWBh6Q=
+
+Name: assets/bgr_09_320_480.jpeg
+SHA1-Digest: mLor5IrEMoYXWzXuiWafdCBqwXk=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: 0ky7hJW6fNsa6m2tmjhllqHXHfg=
+
+Name: assets/8_21.xml
+SHA1-Digest: c83VUkayRycJtYkcjlcO+CyN1Uw=
+
+Name: assets/14_20.xml
+SHA1-Digest: OkeQCB8hLdfaDWBFzSCbLJAv80c=
+
+Name: assets/obj_rotatable_spikes_02_320_480.raw
+SHA1-Digest: /BWW+7bj4fMNuGujU3TGoLVjJk4=
+
+Name: assets/8_5.xml
+SHA1-Digest: 23yNSXtxJbdbzlhEC+BkAsrFLb0=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9
+ .png
+SHA1-Digest: HzOQHYhhJxxzbZqK40hTgOfRhlo=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png
+SHA1-Digest: FkxxTiMZkZMXGXmeMfd02TtKL64=
+
+Name: assets/char_support_12_480_800.raw
+SHA1-Digest: K1EknsoiK0LMMooG+efKTIofRDg=
+
+Name: assets/6_18.xml
+SHA1-Digest: AtLDATmAoovlOKqbEO0OO/tWE1A=
+
+Name: assets/menu_pack_selection_boxes_1_320_480_alpha.png
+SHA1-Digest: x1dwgnIv7O34jlFULqQlFLlC3cQ=
+
+Name: assets/menu_result_en_480_800.raw
+SHA1-Digest: PpgZXOlg2xp/HJ17DjERBWFJMo0=
+
+Name: assets/14_8.xml
+SHA1-Digest: dWNlNYmVzz65EKE5yaOxl5K8Z0c=
+
+Name: res/layout/com_mixpanel_android_activity_survey.xml
+SHA1-Digest: DcHXYQLMrZxJHm9fAASIQMHMD30=
+
+Name: assets/5_6.xml
+SHA1-Digest: EAx9y5PZVMI5unSKTLwUghdT9H0=
+
+Name: assets/bgr_15_cover_320_480.jpeg
+SHA1-Digest: Ye5ykOhWTOLZKwHM8uBfNDxFVHg=
+
+Name: assets/9_2.xml
+SHA1-Digest: 9YvEzkQlI5smBYByVyIboY0221w=
+
+Name: assets/bgr_01_320_480.jpeg
+SHA1-Digest: xpzkaA8+SYaDCqLhi6W7PCf3f0Y=
+
+Name: assets/bgr_14_320_480.jpeg
+SHA1-Digest: KpzI7llfrCkXM79PAwISpj/bqLY=
+
+Name: assets/menu_native_ad_320_480.png
+SHA1-Digest: sWxs1RoDA5RLZcIEmIueEZhivPA=
+
+Name: assets/char_support_10_320_480.raw
+SHA1-Digest: BRKSstzhkdFQM7dow5pV0bUA9as=
+
+Name: assets/4_25.xml
+SHA1-Digest: Yt6uTcaAdfbSw22zvUGzSsM1qRk=
+
+Name: assets/1_6.xml
+SHA1-Digest: 8xCCe03NDyeOcbfDUhPJ77ws2kE=
+
+Name: assets/SLAwards.bundle/Award.1058341284.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/9_13.xml
+SHA1-Digest: kcBbk7kU9yBEB8yMfhjcAKKbf3s=
+
+Name: assets/2_17.xml
+SHA1-Digest: rCGTcnf1VE36naxRkmaqwooTm4Q=
+
+Name: res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png
+SHA1-Digest: vgTn+pEQhSLa5buaCqjDd3w3UWU=
+
+Name: assets/steam_start_2.ogg
+SHA1-Digest: PkzDx/sGz1h6fKlfCrYZiMMrP2M=
+
+Name: assets/2_13.xml
+SHA1-Digest: 7h+/xS9l4SNKz1GI7L/mFtiUN3k=
+
+Name: assets/menu_result_fr_480_800.raw
+SHA1-Digest: DwdSMEgHupIGp2GJDJ39Y9BZIOQ=
+
+Name: assets/drawing_09_480_800.png
+SHA1-Digest: Ogyvd3lyWgFak1X+HoBEtD7PrlY=
+
+Name: assets/14_15.xml
+SHA1-Digest: vD/+s95SRYDn9UCvy33UJn/Ygvk=
+
+Name: assets/11_25.xml
+SHA1-Digest: X1RJ1swtxks5q38jea0HKyJQy3Y=
+
+Name: assets/super_powers_480_800.raw
+SHA1-Digest: L3e33kTbCa7n5LkHDsAL/Y8oE5A=
+
+Name: assets/8_13.xml
+SHA1-Digest: XKtp5FObSMlwknLM1cYCmuhcaBg=
+
+Name: assets/hint_particle_320_480.raw
+SHA1-Digest: jwmYqkqHSSIs3Xq96VYAjuC6r7U=
+
+Name: res/layout/com_mixpanel_android_first_choice_answer.xml
+SHA1-Digest: 1YrbQmJ686OzDycsZhTOtO9rTzw=
+
+Name: do-not-commit/postitial-sdk-file-used.properties
+SHA1-Digest: C4RVTKI98SCdtPWgJwdEMkfTWDk=
+
+Name: assets/menu_sp_button_320_480.raw
+SHA1-Digest: XkmygJQxmztsxFB7o0/qm3D3yEQ=
+
+Name: assets/16_6.xml
+SHA1-Digest: GqcMX4+Fmjo74OW2BIwuRgeaMP8=
+
+Name: assets/2_20.xml
+SHA1-Digest: +o83CYp0Q/wcdnnKAW/u0jiztCU=
+
+Name: assets/char_support_08_320_480.raw
+SHA1-Digest: opUwVEeTxsXGNCehcIqsIV1znJA=
+
+Name: assets/spider_fall.ogg
+SHA1-Digest: DzOQSaAipuuc8Yu02Vw69bs8u5E=
+
+Name: assets/13_5.xml
+SHA1-Digest: Tj5Oa7s8VWJ/szqNtYjPt5+QPTk=
+
+Name: assets/char_support_05_320_480.raw
+SHA1-Digest: bXNfp1HbVt83XCRRkvNRQnQ79sA=
+
+Name: assets/menu_button_album_icon_320_480.raw
+SHA1-Digest: 9dP3U3R7oTSRZzWOVLl3AZojDhQ=
+
+Name: assets/SLAwards.bundle/Award.681486798.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/12_18.xml
+SHA1-Digest: Wnqra/2nBSCwdj9quMltY0M5mfM=
+
+Name: assets/6_19.xml
+SHA1-Digest: A6Rs7PHe0fK0gE/PDh+8cERp9YE=
+
+Name: assets/menu_pack_selection_ru_480_800.raw
+SHA1-Digest: /NT/8akdSrk87lVukpDqg4XdBQU=
+
+Name: assets/16_15.xml
+SHA1-Digest: e/VeWwRHCOuPYslnpZwMkBDTbNk=
+
+Name: assets/16_3.xml
+SHA1-Digest: MYvASx0K2hlG/n82MQq4uQ9MvJU=
+
+Name: assets/obj_star_disappear_480_800.png
+SHA1-Digest: ROtPiJF1SSJMVGOWkNEvoTM7uOk=
+
+Name: assets/menu_pack_selection_fr_320_480.raw
+SHA1-Digest: 1u5gABiXHP/409Iq36Kxzsizfos=
+
+Name: res/drawable-mdpi/kp_activity_indicator.png
+SHA1-Digest: mVR0csRj33uOa/YtY0wOVw0fqqY=
+
+Name: assets/pump_1.ogg
+SHA1-Digest: gGAgoJGED3sEGWyNFDH7gyknFYU=
+
+Name: assets/16_20.xml
+SHA1-Digest: P9Xuwed/Lk/L5GB1jTFoJIWbum0=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png
+SHA1-Digest: vGictS/UYFmX8tbz7DG/BKWlA1A=
+
+Name: assets/drawing_hidden_320_480.raw
+SHA1-Digest: c4YpxzrMWZ6RD2NtOO04jzhzb9U=
+
+Name: res/drawable/com_mixpanel_android_rounded_bottom_selected.9.png
+SHA1-Digest: 96fw7osR9SxKl77c2Pr2XjS8wxU=
+
+Name: assets/menu_pack_selection_it_320_480.raw
+SHA1-Digest: ZPd8KlrRITJtE7gXYfQo2kKrExU=
+
+Name: assets/rope_get.ogg
+SHA1-Digest: 9yHC7ZQey/GyUXnyEkfYCp3fP6s=
+
+Name: assets/5_1.xml
+SHA1-Digest: vZzeiI6dOPRtPFwFqNnZBiAvVqY=
+
+Name: assets/8_20.xml
+SHA1-Digest: /9K5gZHwJYpjic6zaqr5WWS3Bbs=
+
+Name: res/drawable-hdpi/ic_plusone_standard_off_client.png
+SHA1-Digest: 3M2Hwey0trjQpX8kpVoQgSeehjY=
+
+Name: assets/hardlink_version.txt
+SHA1-Digest: mL6GSd5SZP/TOQlGc2Uu4EnmMSs=
+
+Name: assets/obj_spikes_01_480_800.raw
+SHA1-Digest: bEAIx4Cqu5UJeE50nzKrCWWoGOk=
+
+Name: assets/candy_link.ogg
+SHA1-Digest: UnyRYKns8dp/QvJKFM/IqCfGuDc=
+
+Name: assets/10_12.xml
+SHA1-Digest: UElAT/9QFWLg6DLUqAI6V2/k8fQ=
+
+Name: assets/char_support_09_480_800.raw
+SHA1-Digest: /L1lmyHLQvwYbcK4BpnmADI1/Ew=
+
+Name: assets/8_19.xml
+SHA1-Digest: tD1Yt35Z3kAnVj+e6j1uiVBMwik=
+
+Name: assets/char_support_13_320_480.raw
+SHA1-Digest: lws6IvvX5Wsedjj2vh8Vx6oEwhQ=
+
+Name: assets/menu_level_selection_320_480.raw
+SHA1-Digest: eLQ7Eyg02kcLbLfg4VK2QaNPQQc=
+
+Name: assets/hud_buttons_ja_480_800.raw
+SHA1-Digest: bE6m7wDDYKLRdJcTdoCAXckm+Ik=
+
+Name: assets/menu_pack_selection_boxes_1_320_480.jpeg
+SHA1-Digest: iDHJwvgs/AZgeXnGLjyilkKsfUI=
+
+Name: assets/6_1.xml
+SHA1-Digest: 7R5jprIgqs9A5INTHyzuOZoZ3cM=
+
+Name: assets/7_13.xml
+SHA1-Digest: pvlwMF+xIoGWW4ckV3lBTHvt450=
+
+Name: assets/menu_result_ja_320_480.raw
+SHA1-Digest: rVHZYaaovCi+c9r2uY6jp2eKG48=
+
+Name: assets/menu_extra_buttons_ja_320_480.raw
+SHA1-Digest: QSw9TrdDNtpQ7zGHd+UQawfiDyc=
+
+Name: res/color/common_signin_btn_text_dark.xml
+SHA1-Digest: BaNQKLTExlr7d1i5w11FKzRyyx8=
+
+Name: assets/SLAwards.bundle/Award.1058345234.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/11_11.xml
+SHA1-Digest: SFa9Bf4i89h1cx0dRw+9SZyHeE4=
+
+Name: assets/char_support_10_480_800.raw
+SHA1-Digest: 6tRZxLNKhLfXKOKNxH+ygMCiv2I=
+
+Name: assets/menu_popup_noads_480_800.png
+SHA1-Digest: ukQSeESEk0Fnn2kHc3EWRs4tPkw=
+
+Name: assets/char_animations2_320_480.raw
+SHA1-Digest: m+Du4x0ErJPPRU0lSz8VLeR/lsQ=
+
+Name: assets/6_10.xml
+SHA1-Digest: XDk+iEh638MetamzVH5IySNKwNk=
+
+Name: assets/7_9.xml
+SHA1-Digest: UlOBW9Dg+UerkAfho8IWrV+mYR0=
+
+Name: assets/6_14.xml
+SHA1-Digest: k5vGnLLrY4MWDFEhaY84sRVJ5Zo=
+
+Name: assets/7_11.xml
+SHA1-Digest: E7K8GrQf6UFRTvxZ4Hf3OzfTRac=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png
+SHA1-Digest: dV3F0Sz7MxTs+Trhe4uXp7Q7aSs=
+
+Name: assets/6_2.xml
+SHA1-Digest: xFo0BrrfpEHqm6Gb9DBYlE+LLBw=
+
+Name: assets/5_13.xml
+SHA1-Digest: N3mqSjBfiIxnr0I9oPKFAzEwxLs=
+
+Name: assets/char_support_12_320_480.raw
+SHA1-Digest: 9QtQ8hrF5XBp3phOXvCUPKlZDGo=
+
+Name: assets/5_24.xml
+SHA1-Digest: Su+MDFXdAkDNwWo1YaA9z1DqPaU=
+
+Name: assets/vg_timer.png
+SHA1-Digest: ws2KsTpjLCH7XkI38uPiiBU12Sg=
+
+Name: assets/vg_close.png
+SHA1-Digest: 3Xnnqi2hsqwT1lI7P/bPDCT6Ito=
+
+Name: assets/menu_sp_button_480_800.raw
+SHA1-Digest: TOY4kPbPRABubrMxkttOrIhJsVY=
+
+Name: res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: UbXqMwM30HBljuHn+la04UPzB1Y=
+
+Name: assets/SLAwards.bundle/Award.1515796440.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/zeptolab_480_800.png
+SHA1-Digest: VeKz8ObE5PbelvivqK59SE/FW9k=
+
+Name: assets/menu_gallery_320_480.raw
+SHA1-Digest: e6F+Ntmmp582g3YtrrT2jumOE5M=
+
+Name: assets/10_22.xml
+SHA1-Digest: hSSYX9CRus8rx1FN5Viyui03bW8=
+
+Name: assets/2_18.xml
+SHA1-Digest: SGCxHzfaADhIeagOxehDxt5iK0o=
+
+Name: assets/vg_cta.png
+SHA1-Digest: D+8nNDJRsuOj79Uf2hm2FVscQas=
+
+Name: assets/rope_bleak_1.ogg
+SHA1-Digest: nlMMfughuo7p1TL8/jH5Ry92l+c=
+
+Name: assets/drawing_01_320_480.png
+SHA1-Digest: mRA1gCHbVOth4d8bj/WQInaGNoc=
+
+Name: assets/obj_star_idle_320_480.png
+SHA1-Digest: XTjTOgnPQVv7Ch647AiWrGdWwRo=
+
+Name: assets/menu_extra_buttons_it_480_800.raw
+SHA1-Digest: KdRwzF0H4LyL+JSJYv94IcdhVtE=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.steamboxcompleted.
+ unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 6a5ecgtC/fLZ8SvdIU/rApRmw7Q=
+
+Name: assets/13_6.xml
+SHA1-Digest: Lhntpw/UNVMouK3kjnPTaGWmk2c=
+
+Name: assets/2_8.xml
+SHA1-Digest: KnmQY21/OFLGCKBNO/JOybINem4=
+
+Name: assets/menu_extra_buttons_es_320_480.raw
+SHA1-Digest: LR0h4GApXlIH7O3V7Fxuqh2Lk90=
+
+Name: assets/drawing_08_320_480.png
+SHA1-Digest: Rzew4qrBQi3ofZtSk8rsJZvlpSA=
+
+Name: assets/4_19.xml
+SHA1-Digest: c5tXEZVh5QBwDMqNzd3OgjO0Q9w=
+
+Name: assets/SLAwards.bundle/Award.1058324751.achieved.png
+SHA1-Digest: tegiHFzejH1Q4xCCRNcwIcA0l4Q=
+
+Name: assets/7_4.xml
+SHA1-Digest: 4AgPFQL0WIWzamucgA8fbhaSSBY=
+
+Name: assets/drawings_thumb_06_320_480.png
+SHA1-Digest: /99dKUI2pXmHIwNe8iJIAa9owfg=
+
+Name: assets/rope_bleak_4.ogg
+SHA1-Digest: /3IcWLd2j3oDNULrJcjyxMsG4LA=
+
+Name: assets/obj_candy_01_480_800.raw
+SHA1-Digest: OQn6Cle1SlMmtRN/EILHUjOV0ks=
+
+Name: assets/obj_rotatable_spikes_04_480_800.raw
+SHA1-Digest: 6s44p456C34VjM5j+hH7vy5/oEU=
+
+Name: assets/spike_rotate_in.ogg
+SHA1-Digest: OMKx+6/CNffNFDHULXq08ltyb34=
+
+Name: assets/SLAwards.bundle/Award.681461850.achieved.png
+SHA1-Digest: AnBKFIOeikCvXILqLj607Vv0HtU=
+
+Name: res/drawable-ldpi/com_mixpanel_android_arrowleft.png
+SHA1-Digest: 2t8hNd4P1PfxaelqU/Xu4GGDlD4=
+
+Name: assets/confetti_particles_320_480.raw
+SHA1-Digest: GqWhAKULUb+3Vd1fa/pOS7n8rQE=
+
+Name: assets/3_20.xml
+SHA1-Digest: NQR6AQntCbwXbmYo/F5cwZTHbeI=
+
+Name: lib/x86/libctr-jni.so
+SHA1-Digest: 9XAdGXo0hTuMwHCepi08Oml2zPc=
+
+Name: assets/hud_buttons_ru_320_480.raw
+SHA1-Digest: S/0pHImCmFahoxHyDW8DAcvLYE8=
+
+Name: assets/obj_candy_fx_320_480.raw
+SHA1-Digest: aSmVxaa6L9J7As21zcdyRgcLYro=
+
+Name: assets/4_7.xml
+SHA1-Digest: iVOn8xYpwNDQYLaVLj4oAHSRbnk=
+
+Name: assets/11_18.xml
+SHA1-Digest: YZmhp96tKcmimF0dA0MfVFa4kzE=
+
+Name: assets/scratch_out.ogg
+SHA1-Digest: TunuMyI4mlekMo51OTSN/MQ5/EU=
+
+Name: assets/obj_bouncer_02_320_480.raw
+SHA1-Digest: GAiXYb8OpFvhFWVnE0DQTK0rsnw=
+
+Name: assets/hint_firefly_480_800.raw
+SHA1-Digest: GFX+EBAWVc2L5/wevnntzhEn7XY=
+
+Name: assets/4_17.xml
+SHA1-Digest: rb6kC17Y7MtVjViWhcLWQ83mAwY=
+
+Name: assets/5_9.xml
+SHA1-Digest: O8DhDgfl/mwkhWDxl4/BPmNy1VM=
+
+Name: assets/menu_result_gr_320_480.raw
+SHA1-Digest: oqUuVJ/cacAF53juDmXKAnMrLC8=
+
+Name: assets/5_14.xml
+SHA1-Digest: c3c4QjU4y75000BQIOf+XiavqkA=
+
+Name: assets/5_20.xml
+SHA1-Digest: bYZsCMnTwsSg18WJd0Dde7gg5Tg=
+
+Name: assets/8_8.xml
+SHA1-Digest: kGpoGIYZ7DYuSuZfR9dH6ndYfag=
+
+Name: assets/2_11.xml
+SHA1-Digest: b3U+8yJkpQlp41bYi+d7CQkDT3I=
+
+Name: assets/drawing_hidden_480_800.raw
+SHA1-Digest: 8Ru/czqC7mxTyw9P7oVx1hm6+HE=
+
+Name: res/drawable-xhdpi/com_mixpanel_android_arrowright_faded.png
+SHA1-Digest: OkTWQgXwfiBk5fGbsQejHVkQiQo=
+
+Name: assets/drawings_thumb_01_480_800.png
+SHA1-Digest: D+hheI2Z8aOOCCoN4kRwaC775+M=
+
+Name: res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: VSw7l3gn6Xmrfp6USiW4t6QJmPw=
+
+Name: assets/14_25.xml
+SHA1-Digest: kaPY9i7UTsOsiA7vWxAcV5Z9oRw=
+
+Name: assets/SLAwards.bundle/Award.681508316.achieved.png
+SHA1-Digest: IXNildbdgz/OksfYJxHX3+a+mjM=
+
+Name: assets/mouse_rustle.ogg
+SHA1-Digest: 6MH/kZbdk8pjbkLfaVNLcjE9/Gw=
+
+Name: assets/menu_extra_buttons_ko_480_800.raw
+SHA1-Digest: qExIYC065j3dzABkDKZ+fT4gCKc=
+
+Name: assets/menu_pack_selection_br_320_480.raw
+SHA1-Digest: 7h1LZzTr7mG2+GVvT0GkJ+It3cs=
+
+Name: assets/menu_result_ko_320_480.raw
+SHA1-Digest: 2GZCQzDWxnsmhJW/4ruLgEbjK6g=
+
+Name: assets/SLAwards.bundle/Award.1321820679.achieved.png
+SHA1-Digest: d5IRjbSw4RKjHRRPxEqrOlvjwl4=
+
+Name: assets/2_6.xml
+SHA1-Digest: hf/f4wiHJdlvlaGFQ+w98oCugAI=
+
+Name: assets/bgr_03_480_800.jpeg
+SHA1-Digest: vbTN43mY8hA0k6ZprIor0kpzqxw=
+
+Name: assets/7_21.xml
+SHA1-Digest: R1ZYDbeGKT8YdgpqZnaOj5tyQr4=
+
+Name: assets/drawings_thumb_13_320_480.png
+SHA1-Digest: zv77OQkHjReDFviLoZmVsbWGIvI=
+
+Name: res/raw/outro.mp4
+SHA1-Digest: cZea7AaIyZurOX70UFAMcoVfjxo=
+
+Name: assets/5_17.xml
+SHA1-Digest: WCm0QKQdrNpjd1Y7uY6Zui3sAN4=
+
+Name: assets/4_13.xml
+SHA1-Digest: Kz9KJ4IaXsLMoJkaF7ByaA6iHXA=
+
+Name: assets/6_7.xml
+SHA1-Digest: qAkGkz6zHrU5egwjWiwGpRY4tsk=
+
+Name: assets/char_support_02_480_800.raw
+SHA1-Digest: YsGQziS6pBE0hVYEwu/jXW8dWYE=
+
+Name: assets/2_3.xml
+SHA1-Digest: 30+HUGiLBj+Dr+0SPdHhzmb8XDQ=
+
+Name: assets/menu_popup_pic_320_480.png
+SHA1-Digest: 3w6huJu16rXXkaNwpLDanZIxo18=
+
+Name: assets/SLAwards.bundle/Info.plist
+SHA1-Digest: C86jRS8erHNrLsUcio5wbVS3R28=
+
+Name: res/drawable-mdpi/com_mixpanel_android_arrowright.png
+SHA1-Digest: R2XRUnDsOSF6b4w9vGPCjV/SLwY=
+
+Name: assets/char_support_05_480_800.raw
+SHA1-Digest: 1db8SmhRUp3vKrXhmJjZKyEJ7QU=
+
+Name: assets/10_5.xml
+SHA1-Digest: dqxTDIycOE7lqH3hkJLMhleq658=
+
+Name: assets/drawing_19_320_480.png
+SHA1-Digest: QDSq77ZDs/KX/uH5VwL6FbkjTB8=
+
+Name: assets/menu_pack_selection_zh_480_800.raw
+SHA1-Digest: j02iQoE7QUHwMXs8867TdKltPy0=
+
+Name: assets/char_support_07_320_480.raw
+SHA1-Digest: s7cZ2EWkbFRKHjguS0PCGdJrbW4=
+
+Name: assets/menu_button_scores_320_480.raw
+SHA1-Digest: 9Lr1GJxLGX6pBiDdJsRfWL0EMvU=
+
+Name: assets/obj_pipe_480_800.raw
+SHA1-Digest: +N0zwnNXOAvmOxi1Gaxqt/5M+a4=
+
+Name: assets/menu_pack_selection_ja_480_800.raw
+SHA1-Digest: Q7lROy/TPhYExb9fJbUKrlYTawg=
+
+Name: assets/obj_spikes_03_480_800.raw
+SHA1-Digest: ewUs/j5ACjvm9MHGRNE7w9TX1KQ=
+
+Name: assets/obj_bubble_attached_480_800.raw
+SHA1-Digest: sOA/TwgJmn93dDSg3DL9JfTo0a0=
+
+Name: assets/8_4.xml
+SHA1-Digest: A2RW//hqPZk5Zbsx7cx056nhw9c=
+
+Name: assets/char_support_15_320_480.raw
+SHA1-Digest: KWl0A2G5ICB4jxYfRrQKdiyGqIw=
+
+Name: assets/gravity_off.ogg
+SHA1-Digest: vz7Pbtag6P+ChKT4EaY/Ta+Yggc=
+
+Name: assets/loaderbar_full_480_800.png
+SHA1-Digest: 04pK9hHs4FyidSU9YLGpxMZYL8k=
+
+Name: assets/obj_spikes_02_480_800.raw
+SHA1-Digest: ZE0OU91Oy8VyWDf7iO/43iIU8XU=
+
+Name: assets/zeptolab_320_480.png
+SHA1-Digest: caQ7RQSl7q/ii1ekLo2F49IzaMY=
+
+Name: assets/3_9.xml
+SHA1-Digest: bf+VV77MNrr6UvC3MoxCVcqNE0Q=
+
+Name: assets/drawings_thumb_15_320_480.png
+SHA1-Digest: xT2uu8XZVIssz4nXlXTMwFieUkc=
+
+Name: res/drawable-hdpi/com_mixpanel_android_arrowleft_faded.png
+SHA1-Digest: o4WXQJWkeu1SWZfgtcvYxsiacUI=
+
+Name: assets/10_19.xml
+SHA1-Digest: yv44kb0ggzArAmQK+rBuTOKVBgU=
+
+Name: res/drawable-ldpi/com_mixpanel_android_arrowright.png
+SHA1-Digest: X/LD3cXG1UJWxNbuUiR5hM13kHw=
+
+Name: assets/tutorial_signs_480_800.raw
+SHA1-Digest: 5DGNcDAx5a/pjhdexBl1Nd296DI=
+
+Name: assets/11_21.xml
+SHA1-Digest: wc1bzFTEh6BAvjukOdRs15jyDYo=
+
+Name: assets/obj_candy_02_320_480.raw
+SHA1-Digest: pgcHxiQROZL1BMQ0nkctmdYZcKM=
+
+Name: assets/obj_bubble_pop_480_800.raw
+SHA1-Digest: 1NAAJGgTria1ikoWFTjmpE9fFWo=
+
+Name: assets/4_14.xml
+SHA1-Digest: N0xU+52Mn2tgJIDWduVcof9cwQA=
+
+Name: assets/16_14.xml
+SHA1-Digest: tH7qF+egVx5m5pG4YYZfz1Ia7uE=
+
+Name: assets/steam_start.ogg
+SHA1-Digest: hBAdMBeV+mdr54zVGZvsYme/7G8=
+
+Name: assets/11_23.xml
+SHA1-Digest: rlb4LHHfKeN/O58KJBs+P0y2KrE=
+
+Name: assets/SLAwards.bundle/Award.681512374.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_result_br_320_480.raw
+SHA1-Digest: eT2iCWqhtYo1QjGqjQPEdqS0xNo=
+
+Name: assets/14_18.xml
+SHA1-Digest: 5x+rj5nte3Xoqhg21w8ayAj6+vg=
+
+Name: assets/bgr_02_cover_480_800.jpeg
+SHA1-Digest: HIxaidqJsLhfr7Cncwx/Ygng1VY=
+
+Name: assets/obj_rotatable_spikes_01_320_480.raw
+SHA1-Digest: roW7kC6IPzdnZm0JdnqHaLNvukc=
+
+Name: assets/14_24.xml
+SHA1-Digest: fZ0JFiIQUuSTx2/3JlCRvySNbMs=
+
+Name: res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.p
+ ng
+SHA1-Digest: YmWnuLFTsxsuwRBtvQiQ6Y6KnsI=
+
+Name: assets/menu_processing_320_480.raw
+SHA1-Digest: tRxrmG+I8I15aq+qiEra694zhmM=
+
+Name: res/drawable-xxhdpi/com_mixpanel_android_arrowleft_faded.png
+SHA1-Digest: 0nf7f74LbpBDOrrVYFCVlj9BsS0=
+
+Name: assets/menu_result_ru_480_800.raw
+SHA1-Digest: Q8XTpESswwwDhjnOyeIRloxRNrA=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: AvIKUupgrO+uCBiDS6ZrbT37poE=
+
+Name: assets/4_20.xml
+SHA1-Digest: 1B5pQ4asrwpahOpLZj0Fg8g5/rc=
+
+Name: assets/9_5.xml
+SHA1-Digest: T0pE1UP8g6XUDZGOItiqFDfyp5s=
+
+Name: assets/menu_level_selection_480_800.raw
+SHA1-Digest: xwqwRuD/HgdIQ1I2tvDzAZLkdsI=
+
+Name: assets/13_18.xml
+SHA1-Digest: qUs4LrIG7Q5YdqnnapP6mKZ8c+4=
+
+Name: assets/7_19.xml
+SHA1-Digest: DjQb2l3zd0PiXV9P8BgtnqVo+/c=
+
+Name: hardlink_version.txt
+SHA1-Digest: mL6GSd5SZP/TOQlGc2Uu4EnmMSs=
+
+Name: assets/menu_button_google_play_480_800.raw
+SHA1-Digest: IZBcL5WPT4VO6glfxaGtH225FZs=
+
+Name: assets/SLAwards.bundle/Award.1058281905.achieved.png
+SHA1-Digest: Fs12ydP21Sg/2kBSGwX9M57yLm0=
+
+Name: res/drawable-hdpi/common_signin_btn_text_normal_light.9.png
+SHA1-Digest: BPO7rZUizcNQMnWeRsW2OCnWgH4=
+
+Name: assets/8_6.xml
+SHA1-Digest: t3rYWzCbZO+RKES35kbwIfuhaso=
+
+Name: assets/5_4.xml
+SHA1-Digest: 3362/66+CDhEgPa8we5N9Jhzm70=
+
+Name: resources.arsc
+SHA1-Digest: ly9s84MwfT+3mJ64K2mDUxkHtgk=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.spookyboxcompleted
+ .unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png
+SHA1-Digest: Wx/93xRl4fEGrkADqVPH6ShswfU=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: eAdVXtk/TEzSgB4P3wNlpGbfp5g=
+
+Name: assets/obj_hook_movable_320_480.raw
+SHA1-Digest: jch75VFpRH/GzoolfNNgM7XaSpk=
+
+Name: assets/menu_drawings_thumb_page_480_800.png
+SHA1-Digest: eUygmuS0TzbHxjAGqaAr5vY8L+0=
+
+Name: assets/1_16.xml
+SHA1-Digest: kTOITdc0yCDqxTruZLPG3hE4ZLk=
+
+Name: assets/15_11.xml
+SHA1-Digest: 7C9dBPQMD5kEh2MHXDlpTdeG3c4=
+
+Name: assets/menu_drawings_bgr_480_800.png
+SHA1-Digest: NC3fJdmMAsZiORlrMobin8H0MY4=
+
+Name: assets/5_15.xml
+SHA1-Digest: xhE1oGhCWJaaol+klMI/2pZS6u0=
+
+Name: assets/bgr_13_320_480.jpeg
+SHA1-Digest: +6gCydHsKx3vHvbUiT5ZXI8/ty4=
+
+Name: assets/bgr_04_320_480.jpeg
+SHA1-Digest: pLE5lZ+NTdBvz46p8IaxKXZ9Fjo=
+
+Name: assets/1_5.xml
+SHA1-Digest: nXbFleTLsJ39Cbu5Us73rj1cDcE=
+
+Name: res/drawable-xhdpi/kp_notification_bg.9.png
+SHA1-Digest: ukW4jtzqi7Uo2RKMmZ7YytfjjHg=
+
+Name: assets/3_21.xml
+SHA1-Digest: r5+s3/7ViZ44aNeULXsmhFdOs7Q=
+
+Name: assets/red_cross_320_480.raw
+SHA1-Digest: NzMUQIxRMFCSrrZIpR+L78J120o=
+
+Name: assets/11_2.xml
+SHA1-Digest: DW0T+HEs9+gn0SEDjHBNBp5K2WY=
+
+Name: assets/vg_mute_off.png
+SHA1-Digest: vhPpQ+iPN7V3M45TmpZ6JV8R01c=
+
+Name: res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png
+SHA1-Digest: ZDogSdlgVekmFIAbKguvig7+XGg=
+
+Name: res/drawable/common_signin_btn_icon_light.xml
+SHA1-Digest: gbL3UxH5sAJwZqS7rjNysKk6h90=
+
+Name: assets/SLAwards.bundle/Award.1058341297.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/3_12.xml
+SHA1-Digest: laDbhu9r/TsJDOfkF8S5KyzhUck=
+
+Name: res/drawable-mdpi/com_mixpanel_android_logo.png
+SHA1-Digest: FuKTWEqTRIoroAjuyT84638gP1M=
+
+Name: assets/3_24.xml
+SHA1-Digest: V+lu7zwok6yWd+aMGudI005lP7s=
+
+Name: assets/16_7.xml
+SHA1-Digest: ARm7V3SlNSJg09v3PM5p+hy40Vk=
+
+Name: assets/drawings_thumb_20_480_800.png
+SHA1-Digest: mprieFRkc+O24MSQahbWkfgnErw=
+
+Name: assets/loaderbar_full_320_480.png
+SHA1-Digest: bFhbGbiLLZSslfdPU2jEd9yO/Bw=
+
+Name: assets/big_font_320_480.png
+SHA1-Digest: A7s0SLtWtOoPtVXvd7dOrhmvsnk=
+
+Name: res/drawable/common_signin_btn_text_dark.xml
+SHA1-Digest: nJYCt9TV0Q1sdsu09Ek8YT2S3Uc=
+
+Name: assets/menu_loading_320_480.raw
+SHA1-Digest: G2TSGkZ+pUskTR+dT1GDrsdySIE=
+
+Name: assets/bgr_08_320_480.jpeg
+SHA1-Digest: oay/kM9XHnrcue2V1uTeQRTz5IA=
+
+Name: res/layout/video_view.xml
+SHA1-Digest: Wrv6UkbvWdIGMiYi2AmO3xyqygs=
+
+Name: assets/obj_hook_auto_320_480.raw
+SHA1-Digest: FyUvM71WjDi6gZ1tIVM+Hr/j3+g=
+
+Name: assets/8_22.xml
+SHA1-Digest: mktXLDWs4mnDtaSo6nnyBLP8tTI=
+
+Name: assets/obj_lantern_480_800.raw
+SHA1-Digest: xMYoaTxVBACitpgjvDghR29j1I4=
+
+Name: assets/sp_field.ogg
+SHA1-Digest: SjzPlssJMo1xOUNiwM9N6LWvQIw=
+
+Name: assets/SLAwards.bundle/Award.com.zeptolab.ctr.spookyboxcompleted
+ .achieved.png
+SHA1-Digest: pM7jkBa6lG01LqX7pTZHBHXKTio=
+
+Name: assets/bgr_11_320_480.jpeg
+SHA1-Digest: QSXr3dkwnooYzh0MTftJJtjyYbk=
+
+Name: res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: HlSxw8q2TxVN28UussUGRFFbn8k=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png
+SHA1-Digest: QvCsDHmHTCeFtKK23z0HRetpRJI=
+
+Name: assets/obj_spikes_02_320_480.raw
+SHA1-Digest: XWit8I4Uo+/QmbKB3IHaLKrCluY=
+
+Name: assets/menu_button_options_icon_320_480.raw
+SHA1-Digest: M6iQDsVQaI4kmYHuU0I+KOflXbU=
+
+Name: assets/9_24.xml
+SHA1-Digest: yPOvKYqBJTwU//V2xqD2hdx7Dkw=
+
+Name: assets/12_10.xml
+SHA1-Digest: TalwMLhY2z/2H6bV1JC2+n8qzhU=
+
+Name: res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png
+SHA1-Digest: UsY+c7jSRS1f1aEh0HgE8187rLI=
+
+Name: assets/9_1.xml
+SHA1-Digest: P0AebzQZdAiy/ZNCAg2biRHEVoI=
+
+Name: assets/obj_bee_480_800.raw
+SHA1-Digest: e+BPT2Lw7IExCip92btf4YyXqYc=
+
+Name: assets/menu_bgr_320_480.jpeg
+SHA1-Digest: RpfmVf56MzcaZL1QbJGrKr5SWoo=
+
+Name: assets/13_9.xml
+SHA1-Digest: abnR7XhH21LG76dkMZPpXaoKpCo=
+
+Name: assets/bgr_04_cover_320_480.jpeg
+SHA1-Digest: ZaHUCTbqraAGLpW3ukjsL/wrnG8=
+
+Name: assets/3_16.xml
+SHA1-Digest: TF7a3h6f+Uf2ZTWcKlx/yFqDyJc=
+
+Name: assets/hud_buttons_es_480_800.raw
+SHA1-Digest: NQv1SOcJwG9Onba7SHvvvfE5ow8=
+
+Name: assets/pump_3.ogg
+SHA1-Digest: UOWLXTgZ9ZmIjQbbYn9j4g0Xljs=
+
+Name: assets/3_19.xml
+SHA1-Digest: wSZMH//Q4n7A0t9RKxQjUOtsuxw=
+
+Name: assets/9_17.xml
+SHA1-Digest: HBShRPSwto7+K8h+3jmQOmsDWlU=
+
+Name: assets/drawings_thumb_06_480_800.png
+SHA1-Digest: 0WaXhYJellmKB9c92XYHwdIFWlY=
+
+Name: assets/teleport.ogg
+SHA1-Digest: zpzQyxAJ8LfEBM6+g9b4tuoGEYY=
+
+Name: assets/menu_logo_480_800.raw
+SHA1-Digest: GwJsVLsZ1zFEC3JFWOWMXNJgDfs=
+
+Name: assets/drawings_thumb_03_480_800.png
+SHA1-Digest: zShLJ2f+Ir+xxcGgh0SiPml/Ur4=
+
+Name: assets/5_8.xml
+SHA1-Digest: 8VJ75xEza7IvS897j8e8pH21Sok=
+
+Name: assets/10_4.xml
+SHA1-Digest: 8VmCokSMvI61qzzIZ3NXn3t2vlo=
+
+Name: assets/popup_hint_gift_480_800.raw
+SHA1-Digest: e8UDEVl+YdoCv1OgQIZvHvfyR5A=
+
+Name: res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png
+SHA1-Digest: dAIabshO7sf8DA0quqZILhJ5V4A=
+
+Name: assets/9_11.xml
+SHA1-Digest: 8hG+GE7UgfufXVv6F0vs2y7jYYk=
+
+Name: assets/obj_mouse_320_480.raw
+SHA1-Digest: unuWUEYv+WXbJPG36MEQYEDxD8E=
+
+Name: assets/3_18.xml
+SHA1-Digest: ZQQrQHNOJmIBiJOO4lPuAkC/8cU=
+
+Name: assets/15_1.xml
+SHA1-Digest: rQ8vYvvOMpXYpnd8zthEK2BjKJA=
+
+Name: assets/menu_result_nl_480_800.raw
+SHA1-Digest: mQ+Crl+5Q+uqw1PAwnOjnKMr5aE=
+
+Name: assets/14_10.xml
+SHA1-Digest: fQ0dRV5iOP/jCzrb3mm8xhLIvoA=
+
+Name: assets/menu_extra_buttons_zh_320_480.raw
+SHA1-Digest: h+X1YxtAR7i2VTur/BbPrTvFT7k=
+
+Name: assets/menu_promo_banner_480_800.jpeg
+SHA1-Digest: az9lay9Aa4jn54PXeSBSWBPRsSI=
+
+Name: assets/10_15.xml
+SHA1-Digest: 7Xe1V/fS5ysjPqrpoWw1KAQ4o+I=
+
+Name: assets/11_7.xml
+SHA1-Digest: BDQ+wVngFEK5ASoHyHpsEy6Xe/A=
+
+Name: assets/SLAwards.bundle/Award.1058248892.achieved.png
+SHA1-Digest: j27BusZhmSkC2w0sdNHjycPQy+o=
+
+Name: assets/hud_buttons_en_480_800.raw
+SHA1-Digest: coRCr80/aNb28JAcTKt0OAacvbs=
+
+Name: assets/menu_drawings_empty_page_320_480.raw
+SHA1-Digest: Fu3PYz6nb6u0r3wk1tS+pYdvaaQ=
+
+Name: assets/drawing_canvas_locked_320_480.png
+SHA1-Digest: 67lPyYopP85jSqasZirjzYbVH/Q=
+
+Name: assets/lantern_teleport_in.ogg
+SHA1-Digest: Jf0Ko28CemDfuCcYT4a4nDpbohg=
+
+Name: assets/menu_pack_selection_boxes_2_480_800.jpeg
+SHA1-Digest: R/y8jpA5qsqFrTFjkvFEKuqj6jY=
+
+Name: assets/menu_result_zh_320_480.raw
+SHA1-Digest: FszwIuvDn9ySjkFXCJju0I84B1s=
+
+Name: assets/SLAwards.bundle/Award.681462993.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: assets/menu_native_ad_480_800.png
+SHA1-Digest: SAZy1Re9zeaPfnu2nG4/y4EQgj8=
+
+Name: assets/obj_candy_fx_480_800.raw
+SHA1-Digest: fJKVGQsZoVXLeooT20/HQw0mnuQ=
+
+Name: assets/15_6.xml
+SHA1-Digest: HPjkyauujx/NhU8rRpS35Q5dSGw=
+
+Name: assets/9_8.xml
+SHA1-Digest: BhKhg1dylHwvU5hT9LSgPzhf/UA=
+
+Name: assets/hud_buttons_ru_480_800.raw
+SHA1-Digest: kIcPI8m6OEftjfaUNdh1H2fZaJ8=
+
+Name: assets/10_10.xml
+SHA1-Digest: Pwnmyoc39j1L2TBv/+32pr5izG4=
+
+Name: assets/11_16.xml
+SHA1-Digest: mJd6ozwSdlcaFLVHwMz/pa7eBF8=
+
+Name: assets/SLAwards.bundle/Award.681497443.unachieved.png
+SHA1-Digest: 43F3J2AvjA5/wVOJbqu2sPRVSIw=
+
+Name: res/drawable/com_mixpanel_android_choice_first_states.xml
+SHA1-Digest: NiJRFw6CVjBepjCi9RILJptwlwo=
+
+Name: assets/menu_pack_selection_es_320_480.raw
+SHA1-Digest: 12ikzgsr0G2/tTpaSgSQX2kNXvQ=
+
+Name: assets/1_21.xml
+SHA1-Digest: cjOKW1sGjWVz7b3i1mdr7AVsJD8=
+
+Name: assets/char_support_16_320_480.raw
+SHA1-Digest: jjrJi8u0Kqz9VbG3hukimzL5gdU=
+
+Name: assets/menu_music.ogg
+SHA1-Digest: AOz0/B2AeaBa2lcoVW5HRaaXg3Y=
+
+Name: res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png
+SHA1-Digest: CdS2JYcO2aYMRPs8uE6z0+hK3SA=
+
+Name: assets/bgr_14_cover_320_480.jpeg
+SHA1-Digest: Wcom8NGeXZOgSEmIavplZuNmPW8=
+
+Name: assets/bgr_03_320_480.jpeg
+SHA1-Digest: hiAWyvKYNynCdONp0o8DRIC/Acc=
+
+Name: assets/3_2.xml
+SHA1-Digest: +CWKEYSw3f63VkWBpzg/x/Vjf3k=
+
+Name: res/drawable/com_mixpanel_android_text_answer_border.xml
+SHA1-Digest: hcYCYiWozw9nE0cAXkSfM0AddU0=
+
+Name: assets/menu_pack_selection_en_480_800.raw
+SHA1-Digest: pq3PqnO3k5ndkzK+QBTrMUmjUIA=
+
+Name: assets/12_17.xml
+SHA1-Digest: 7Ijij5I4Pfsf6DwKGXzb+A/JbNQ=
+
+Name: assets/16_11.xml
+SHA1-Digest: +NjfuGfChN8EsoA2mY6xtGZL70g=
+
+Name: assets/7_24.xml
+SHA1-Digest: HPHAtSG8OqBzONqIy4Do8RfnJN8=
+
+Name: assets/hint_panel_320_480.jpeg
+SHA1-Digest: THkku2NZ/dHCB3M5v+rB3vpFPuw=
+
+Name: assets/obj_spider_480_800.raw
+SHA1-Digest: O8t47pgdqOFRizO9v/cXkoYXrGI=
+

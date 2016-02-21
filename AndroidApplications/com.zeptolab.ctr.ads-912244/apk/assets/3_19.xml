@@ -1,0 +1,21 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1.0" />
+</layer>
+<layer name="Objects">
+<target x="179" y="428" />
+<electro x="117" y="355" initialDelay="0.0" offTime="4.0" onTime="2.0" angle="0" size="5" />
+<electro x="201" y="256" initialDelay="0.0" offTime="4.0" onTime="2.0" angle="0" size="5" />
+<electro x="118" y="162" initialDelay="0.0" offTime="4.0" onTime="2.0" angle="0" size="5" />
+<star x="142" y="221" timeout="-1" />
+<star x="148" y="320" timeout="-1" />
+<star x="146" y="50" timeout="-1" />
+<grab x="212" y="28" length="60" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<candy x="211" y="117" />
+<pump x="60" y="101" angle="0" />
+<pump x="259" y="314" angle="180" />
+<grab x="84" y="224" length="100" wheel="false" radius="50" moveLength="-1" moveVertical="false" moveOffset="0" spider="true" />
+<hiddenElement x="272" y="223" radius="100" />
+</layer>
+</map>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/owner_name" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OwnerName" style="@style/shoutName" />
+    <TextView android:id="@id/message" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="this is a test shout..." android:layout_below="@id/owner_name" style="@style/shoutMessage" />
+    <TextView android:id="@id/posted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Feb 2 01:45:23" android:layout_alignParentRight="true" style="@style/shoutPosted" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alert_dialog_title_height">64.0dip</dimen>
+    <dimen name="alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="calibration_screen_margin">10.0dip</dimen>
+    <dimen name="ac_title_bar_height">48.0dip</dimen>
+    <dimen name="button_offset">2.0dip</dimen>
+    <dimen name="button_corner_radius">10.0dip</dimen>
+    <dimen name="ac_normal_text_size">16.0dip</dimen>
+    <dimen name="ac_large_text_size">21.0dip</dimen>
+    <dimen name="ac_title_text_size">28.0dip</dimen>
+    <dimen name="warning_view_main_dimension">48.0dip</dimen>
+    <dimen name="orientation_panel_1_width">100.0dip</dimen>
+    <dimen name="orientation_panel_2_width">90.0dip</dimen>
+</resources>

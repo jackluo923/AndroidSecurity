@@ -1,0 +1,107 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: TaWy9vF1Tr2lDuLTJOyJWTekE68=
+Created-By: 1.6.0_22 (Apple Inc.)
+SHA1-Digest-Manifest: C1ySSd8RFgsNxcVziK3qktGNRfk=
+
+Name: res/drawable/menu_reset.png
+SHA1-Digest: DRcFaNIev3fWPS/IrIVeMBxVk00=
+
+Name: res/drawable/menu_new.png
+SHA1-Digest: zjjCNZHfe71VmqfyJv2y3C5ivmo=
+
+Name: res/drawable/disc_glass_black.png
+SHA1-Digest: cHLGobuTGe4ZB/wuOuOvPL/BbRQ=
+
+Name: res/drawable/ai_running.png
+SHA1-Digest: bBxBlUI4HI+BgsDZGpFslxgsUhI=
+
+Name: res/drawable/back_about.png
+SHA1-Digest: TDbYO4mJEFsUvp+IMkdIYTEB3PY=
+
+Name: res/layout/options_screen.xml
+SHA1-Digest: taBL+LwcbADK5uGyxnaa5I02ie0=
+
+Name: res/drawable-land/splash.png
+SHA1-Digest: uh5BKrMxMB3uNowOlBcp2dLnDKs=
+
+Name: res/drawable/icon_statistics.png
+SHA1-Digest: p1RX/S6Iq0GgoefaN4mOJBixlm0=
+
+Name: res/drawable/disc_glass_green.png
+SHA1-Digest: WPKdi2krONe3bEnDSji7P/sEXTQ=
+
+Name: res/drawable/logo.png
+SHA1-Digest: nJ+1jwabnB65AFaLetHQ72Evdbk=
+
+Name: resources.arsc
+SHA1-Digest: OanTnt6gqJT6ewGoK2SBAjGf6+w=
+
+Name: res/drawable/disc_glass_blue.png
+SHA1-Digest: JUOJkGVenW83gDdfXmF//wCpOac=
+
+Name: AndroidManifest.xml
+SHA1-Digest: votJUwjf/wvBnt10fhgJCyAHcMQ=
+
+Name: res/drawable/disc_glass_white.png
+SHA1-Digest: WFHjDMrpT8B9SEPWdsQbQ8w95C8=
+
+Name: res/drawable/icon_application.png
+SHA1-Digest: HIyPwFX0FveOCG3qlXDnjJ6O/oY=
+
+Name: res/layout/game_screen.xml
+SHA1-Digest: MoEr4NzzUh2Ko7OPPzRnfsF1f+4=
+
+Name: res/layout/main_menu_menu_item.xml
+SHA1-Digest: 8bxGb7PItlCQZe/ba39MQIkXXf8=
+
+Name: res/drawable/splash.png
+SHA1-Digest: ULyFr9WO8X9LEdGw0kFKFfyOZKo=
+
+Name: res/drawable/menu_resign.png
+SHA1-Digest: +i/CB8XKJ9k058GQ4wAoYDEnh74=
+
+Name: res/drawable/disc_glass_red.png
+SHA1-Digest: AefgAwqtXZSkKbeQWRReMOtix8Y=
+
+Name: res/layout/about_screen.xml
+SHA1-Digest: rUVKhrtreKGIc/w3HibTsBgoRU4=
+
+Name: res/drawable-land/back_about.png
+SHA1-Digest: Abta5GSkrwd0B8Ch5QxODrS1sTo=
+
+Name: res/drawable/ai_stopped.png
+SHA1-Digest: khsV0DW1BIJu0KdJQaDul6bqvnQ=
+
+Name: res/drawable/menu_pause.png
+SHA1-Digest: 6U1B4qgLfeM/nCa5rSXXrW2n3FY=
+
+Name: res/layout/splash_screen.xml
+SHA1-Digest: VAmQm+sinCfis7e7jTANpx/WKaI=
+
+Name: res/layout/statistics_screen.xml
+SHA1-Digest: Ox3RXuUmk1jw1e+TajvLOtFHyqU=
+
+Name: classes.dex
+SHA1-Digest: G/tzSfIiVa3CI2yqJ88LxQPHrSg=
+
+Name: res/drawable/icon_start_game.png
+SHA1-Digest: a5zWj+m5TJa20W4FpiiHWayT5vI=
+
+Name: res/drawable/menu_resume.png
+SHA1-Digest: +N6Gkgrk+Q9VftYJU3cQkaiUFr4=
+
+Name: res/drawable/icon_options.png
+SHA1-Digest: ylsru5PKre1N4nNgjFMrDc2USa4=
+
+Name: res/layout/main_screen.xml
+SHA1-Digest: qGoAIer0+HQKe+I+jJ76+CXvzRY=
+
+Name: res/drawable/disc_glass_yellow.png
+SHA1-Digest: fLWozG1ubwDz+Tt/CyoQ3mC4mDA=
+
+Name: res/drawable/icon_about.png
+SHA1-Digest: bQ0qZjxmwjU/XoM4GDxIVqx061Y=
+
+Name: res/layout-land/game_screen.xml
+SHA1-Digest: d+jPeeW6ynDLxXJCQY+vrGUZN44=
+

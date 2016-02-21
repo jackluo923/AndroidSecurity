@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_weight="1.0">
+        <ScrollView>
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0sp">
+                <TableRow android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff736f6e" android:gravity="left" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Ads Preferences Manager" android:height="50.0sp" />
+                </TableRow>
+                <TextView android:height="10.0sp" />
+                <TextView android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_span="2" android:height="2.0sp" />
+                <TextView android:height="10.0sp" />
+                <TableRow>
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff736f6e" android:layout_gravity="left" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Set Location for Daily Deals" />
+                </TableRow>
+                <TextView />
+                <TableRow>
+                    <Spinner android:id="@id/default_location_spinner" android:layout_width="fill_parent" android:prompt="@string/default_location_prompt" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_current_location_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  Use Current Location" />
+                </TableRow>
+                <TextView android:height="10.0sp" />
+                <TextView android:background="#ffc0c0c0" android:height="2.0sp" />
+                <TextView android:height="10.0sp" />
+                <TableRow>
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff736f6e" android:layout_gravity="left" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select Ads from the following areas" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_arts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Arts and Entertainment" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Automotive" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_beauty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Beauty and Spas" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_education" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Education" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_finance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Financial Services" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_food" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Food and Drink" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_health" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Health and Fitness" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_nightlife" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Nightlife" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_restaurants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Restaurants" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_shopping" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Shopping" />
+                </TableRow>
+                <TableRow>
+                    <CheckBox android:id="@id/set_ad_type_travel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Travel" />
+                </TableRow>
+                <TextView android:height="10.0sp" />
+                <TextView android:background="#ffc0c0c0" android:height="2.0sp" />
+                <TextView android:height="10.0sp" />
+            </TableLayout>
+        </ScrollView>
+    </TableRow>
+    <TableRow android:background="#ffbebebe">
+        <TableLayout android:layout_width="fill_parent">
+            <TableRow android:gravity="center">
+                <Button android:id="@id/submit_add_prefereneces_ok" android:layout_width="150.0sp" android:layout_height="wrap_content" android:text="OK" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>

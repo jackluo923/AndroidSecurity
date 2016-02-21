@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="" versionhdr="Upgrade to Unit Converter Plus">
+        <change>Unit Search function - find units by name in all the different categories</change>
+        <change>More currencies (169 vs. 60)</change>
+        <change>More features (calculator, tip calculator)</change>
+        <change>Custom units</change>
+        <change>Imperial Value Inputs (i.e. 6ft 2in)</change>
+        <change>GPS-Latitude/Longitude Converter</change>
+        <change>Theme Support</change>
+        <change>And more... see &lt;a href=http://www.wopnersoft.com>website&lt;/a> for more information</change>
+    </release>
+</changelog>

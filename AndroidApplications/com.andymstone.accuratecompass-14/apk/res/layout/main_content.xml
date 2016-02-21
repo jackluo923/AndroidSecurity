@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.andymstone.accuratecompass.BackgroundSurface android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.andymstone.accuratecompass.CompassView android:id="@id/main_compass" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.andymstone.accuratecompass.OrientationDisplayView android:id="@id/orientation_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true" />
+    <com.andymstone.accuratecompass.WarningsView android:id="@id/warnings" android:background="@drawable/selector_background" android:padding="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/warning_triangle" android:layout_below="@id/orientation_display" android:layout_alignParentLeft="true" custom:maxWidth="480.0dip" />
+    <include android:layout_centerInParent="true" layout="@layout/no_sensor_warning" />
+</merge>

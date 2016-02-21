@@ -1,0 +1,46 @@
+package com.andymstone.compasslib;
+
+public final class u {
+    public static final int abnormal_acceleration_warning = 2130968591;
+    public static final int abnormal_acceleration_warning_title = 2130968594;
+    public static final int abnormal_magnetic_field_warning = 2130968592;
+    public static final int abnormal_magnetic_field_warning_title = 2130968595;
+    public static final int about_message = 2130968589;
+    public static final int app_name = 2130968576;
+    public static final int back_to_compass_label = 2130968608;
+    public static final int bad_magnetic_field = 2130968599;
+    public static final int btn_calibration_instructions = 2130968612;
+    public static final int btn_field_strength = 2130968611;
+    public static final int calibration_instructions = 2130968600;
+    public static final int calibration_ok = 2130968597;
+    public static final int calibration_required = 2130968598;
+    public static final int calibration_title = 2130968596;
+    public static final int contact_email = 2130968578;
+    public static final int dismiss_warning_btn_description = 2130968610;
+    public static final int email_stonekick = 2130968586;
+    public static final int instructions_message = 2130968587;
+    public static final int label_magnetic_field_strength = 2130968617;
+    public static final int no_email_app = 2130968579;
+    public static final int ok = 2130968585;
+    public static final int publisher_id = 2130968577;
+    public static final int rate_me_dialog_dialog_message = 2130968584;
+    public static final int rate_me_dialog_dialog_title = 2130968583;
+    public static final int rate_me_dialog_later = 2130968581;
+    public static final int rate_me_dialog_never = 2130968580;
+    public static final int rate_me_dialog_rate_now = 2130968582;
+    public static final int sensor_accuracy_high = 2130968602;
+    public static final int sensor_accuracy_label = 2130968601;
+    public static final int sensor_accuracy_low = 2130968604;
+    public static final int sensor_accuracy_medium = 2130968603;
+    public static final int sensor_accuracy_unknown = 2130968606;
+    public static final int sensor_accuracy_unreliable = 2130968605;
+    public static final int sensor_accuracy_waiting = 2130968613;
+    public static final int sensor_calibration_warning = 2130968590;
+    public static final int sensor_calibration_warning_title = 2130968593;
+    public static final int title_accelerometer_accuracy = 2130968615;
+    public static final int title_instructions = 2130968616;
+    public static final int title_magnetometer_accuracy = 2130968614;
+    public static final int waiting_for_sensor_accuracy = 2130968609;
+    public static final int waiting_for_sensor_data_message = 2130968607;
+    public static final int whats_new_message = 2130968588;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="warning_view_main_dimension">48.0dip</dimen>
+    <dimen name="orientation_panel_1_width">80.0dip</dimen>
+    <dimen name="orientation_panel_2_width">70.0dip</dimen>
+</resources>

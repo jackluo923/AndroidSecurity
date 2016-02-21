@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+        <LinearLayout android:background="#aa2e10ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoDeviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Device Name:" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoDeviceNameValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:background="#aa2e10ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoAndroidVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Android Version:" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoAndroidVersionValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:background="#aa2e10ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoAndroidID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Android ID:" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/infoAndroidIDValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <Spinner android:id="@id/resolutions" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:spinnerMode="dropdown" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <EditText android:id="@id/width" android:layout_width="120.0dip" android:layout_height="wrap_content" android:hint="width" android:ems="10" android:inputType="number">
+                    <requestFocus />
+                </EditText>
+                <EditText android:id="@id/height" android:layout_width="120.0dip" android:layout_height="wrap_content" android:hint="height" android:ems="10" android:inputType="number" />
+                <EditText android:id="@id/fps" android:layout_width="120.0dip" android:layout_height="wrap_content" android:hint="fps" android:ems="10" android:inputType="number" />
+            </LinearLayout>
+            <Button android:id="@id/reset" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="Reset" />
+        </LinearLayout>
+        <LinearLayout android:background="#aa2e10ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/nativeHeapText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Native" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/nativeHeapValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:background="#aa2e10ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/jvmHeapText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dalvik" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/jvmHeapValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ToggleButton android:id="@id/profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="Profile On" android:textOff="Profile Off" android:text="Profile" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

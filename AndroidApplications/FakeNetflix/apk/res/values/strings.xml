@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Loading Page</string>
+    <string name="app_name">NetFlix</string>
+    <string name="Txt">This version of NetFlix is not compatible with your Android Device. Please download netflix-mod-2.apk from XDA</string>
+</resources>

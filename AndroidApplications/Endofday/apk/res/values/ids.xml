@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainLayout">false</item>
+    <item type="id" name="scrollview1">false</item>
+    <item type="id" name="tablelayout1">false</item>
+    <item type="id" name="btnStopSound">false</item>
+</resources>

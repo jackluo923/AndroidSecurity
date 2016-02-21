@@ -1,0 +1,58 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='77' y='313'/>
+<target x='123' y='432'/>
+<star x='148' y='139' timeout='-1'/>
+<star x='257' y='351' timeout='-1'/>
+<star x='122' y='346' timeout='-1'/>
+<grab gun='false' radius='-1' x='124' y='191' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='70' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='55' x='247' y='92' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='150' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='65' x='188' y='289' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='49' y='381' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='25' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<tutorialText x='20' y='98' text='Stretched ropes get red' locale='en' width='100'/>
+<tutorial09 x='67' moveSpeed='100' y='85' rotateSpeed='100' locale='en'/>
+<hiddenElement x="60" y="134" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='ru'/>
+<tutorialText x='21' y='77' text='Натянутые веревки становятся красными' locale='ru' width='100'/>
+</layer>
+<layer name='Fr'>
+<tutorial09 x='118' moveSpeed='100' y='57' rotateSpeed='100' locale='fr'/>
+<tutorialText x='8' y='65' text='Les cordes étirées deviennent rouges' locale='fr' width='230'/>
+</layer>
+<layer name='De'>
+<tutorialText x='57' y='33' text='Gespannte Seile werden rot' locale='de' width='140'/>
+<tutorial09 x='39' moveSpeed='100' y='68' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='22' y='57' text='拉紧的绳索*会变成红色' locale='zh' width='140'/>
+<tutorial09 x='85' moveSpeed='100' y='46' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='63' y='52' text='伸びすぎた*ロープは*赤く*なって*しまいます' locale='ja' width='140'/>
+<tutorial09 x='123' moveSpeed='100' y='42' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='it'/>
+<tutorialText x='21' y='77' text='Le corde tese diventano rosse' locale='it' width='100'/>
+</layer><layer name='es'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='es'/>
+<tutorialText x='21' y='77' text='Las cuerdas se ponen rojas cuando están muy tensas.' locale='es' width='100'/>
+</layer><layer name='ko'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='ko'/>
+<tutorialText x='21' y='77' text='늘어난 줄은 *빨간색으로 변해요.' locale='ko' width='100'/>
+</layer><layer name='br'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='br'/>
+<tutorialText x='21' y='77' text='Cordas esticadas ficam vermelhas' locale='br' width='100'/>
+</layer><layer name='tr'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='tr'/>
+<tutorialText x='21' y='77' text='Uzatılan ipler kırmızılaşır' locale='tr' width='100'/>
+</layer><layer name='nl'>
+<tutorial09 x='68' moveSpeed='100' y='64' rotateSpeed='100' locale='nl'/>
+<tutorialText x='21' y='77' text='Uitgerekte touwen worden rood' locale='nl' width='100'/>
+</layer></map>

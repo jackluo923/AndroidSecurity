@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderUS_Canada" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenUS_Canada" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderEurope" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenEurope" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderMexico" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenMexico" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderJapan" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenJapan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderUk_Australia" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenUk_Australia" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderFrance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenFrance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderInternational" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenInternational" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderInches" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenInches" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderCentimeters" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenCentimeters" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtShoeMenHeaderMillimeters" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerShoeMenMillimeters" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderUSA" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeUSA" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderDiamInch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeDiamInch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderDiamMM" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeDiamMM" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderCircumMM" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeCircumMM" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderBritish" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeBritish" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderFrench" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeFrench" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderGerman" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeGerman" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderJapanese" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeJapanese" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+        <TextView android:textSize="18.0sp" android:id="@id/TxtRingSizeHeaderSwiss" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/SpinnerRingSizeSwiss" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</ScrollView>

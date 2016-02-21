@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="2.8.5.8" versionhdr="Release: ">
+        <change>Added several requested units</change>
+        <change>Fixed keypad layout issue on some devices</change>
+        <change>Other minor fixes</change>
+        <change> **  Please consider rating Unit Converter in the Play Store to keep it the #1 Unit Converter for Android!</change>
+    </release>
+</changelog>

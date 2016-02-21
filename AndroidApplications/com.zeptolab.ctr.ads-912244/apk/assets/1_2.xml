@@ -1,0 +1,57 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='69' y='203'/>
+<grab gun='false' radius='-1' x='52' y='70' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='90' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='162' y='69' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='170' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<target x='264' y='419'/>
+<star x='54' y='250' timeout='-1'/>
+<star x='53' y='369' timeout='-1'/>
+<star x='280' y='250' timeout='-1'/>
+<grab gun='false' radius='-1' x='275' y='69' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='320' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<tutorialText x='133' y='285' text='Collect as many stars as you can' locale='en' width='150'/>
+<tutorial09 x='113' moveSpeed='100' y='321' rotateSpeed='100' locale='en'/>
+<hiddenElement x="157" y="134" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial09 x='84' moveSpeed='100' y='315' rotateSpeed='100' locale='ru'/>
+<tutorialText x='103' y='278' text='Старайтесь собрать как можно больше звезд' locale='ru' width='210'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='137' y='285' text='Recueillez le plus d&apos;étoiles possible' locale='fr' width='150'/>
+<tutorial09 x='113' moveSpeed='100' y='321' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='126' y='285' text='Sammle möglichst viele Sterne.' locale='de' width='170'/>
+<tutorial09 x='106' moveSpeed='100' y='321' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='123' y='292' text='尽可能多地收集星星' locale='zh' width='170'/>
+<tutorial09 x='106' moveSpeed='100' y='321' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='126' y='285' text='できるだけ*多くの*スターを*獲得*しましょう' locale='ja' width='170'/>
+<tutorial09 x='106' moveSpeed='100' y='321' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorial09 x='94' moveSpeed='100' y='315' rotateSpeed='100' locale='it'/>
+<tutorialText x='103' y='278' text='Recupera più stelle possibili' locale='it' width='210'/>
+</layer><layer name='es'>
+<tutorial09 x='94' moveSpeed='100' y='315' rotateSpeed='100' locale='es'/>
+<tutorialText x='108' y='278' text='Consigue tantas estrellas como puedas.' locale='es' width='190'/>
+</layer><layer name='ko'>
+<tutorial09 x='84' moveSpeed='100' y='315' rotateSpeed='100' locale='ko'/>
+<tutorialText x='103' y='278' text='별을 최대한 *많이 모으세요.' locale='ko' width='210'/>
+</layer><layer name='br'>
+<tutorial09 x='94' moveSpeed='100' y='315' rotateSpeed='100' locale='br'/>
+<tutorialText x='103' y='278' text='Colete o máximo de estrelas possível' locale='br' width='210'/>
+</layer><layer name='tr'>
+<tutorial09 x='94' moveSpeed='100' y='315' rotateSpeed='100' locale='tr'/>
+<tutorialText x='103' y='278' text='Toplayabildiğin kadar yıldız topla' locale='tr' width='210'/>
+</layer><layer name='nl'>
+<tutorial09 x='94' moveSpeed='100' y='315' rotateSpeed='100' locale='nl'/>
+<tutorialText x='103' y='278' text='Verzamel zoveel mogelijk sterren' locale='nl' width='190'/>
+</layer></map>

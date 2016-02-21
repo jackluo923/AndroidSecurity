@@ -1,0 +1,59 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='true' ropePhysicsSpeed='1'/>
+</layer>
+<layer name='Objects'>
+<candyL x='101' y='170'/>
+<candyR x='232' y='171'/>
+<grab gun='false' radius='-1' x='164' y='146' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='150' moveVertical='false' spider='false' hidePath='false' part='R'/>
+<target x='165' y='428'/>
+<star x='187' y='327' timeout='-1'/>
+<grab gun='false' radius='-1' x='227' y='58' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='R'/>
+<grab gun='false' radius='-1' x='98' y='59' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='164' y='146' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='150' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<tutorialText x='79' y='219' text='Combine two pieces of candy before feeding it to Om Nom' locale='en' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='en'/>
+<star x='139' y='328' timeout='-1'/>
+<star x='163' y='369' timeout='-1'/>
+<hiddenElement x="162" y="62" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='79' y='219' text='Соедините половинки леденца, прежде чем скормить его Ам Няму' locale='ru' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='79' y='219' text='Combinez deux parties de bonbon avant de nourrir Om Nom' locale='fr' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorialText x='56' y='220' text='Kombiniere zwei Süßigkeiten-Teile, bevor Du Om Nom damit fütterst' locale='de' width='210'/>
+<tutorial09 x='39' moveSpeed='100' y='268' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='50' y='231' text='在喂给 Om Nom 吃之前，*将两块糖合二为一' locale='zh' width='210'/>
+<tutorial09 x='39' moveSpeed='100' y='268' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='42' y='230' text='Om Nomに*与える前に*２つの*キャンディを*くっつけ*ましょう' locale='ja' width='260'/>
+<tutorial09 x='30' moveSpeed='100' y='268' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorialText x='79' y='219' text='Combina due pezzi di bonbon prima di darlo da mangiare a Om Nom' locale='it' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='79' y='219' text='Combina los dos fragmentos del caramelo antes de dárselo a Om Nom.' locale='es' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='79' y='219' text='Om Nom에게 먹이기 전에 *사탕 두 개를 하나로 붙이세요.' locale='ko' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='79' y='219' text='Combine dois pedaços de doce antes de dá-los a Om Nom' locale='br' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='79' y='219' text='Om Nom&apos;u beslemeden önce iki parça şekeri birleştir' locale='tr' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='79' y='219' text='Combineer de twee helften van het snoepje voordat je Om Nom voert' locale='nl' width='200'/>
+<tutorial09 x='55' moveSpeed='100' y='267' rotateSpeed='100' locale='nl'/>
+</layer></map>

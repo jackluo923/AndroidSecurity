@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffb0c4de" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:admobsdk="http://schemas.android.com/apk/res/com.pocketools.currency">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="0">
+        <TableRow>
+            <TableLayout android:layout_width="fill_parent" android:stretchColumns="1" android:layout_span="3">
+                <TableRow android:background="@drawable/gradient">
+                    <ImageButton android:layout_gravity="center_vertical" android:id="@id/info_back_button" android:background="@null" android:paddingLeft="5.0sp" android:src="@drawable/back" android:scaleType="centerInside" />
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:text="About" android:height="50.0sp" />
+                    <TextView android:width="50.0sp" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow android:id="@id/info_more_info" android:clickable="true">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ff151b54" android:paddingLeft="5.0sp" android:text="Latest Information" />
+                </TableRow>
+                <TextView android:textSize="16.0sp" android:textColor="#ff2b547e" android:paddingLeft="15.0sp" android:text="http://pocketools.com/release-notes" />
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TextView android:background="#ffffffff" android:maxHeight="1.0sp" />
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow android:id="@id/info_follow_me" android:clickable="true">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ff151b54" android:paddingLeft="5.0sp" android:text="Follow Me" />
+                </TableRow>
+                <TextView android:textSize="16.0sp" android:textColor="#ff2b547e" android:paddingLeft="15.0sp" android:text="http://twitter.com/pocketools" />
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TextView android:background="#ffffffff" android:maxHeight="1.0sp" />
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow android:id="@id/info_send_feedbck" android:clickable="true">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ff151b54" android:paddingLeft="5.0sp" android:text="Send Feedback" />
+                </TableRow>
+                <TextView android:textSize="16.0sp" android:textColor="#ff2b547e" android:paddingLeft="15.0sp" android:text="Email don@pocketools.com" />
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TextView android:background="#ffffffff" android:maxHeight="1.0sp" />
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TableRow android:id="@id/info_other_tools" android:clickable="true">
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+                <TableRow>
+                    <TextView android:textSize="22.0sp" android:textColor="#ff151b54" android:paddingLeft="5.0sp" android:text="Other Tools" />
+                </TableRow>
+                <TextView android:textSize="16.0sp" android:textColor="#ff2b547e" android:paddingLeft="15.0sp" android:text="Other Android tools from Pocketools.com" />
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TextView android:maxHeight="8.0sp" />
+        </TableRow>
+        <TextView android:background="#ffffffff" android:maxHeight="1.0sp" />
+        <TableRow />
+    </TableLayout>
+    <TextView android:background="#ffb0c4de" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

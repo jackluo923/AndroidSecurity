@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="#ffffffff" android:paddingLeft="5.0sp" android:paddingRight="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff0000ff" android:id="@id/news_heading" android:text="Euro worst to come, top analysts say" />
+    <TextView android:textColor="#ff2b547e" android:id="@id/news_source" android:text="(Marketwatch)" />
+    <TextView android:maxHeight="5.0sp" />
+    <TextView android:textColor="#ff000000" android:id="@id/news_summary" android:text="This is the first part of the story This is the first part of the story This is the first part of the story This is the first part of the story" />
+    <TextView android:maxHeight="5.0sp" />
+    <TextView android:textColor="#ff0000ff" android:id="@id/news_freshness" android:text="6 hours ago" />
+    <TextView android:background="#ff000000" android:maxHeight="1.0sp" />
+    <TextView android:height="5.0sp" />
+</TableLayout>

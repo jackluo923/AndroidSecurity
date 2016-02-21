@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideInset" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.tic_mobile.android.connectfour">
+    <LinearLayout android:orientation="vertical" android:padding="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/optionsPlayerNameLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:text="@string/optionsPlayerName" />
+        <EditText android:id="@id/optionsPlayerNameField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0px" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="8" />
+        <TextView android:id="@id/optionsStartingPlayerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:text="@string/optionsStartingPlayer" />
+        <Spinner android:entries="@array/optionsStartingPlayer" android:id="@id/optionsStartingPlayerField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0px" />
+        <TextView android:id="@id/optionsColorSchemeLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:text="@string/optionsColorScheme" />
+        <Spinner android:entries="@array/optionsColorScheme" android:id="@id/optionsColorSchemeField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0px" />
+        <TextView android:id="@id/optionsSearchDepthLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:text="@string/optionsSearchDepth" />
+        <SeekBar android:id="@id/optionsSearchDepthField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0px" android:max="6" android:progress="3" />
+        <TextView android:id="@id/optionsErrorMarginLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:text="@string/optionsErrorMargin" />
+        <SeekBar android:id="@id/optionsErrorMarginField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="10" />
+    </LinearLayout>
+</ScrollView>

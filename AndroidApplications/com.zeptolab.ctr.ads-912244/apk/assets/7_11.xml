@@ -1,0 +1,29 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1.0" nightLevel="false" />
+</layer>
+<layer name="Objects">
+<grab x="163" y="104" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="162" y="262" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="100" y="166" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="222" y="167" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="287" y="137" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="71" y="263" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="256" y="267" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="128" y="357" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="35" y="359" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="237" y="439" length="40" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<star x="278" y="211" timeout="10" />
+<star x="33" y="305" timeout="15" />
+<star x="162" y="44" timeout="20" />
+<target x="271" y="58" />
+<candy x="158" y="440" />
+<grab x="79" y="438" length="40" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="198" y="356" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<grab x="309" y="355" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<gravitySwitch x="55" y="71" />
+<grab x="37" y="139" length="100" wheel="false" radius="60" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
+<hiddenElement x="285" y="446" radius="100" />
+</layer>
+</map>

@@ -1,0 +1,20 @@
+version: 2.0.0-RC4
+apkFileName: com.zeptolab.ctr.ads-912244.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '17'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '912244'
+  versionName: 2.4.4
+compressionType: false
+unknownFiles:
+  BrightcoveErrorMessages.properties: '8'
+  build-version.properties: '8'
+  hardlink_version.txt: '8'
+  do-not-commit/postitial-sdk-file-used.properties: '8'

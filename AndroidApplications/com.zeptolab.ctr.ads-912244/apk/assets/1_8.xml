@@ -1,0 +1,57 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='266' y='161'/>
+<grab gun='false' radius='-1' x='155' y='250' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='95' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='153' y='89' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<target x='155' y='430'/>
+<star x='37' y='254' timeout='-1'/>
+<star x='152' y='41' timeout='-1'/>
+<star x='276' y='254' timeout='-1'/>
+<bubble x='252' y='367'/>
+<tutorialText x='17' y='301' text='You can restart the level by pressing the button' locale='en' width='190'/>
+<tutorial08 x='70' moveSpeed='100' y='373' rotateSpeed='100' locale='en'/>
+<hiddenElement x="48" y="114" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorialText x='17' y='304' text='Вы можете перезапустить уровень, нажав кнопку' locale='ru' width='200'/>
+<tutorial08 x='190' moveSpeed='100' y='371' rotateSpeed='100' locale='ru'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='27' y='285' text='Vous pouvez redémarrer le niveau en appuyant sur le bouton' locale='fr' width='208'/>
+<tutorial08 x='202' moveSpeed='100' y='352' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='De'>
+<tutorial08 x='184' moveSpeed='100' y='350' rotateSpeed='100' locale='de'/>
+<tutorialText x='31' y='282' text='Tippe zum Neustarten des Levels dieses Symbol an' locale='de' width='188'/>
+</layer>
+<layer name='Zh'>
+<tutorial08 x='215' moveSpeed='100' y='344' rotateSpeed='100' locale='zh'/>
+<tutorialText x='25' y='296' text='按下这个按钮*就可以重新开始这一关' locale='zh' width='175'/>
+</layer>
+<layer name='Ja'>
+<tutorial08 x='218' moveSpeed='100' y='337' rotateSpeed='100' locale='ja'/>
+<tutorialText x='53' y='272' text='このボタンで*ステージを*やり直す*ことが*できます' locale='ja' width='175'/>
+</layer>
+<layer name='it'>
+<tutorialText x='17' y='304' text='Puoi ricominciare il livello premendo il tasto' locale='it' width='220'/>
+<tutorial08 x='218' moveSpeed='100' y='351' rotateSpeed='100' locale='it'/>
+</layer><layer name='es'>
+<tutorialText x='17' y='304' text='Puedes reinciar el nivel tocando el botón' locale='es' width='200'/>
+<tutorial08 x='201' moveSpeed='100' y='351' rotateSpeed='100' locale='es'/>
+</layer><layer name='ko'>
+<tutorialText x='17' y='304' text='버튼을 누르면 *해당 레벨을 처음부터 *다시 시작해요.' locale='ko' width='180'/>
+<tutorial08 x='164' moveSpeed='100' y='371' rotateSpeed='100' locale='ko'/>
+</layer><layer name='br'>
+<tutorialText x='17' y='304' text='Você pode reiniciar o nível, pressionando o botão' locale='br' width='200'/>
+<tutorial08 x='157' moveSpeed='100' y='371' rotateSpeed='100' locale='br'/>
+</layer><layer name='tr'>
+<tutorialText x='17' y='304' text='Düğmeye basarak seviyeyi yeniden başlatabilirsin' locale='tr' width='200'/>
+<tutorial08 x='190' moveSpeed='100' y='371' rotateSpeed='100' locale='tr'/>
+</layer><layer name='nl'>
+<tutorialText x='17' y='304' text='Je kunt het level opnieuw opstarten met een druk op de knop' locale='nl' width='213'/>
+<tutorial08 x='184' moveSpeed='100' y='371' rotateSpeed='100' locale='nl'/>
+</layer></map>

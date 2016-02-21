@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AccurateCompassBase" parent="@style/FullscreenTheme" />
+    <style name="Theme.AccurateCompassBase.NoTitle" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="FullscreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>

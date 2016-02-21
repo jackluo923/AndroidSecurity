@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainMenuLabels">
+        <item>@string/mainMenuItem000</item>
+        <item>@string/mainMenuItem001</item>
+        <item>@string/mainMenuItem002</item>
+        <item>@string/mainMenuItem003</item>
+    </string-array>
+    <string-array name="optionsStartingPlayer">
+        <item>@string/optionsStartingPlayerOption000</item>
+        <item>@string/optionsStartingPlayerOption001</item>
+    </string-array>
+    <string-array name="optionsColorScheme">
+        <item>@string/optionsColorSchemeOption000</item>
+        <item>@string/optionsColorSchemeOption001</item>
+        <item>@string/optionsColorSchemeOption002</item>
+        <item>@string/optionsColorSchemeOption003</item>
+    </string-array>
+</resources>

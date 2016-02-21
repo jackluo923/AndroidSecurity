@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.example.sampleapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.example.sampleapp.SecondActivity { <init>(...); }
+

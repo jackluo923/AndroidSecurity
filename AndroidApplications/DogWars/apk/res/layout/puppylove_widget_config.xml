@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/configure_intro" />
+    <LinearLayout android:id="@id/update_rate" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/configure_update" />
+        <EditText android:id="@id/update_rate_entry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/udpate_rate_hint" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom" android:id="@id/save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save_config" />
+</LinearLayout>

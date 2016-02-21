@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ac_large_text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/ac_large_text_size</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="ac_large_text_serif" parent="@style/ac_large_text">
+        <item name="android:textSize">@dimen/ac_large_text_size</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="side_menu_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ff505050</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

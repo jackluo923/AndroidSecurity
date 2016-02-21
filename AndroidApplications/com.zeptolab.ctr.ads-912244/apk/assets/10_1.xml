@@ -1,0 +1,61 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1'/>
+</layer>
+<layer name='Objects'>
+<grab gun='false' radius='-1' x='162' y='131' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='40' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<candy x='175' y='189'/>
+<grab gun='false' radius='-1' x='256' moveSpeed='45' y='28' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' path='0,237,' length='150' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='65' moveSpeed='45' y='256' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' path='0,-237,' length='150' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<spike1 angle='90' size='1' x='104' y='368' toggled='false'/>
+<spike1 angle='90' size='1' x='211' y='368' toggled='false'/>
+<target x='158' y='425'/>
+<star x='159' y='360' timeout='-1'/>
+<star x='64' y='234' timeout='-1'/>
+<star x='253' y='238' timeout='-1'/>
+<hiddenElement x="162" y="99" radius="100" />
+</layer>
+<layer name='En'>
+<tutorial09 x='155' moveSpeed='100' y='261' rotateSpeed='100' locale='en'/>
+<tutorialText x='57' y='271' text='The bee carries candy along this path' locale='en' width='200'/>
+</layer>
+<layer name='Ru'>
+<tutorial09 x='98' moveSpeed='100' y='289' rotateSpeed='100' locale='ru'/>
+<tutorialText x='127' y='247' text='Пчела носит леденец по траектории' locale='ru' width='100'/>
+</layer>
+<layer name='De'>
+<tutorialText x='56' y='262' text='Die Biene trägt das Bonbon diesen Pfad entlang' locale='de' width='200'/>
+<tutorial09 x='155' moveSpeed='100' y='252' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='Fr'>
+<tutorialText x='55' y='268' text='L&apos;abeille transporte le bonbon le long de ce chemin' locale='fr' width='200'/>
+<tutorial09 x='155' moveSpeed='100' y='252' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='60' y='266' text='蜜蜂沿这条路径搬动糖果' locale='zh' width='200'/>
+<tutorial09 x='155' moveSpeed='100' y='252' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='56' y='260' text='ハチは*この道を*通って*キャンディを*運んで*いきます' locale='ja' width='200'/>
+<tutorial09 x='155' moveSpeed='100' y='250' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorial09 x='155' moveSpeed='100' y='252' rotateSpeed='100' locale='it'/>
+<tutorialText x='55' y='268' text='L&apos;ape trasporta il bonbon lungo questo percorso' locale='it' width='200'/>
+</layer><layer name='es'>
+<tutorial09 x='155' moveSpeed='100' y='252' rotateSpeed='100' locale='es'/>
+<tutorialText x='55' y='268' text='La abeja transporta el caramelo siguiendo este recorrido' locale='es' width='200'/>
+</layer><layer name='ko'>
+<tutorial09 x='98' moveSpeed='100' y='289' rotateSpeed='100' locale='ko'/>
+<tutorialText x='127' y='247' text='꿀벌은 이 길을 *따라 사탕을 *들고 가요.' locale='ko' width='100'/>
+</layer><layer name='br'>
+<tutorial09 x='98' moveSpeed='100' y='289' rotateSpeed='100' locale='br'/>
+<tutorialText x='127' y='247' text='A abelha carrega doces por este caminho' locale='br' width='100'/>
+</layer><layer name='tr'>
+<tutorial09 x='98' moveSpeed='100' y='289' rotateSpeed='100' locale='tr'/>
+<tutorialText x='127' y='247' text='Arı bu yol boyunca şeker taşır' locale='tr' width='100'/>
+</layer><layer name='nl'>
+<tutorial09 x='98' moveSpeed='100' y='289' rotateSpeed='100' locale='nl'/>
+<tutorialText x='127' y='247' text='De bij draagt het snoepje via deze route met zich mee' locale='nl' width='100'/>
+</layer></map>

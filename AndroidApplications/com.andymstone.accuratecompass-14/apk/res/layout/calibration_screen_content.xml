@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/calibration_screen_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ac_large_text_size" android:textColor="@color/main_text" android:id="@id/status_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/waiting_for_sensor_data_message" />
+    <Button android:id="@id/show_calibration_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/title_instructions" style="@style/ac_button" />
+    <View android:background="@color/app_green" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="16.0dip" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_magnetometer_accuracy" style="@style/ac_large_text" />
+    <com.andymstone.compasslib.SensorAccuracyView android:id="@id/magnetometer_accuracy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" style="@style/ac_large_text_serif" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_accelerometer_accuracy" style="@style/ac_large_text" />
+    <com.andymstone.compasslib.SensorAccuracyView android:id="@id/accelerometer_accuracy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" style="@style/ac_large_text_serif" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_magnetic_field_strength" style="@style/ac_large_text" />
+    <com.andymstone.compasslib.MagneticFieldBarWidget android:id="@id/magnetic_field_strength2" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" />
+    <TextView android:id="@id/mag_field_strength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_magnetic_field_strength" style="@style/ac_large_text" />
+</LinearLayout>

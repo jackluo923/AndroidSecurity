@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:id="@id/TxtFromHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView01" />
+        <LinearLayout android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/BtnSearchFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_search_light" />
+            <Spinner android:id="@id/SpinnerFrom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/BtnQuickList" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_quick_list_light" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:id="@id/TxtValueHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="value" />
+            <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:textColorHighlight="@color/text_sel" android:id="@id/EditTxtValue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="phone" />
+            <TextView android:textSize="18.0sp" android:id="@id/TxtValueHdr2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="8.0dip" android:text="in" />
+            <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:textColorHighlight="@color/text_sel" android:id="@id/EditTxtVal2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="phone" />
+            <ImageButton android:id="@id/BtnSwap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_rotate" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:id="@id/TxtToHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@id/TextView03" />
+        <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/BtnSearchTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_btn_search_light" />
+            <Spinner android:id="@id/SpinnerTo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@id/txtExtraText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:typeface="normal" android:layout_gravity="right" android:id="@id/BtnCompute" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/computeButton" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:id="@id/TxtResultHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxx Result" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:id="@id/EditTxtResult" android:background="@drawable/result_text_decor_light" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="TxtResult" android:layout_weight="1.0" />
+            <ImageButton android:layout_gravity="center" android:id="@id/Btn_xfer_calc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/calc_xfer_to_light" />
+        </LinearLayout>
+        <TextView android:textStyle="italic" android:id="@id/TxtResultDescription" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="top" android:id="@id/btnBottomButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/ic_currency_small" />
+            <TextView android:autoLink="web" android:id="@id/TxtBottomMsg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+        <TextView android:autoLink="web" android:id="@id/TxtBottomMsg2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</ScrollView>

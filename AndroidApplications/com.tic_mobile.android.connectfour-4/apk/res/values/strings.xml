@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">four 2 win</string>
+    <string name="mainActivityName">four 2 win</string>
+    <string name="mainMenuItem000">Start game</string>
+    <string name="mainMenuItem001">Options</string>
+    <string name="mainMenuItem002">Statistics</string>
+    <string name="mainMenuItem003">About</string>
+    <string name="gameActivityName">four 2 win</string>
+    <string name="gameNewGameMenuItem">New game</string>
+    <string name="gameResignMenuItem">Resign</string>
+    <string name="gamePauseMenuItem">Pause</string>
+    <string name="gameResumeMenuItem">Resume</string>
+    <string name="gameOpponent000">You</string>
+    <string name="gameOpponent001"><b>vs</b></string>
+    <string name="gameOpponent002">Computer</string>
+    <string name="gameWinCount000">0</string>
+    <string name="gameWinCount001"><b>:</b></string>
+    <string name="gameWinCount002">0</string>
+    <string name="gameTimeUsed000">0:00</string>
+    <string name="gameTimeUsed001"><b>-</b></string>
+    <string name="gameTimeUsed002">0:00</string>
+    <string name="gameGameStatus">Status:</string>
+    <string name="gameGameStatusPaused">game paused</string>
+    <string name="gameGameStatusMove">to move</string>
+    <string name="gameGameStatusFinished">finished</string>
+    <string name="gameGameStatusDraw">draw</string>
+    <string name="gameGameStatusWon">won</string>
+    <string name="gameAiStatusThinking">Thinking:</string>
+    <string name="optionsActivityName">Options</string>
+    <string name="optionsPlayerName">Player name</string>
+    <string name="optionsStartingPlayer">Starting player</string>
+    <string name="optionsStartingPlayerOption000">Human</string>
+    <string name="optionsStartingPlayerOption001">AI</string>
+    <string name="optionsColorScheme">Color scheme</string>
+    <string name="optionsColorSchemeOption000">red - yellow</string>
+    <string name="optionsColorSchemeOption001">yellow - red</string>
+    <string name="optionsColorSchemeOption002">blue - green</string>
+    <string name="optionsColorSchemeOption003">green - blue</string>
+    <string name="optionsSoundActive">Sound active</string>
+    <string name="optionsTimeLimitActive">Time limit active</string>
+    <string name="optionsSearchDepth">Level</string>
+    <string name="optionsErrorMargin">Clumsiness</string>
+    <string name="statisticsActivityName">Statistics</string>
+    <string name="statisticsResetMenuItem">Reset statistics</string>
+    <string name="statisticsAxisSkill">Skill</string>
+    <string name="statisticsAxisGames">Games</string>
+    <string name="statisticsSkillBeginner">Beginner</string>
+    <string name="statisticsSkillAdvanced">Advanced</string>
+    <string name="statisticsSkillExpert">Expert</string>
+    <string name="statisticsGamesPlayedLabel">Games played</string>
+    <string name="statisticsGamesWonLabel">Wins</string>
+    <string name="statisticsGamesDrawnLabel">Draws</string>
+    <string name="statisticsGamesLostLabel">Losses</string>
+    <string name="statisticsAverageLevelLabel">Average level played</string>
+    <string name="statisticsCurrentSkillLabel">Current skill level</string>
+    <string name="aboutActivityName">About</string>
+    <string name="aboutString">" "<b>About four 2 win</b>"
+
+ "<i>four 2 win</i>" is a two-player game in which the players take turns in dropping alternating colored discs into a seven-column, six-row vertically-suspended grid. The object of the game is to connect four singly-colored discs in a row -- vertically, horizontally, or diagonally -- before your opponent can do likewise.
+
+
+ "<b>(C)2009 by TIC-mobile GmbH, Berlin</b>"
+ Contact: "<i>info@TIC-mobile.com</i>"
+ Website: "<i>www.TIC-mobile.com</i>" "</string>
+</resources>

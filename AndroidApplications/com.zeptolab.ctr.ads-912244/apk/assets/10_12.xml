@@ -1,0 +1,20 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign twoParts="false" ropePhysicsSpeed="1.0" water="0" />
+</layer>
+<layer name="Objects">
+<candy x="54" y="163" />
+<grab x="56" y="50" length="100" wheel="false" gun="false" kickable="false" kicked="false" radius="-1" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" helicopter="false" part="L" />
+<grab x="32" y="274" length="100" wheel="false" gun="false" kickable="false" kicked="false" radius="60" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" helicopter="false" part="L" path="100,0" moveSpeed="50" />
+<grab x="292" y="272" length="100" wheel="false" gun="false" kickable="false" kicked="false" radius="60" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" helicopter="false" part="L" path="-100,0" moveSpeed="50" />
+<grab x="162" y="140" length="100" wheel="false" gun="false" kickable="false" kicked="false" radius="60" invisible="false" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" helicopter="false" part="L" path="0,100" moveSpeed="50" />
+<bubble x="160" y="389" />
+<star x="280" y="144" timeout="-1" />
+<star x="34" y="384" timeout="-1" />
+<star x="160" y="265" timeout="-1" />
+<target x="279" y="383" />
+<spike2 x="269" y="324" angle="0" size="2" toggled="false" />
+<hiddenElement x="53" y="106" radius="100" />
+</layer>
+</map>

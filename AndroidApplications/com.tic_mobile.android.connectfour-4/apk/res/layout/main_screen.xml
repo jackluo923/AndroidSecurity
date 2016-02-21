@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.tic_mobile.android.connectfour">
+    <ListView android:id="@id/mainScreenMainMenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+    <com.admob.android.ads.AdView android:layout_gravity="bottom" android:id="@id/main_screen_ad" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:backgroundColor="#ff000000" app:primaryTextColor="#ffffffff" app:secondaryTextColor="#ffcccccc" app:keywords="Android logic game" />
+</FrameLayout>

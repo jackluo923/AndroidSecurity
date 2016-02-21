@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/calibration_screen_background" android:padding="@dimen/calibration_screen_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:as="http://schemas.android.com/apk/res-auto">
+    <com.andymstone.compasslib.DropShadowView android:layout_width="fill_parent" android:layout_height="fill_parent" as:cornerRadius="0.0dip" as:borderWidth="0.0dip">
+        <RelativeLayout android:orientation="vertical" android:background="@drawable/calibration_screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:id="@id/sensor_accuracy_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calibration_title" style="@style/ac_title" />
+            <ImageButton android:id="@id/back_to_compass_btn" android:background="@drawable/selector_background" android:layout_width="@dimen/ac_title_bar_height" android:layout_height="@dimen/ac_title_bar_height" android:src="@drawable/btn_back" />
+            <ScrollView android:orientation="vertical" android:id="@id/calibration_activity_content" android:background="#ffffffff" android:padding="7.0dip" android:fadingEdgeLength="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sensor_accuracy_title" />
+        </RelativeLayout>
+    </com.andymstone.compasslib.DropShadowView>
+</FrameLayout>

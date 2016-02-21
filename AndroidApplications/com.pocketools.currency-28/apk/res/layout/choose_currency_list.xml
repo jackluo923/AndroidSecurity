@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:background="#ff181818" android:padding="5.0sp">
+        <ImageButton android:layout_gravity="center_vertical" android:background="@null" android:paddingLeft="5.0sp" android:src="@drawable/settings_edit" android:scaleType="centerInside" />
+        <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:paddingLeft="20.0sp" android:text="Edit Currency List" android:height="40.0sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1.0">
+        <ScrollView android:layout_span="2">
+            <TableLayout android:id="@id/categoryQuickSetupList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="1" />
+        </ScrollView>
+    </TableRow>
+    <TableRow>
+        <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:layout_span="2">
+            <TableRow android:background="#ffbebebe" android:paddingTop="5.0sp" android:paddingBottom="5.0sp">
+                <Button android:id="@id/category_quick_ok" android:layout_height="wrap_content" android:text="OK" />
+                <Button android:id="@id/category_quick_cancel" android:layout_height="wrap_content" android:text="Cancel" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>

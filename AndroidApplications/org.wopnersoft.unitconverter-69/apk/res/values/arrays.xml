@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="ListSortOrder">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+    </integer-array>
+    <string-array name="tip_calc_round_to">
+        <item>None</item>
+        <item>Nearest .25</item>
+        <item>Nearest .50</item>
+        <item>Nearest 1.0</item>
+    </string-array>
+    <string-array name="decimal_places">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="start_screen_names">
+        <item>Main Menu</item>
+        <item>Converters</item>
+        <item>Calculators</item>
+        <item>Favorites</item>
+    </string-array>
+    <string-array name="start_screen_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="calc_color_names">
+        <item>Default</item>
+        <item>Alternate #1</item>
+        <item>Alternate #2</item>
+    </string-array>
+    <string-array name="calc_color_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="theme_names">
+        <item>Default Theme (Pale Blue)</item>
+        <item>Green Theme</item>
+        <item>Grey Theme</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>Default Theme</item>
+        <item>com.wopnersoft.unitconverter.plus.theme.green</item>
+        <item>com.wopnersoft.unitconverter.plus.theme.grey</item>
+    </string-array>
+    <string-array name="fontsize_names">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>X-Large</item>
+        <item>XX-Large</item>
+    </string-array>
+    <string-array name="fontsize_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="sqldbs">
+        <item>Favorites</item>
+        <item>Old Favorites</item>
+        <item>Custom Units</item>
+    </string-array>
+    <string-array name="calc_grouping_names">
+        <item>None</item>
+        <item>Comma (,)</item>
+        <item>Period (.)</item>
+        <item>Space ( )</item>
+    </string-array>
+    <string-array name="calc_grouping_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dnld_size_unit">
+        <item>Bits</item>
+        <item>Bytes</item>
+        <item>kilobytes</item>
+        <item>Megabytes</item>
+        <item>Gigabytes</item>
+        <item>Terabytes</item>
+    </string-array>
+    <string-array name="dnld_rate_unit">
+        <item>Bits</item>
+        <item>Bytes</item>
+        <item>kilobits</item>
+        <item>kilobytes</item>
+        <item>Megabits</item>
+        <item>Megabytes</item>
+        <item>Gigabits</item>
+        <item>Gigabytes</item>
+    </string-array>
+    <string-array name="dnld_rate_time_unit">
+        <item>Second (s)</item>
+        <item>Minute (m)</item>
+        <item>Hour (h)</item>
+    </string-array>
+    <string-array name="appstyle_names">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+    <string-array name="appstyle_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

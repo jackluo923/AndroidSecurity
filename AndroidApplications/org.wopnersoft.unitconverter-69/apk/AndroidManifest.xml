@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="org.wopnersoft.unitconverter">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <application android:icon="@drawable/robot_launcher_plus" android:label="@string/app_name" android:name="com.wopnersoft.unitconverter.plus.UnitConverterApplication">
+        <activity android:label="@string/app_name" android:name="com.wopnersoft.unitconverter.plus.UnitConverterConvertMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/Preferences_Label" android:name="com.wopnersoft.unitconverter.plus.Preferences"/>
+        <activity android:label="@string/unit_desc_Favorites" android:name="com.wopnersoft.unitconverter.plus.FavoriteConverterMenu"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.DistanceUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.WeightUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.SpeedUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.TemperatureUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.NumberUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.CurrencyConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.FuelConsumptionUnitConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.converter.GenericStaticConverter"/>
+        <activity android:label="@string/About_Label" android:name="com.wopnersoft.unitconverter.plus.util.AboutDialog"/>
+        <activity android:label="@string/QuickView_Label" android:name="com.wopnersoft.unitconverter.plus.util.QuickViewDialog"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.util.ListFilterDialog"/>
+        <activity android:label="@string/error_log" android:name="com.wopnersoft.unitconverter.plus.util.ErrorLogDialog"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.util.SqliteRawViewer"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.dBmToWattConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.SpecializedConverterMenu"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.FractionToDecimalConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.DecimalToFractionConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.AD590Converter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.GasMarkConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.ShoeSizeMenConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.ShoeSizeWomenConverter"/>
+        <activity android:name="com.wopnersoft.unitconverter.plus.specialized.RingSizeConverter"/>
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>
+    </application>
+</manifest>

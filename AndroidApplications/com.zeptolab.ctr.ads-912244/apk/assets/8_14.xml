@@ -1,0 +1,17 @@
+<map>
+<layer name="settings">
+<map gridSize="32" width="320" height="480" />
+<gameDesign ropePhysicsSpeed="1.0" special="1" twoParts="false" />
+</layer>
+<layer name="Objects">
+<target x="164" y="36" />
+<bouncer2 x="163" y="460" angle="0" size="2" />
+<star x="178" y="82" timeout="3" />
+<star x="161" y="109" timeout="3" />
+<bubble x="164" y="420" />
+<pump x="162" y="311" angle="90" />
+<star x="144" y="82" timeout="3" />
+<candy x="163" y="361" />
+<hiddenElement x="60" y="225" radius="100" />
+</layer>
+</map>

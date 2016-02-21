@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/red" android:padding="10.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_splash" />
+    <TextView android:textStyle="bold" android:layout_gravity="left" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email" />
+    <TableLayout android:id="@id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableLayout>
+    <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textSize="18.0sp" android:layout_gravity="left" android:id="@id/widget31" android:layout_width="350.0px" android:layout_height="wrap_content" android:text="" />
+    <TextView android:layout_gravity="left" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    <TextView android:textStyle="bold" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+    <EditText android:textSize="18.0sp" android:layout_gravity="left" android:id="@id/widget32" android:layout_width="350.0px" android:layout_height="wrap_content" android:text="" android:password="true" android:layout_x="75.0px" android:layout_y="195.0px" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/widget34" android:layout_width="102.0px" android:layout_height="wrap_content" android:text="Sign In" android:onClick="onMyButtonClick" />
+</LinearLayout>

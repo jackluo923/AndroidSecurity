@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideInset" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.tic_mobile.android.connectfour">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tic_mobile.android.connectfour.widgets.StatisticsView android:id="@id/statisticsStatisticsView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TableLayout android:id="@id/statisticsTable" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+            <TableRow>
+                <TextView android:id="@id/statisticsGamesPlayedLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsGamesPlayedLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsGamesPlayedField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/statisticsGamesWonLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsGamesWonLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsGamesWonField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/statisticsGamesDrawnLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsGamesDrawnLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsGamesDrawnField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/statisticsGamesLostLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsGamesLostLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsGamesLostField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/statisticsAverageLevelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsAverageLevelLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsAverageLevelField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@id/statisticsCurrentSkillLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statisticsCurrentSkillLabel" />
+                <TextView android:layout_gravity="right" android:id="@id/statisticsCurrentSkillField" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+        <com.admob.android.ads.AdView android:id="@id/ad" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true" app:backgroundColor="#ff000000" app:primaryTextColor="#ffffffff" app:secondaryTextColor="#ffcccccc" app:keywords="Android game" />
+    </LinearLayout>
+</ScrollView>

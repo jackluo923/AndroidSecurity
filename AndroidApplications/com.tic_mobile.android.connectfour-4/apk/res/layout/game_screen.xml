@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.tic_mobile.android.connectfour">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableLayout android:id="@id/gameStatsTable" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,2">
+            <TableRow android:paddingTop="5.0dip">
+                <TextView android:layout_gravity="left" android:id="@id/gameOpponent000Label" android:paddingRight="5.0dip" android:layout_width="100.0dip" android:text="@string/gameOpponent000" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/gameOpponent001Label" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:text="@string/gameOpponent001" />
+                <TextView android:layout_gravity="right" android:id="@id/gameOpponent002Label" android:paddingLeft="5.0dip" android:layout_width="100.0dip" android:text="@string/gameOpponent002" />
+            </TableRow>
+            <TableRow android:paddingTop="5.0dip">
+                <TextView android:layout_gravity="left" android:id="@id/gameWinCount000Label" android:paddingRight="5.0dip" android:layout_width="100.0dip" android:text="@string/gameWinCount000" />
+                <TextView android:layout_gravity="center" android:id="@id/gameWinCount001Label" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:text="@string/gameWinCount001" />
+                <TextView android:layout_gravity="right" android:id="@id/gameWinCount002Label" android:paddingLeft="5.0dip" android:layout_width="100.0dip" android:text="@string/gameWinCount002" />
+            </TableRow>
+        </TableLayout>
+        <com.tic_mobile.android.connectfour.widgets.ConnectFourView android:id="@id/gameGameView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/stats_linear_layout" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/gameAiStatusImage" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ai_stopped" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/gameGameStatusLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gameGameStatus" />
+                <TextView android:id="@id/gameAiStatusLabel" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.admob.android.ads.AdView android:id="@id/gamescreen_ad" android:visibility="visible" android:layout_width="320.0dip" android:layout_height="48.0dip" app:backgroundColor="#ff000000" app:primaryTextColor="#ffffffff" app:secondaryTextColor="#ffcccccc" app:keywords="Android game logic" />
+    </LinearLayout>
+</ScrollView>

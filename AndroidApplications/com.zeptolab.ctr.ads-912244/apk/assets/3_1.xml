@@ -1,0 +1,56 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='63' y='376'/>
+<target x='68' y='101'/>
+<star x='177' y='185' timeout='-1'/>
+<star x='162' y='376' timeout='-1'/>
+<star x='271' y='106' timeout='-1'/>
+<grab gun='false' radius='-1' x='65' y='239' moveLength='200' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<bubble x='266' y='377'/>
+<tutorialText x='77' y='255' text='Some rope hooks can be moved with your finger' locale='en' width='200'/>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='282' rotateSpeed='100' locale='en'/>
+<hiddenElement x="178" y="40" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='ru'/>
+<tutorialText x='76' y='254' text='Некоторые крепежи можно двигать пальцем' locale='ru' width='200'/>
+</layer>
+<layer name='Fr'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='fr'/>
+<tutorialText x='75' y='265' text='Certains crochets de corde peuvent être déplacés avec votre doigt' locale='fr' width='220'/>
+</layer>
+<layer name='De'>
+<tutorial04 angle='130' x='44' moveSpeed='100' y='282' rotateSpeed='100' locale='de'/>
+<tutorialText x='70' y='275' text='Einige Seilhaken kannst du mit dem Finger verschieben.' locale='de' width='200'/>
+</layer>
+<layer name='Zh'>
+<tutorial04 angle='130' x='44' moveSpeed='100' y='282' rotateSpeed='100' locale='zh'/>
+<tutorialText x='70' y='282' text='可用你的手指*移动一些绳钩' locale='zh' width='200'/>
+</layer>
+<layer name='Ja'>
+<tutorial04 angle='130' x='44' moveSpeed='100' y='283' rotateSpeed='100' locale='ja'/>
+<tutorialText x='75' y='275' text='指で*動かすことの*できる*ロープフックも*あります' locale='ja' width='200'/>
+</layer>
+<layer name='it'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='it'/>
+<tutorialText x='76' y='254' text='Puoi muovere alcuni ganci di corda con il dito' locale='it' width='200'/>
+</layer><layer name='es'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='es'/>
+<tutorialText x='76' y='254' text='Los enganches de algunas cuerdas se pueden mover con el dedo.' locale='es' width='200'/>
+</layer><layer name='ko'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='ko'/>
+<tutorialText x='76' y='254' text='어떤 줄 고리는 *손가락으로 *움직일 수 있어요.' locale='ko' width='200'/>
+</layer><layer name='br'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='br'/>
+<tutorialText x='76' y='254' text='Alguns ganchos de corda podem ser movidos com o seu dedo' locale='br' width='200'/>
+</layer><layer name='tr'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='tr'/>
+<tutorialText x='76' y='254' text='Bazı ip kancaları parmağınla taşınabilir' locale='tr' width='200'/>
+</layer><layer name='nl'>
+<tutorial04 angle='130' x='43' moveSpeed='100' y='283' rotateSpeed='100' locale='nl'/>
+<tutorialText x='76' y='254' text='Je kunt sommige touwhaken met je vinger verplaatsen' locale='nl' width='200'/>
+</layer></map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:background="#ff181818" android:padding="5.0sp">
+        <ImageButton android:layout_gravity="center_vertical" android:background="@null" android:paddingLeft="5.0sp" android:src="@drawable/settings_edit" android:scaleType="centerInside" />
+        <TextView android:textSize="22.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:background="#ff181818" android:paddingRight="50.0sp" android:text="Chart Timeframe" android:height="40.0sp" />
+    </TableRow>
+    <TableRow android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    </TableRow>
+</TableLayout>

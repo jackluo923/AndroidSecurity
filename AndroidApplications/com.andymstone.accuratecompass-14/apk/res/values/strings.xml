@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accurate Compass</string>
+    <string name="publisher_id">Stonekick</string>
+    <string name="contact_email">support@stonekick.com</string>
+    <string name="no_email_app">"I couldn't find an email app. You can contact us at support@stonekick.com"</string>
+    <string name="rate_me_dialog_never">Never</string>
+    <string name="rate_me_dialog_later">Later</string>
+    <string name="rate_me_dialog_rate_now">Rate Now</string>
+    <string name="rate_me_dialog_dialog_title">Rate %1$s</string>
+    <string name="rate_me_dialog_dialog_message">"If you like %1$s, please rate it.
+
+Thanks for your support!"</string>
+    <string name="ok">OK</string>
+    <string name="email_stonekick">Email Stonekick</string>
+    <string name="instructions_message">"This compass shows the direction to magnetic north.
+        
+When the screen is horizontal, the compass shows the direction towards the top of the screen.  When the screen is vertical, the compass shows the direction that the back of the device is facing (i.e. the direction that your device's camera is pointing).
+
+This app is dependent upon the accuracy of the sensors within your device. For the best results move your device away from any magnetic fields (metallic objects, electronic devices etc). Also check that you don't have a magnet on your case.
+
+Press the menu button on your device to see more options.
+
+This app was created by Jo and Andy at Stonekick. You can contact us at support@stonekick.com. For further information on our apps visit our website www.stonekick.com."</string>
+    <string name="whats_new_message">"Accurate Compass has been updated!
+
+This release includes a new Korean translation, as well as a few other minor improvements.
+
+For a full list of changes see www.stonekick.com/compass_changelog.html"</string>
+    <string name="about_message">"This compass was developed by Stonekick.
+
+You can contact us at support@stonekick.com."</string>
+    <string name="sensor_calibration_warning">Your compass needs to be calibrated - please follow the calibration instructions.</string>
+    <string name="abnormal_acceleration_warning">Abnormal acceleration detected. The device should be stationary to ensure an accurate reading.</string>
+    <string name="abnormal_magnetic_field_warning">Abnormal magnetic field detected. Move away from all metallic objects and electronic devices.</string>
+    <string name="sensor_calibration_warning_title">Calibration</string>
+    <string name="abnormal_acceleration_warning_title">Abnormal Acceleration</string>
+    <string name="abnormal_magnetic_field_warning_title">Abnormal Magnetic Field</string>
+    <string name="calibration_title">Status</string>
+    <string name="calibration_ok">No calibration is required.</string>
+    <string name="calibration_required">Calibration required</string>
+    <string name="bad_magnetic_field">Abnormal magnetic field - check for nearby magnets</string>
+    <string name="calibration_instructions">"Wave your device around several times in a figure of 8 pattern until the accuracy is 'high'.
+
+If your device is very hot you may need to wait for it to cool down. You can also try switching it off and on again."</string>
+    <string name="sensor_accuracy_label">"Accuracy: "</string>
+    <string name="sensor_accuracy_high">High</string>
+    <string name="sensor_accuracy_medium">Medium</string>
+    <string name="sensor_accuracy_low">Low</string>
+    <string name="sensor_accuracy_unreliable">Unreliable</string>
+    <string name="sensor_accuracy_unknown">Unknown</string>
+    <string name="waiting_for_sensor_data_message">Accessing sensor data, please wait.</string>
+    <string name="back_to_compass_label">Back to compass</string>
+    <string name="waiting_for_sensor_accuracy">(waiting)</string>
+    <string name="dismiss_warning_btn_description">Dismiss warning</string>
+    <string name="btn_field_strength">"Show Local
+Field Strength"</string>
+    <string name="btn_calibration_instructions">"Calibration
+Instructions"</string>
+    <string name="sensor_accuracy_waiting">(waiting)</string>
+    <string name="title_magnetometer_accuracy">Magnetometer accuracy</string>
+    <string name="title_accelerometer_accuracy">Accelerometer accuracy</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="label_magnetic_field_strength">Magnetic field strength (µT)</string>
+    <string name="filtering_message">The magnetic field and accelerometer sensors in your device are of limited accuracy, even when they are well calibrated. The readings that they produce contain lots of noise, which means that the north direction that they report can vary by as much as a few degrees every second. To give a more stable (and accurate) heading, this compass applies some filtering to the sensor outputs. You can switch off this filtering to see how much of a difference it makes.</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="whats_new_title">"What's new?"</string>
+    <string name="open_menu">Open menu</string>
+    <string name="cannot_access_magnetometer">"Accurate Compass can't access your device's magnetic field sensor.
+
+Please try turning your device off and on again."</string>
+    <string name="filtering_title">Sensor Filtering</string>
+    <string name="filtering_off">Filtering off</string>
+    <string name="filtering_on">Filtering on</string>
+    <string name="direction_short_n">N</string>
+    <string name="direction_short_ne">NE</string>
+    <string name="direction_short_e">E</string>
+    <string name="direction_short_se">SE</string>
+    <string name="direction_short_s">S</string>
+    <string name="direction_short_sw">SW</string>
+    <string name="direction_short_w">W</string>
+    <string name="direction_short_nw">NW</string>
+    <string name="app_package">com.andymstone.accuratecompass</string>
+    <string name="app_package_pro">com.andymstone.accuratecompasspro</string>
+    <string name="upgrade_to_pro_title">Accurate Compass Pro</string>
+    <string name="upgrade_message">Like Accurate Compass? Upgrade to Accurate Compass Pro to remove the adverts and support development of the app!</string>
+    <string name="upgrade_now">Upgrade Now!</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="options_rate">Rate this app</string>
+    <string name="options_help">Help</string>
+    <string name="options_go_pro">Buy pro version</string>
+    <string name="options_sensor_status">Sensor Status</string>
+    <string name="options_toggle_filtering">Toggle Filtering</string>
+    <string name="options_more_apps">More apps</string>
+</resources>

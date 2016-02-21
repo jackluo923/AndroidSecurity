@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="" versionhdr="">
+        <change>AED - Arab Emirates Dirham</change>
+        <change>AFN - Afghan Afghani</change>
+        <change>ALL - Albanian Lek</change>
+        <change>AMD - Armenian Dram</change>
+        <change>ANG - Netherlands Antillean Guilder</change>
+        <change>AOA - Angolan Kwanza</change>
+        <change>ARS - Argentine Peso</change>
+        <change>AUD - Australian Dollar</change>
+        <change>AWG - Aruban Guilder</change>
+        <change>AZN - Azerbaijani Manat</change>
+        <change>BAM - Marka</change>
+        <change>BBD - Barbados Dollar</change>
+        <change>BDT - Bangladeshi Taka</change>
+        <change>BGN - Bulgarian Lev</change>
+        <change>BHD - Bahraini Dinar</change>
+        <change>BIF - Burundi Franc</change>
+        <change>BMD - Bermudian Dollar</change>
+        <change>BND - Brunei Dollar</change>
+        <change>BOB - Boliviano</change>
+        <change>BRL - Brazilian Real</change>
+        <change>BSD - Bahamian Dollar</change>
+        <change>BTC - Bitcoin</change>
+        <change>BTN - Bhutan Ngultrum</change>
+        <change>BWP - Botswana Pula</change>
+        <change>BYR - Belarusian Ruble</change>
+        <change>BZD - Belize Dollar</change>
+        <change>CAD - Canadian Dollar</change>
+        <change>CDF - Francs</change>
+        <change>CHF - Swiss Franc</change>
+        <change>CLF - Chilean Unidad de Fomento</change>
+        <change>CLP - Chilean Peso</change>
+        <change>CNH - Chinese Offshore Yuan</change>
+        <change>CNY - Yuan Renminbi</change>
+        <change>COP - Colombian Peso</change>
+        <change>CRC - Costa Rican Colon</change>
+        <change>CUP - Cuban Peso</change>
+        <change>CVE - Cape Verde Escudo</change>
+        <change>CZK - Czech Koruna</change>
+        <change>DJF - Djibouti Franc</change>
+        <change>DKK - Danish Krone</change>
+        <change>DOP - Dominican Peso</change>
+        <change>DZD - Algerian Dinar</change>
+        <change>EGP - Egyptian Pound</change>
+        <change>ETB - Ethiopian Birr</change>
+        <change>EUR - Euro</change>
+        <change>FJD - Fiji Dollar</change>
+        <change>FKP - Falkland Islands Pound</change>
+        <change>GBP - Pound Sterling</change>
+        <change>GEL - Georgian Lari</change>
+        <change>GHS - Ghanaian Cedi</change>
+        <change>GIP - Gibraltar Pound</change>
+        <change>GMD - Gambian Dalasi</change>
+        <change>GNF - Guinea Franc</change>
+        <change>GTQ - Guatemalan Quetzal</change>
+        <change>GYD - Guyana Dollar</change>
+        <change>HKD - Hong Kong Dollar</change>
+        <change>HNL - Honduran Lempira</change>
+        <change>HRK - Croatian Kuna</change>
+        <change>HTG - Haitian Gourde</change>
+        <change>HUF - Hungarian Forint</change>
+        <change>IDR - Indonesian Rupiah</change>
+        <change>IEP - Irish Pound</change>
+        <change>ILS - Israeli New Shekel</change>
+        <change>INR - Indian Rupee</change>
+        <change>IQD - Iraqi Dinar</change>
+        <change>IRR - Iranian Rial</change>
+        <change>ISK - Iceland Krona</change>
+        <change>JMD - Jamaican Dollar</change>
+        <change>JOD - Jordanian Dinar</change>
+        <change>JPY - Japanese Yen</change>
+        <change>KES - Kenyan Shilling</change>
+        <change>KGS - Kyrgyzstani Som</change>
+        <change>KHR - Kampuchean Riel</change>
+        <change>KMF - Comoros Franc</change>
+        <change>KPW - North Korean Won</change>
+        <change>KRW - Korean Won</change>
+        <change>KWD - Kuwaiti Dinar</change>
+        <change>KZT - Kazakhstan Tenge</change>
+        <change>LAK - Lao Kip</change>
+        <change>LBP - Lebanese Pound</change>
+        <change>LKR - Sri Lanka Rupee</change>
+        <change>LRD - Liberian Dollar</change>
+        <change>LSL - Lesotho Loti</change>
+        <change>LTL - Lithuanian Litas</change>
+        <change>LVL - Latvian Lats</change>
+        <change>LYD - Libyan Dinar</change>
+        <change>MAD - Moroccan Dirham</change>
+        <change>MDL - Moldovan Leu</change>
+        <change>MGA - Malagasy Ariary</change>
+        <change>MKD - Macedonia Denar</change>
+        <change>MMK - Myanmar Kyat</change>
+        <change>MNT - Mongolian Tugrik</change>
+        <change>MOP - Macau Pataca</change>
+        <change>MRO - Mauritanian Ouguiya</change>
+        <change>MUR - Mauritius Rupee</change>
+        <change>MVR - Maldive Rufiyaa</change>
+        <change>MWK - Malawi Kwacha</change>
+        <change>MXN - Mexican Nuevo Peso</change>
+        <change>MYR - Malaysian Ringgit</change>
+        <change>MZN - New Mozambican Metical</change>
+        <change>NAD - Namibian Dollar</change>
+        <change>NGN - Nigerian Naira</change>
+        <change>NIO - Nicaraguan Cordoba Oro</change>
+        <change>NOK - Norwegian Krone</change>
+        <change>NPR - Nepalese Rupee</change>
+        <change>NZD - New Zealand Dollar</change>
+        <change>OMR - Omani Rial</change>
+        <change>PAB - Panamanian Balboa</change>
+        <change>PEN - Peruvian Nuevo Sol</change>
+        <change>PGK - Papua New Guinea Kina</change>
+        <change>PHP - Philippine Peso</change>
+        <change>PKR - Pakistan Rupee</change>
+        <change>PLN - Polish Zloty</change>
+        <change>PYG - Paraguay Guarani</change>
+        <change>QAR - Qatari Rial</change>
+        <change>RON - Romanian Leu</change>
+        <change>RSD - Serbian Dinar</change>
+        <change>RUB - Russian Ruble</change>
+        <change>RWF - Rwanda Franc</change>
+        <change>SAR - Saudi Riyal</change>
+        <change>SBD - Solomon Islands Dollar</change>
+        <change>SCR - Seychelles Rupee</change>
+        <change>SDG - Sudanese Pound</change>
+        <change>SEK - Swedish Krona</change>
+        <change>SGD - Singapore Dollar</change>
+        <change>SHP - St. Helena Pound</change>
+        <change>SLL - Sierra Leone Leone</change>
+        <change>SOS - Somali Shilling</change>
+        <change>SRD - Suriname Dollar</change>
+        <change>STD - Sao Tome Dobra</change>
+        <change>SVC - El Salvador Colon</change>
+        <change>SYP - Syrian Pound</change>
+        <change>SZL - Swaziland Lilangeni</change>
+        <change>THB - Thai Baht</change>
+        <change>TJS - Tajikistan Somoni</change>
+        <change>TMT - Turkmenistan Manat</change>
+        <change>TND - Tunisian Dinar</change>
+        <change>TOP - Tongan Pa''anga</change>
+        <change>TRY - Turkish Lira</change>
+        <change>TTD - Trinidad and Tobago Dollar</change>
+        <change>TWD - Taiwan Dollar</change>
+        <change>TZS - Tanzanian Shilling</change>
+        <change>UAH - Ukrainian Hryvnia</change>
+        <change>UGX - Uganda Shilling</change>
+        <change>USD - US Dollar</change>
+        <change>UYU - Uruguayan peso</change>
+        <change>UZS - Uzbekistan Sum</change>
+        <change>VEF - Venezuelan Bolivar Fuerte</change>
+        <change>VND - Vietnamese Dong</change>
+        <change>VUV - Vanuatu Vatu</change>
+        <change>WST - Samoan Tala</change>
+        <change>XAF - CFA Franc BEAC</change>
+        <change>XAG - Silver Ounce</change>
+        <change>XAU - Gold Ounce</change>
+        <change>XCD - East Caribbean Dollar</change>
+        <change>XOF - CFA Franc BCEAO</change>
+        <change>XCP - Copper Ounce</change>
+        <change>XPD - Palladium Ounce</change>
+        <change>XPF - CFP Franc</change>
+        <change>XPT - Platinum Ounce</change>
+        <change>YER - Yemeni Rial</change>
+        <change>ZAR - South African Rand</change>
+        <change>ZMK - Zambian Kwacha</change>
+        <change>ZMW - Zambian Kwacha</change>
+    </release>
+</changelog>

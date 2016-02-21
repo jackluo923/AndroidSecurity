@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/list_footer_content" android:background="@drawable/gradient" android:paddingLeft="10.0sp" android:paddingTop="10.0sp" android:paddingBottom="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="2" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textSize="22.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_span="3" android:text="Edit Currency List" />
+        <ImageButton android:layout_gravity="right" android:id="@id/edit_button_list" android:background="@null" android:paddingRight="10.0sp" android:src="@drawable/edit" />
+    </TableRow>
+</TableLayout>

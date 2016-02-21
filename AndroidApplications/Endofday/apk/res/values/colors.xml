@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_pressed">#88e9c900</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#88000000</color>
+    <color name="transparent2">#8848341a</color>
+    <color name="transparent3">#886b5327</color>
+    <color name="transparent4">#888e6e3b</color>
+</resources>

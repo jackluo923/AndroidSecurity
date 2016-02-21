@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="0.0sp" android:stretchColumns="0,2" android:shrinkColumns="*">
+        <TableRow>
+            <TableLayout android:layout_width="fill_parent" android:stretchColumns="1" android:layout_span="3">
+                <TableRow android:background="@drawable/gradient">
+                    <TextView android:width="30.0sp" />
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:text="Settings" android:height="50.0sp" />
+                    <TextView android:width="30.0sp" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TableLayout android:background="@drawable/gradient_light" android:padding="20.0sp" android:layout_margin="0.0sp" android:stretchColumns="0,2" android:shrinkColumns="3" android:layout_span="3">
+                <TableRow>
+                    <Spinner android:id="@id/default_page_spinner" android:layout_width="wrap_content" android:prompt="@string/default_page_prompt" />
+                </TableRow>
+                <TableRow>
+                    <Button android:layout_gravity="center" android:id="@id/set_default_page_button" android:text="Set Default Page" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TextView android:background="@drawable/gradient_light_reverse" />
+    </TableLayout>
+</LinearLayout>

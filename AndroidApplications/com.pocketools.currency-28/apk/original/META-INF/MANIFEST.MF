@@ -1,0 +1,237 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable/info.png
+SHA1-Digest: qswwOwS7nYL0bwTAjs9Wc9BRUrs=
+
+Name: res/layout/list_content.xml
+SHA1-Digest: +BZvmOcPEyjRK4AwcHnCVT3metM=
+
+Name: res/drawable/green_button_buy.png
+SHA1-Digest: TmgHzKdZJQzJJsa3V+4qkw8FVPQ=
+
+Name: res/drawable/next.png
+SHA1-Digest: q0yJghoedCyoi7yvwzXhSkQpySU=
+
+Name: res/drawable/loading_4_t.png
+SHA1-Digest: 6EjGEeSWPVwMULJT/dNr8Jg+4Zo=
+
+Name: res/drawable/loading_12_t.png
+SHA1-Digest: Q7TGh0WdMwVuWz7jBR1v77lt3Zw=
+
+Name: res/layout/choose_currency_list.xml
+SHA1-Digest: b7r2NvLUNGIyh2cjERE3T2AadWk=
+
+Name: res/drawable/save.png
+SHA1-Digest: i7/8axCzTHUQgRTHfxZqBoNIQdM=
+
+Name: res/drawable/buy_now.png
+SHA1-Digest: j0Uu1EmMaC2yq2IvSiCE+IsA5k8=
+
+Name: res/drawable/refresh.png
+SHA1-Digest: qQfUem1hm65sMJJPO+baEesLE+0=
+
+Name: res/drawable/loading_9_t.png
+SHA1-Digest: EZBJjjoQJOIaZHrlPVOuj0rrOvY=
+
+Name: res/drawable/deal.jpg
+SHA1-Digest: 3L7WJmD8r14Mqin4BZbceYvhXhU=
+
+Name: res/drawable/swap_currencies.png
+SHA1-Digest: 9+eQUPhmhpdNzI9PoUxtgWGdsj0=
+
+Name: res/anim/slide_out_right.xml
+SHA1-Digest: nMenEsyTioopIkfhrvigL3lUVHg=
+
+Name: res/drawable/swipe.png
+SHA1-Digest: G7GhRM+IXRtwwx5RBezkGgcIc6w=
+
+Name: res/drawable/list_on.png
+SHA1-Digest: clvORTA4gb0qpiHc6MjLoutF75I=
+
+Name: res/drawable/news_off.png
+SHA1-Digest: zCEeaNZvMFIDxRwhswaQiiN69xE=
+
+Name: res/drawable/news_on.png
+SHA1-Digest: JFkGQSLUtkiE6W8jk25eU1uYOQE=
+
+Name: res/anim/slide_up_bottom.xml
+SHA1-Digest: VMlj2Pxv5g3+OaBrKeDozQ+IzXk=
+
+Name: res/drawable/loading_1_t.png
+SHA1-Digest: MuYJytfUsxXksO3ibXCKL1AFdEk=
+
+Name: res/drawable/loading_7_t.png
+SHA1-Digest: 5mRnn7tAMhptF+7+W38+fzHib+k=
+
+Name: res/layout/news_content.xml
+SHA1-Digest: ZiIfRRPlJYWVD9TYcI5yw7TvyRs=
+
+Name: res/anim/slide_out_left.xml
+SHA1-Digest: wUOKHMQGjyy12v1E77jaW2OJoRI=
+
+Name: res/drawable/converter_on.png
+SHA1-Digest: RlxBs07FVpvKsX6XGDOcw4abFTw=
+
+Name: res/layout/edit_base_currency.xml
+SHA1-Digest: ovF8cLsKinLgU5TPAu4RLcR0rIk=
+
+Name: res/drawable/swap_currencies_1.png
+SHA1-Digest: p8tmSfRaeYVhoz0UPdIu2OP9Bdw=
+
+Name: res/anim/slide_in_left.xml
+SHA1-Digest: Wz8bMDATwOZy1EHgp7u2HsDUEFg=
+
+Name: res/drawable/converter_off.png
+SHA1-Digest: 33xm14Ap6iHqmt/bJIkWFPSvA08=
+
+Name: res/layout/news.xml
+SHA1-Digest: G6ildOnHhpNQuAUV8yNvJ9/tiz4=
+
+Name: res/layout/main.xml
+SHA1-Digest: xr1i2kakub0b0kO35Qv3qb+q5w8=
+
+Name: res/drawable/settings_edit.png
+SHA1-Digest: AAr4i1F9j04JDp3IQUy2gS0RiKk=
+
+Name: res/drawable/gradient_light_reverse.xml
+SHA1-Digest: XRqWmD/OWffYnEN8He9GR6Jhi9U=
+
+Name: res/drawable/hourglass_background.png
+SHA1-Digest: ztzzbSkUfQHatqf2P/xkqYApeM8=
+
+Name: res/layout/list_header.xml
+SHA1-Digest: aV/CcjAZ1pjZc6Ah5IsItOpTPhw=
+
+Name: res/layout/currency_list.xml
+SHA1-Digest: 07dAq+4+UsZ51dGDwmu/8wfuq6k=
+
+Name: res/anim/spin_animation.xml
+SHA1-Digest: TuhuTz+DqwOW5N2jzajsu08YbmU=
+
+Name: res/layout/news_header.xml
+SHA1-Digest: reV0jmdg16nUW+KG5/Cfsc/NUeo=
+
+Name: res/drawable/list_off.png
+SHA1-Digest: C72T270hRG+TRM8CZiyVpnPJvJc=
+
+Name: res/layout/deal.xml
+SHA1-Digest: rUet4gw9JDv0zsXjCLCDJpHxCKg=
+
+Name: res/drawable/loading_5_t.png
+SHA1-Digest: GgqlnlUF9C+FfceL+GlSUZZPEjA=
+
+Name: res/layout/info.xml
+SHA1-Digest: YXJ6q2lUFMfTGlSyKrpUP2Cr8ac=
+
+Name: res/layout/deal_flipper.xml
+SHA1-Digest: QMyBXGbwq+opxbPjUNRC6Z5mcrY=
+
+Name: res/layout/ads_preferences_manager.xml
+SHA1-Digest: A/Qydh1LwKTCu+v17R476K2ReXM=
+
+Name: res/anim/slide_up_top.xml
+SHA1-Digest: Nyk4BSOUZoaIsO8X/CW7NLi4Mnc=
+
+Name: res/drawable/gradient.xml
+SHA1-Digest: gs2l7AKiTXzE5Rja8dH/dvYap/k=
+
+Name: resources.arsc
+SHA1-Digest: wgtHV33UGSnPndc8qv/uPClaaSU=
+
+Name: res/anim/slide_down_bottom.xml
+SHA1-Digest: idsSTNbq46C9k2VDVWo9z9qC1KQ=
+
+Name: res/anim/slide_in_right.xml
+SHA1-Digest: slJEtnnxPSKjNHptHI0DBOx2oi8=
+
+Name: res/drawable/green_button.png
+SHA1-Digest: PRh6rpTs8iNN1mo4nFsqT82JVfk=
+
+Name: res/drawable/deal_settings.png
+SHA1-Digest: r8eYK5b3U4k28CuNUXfMCJwwUq4=
+
+Name: res/drawable/no_deal_background.png
+SHA1-Digest: 3pyNeqwVcaO46SImqWXIYrNUk0M=
+
+Name: AndroidManifest.xml
+SHA1-Digest: +NZles2AzEU/kjuedUzpXEITHyA=
+
+Name: res/layout/settings.xml
+SHA1-Digest: RcHAiJmW4Hl8sLXrvy0EeDbA95A=
+
+Name: res/drawable/chart.png
+SHA1-Digest: Mf/81eMHGXNC/p350ATED5nxd2g=
+
+Name: res/drawable/deal_instructions.png
+SHA1-Digest: mEvM5VHLHw2IPoy3w/mNXu7WkFk=
+
+Name: res/drawable/edit.png
+SHA1-Digest: HWO7igGlSBKqD9UNvqDxbT+J1DA=
+
+Name: res/drawable/loading_2_t.png
+SHA1-Digest: 4eaJFYNE17Hn1W+Nni2dAjXURGE=
+
+Name: res/drawable/loading_6_t.png
+SHA1-Digest: gywfu4xVOu/Efih/gGiYuOkj6q0=
+
+Name: res/drawable/loading_10_t.png
+SHA1-Digest: ZoTPk0DRQFLCy5UAxcx/5/ZawLE=
+
+Name: res/drawable/back.png
+SHA1-Digest: XCMkcj/Irl3ymiceB9faKpyMF3E=
+
+Name: res/drawable/loading_11_t.png
+SHA1-Digest: TzYeIsKuriJ9ZYZR8LPjmlJDx3s=
+
+Name: res/drawable/blank.png
+SHA1-Digest: dBl79Ek7XTggSNUK0lalt+lJGn0=
+
+Name: res/drawable/loading_8_t.png
+SHA1-Digest: RZchsVQQJzFN1BS5fuLB//oKv3o=
+
+Name: res/drawable/icon_large.png
+SHA1-Digest: UKhEdTwGJCDayxjRvI70cJFthGU=
+
+Name: res/layout/list_footer.xml
+SHA1-Digest: OIhBRvtaGMQEgpbcYNPyij5NLmo=
+
+Name: res/layout/add_currency.xml
+SHA1-Digest: gPLOYgsynxtlDjr0b90Zul9vN5I=
+
+Name: classes.dex
+SHA1-Digest: c+hW5aZjHDkP/tcaPRWOtRaSmjg=
+
+Name: res/drawable/loading_3_t.png
+SHA1-Digest: og88DzxF3aml3DnShWPSlCSQBYE=
+
+Name: res/layout/graph.xml
+SHA1-Digest: aJQ1D+n/DkBPeLpZZx5Q+B32uWY=
+
+Name: res/drawable/groupon_banner.png
+SHA1-Digest: Jlz/Cd5iLsykGeHiEzfbacs7jKE=
+
+Name: res/layout/chart_timeframe.xml
+SHA1-Digest: UHAglzYZQXeTx+FDiax/yIRj++E=
+
+Name: res/layout/deal_instructions.xml
+SHA1-Digest: jy671hjdgAkiiRR/0+38g2RMEnE=
+
+Name: res/drawable/gradient_light.xml
+SHA1-Digest: +6CAoop5ZlAC1z0wthXTmRkw0tg=
+
+Name: res/anim/slide_down_top.xml
+SHA1-Digest: ZVfYMQMaf1N8umGpd6Q1RJ0oR1Y=
+
+Name: res/drawable/loading_anim.png
+SHA1-Digest: VSK6X0bFEFBjlzqGj3st3xtupSE=
+
+Name: res/drawable/gradient_reverse.xml
+SHA1-Digest: eLPZRIUnR4p72/NphGUifpH4NaE=
+
+Name: res/drawable/green_button_subscribe.png
+SHA1-Digest: zUA/mIvUkwKREEhWkqaCV759rpg=
+
+Name: res/drawable/hourglass.png
+SHA1-Digest: P1/+HUWNLnjqbDqS6v+WCP3WniE=
+

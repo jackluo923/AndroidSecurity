@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="@drawable/gradient_reverse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:layout_span="3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:maxHeight="10.0sp" />
+    <TableRow>
+        <TextView android:layout_width="30.0sp" />
+        <Spinner android:id="@id/currency_spinner_news" android:layout_width="wrap_content" android:prompt="@string/currency_prompt" />
+        <TextView android:layout_width="30.0sp" />
+    </TableRow>
+    <TextView android:maxHeight="2.0sp" />
+    <TextView android:background="@drawable/gradient_light_reverse" android:maxHeight="5.0sp" />
+</TableLayout>

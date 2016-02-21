@@ -1,0 +1,59 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<star x='159' moveSpeed='100' y='306' timeout='-1' path='RW100'/>
+<star x='161' moveSpeed='50' y='308' timeout='-1' path='RW50'/>
+<star x='162' y='308' timeout='-1'/>
+<candy x='53' y='128'/>
+<grab gun='false' radius='-1' x='56' y='46' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='50' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<target x='226' y='334'/>
+<grab gun='false' radius='-1' x='256' y='45' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='260' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<spike4 angle='-70' size='4' x='99' y='365' toggled='1'/>
+<hiddenElement x="281" y="444" radius="100" />
+</layer>
+<layer name='ru'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='ru'/>
+<tutorialText x='146' y='392' text='Поворачивайте пилу с помощью этой кнопки' locale='ru' width='150'/>
+</layer>
+<layer name='en'>
+<tutorialText x='143' y='393' text='Toggle the blades with this button' locale='en' width='150'/>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='en'/>
+</layer>
+<layer name='de'>
+<tutorialText x='131' y='395' text='Schalte die Klingen mit dieser Taste an und aus.' locale='de' width='180'/>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='411' rotateSpeed='100' locale='de'/>
+</layer>
+<layer name='fr'>
+<tutorialText x='146' y='391' text='Active les lames avec ce bouton' locale='fr' width='150'/>
+<tutorial04 angle='90' x='128' moveSpeed='100' y='407' rotateSpeed='100' locale='fr'/>
+</layer>
+<layer name='Zh'>
+<tutorialText x='129' y='403' text='用此按钮转动叶片' locale='zh' width='180'/>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='410' rotateSpeed='100' locale='zh'/>
+</layer>
+<layer name='Ja'>
+<tutorialText x='111' y='396' text='このボタンで*ブレードを*ON/OFF*できます' locale='ja' width='180'/>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='411' rotateSpeed='100' locale='ja'/>
+</layer>
+<layer name='it'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='it'/>
+<tutorialText x='146' y='392' text='Attiva le lame con questo tasto' locale='it' width='150'/>
+</layer><layer name='es'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='es'/>
+<tutorialText x='136' y='372' text='Utiliza este botón para activar o desactivar las cuchillas.' locale='es' width='170'/>
+</layer><layer name='ko'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='ko'/>
+<tutorialText x='146' y='392' text='버튼을 누르면 *칼날의 작동을 *제어할 수 있어요.' locale='ko' width='150'/>
+</layer><layer name='br'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='br'/>
+<tutorialText x='146' y='392' text='Alterne as lâminas com este botão' locale='br' width='150'/>
+</layer><layer name='tr'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='tr'/>
+<tutorialText x='146' y='392' text='Bu düğmeyle bıçaklara geç' locale='tr' width='150'/>
+</layer><layer name='nl'>
+<tutorial04 angle='90' x='126' moveSpeed='100' y='401' rotateSpeed='100' locale='nl'/>
+<tutorialText x='146' y='392' text='Draai de messen met deze knop' locale='nl' width='150'/>
+</layer></map>

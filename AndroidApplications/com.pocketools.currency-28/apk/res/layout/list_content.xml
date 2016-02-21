@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/list_content" android:background="#ffe3eef6" android:paddingLeft="10.0sp" android:paddingTop="5.0sp" android:paddingRight="10.0sp" android:paddingBottom="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@id/currencyRateRow">
+        <TextView android:textSize="22.0sp" android:textStyle="normal" android:textColor="#ff151b54" android:id="@id/currencyName" android:width="140.0dip" />
+        <TextView android:textSize="22.0sp" android:textStyle="normal" android:textColor="#ff151b54" android:gravity="left" android:layout_gravity="right" android:id="@id/currencyRate" />
+    </TableRow>
+    <TableRow>
+        <TextView android:textSize="13.0sp" android:textColor="#ff2b547e" android:id="@id/currency_inverse" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </TableRow>
+    <TextView android:background="@drawable/gradient" android:paddingTop="5.0sp" android:maxHeight="1.0sp" />
+</TableLayout>

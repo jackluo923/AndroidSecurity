@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
+    <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_grey">#ff404040</color>
+    <color name="text_sel">#ffceced1</color>
+    <color name="clrdlg_orange">#ffff9900</color>
+    <color name="clrdlg_blue">#ff3366cc</color>
+    <color name="clrdlg_green">#ff99cc33</color>
+    <color name="clrdlg_yellow">#fff0e68c</color>
+    <color name="clrdlg_grey">#ff808080</color>
+    <color name="clrdlg_red">#ffdc143c</color>
+    <color name="clrdlg_pink">#ffc4687a</color>
+    <color name="clrdlg_purple">#ff645fa5</color>
+    <color name="theme_dark_blue">#ff2b2d45</color>
+    <color name="theme_med_purple">#ff5b609d</color>
+    <color name="theme_light_purple">#ff797fb4</color>
+    <color name="theme_med_dark_blue">#ff5d658a</color>
+    <color name="theme_search_green">#ffe66e1d</color>
+    <color name="theme_search_grey">#ff7d937e</color>
+</resources>

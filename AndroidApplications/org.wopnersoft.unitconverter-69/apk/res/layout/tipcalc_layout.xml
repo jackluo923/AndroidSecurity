@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/TipCalcScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinLayoutMain" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinLayoutBillAmount" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TxtBillAmtLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/tip_bill_amount" />
+            <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:id="@id/EdTipBillAmount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100.00" android:maxLines="1" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" />
+            <CheckBox android:id="@id/CkbTax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_before_tax" android:layout_weight="0.0" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/LinLayoutTaxAmount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/TxtTipTaxAmtLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/tip_tax_amount" />
+            <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:id="@id/EdTipTaxAmount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/LinLayoutTipPercent" android:background="@drawable/btn_global_search_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="horizontal" android:id="@id/RadioGroup01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/TxtTipLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/tip_tip_percent" />
+                <RadioButton android:id="@id/RbFifteenPcnt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="15%" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/RbEighteenPcnt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="18%" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/RbTwentyPcnt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="20%" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:id="@id/BtnMinus" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="-" android:layout_weight="50.0" />
+                <com.wopnersoft.unitconverter.plus.util.ClearableEditText android:gravity="center" android:id="@id/EditTipPercent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="10" android:layout_weight="35.0" android:inputType="text" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:id="@id/BtnPlus" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="+" android:layout_weight="50.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/LinLayoutRoundTo" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/TxtRountToLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:text="@string/tip_round_to" />
+            <Spinner android:id="@id/SpinnerOtherRound" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout07" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:layout_gravity="right" android:orientation="horizontal" android:id="@id/RadioGroupRndUpDown" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/RbRoundUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:checked="true" android:text="@string/lbl_up" android:layout_weight="1.0" />
+                <RadioButton android:id="@id/RbRoundDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_down" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/LinearBtns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+                <Button android:id="@id/BtnResetTipCalc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_reset" />
+                <Button android:id="@id/BtnComputeTipCalc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/computeButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                <TextView android:id="@id/TxtLblTipAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:text="@string/tip_tip_amount" />
+                <TextView android:textSize="24.0sp" android:id="@id/TxtFinalTipAmt" android:background="@drawable/result_text_decor_light" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/TxtLblTotAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/tip_total_amount" />
+                <TextView android:textSize="24.0sp" android:id="@id/TxtFinalTotalAmt" android:background="@drawable/result_text_decor_light" android:paddingLeft="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+                <ImageButton android:id="@id/Btn_xfer_calc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/calc_xfer_to_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

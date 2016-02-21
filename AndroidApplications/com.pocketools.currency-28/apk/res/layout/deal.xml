@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/deal_text" android:background="#ff8ab641" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TableLayout android:background="#ffffffff" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" android:shrinkColumns="*">
+            <ImageView android:id="@id/deal_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+            <TableRow>
+                <TextView android:textSize="26.0sp" android:textColor="#ff000000" android:id="@id/mainTitle" android:layout_span="3" android:text="HealthSource – On Location" />
+            </TableRow>
+            <TextView android:layout_height="5.0sp" />
+            <TableRow>
+                <TextView android:textSize="18.0sp" android:textColor="#ff736f6e" android:id="@id/subTitle" android:layout_span="3" android:text="One-Hour Massage ($70 Value)" />
+            </TableRow>
+            <TextView android:layout_height="5.0sp" />
+            <TableRow>
+                <TableLayout android:background="#ffd0eef6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:layout_span="3">
+                    <TextView android:layout_height="5.0sp" />
+                    <TableRow>
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:text="Value" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:text="Discount" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:text="You Save" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/deal_value" android:text="" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/deal_discount" android:text="" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/deal_you_save" android:text="" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <TextView android:layout_height="5.0sp" />
+            <TableRow>
+                <TableLayout android:background="#ffddeacc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:layout_span="3">
+                    <TextView android:layout_height="5.0sp" />
+                    <TableRow>
+                        <ImageView android:src="@drawable/hourglass" />
+                        <TableLayout>
+                            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:text="Time Left to Buy" />
+                            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/deal_duration" android:text="1 day 18:37:36" />
+                        </TableLayout>
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+            <TextView android:layout_height="10.0sp" />
+            <TableRow>
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff736f6e" android:layout_span="3" android:text="In a Nutshell" />
+            </TableRow>
+            <TextView android:layout_height="5.0sp" />
+            <TableRow>
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/nutshell" android:layout_span="3" android:text="Chiropractor-led team of trained massage therapists aims to improve neck and back pain and relax bodies during one-hour full-body massage" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+        <TableRow>
+            <ImageView android:id="@id/deal_subscribe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/green_button_subscribe" />
+            <ImageView android:id="@id/deal_buy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/green_button_buy" />
+        </TableRow>
+    </TableLayout>
+</TableLayout>

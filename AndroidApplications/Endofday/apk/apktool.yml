@@ -1,0 +1,14 @@
+version: 2.0.0-RC4
+apkFileName: Endofday.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '3'
+  versionName: '1.0'
+compressionType: true

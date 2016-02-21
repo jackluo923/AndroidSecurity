@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/selection">
+        <CheckBoxPreference android:title="@string/show_notification" android:key="notification" android:summary="@string/show_notification_t" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/hide_after" android:key="hide_after" android:summary="@string/hide_after_t" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/toast_after" android:key="toast_after" android:summary="@string/toast_after_t" android:defaultValue="true" />
+        <ListPreference android:entries="@array/listLongPressArray" android:title="@string/long_press" android:key="long_action" android:summary="@string/long_press_t" android:defaultValue="0" android:entryValues="@array/listLongPressValues" />
+        <CheckBoxPreference android:title="@string/add_spaces" android:key="add_spaces" android:summary="@string/add_spaces_t" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/iface">
+        <ListPreference android:entries="@array/listArray" android:title="@string/theme" android:key="theme" android:summary="@string/theme_t" android:defaultValue="0" android:entryValues="@array/listValues" />
+        <CheckBoxPreference android:title="@string/show_tabs" android:key="show_tabs" android:summary="@string/show_tabs_t" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/old_icon" android:key="old_icon" android:summary="@string/old_icon_t" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/importexport">
+        <Preference android:title="@string/export_c" android:key="bExport" android:summary="@string/export_t" />
+        <Preference android:title="@string/import_c" android:key="bImport" android:summary="@string/import_t" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other">
+        <Preference android:title="@string/show_tutorial" android:key="bTutorial" />
+    </PreferenceCategory>
+</PreferenceScreen>

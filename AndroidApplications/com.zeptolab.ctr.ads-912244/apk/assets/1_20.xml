@@ -1,0 +1,118 @@
+<map>
+<layer name='settings'>
+<map gridSize='32' height='480' width='320'/>
+<gameDesign water='0' special='1' waterSpeed='0' twoParts='false' ropePhysicsSpeed='1.0'/>
+</layer>
+<layer name='Objects'>
+<candy x='162' y='101'/>
+<target x='162' y='426'/>
+<star x='161' y='216' timeout='0'/>
+<star x='162' y='345' timeout='-1'/>
+<star x='161' y='284' timeout='-1'/>
+<grab gun='false' radius='-1' x='85' y='47' moveLength='0' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='95' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='-1' x='245' y='47' moveLength='0' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='95' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<spike4 angle='80' size='4' x='221' y='310' toggled='false'/>
+<spike4 angle='100' size='4' x='104' y='310' toggled='false'/>
+<grab gun='false' radius='80' x='236' y='250' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<grab gun='false' radius='80' x='88' y='248' moveLength='-1' helicopter='false' kickable='false' invisible='false' moveOffset='0' wheel='false' kicked='false' length='100' moveVertical='false' spider='false' hidePath='false' part='L'/>
+<tutorialText x='9' y='56' text='You can cut several ropes at once' locale='en' width='300'/>
+<tutorial01 x='56' moveSpeed='100' y='96' rotateSpeed='100' locale='en'/>
+<tutorial01 x='108' moveSpeed='100' y='96' rotateSpeed='100' locale='en'/>
+<tutorial01 x='161' moveSpeed='100' y='96' rotateSpeed='100' locale='en'/>
+<tutorial01 x='212' moveSpeed='100' y='95' rotateSpeed='100' locale='en'/>
+<tutorial01 x='266' moveSpeed='100' y='95' rotateSpeed='100' locale='en'/>
+<tutorial07 x='19' moveSpeed='100' y='95' rotateSpeed='100' locale='en'/>
+<tutorial07 angle='180' x='304' moveSpeed='100' y='96' rotateSpeed='100' locale='en'/>
+<hiddenElement x="48" y="292" radius="100" />
+</layer>
+<layer name='Ru'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='ru'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='ru'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='ru'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='ru'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='ru'/>
+<tutorialText x='10' y='50' text='Вы можете перерезать несколько веревок одновременно' locale='ru' width='300'/>
+</layer>
+<layer name='Fr'>
+<tutorial01 x='56' moveSpeed='100' y='106' rotateSpeed='100' locale='fr'/>
+<tutorial01 x='108' moveSpeed='100' y='106' rotateSpeed='100' locale='fr'/>
+<tutorial01 x='161' moveSpeed='100' y='106' rotateSpeed='100' locale='fr'/>
+<tutorial01 x='212' moveSpeed='100' y='105' rotateSpeed='100' locale='fr'/>
+<tutorial01 x='266' moveSpeed='100' y='105' rotateSpeed='100' locale='fr'/>
+<tutorial07 x='19' moveSpeed='100' y='105' rotateSpeed='100' locale='fr'/>
+<tutorial07 angle='180' x='304' moveSpeed='100' y='106' rotateSpeed='100' locale='fr'/>
+<tutorialText x='37' y='46' text='Vous pouvez couper plusieurs cordes à la fois' locale='fr' width='250'/>
+</layer>
+<layer name='De'>
+<tutorial01 x='56' moveSpeed='100' y='122' rotateSpeed='100' locale='de'/>
+<tutorial01 x='108' moveSpeed='100' y='122' rotateSpeed='100' locale='de'/>
+<tutorial01 x='161' moveSpeed='100' y='122' rotateSpeed='100' locale='de'/>
+<tutorial01 x='212' moveSpeed='100' y='121' rotateSpeed='100' locale='de'/>
+<tutorial01 x='266' moveSpeed='100' y='121' rotateSpeed='100' locale='de'/>
+<tutorial07 x='19' moveSpeed='100' y='121' rotateSpeed='100' locale='de'/>
+<tutorial07 angle='180' x='304' moveSpeed='100' y='122' rotateSpeed='100' locale='de'/>
+<tutorialText x='37' y='49' text='Du kannst mehrere Seile gleichzeitig durchschneiden.' locale='de' width='250'/>
+</layer>
+<layer name='Zh'>
+<tutorial01 x='56' moveSpeed='100' y='122' rotateSpeed='100' locale='zh'/>
+<tutorial01 x='108' moveSpeed='100' y='122' rotateSpeed='100' locale='zh'/>
+<tutorial01 x='161' moveSpeed='100' y='122' rotateSpeed='100' locale='zh'/>
+<tutorial01 x='212' moveSpeed='100' y='121' rotateSpeed='100' locale='zh'/>
+<tutorial01 x='266' moveSpeed='100' y='121' rotateSpeed='100' locale='zh'/>
+<tutorial07 x='19' moveSpeed='100' y='121' rotateSpeed='100' locale='zh'/>
+<tutorial07 angle='180' x='304' moveSpeed='100' y='122' rotateSpeed='100' locale='zh'/>
+<tutorialText x='37' y='74' text='你可以一次剪断几条绳索' locale='zh' width='250'/>
+</layer>
+<layer name='Ja'>
+<tutorial01 x='56' moveSpeed='100' y='122' rotateSpeed='100' locale='ja'/>
+<tutorial01 x='108' moveSpeed='100' y='122' rotateSpeed='100' locale='ja'/>
+<tutorial01 x='161' moveSpeed='100' y='122' rotateSpeed='100' locale='ja'/>
+<tutorial01 x='212' moveSpeed='100' y='121' rotateSpeed='100' locale='ja'/>
+<tutorial01 x='266' moveSpeed='100' y='121' rotateSpeed='100' locale='ja'/>
+<tutorial07 x='19' moveSpeed='100' y='121' rotateSpeed='100' locale='ja'/>
+<tutorial07 angle='180' x='304' moveSpeed='100' y='122' rotateSpeed='100' locale='ja'/>
+<tutorialText x='38' y='57' text='複数の*ロープを*一気に*切断する*ことも*できます' locale='ja' width='250'/>
+</layer>
+<layer name='it'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='it'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='it'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='it'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='it'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='it'/>
+<tutorialText x='10' y='50' text='Puoi tagliare diverse corde alla volta' locale='it' width='300'/>
+</layer><layer name='es'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='es'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='es'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='es'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='es'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='es'/>
+<tutorialText x='10' y='50' text='Puedes cortar varias cuerdas a la vez.' locale='es' width='300'/>
+</layer><layer name='ko'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='ko'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='ko'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='ko'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='ko'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='ko'/>
+<tutorialText x='10' y='50' text='한번에 여러 줄을 *자를 수 있어요.' locale='ko' width='300'/>
+</layer><layer name='br'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='br'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='br'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='br'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='br'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='br'/>
+<tutorialText x='10' y='50' text='Você pode cortar várias cordas de uma só vez' locale='br' width='300'/>
+</layer><layer name='tr'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='tr'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='tr'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='tr'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='tr'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='tr'/>
+<tutorialText x='10' y='50' text='Birden fazla ipi bir kerede kesebilirsin' locale='tr' width='300'/>
+</layer><layer name='nl'>
+<tutorial01 x='54' moveSpeed='100' y='110' rotateSpeed='100' locale='nl'/>
+<tutorial01 x='107' moveSpeed='100' y='110' rotateSpeed='100' locale='nl'/>
+<tutorial01 x='160' moveSpeed='100' y='110' rotateSpeed='100' locale='nl'/>
+<tutorial01 x='210' moveSpeed='100' y='109' rotateSpeed='100' locale='nl'/>
+<tutorial01 x='264' moveSpeed='100' y='109' rotateSpeed='100' locale='nl'/>
+<tutorialText x='10' y='50' text='Je kunt verschillende touwen in één keer doorsnijden' locale='nl' width='300'/>
+</layer></map>
