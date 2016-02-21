@@ -22,6 +22,8 @@ build.sh </br>
     - calls gradle and build project </br>
 run.sh </br>
     - runs project, first argument is the decompressed apk location </br>
+cleanProject.sh </br>
+    - cleans out all build and output files from project </br>
 
 
 ## Intellij Configuration
