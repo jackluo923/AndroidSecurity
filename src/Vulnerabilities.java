@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.List;
 
 // Class containing all vulnerabilities in application.  This class is used to produce
 // the output JSON file, so be careful of changing any existing field names.  If your 
@@ -72,6 +72,8 @@ public class Vulnerabilities {
         public String source      = "unknown";
         public String sink        = "unknown";
         public String information = "unknown";
+        public String isSourceParameter = "unknown";
+        public String isSourceConstant = "unknown";
     }
     public List<LeakagePath> PrivacyLeakage;
 
