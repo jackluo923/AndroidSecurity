@@ -2,17 +2,30 @@
  * This is the main class for wala tutorial. Please start with the project starter file /src/VulnerabilityDetector.java
  */
 
-import com.ibm.wala.types.*;
 import com.ibm.wala.classLoader.*;
-import com.ibm.wala.ipa.cha.*;
 import com.ibm.wala.ipa.callgraph.*;
-import com.ibm.wala.ipa.callgraph.impl.*;
-import com.ibm.wala.ipa.callgraph.propagation.*;
-import com.ibm.wala.ipa.callgraph.propagation.cfa.*;
-import com.ibm.wala.ssa.*;
+import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyClassTargetSelector;
+import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyMethodTargetSelector;
+import com.ibm.wala.ipa.callgraph.impl.DefaultContextSelector;
+import com.ibm.wala.ipa.callgraph.impl.DefaultEntrypoint;
+import com.ibm.wala.ipa.callgraph.propagation.SSAPropagationCallGraphBuilder;
+import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXCFABuilder;
+import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXInstanceKeys;
+import com.ibm.wala.ipa.cha.ClassHierarchy;
+import com.ibm.wala.ipa.cha.IClassHierarchy;
+import com.ibm.wala.ssa.DefUse;
+import com.ibm.wala.ssa.IR;
+import com.ibm.wala.ssa.SSAInstruction;
+import com.ibm.wala.ssa.SymbolTable;
+import com.ibm.wala.types.ClassLoaderReference;
+import com.ibm.wala.types.Selector;
+import com.ibm.wala.types.TypeReference;
 import com.ibm.wala.util.config.AnalysisScopeReader;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 import java.util.jar.JarFile;
 
 public class SampleAnalysis {
@@ -54,7 +67,7 @@ public class SampleAnalysis {
 
             List<Entrypoint> appEntrypoints = getAppEntrypoints(cha);
             CallGraph cg = makeZeroCFACallgraph(appEntrypoints, scope, cha);
-            
+
             System.out.println("Call Graph");
             System.out.println("----------");
             printCallGraph(cg, cg.getFakeRootNode(), 0);
@@ -73,7 +86,7 @@ public class SampleAnalysis {
 
     private AnalysisScope getAnalysisScope() throws Exception {
         AnalysisScope scope = AnalysisScopeReader.makeJavaBinaryAnalysisScope(appPath, null);
-        
+
         Module androidModule = new JarFileModule(new JarFile(androidJarPath));
         scope.addToScope(ClassLoaderReference.Extension, androidModule);
 
@@ -128,7 +141,7 @@ public class SampleAnalysis {
         for (int i = 0; i < level; i++) {
             indent += "    ";
         }
-        
+
         System.out.println(indent + currentNode.getMethod().getSignature());
 
         IClassHierarchy cha = cg.getClassHierarchy();
@@ -173,7 +186,7 @@ public class SampleAnalysis {
 
                     if (callerSymbols.isStringConstant(invokeInstr.getUse(1))) {
                         System.out.println("SMS sent to: " + callerSymbols.getStringValue(invokeInstr.getUse(1)));
-                        
+
                         if (callerSymbols.isStringConstant(invokeInstr.getUse(3))) {
                             System.out.println("    text: " + callerSymbols.getStringValue(invokeInstr.getUse(3)));
                         } else {
