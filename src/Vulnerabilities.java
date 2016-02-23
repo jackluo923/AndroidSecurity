@@ -79,13 +79,14 @@ public class Vulnerabilities {
 
     // ========================================================================
     // List of classes where SSL is used incorrectly 
-    // SSLVulnerability:  type = why use of SSL is insecure (e.g. accepting all certificates)
+    // SSLVulnerability:  type = why use of SSL is insecure (e.g. accepting all certificates
+    // Fixed a potential error: List<String> -> List<SSLVulnerability>
 
     public static class SSLVulnerability {
         public final String precision = "(manual verification)";
         public String type = "unknown";
     }
-    public List<String> ImproperSSL;
+    public List<SSLVulnerability> ImproperSSL;
 
     // ========================================================================
 }
