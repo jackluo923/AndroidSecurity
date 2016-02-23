@@ -1,6 +1,11 @@
+# Makefile
+Makefile
+.DS_Store
+
 #intellij
 /.idea
 /AndoirdSecurity.iml
+*.iml
 
 #intellij build output
 /out
