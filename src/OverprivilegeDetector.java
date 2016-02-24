@@ -410,10 +410,21 @@ public class OverprivilegeDetector {
         }
     }
 
+    private boolean isAndroidAPI(String signature) {
+        if (signature.startsWith("com.android.") ||
+                signature.startsWith("android.") ||
+                signature.startsWith("com.google.android.") ||
+                signature.startsWith("java.net.") ||
+                signature.startsWith("com.google.common.") ||
+                signature.startsWith("org.apache.http."))
+            return true;
+        return false;
+    }
 
     private void collectAppCalls(CallGraph cg, CGNode currentNode, int level, List<String>appCallSignatures) {
 
-        appCallSignatures.add(currentNode.getMethod().getSignature());
+        if (isAndroidAPI(currentNode.getMethod().getSignature()))
+            appCallSignatures.add(currentNode.getMethod().getSignature());
 
         IClassHierarchy cha = cg.getClassHierarchy();
         Iterator<CallSiteReference> callsiteIter = currentNode.iterateCallSites();
@@ -432,13 +443,15 @@ public class OverprivilegeDetector {
             IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
 
             if (cg.getPossibleTargets(currentNode, callsite).isEmpty()) {
-                appCallSignatures.add(callsite.getDeclaredTarget().getSignature());
+                if (isAndroidAPI(callsite.getDeclaredTarget().getSignature()))
+                    appCallSignatures.add(callsite.getDeclaredTarget().getSignature());
             } else {
                 for (CGNode targetNode : cg.getPossibleTargets(currentNode, callsite)) {
                     if (targetNode.getMethod().getDeclaringClass().getClassLoader().getReference().equals(ClassLoaderReference.Application)) {
                         collectAppCalls(cg, targetNode, level + 1, appCallSignatures);
                     } else {
-                        appCallSignatures.add(targetNode.getMethod().getSignature());
+                        if (isAndroidAPI(targetNode.getMethod().getSignature()))
+                            appCallSignatures.add(targetNode.getMethod().getSignature());
                     }
                 }
             }
