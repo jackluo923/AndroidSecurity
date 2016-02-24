@@ -52,24 +52,35 @@ public class IntentSpoofingDetector {
     public static void main(String[] args) throws Exception {
         java.lang.System.out.println("Working Directory = " +
                 java.lang.System.getProperty("user.dir"));
-        String appDir = "Vulnerabilities/IntentSpoofing-APK/"; // default analysis application
+        // String appDir = "AndroidApplications/Vulnerabilities/UnauthorizedIntentReceipt/apk/"; // default analysis application
+        String appDir = "Vulnerabilities/UnauthorizedIntentReceipt-APK/"; // default analysis application
         if (args.length == 0) {
             // do nothing, use default settings
         } else if (args.length == 1) {
             appDir = args[0];
             java.lang.System.out.println("Analyzing application: "+ appDir);
         } else {
-            java.lang.System.err.println("usage: IntentSpoofingDetector <directory of extracted APK>");
+            java.lang.System.err.println("usage: IntentVulnerabilityDetector <directory of extracted APK>");
             return;
         }
         java.lang.System.out.println("Starting vulnerability detection for " + appDir);
 
         IntentSpoofingDetector analysis = new IntentSpoofingDetector(appDir);
-        analysis.analyze();
+        // analysis.analyze();
+        analysis.analyzeUnauthorized();
     }
 
     public IntentSpoofingDetector(String appDir) {
         _appDir = appDir;
+        vul = new Vulnerabilities();
+    }
+
+    public void analyzeUnauthorized() throws Exception {
+        String appPath = _appDir + "/classes.jar";
+        AnalysisScope appScope = AnalysisScopeReader.makeJavaBinaryAnalysisScope(appPath, null);
+        Module androidMod = new JarFileModule(new JarFile(_androidLib));
+        appScope.addToScope(ClassLoaderReference.Extension, androidMod);
+        vulnerableIntentCheck(appScope);
     }
 
     public void analyze() throws Exception {
@@ -82,19 +93,14 @@ public class IntentSpoofingDetector {
 
         if (extractedApkDir.isDirectory()) {
             appPath = extractedApkPath + "/classes.jar";
-            manifestPath = extractedApkPath + "/AndroidManifest.2.xml";
+            manifestPath = extractedApkPath + "/AndroidManifest.xml";
         } else {
             java.lang.System.out.println("\nMissing AndroidManifest.xml and/or classes.jar files in target APK directory. Exiting");
             return;
         }
-
-        // Load classes in WALA
         AnalysisScope appScope = AnalysisScopeReader.makeJavaBinaryAnalysisScope(appPath, null);
         Module androidMod = new JarFileModule(new JarFile(_androidLib));
         appScope.addToScope(ClassLoaderReference.Extension, androidMod);
-        // System.out.println(appScope.toString());
-
-        vul = new Vulnerabilities();
         intentSpoofAnalysis(vul, appScope, manifestPath);
     }
 
@@ -111,11 +117,27 @@ public class IntentSpoofingDetector {
                 int index = vulnerableComponentCheck(model, c);
                 if(index != -1) {
                     model.components.get(index).c = c;
-                    model.components.get(index).extraData = extraDataCheck(c);
+
+                    int edata = extraDataCheck(appHierarchy, appScope, c, model.components.get(index).type);
+                    if (edata == -1) {
+                        model.components.get(index).findIntentUsage = false;
+                    } else {
+                        if (edata == 1) {
+                            model.components.get(index).findIntentUsage = true;
+                            model.components.get(index).extraData = true;
+                        } else if (edata == 0) {
+                            model.components.get(index).findIntentUsage = true;
+                            model.components.get(index).extraData = false;
+                        }
+                    }
+//                    System.out.println("Found vulnerability in " +
+//                            model.components.get(index).name
+//                            + " with Intent usage: " + model.components.get(index).findIntentUsage
+//                            + " with extra data: " + model.components.get(index).extraData);
                 }
             }
         }
-        // TODO: Add dynamically added IntentSpoofing Receivers
+        // TODO: Add dynamically created IntentSpoofing Receivers
         vul.IntentSpoofing = new ArrayList<>();
         for(int i = 0; i < model.components.size(); i ++) {
             Vulnerabilities.SpoofedComponent spc = new Vulnerabilities.SpoofedComponent();
@@ -237,6 +259,7 @@ public class IntentSpoofingDetector {
         public class Component {
             public IClass c;
             String type;
+            boolean findIntentUsage;
             String name;
             String permission;
             List<IntentFilter> intentFilter;
@@ -271,24 +294,90 @@ public class IntentSpoofingDetector {
             "onDestroy()V"
     };
 
-    private static boolean extraDataCheck(IClass c) {
-        // third check if component receives an intent and only reads action, categories, component and packagename
-        // if so no extra data, else extra data
-        // done.
-        // Step 1: get all methods in c
-        // Step 2: add each methods in c as entry point
-        // for the entry point get call graph, traverse call graph
-        // check for each function call, if calls any method that as Intent but not the following:
-        // Intent.getAction()
-        // Intent.getCategories()
-        // Intent.getComponent()
-        // Intent.getPackage()
-        Collection<IMethod> methods = c.getAllMethods();
-        Iterator<IMethod> it = methods.iterator();
-        while(it.hasNext()) {
-            IMethod m = it.next();
+    private final String[] receiverLifecycleMethods = {
+            "onReceive"
+    };
+
+    private final String[] intentGetMethods = {
+            "getAction",
+            "getCategories",
+            "getComponent",
+            "getPackage"
+    };
+
+    private int extraDataCheck(IClassHierarchy cha, AnalysisScope scope, IClass c, String type) {
+        List<Entrypoint> entrypoints = new ArrayList<Entrypoint>();
+        Collection<IMethod> declaredMethods = c.getDeclaredMethods();
+        String[] ac;
+        if (type == "Activity") {
+            ac = activityLifecycleMethods;
+        } else if (type == "Service") {
+            ac = activityLifecycleMethods;
+        } else if (type == "Receiver") {
+            ac = receiverLifecycleMethods;
+        } else {
+            System.out.println("Cannot compute extra data for component not Activity, Service, or Receiver.");
+            return -1;
         }
-        return true;
+        for (String lifecycle : ac) {
+            for(IMethod m : declaredMethods) {
+                if (m.toString().contains(lifecycle)) {
+                    entrypoints.add(new DefaultEntrypoint(m, cha));
+                }
+            }
+        }
+        if(entrypoints.size() == 0) {
+            System.out.println("Cannot find any entry point for " + c + ", type: " + type);
+            return -1;
+        }
+        // traverse Callgraph through
+        CallGraph cg = makeZeroCFACallgraph(entrypoints, scope, cha);
+        CGNode root = cg.getFakeRootNode();
+        int b = callGraphTraverse2(cg, root, 0);
+        return b;
+    }
+
+    private int callGraphTraverse2(CallGraph cg, CGNode currentNode, int level) {
+        IClassHierarchy cha = cg.getClassHierarchy();
+        Iterator<CallSiteReference> callsiteIter2 = currentNode.iterateCallSites();
+        while (callsiteIter2.hasNext()) {
+            CallSiteReference callsite = callsiteIter2.next();
+            IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
+            if (cg.getPossibleTargets(currentNode, callsite).isEmpty()) {
+                // do nothing
+            } else {
+                for (CGNode targetNode : cg.getPossibleTargets(currentNode, callsite)) {
+                    IMethod callee = targetNode.getMethod();
+                    if(isIntentType(callee.getDeclaringClass().getReference())) {
+                        String name = callee.getName().toString();
+                        boolean r = false;
+                        for(String options : intentGetMethods) {
+                            if(name.contains(options)) {
+                                r = true;
+                                break;
+                            }
+                        }
+                        // r is false means there is some other methods got called
+                        if (!r) {
+                            return 1; // 1 means find Intent with extra data
+                        } else {
+                            return 0; // 0 means find Intent without extra data
+                        }
+                    } else {
+                        // System.out.println("Not an intent!");
+                    }
+                    if (targetNode.getMethod().getDeclaringClass().getClassLoader().getReference().equals(ClassLoaderReference.Application)) {
+                        int rr = callGraphTraverse2(cg, targetNode, level + 1);
+                        if(rr != -1) {
+                            return rr;
+                        }
+                    } else {
+                        // dont further zoom in because it reaches Android boundary
+                    }
+                }
+            }
+        }
+        return -1; // -1 means find nothing
     }
 
     private HashMap<IMethod, MethodState> dict;
@@ -322,6 +411,7 @@ public class IntentSpoofingDetector {
         CGNode root = cg.getFakeRootNode();
 
         // Traverse  call graph
+        dict = new HashMap<>();
         callGraphTraverse(cg, root, 0);
         for(Map.Entry<IMethod, MethodState> entry : dict.entrySet()) {
             MethodState state = entry.getValue();
@@ -334,6 +424,8 @@ public class IntentSpoofingDetector {
                 for(IntentState is : state.intents) {
                     withData = withData || is.extraData;
                 }
+                 System.out.println("Found vul in function: " + state.method.toString()
+                 + " with data: " + withData);
                 res.add(vi);
             }
         }
@@ -341,10 +433,8 @@ public class IntentSpoofingDetector {
     }
 
     private boolean isIntentType(TypeReference tp) {
-        if(tp.isClassType()) {
-            if(tp.getClassLoader().getName().toString().contains("Intent")) {
-                return true;
-            }
+        if(tp.toString().contains("android/content/Intent")) {
+            return true;
         }
         return false;
     }
@@ -360,7 +450,27 @@ public class IntentSpoofingDetector {
         return true;
     }
 
+    private final String[] toReceiver = {"sendBroadcast", "sendOrderedBroadcast", "sendStickyBroadcast",
+    "sendStickyOrderedBroadcast"};
+    private final String[] toActivity = {"startActivity", "startActivityForResult"};
+    private final String[] toService = {"startService", "bindService"};
+
     private boolean isIntentSinker(IMethod m) {
+        for(String s : toReceiver) {
+            if(m.getName().toString().contains(s)) {
+                return true;
+            }
+        }
+        for(String s : toActivity) {
+            if(m.getName().toString().contains(s)) {
+                return true;
+            }
+        }
+        for(String s : toService) {
+            if(m.getName().toString().contains(s)) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -370,6 +480,12 @@ public class IntentSpoofingDetector {
         boolean vul = false;
         // check if there is new intent instantiated
         IntentState its = null;
+        if(dict.get(currentMethod) == null) {
+            dict.put(currentMethod, new MethodState());
+        }
+        if(dict.get(currentMethod).intents == null) {
+            dict.get(currentMethod).intents = new ArrayList<>();
+        }
         if(dict.get(currentMethod).intents.size() != 0) {
             its = dict.get(currentMethod).intents.get(0); // get first one if it is not null
         }
@@ -388,6 +504,10 @@ public class IntentSpoofingDetector {
             // if it is setAction: set action for intent
             CallSiteReference callsite = callsiteIter.next();
             IMethod m = cha.resolveMethod(callsite.getDeclaredTarget());
+            if (m == null) {
+                // System.out.println("Cannot get target method!");
+                continue;
+            }
             if (isIntentType(m.getDeclaringClass().getReference()) && methodNameMatch(m, "setAction")) {
                 its.hasAction = true;
             }
@@ -410,15 +530,17 @@ public class IntentSpoofingDetector {
             dict.put(currentMethod, new MethodState());
         }
         if(dict.get(currentMethod).intents == null) {
-            dict.get(currentMethod).intents = = new ArrayList<IntentState>();
+            dict.get(currentMethod).intents = new ArrayList<IntentState>();
         }
         dict.get(currentMethod).intentSinks = new ArrayList<IntentSinkState>();
         dict.get(currentMethod).method = currentMethod;
         dict.get(currentMethod).type = "Activity";
         if(its != null) {
+            // System.out.println("Found its with type: " + its.type);
             dict.get(currentMethod).intents.add(its);
         }
         if(iss != null) {
+            // System.out.println("Found its sink with name: " + iss.name);
             dict.get(currentMethod).intentSinks.add(iss);
         }
         if(its != null && iss != null) {
