@@ -19,6 +19,14 @@ public class Vulnerabilities {
     public static class UnusedPermission {
         public final String precision = "(manual verification)";
         public String permission = "unknown";
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof UnusedPermission) {
+                UnusedPermission ptr = (UnusedPermission) obj;
+                return (this.permission.equals(ptr.permission));
+            }
+            return false;
+        }
     }
     public List<UnusedPermission> Overprivilege;
 
