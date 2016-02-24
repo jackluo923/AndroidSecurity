@@ -33,6 +33,7 @@ public class PrivacyLeakageDetector {
      *
      */
     public static void analyze(CallGraph cg, Vulnerabilities vulnerabilities) throws Exception {
+        System.out.println("--------------------");
         System.out.println("PrivacyLeakageDetector");
         System.out.println("--------------------");
 

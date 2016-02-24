@@ -10,6 +10,8 @@ import java.util.List;
 // with "tp" for a true positive and "fp" for a false positive.
 
 public class Vulnerabilities {
+    public String appDir;
+
     // ========================================================================
     // List of permissions that are declared by not used
     // UnusedPermission:  permission = name of permission that is unused
