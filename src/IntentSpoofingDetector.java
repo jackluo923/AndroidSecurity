@@ -94,7 +94,10 @@ public class IntentSpoofingDetector {
         intentSpoofAnalysis(vul, appScope, manifestPath);
     }
 
-    private void intentSpoofAnalysis(Vulnerabilities vul, AnalysisScope appScope, String manifestPath) throws Exception {
+    public void intentSpoofAnalysis(Vulnerabilities vul, AnalysisScope appScope, String manifestPath) throws Exception {
+        System.out.println("--------------------");
+        System.out.println("IntentSpoofingDetector");
+        System.out.println("--------------------");
         ManifestModel model = new ManifestModel(manifestPath);
         IClassHierarchy appHierarchy = ClassHierarchy.make(appScope);
         Iterator<IClass> it =appHierarchy.iterator();
