@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.List;
 
 // Class containing all vulnerabilities in application.  This class is used to produce
 // the output JSON file, so be careful of changing any existing field names.  If your 
@@ -10,6 +10,8 @@ import java.util.*;
 // with "tp" for a true positive and "fp" for a false positive.
 
 public class Vulnerabilities {
+    public String appDir;
+
     // ========================================================================
     // List of permissions that are declared by not used
     // UnusedPermission:  permission = name of permission that is unused
@@ -17,6 +19,14 @@ public class Vulnerabilities {
     public static class UnusedPermission {
         public final String precision = "(manual verification)";
         public String permission = "unknown";
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof UnusedPermission) {
+                UnusedPermission ptr = (UnusedPermission) obj;
+                return (this.permission.equals(ptr.permission));
+            }
+            return false;
+        }
     }
     public List<UnusedPermission> Overprivilege;
 
@@ -72,18 +82,21 @@ public class Vulnerabilities {
         public String source      = "unknown";
         public String sink        = "unknown";
         public String information = "unknown";
+        public String isSourceParameter = "unknown";
+        public String isSourceConstant = "unknown";
     }
     public List<LeakagePath> PrivacyLeakage;
 
     // ========================================================================
     // List of classes where SSL is used incorrectly 
-    // SSLVulnerability:  type = why use of SSL is insecure (e.g. accepting all certificates)
+    // SSLVulnerability:  type = why use of SSL is insecure (e.g. accepting all certificates
+    // Fixed a potential error: List<String> -> List<SSLVulnerability>
 
     public static class SSLVulnerability {
         public final String precision = "(manual verification)";
         public String type = "unknown";
     }
-    public List<String> ImproperSSL;
+    public List<SSLVulnerability> ImproperSSL;
 
     // ========================================================================
 }
