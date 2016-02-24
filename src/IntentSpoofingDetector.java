@@ -1,11 +1,18 @@
-import com.ibm.wala.classLoader.IClass;
-import com.ibm.wala.classLoader.IMethod;
-import com.ibm.wala.classLoader.JarFileModule;
-import com.ibm.wala.classLoader.Module;
-import com.ibm.wala.ipa.callgraph.AnalysisScope;
+import com.ibm.wala.classLoader.*;
+import com.ibm.wala.ipa.callgraph.*;
+import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyClassTargetSelector;
+import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyMethodTargetSelector;
+import com.ibm.wala.ipa.callgraph.impl.DefaultContextSelector;
+import com.ibm.wala.ipa.callgraph.impl.DefaultEntrypoint;
+import com.ibm.wala.ipa.callgraph.propagation.SSAPropagationCallGraphBuilder;
+import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXCFABuilder;
+import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXInstanceKeys;
 import com.ibm.wala.ipa.cha.ClassHierarchy;
+import com.ibm.wala.ipa.cha.ClassHierarchyException;
 import com.ibm.wala.ipa.cha.IClassHierarchy;
 import com.ibm.wala.types.ClassLoaderReference;
+import com.ibm.wala.types.Selector;
+import com.ibm.wala.types.TypeReference;
 import com.ibm.wala.util.config.AnalysisScopeReader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,10 +28,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.jar.JarFile;
 
 /**
@@ -254,13 +258,24 @@ public class IntentSpoofingDetector {
         return -1;
     }
 
+    private final String[] activityLifecycleMethods = {
+            "onCreate(Landroid/os/Bundle;)V",
+            "onStart()V",
+            "onResume()V",
+            "onPause()V",
+            "onStop()V",
+            "onRestart()V",
+            "onDestroy()V"
+    };
+
     private static boolean extraDataCheck(IClass c) {
         // third check if component receives an intent and only reads action, categories, component and packagename
         // if so no extra data, else extra data
         // done.
         // Step 1: get all methods in c
-        // Step 2: for each methods in c,
-        // check if it ever calls methods other than:
+        // Step 2: add each methods in c as entry point
+        // for the entry point get call graph, traverse call graph
+        // check for each function call, if calls any method that as Intent but not the following:
         // Intent.getAction()
         // Intent.getCategories()
         // Intent.getComponent()
@@ -269,8 +284,239 @@ public class IntentSpoofingDetector {
         Iterator<IMethod> it = methods.iterator();
         while(it.hasNext()) {
             IMethod m = it.next();
-
         }
         return true;
+    }
+
+    private HashMap<IMethod, MethodState> dict;
+
+
+    public class MethodState {
+        IMethod method;
+        String type; // type of the method: Activity, Service, Receiver, ...
+        List<IntentState> intents;
+        boolean vul;
+        List<IntentSinkState> intentSinks;
+    }
+    public class IntentState {
+        String type; // Instantiate, argument, or return value
+        boolean hasAction;
+        boolean hasFlag;
+        boolean extraData;
+        String permission;
+        boolean madeExplicit;
+    }
+    public class IntentSinkState {
+        String name;
+        IMethod sinker;
+    }
+
+    private void vulnerableIntentCheck(AnalysisScope scope) throws ClassHierarchyException {
+        List<Vulnerabilities.VulnerableIntent> res = new ArrayList<Vulnerabilities.VulnerableIntent>();
+        IClassHierarchy cha = ClassHierarchy.make(scope);
+        List<Entrypoint> appEntrypoints = getAppEntrypoints(cha);
+        CallGraph cg = makeZeroCFACallgraph(appEntrypoints, scope, cha);
+        CGNode root = cg.getFakeRootNode();
+
+        // Traverse  call graph
+        callGraphTraverse(cg, root, 0);
+        for(Map.Entry<IMethod, MethodState> entry : dict.entrySet()) {
+            MethodState state = entry.getValue();
+            if (state.vul) {
+                Vulnerabilities.VulnerableIntent vi = new Vulnerabilities.VulnerableIntent();
+                vi.type = state.type;
+                vi.intentSender = state.method.toString();
+                vi.withData = "false";
+                boolean withData = false;
+                for(IntentState is : state.intents) {
+                    withData = withData || is.extraData;
+                }
+                res.add(vi);
+            }
+        }
+        vul.UnauthorizedIntentReceipt = res;
+    }
+
+    private boolean isIntentType(TypeReference tp) {
+        if(tp.isClassType()) {
+            if(tp.getClassLoader().getName().toString().contains("Intent")) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean methodNameMatch(IMethod m, String name) {
+        if(m.toString().contains(name)) {
+            return true;
+        }
+        return false;
+    }
+
+    private boolean isWeekPermission(String permission) {
+        return true;
+    }
+
+    private boolean isIntentSinker(IMethod m) {
+        return false;
+    }
+
+    private void callGraphTraverse(CallGraph cg, CGNode currentNode, int level) {
+        IClassHierarchy cha = cg.getClassHierarchy();
+        IMethod currentMethod = currentNode.getMethod();
+        boolean vul = false;
+        // check if there is new intent instantiated
+        IntentState its = null;
+        if(dict.get(currentMethod).intents.size() != 0) {
+            its = dict.get(currentMethod).intents.get(0); // get first one if it is not null
+        }
+        Iterator<NewSiteReference> newsiteIter = currentNode.iterateNewSites();
+        while(newsiteIter.hasNext()) {
+            NewSiteReference newsite = newsiteIter.next();
+            if(isIntentType(newsite.getDeclaredType())) {
+                its = new IntentState();
+                its.type = "instantiate";
+            }
+        }
+
+        Iterator<CallSiteReference> callsiteIter = currentNode.iterateCallSites();
+        IntentSinkState iss = null;
+        while(callsiteIter.hasNext()) {
+            // if it is setAction: set action for intent
+            CallSiteReference callsite = callsiteIter.next();
+            IMethod m = cha.resolveMethod(callsite.getDeclaredTarget());
+            if (isIntentType(m.getDeclaringClass().getReference()) && methodNameMatch(m, "setAction")) {
+                its.hasAction = true;
+            }
+            if (isIntentType(m.getDeclaringClass().getReference()) && methodNameMatch(m, "setFlags")) {
+                its.hasFlag = true;
+            }
+            if (isIntentType(m.getDeclaringClass().getReference()) &&
+                    (!methodNameMatch(m, "setAction") && (!methodNameMatch(m, "setFlags") &&
+                            ((methodNameMatch(m, "set")))))) {
+                its.extraData = true;
+            }
+            // In callee methods: check if there exists an intent sinker
+            if (isIntentSinker(m)) {
+                iss = new IntentSinkState();
+                iss.name = m.toString();
+                iss.sinker = m;
+            }
+        }
+        if(!dict.containsKey(currentMethod)) {
+            dict.put(currentMethod, new MethodState());
+        }
+        if(dict.get(currentMethod).intents == null) {
+            dict.get(currentMethod).intents = = new ArrayList<IntentState>();
+        }
+        dict.get(currentMethod).intentSinks = new ArrayList<IntentSinkState>();
+        dict.get(currentMethod).method = currentMethod;
+        dict.get(currentMethod).type = "Activity";
+        if(its != null) {
+            dict.get(currentMethod).intents.add(its);
+        }
+        if(iss != null) {
+            dict.get(currentMethod).intentSinks.add(iss);
+        }
+        if(its != null && iss != null) {
+            if(isWeekPermission(its.permission)) {
+                vul = true;
+            }
+        }
+        dict.get(currentMethod).vul = vul;
+
+        Iterator<CallSiteReference> callsiteIter2 = currentNode.iterateCallSites();
+        while (callsiteIter2.hasNext()) {
+            CallSiteReference callsite = callsiteIter2.next();
+            IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
+            if (cg.getPossibleTargets(currentNode, callsite).isEmpty()) {
+                // do nothing
+            } else {
+                for (CGNode targetNode : cg.getPossibleTargets(currentNode, callsite)) {
+                    if (targetNode.getMethod().getDeclaringClass().getClassLoader().getReference().equals(ClassLoaderReference.Application)) {
+                        IMethod callee = targetNode.getMethod();
+                        int para_num = callee.getNumberOfParameters();
+                        boolean hasintent = false;
+                        for(int i = 0; i < para_num; i ++) {
+                            TypeReference tp = calledMethod.getParameterType(i);
+                            if(isIntentType(tp)) {
+                                hasintent = true;
+                            }
+                        }
+                        if (hasintent) {
+                            // add Intent in current node to callee dict
+                            if(!dict.containsKey(calledMethod)) {
+                                dict.put(calledMethod, new MethodState());
+                                dict.get(calledMethod).intents = new ArrayList<IntentState>();
+                                IntentState calleeits = new IntentState();
+                                calleeits.type = its.type;
+                                calleeits.extraData = its.extraData;
+                                calleeits.hasAction = its.hasAction;
+                                calleeits.hasFlag = its.hasFlag;
+                                calleeits.permission = its.permission;
+                                calleeits.madeExplicit = its.madeExplicit;
+                                dict.get(calledMethod).intents.add(calleeits);
+                            }
+                        }
+                        callGraphTraverse(cg, targetNode, level + 1);
+                    } else {
+                        // dont further zoom in because it reaches Android boundary
+                    }
+                }
+            }
+        }
+    }
+
+
+    private CallGraph makeZeroCFACallgraph(Iterable<Entrypoint> entrypoints, AnalysisScope scope, IClassHierarchy cha) {
+        try {
+            AnalysisOptions options = new AnalysisOptions(scope, entrypoints);
+            options.setSelector(new ClassHierarchyMethodTargetSelector(cha));
+            options.setSelector(new ClassHierarchyClassTargetSelector(cha));
+
+            SSAPropagationCallGraphBuilder builder = ZeroXCFABuilder.make(cha, options, new AnalysisCache(), new DefaultContextSelector(options, cha), null, ZeroXInstanceKeys.NONE);
+
+            CallGraph cg = builder.makeCallGraph(options, null);
+            return cg;
+
+        } catch (Exception e) {
+            System.out.println("Error: " + e.toString());
+            return null;
+        }
+    }
+
+    private List<Entrypoint> getAppEntrypoints(IClassHierarchy cha) {
+        List<Entrypoint> entrypoints = new ArrayList<Entrypoint>();
+
+        // For now, just get lifecycle handlers
+        IClass activityClass = cha.lookupClass(TypeReference.findOrCreate(ClassLoaderReference.Extension, "Landroid/app/Activity"));
+
+        for (IClass activitySubclass : cha.computeSubClasses(activityClass.getReference())) {
+            if (!activitySubclass.getClassLoader().getReference().equals(ClassLoaderReference.Application)) {
+                continue;
+            }
+
+            Collection<IMethod> declaredMethods = activitySubclass.getDeclaredMethods();
+
+            for (String lifecycle : activityLifecycleMethods) {
+                IMethod lifecycleMethod = cha.resolveMethod(activitySubclass, Selector.make(lifecycle));
+
+                if (declaredMethods.contains(lifecycleMethod)) {
+                    entrypoints.add(new DefaultEntrypoint(lifecycleMethod, cha));
+                }
+            }
+        }
+
+        return entrypoints;
+    }
+    public class Intent {
+        public boolean explicited;
+        public boolean actioned;
+        public int flags;
+        public String extra_data;
+    }
+    public class IntentSink {
+        public IMethod method;
+        public boolean implicit_sink;
     }
 }
