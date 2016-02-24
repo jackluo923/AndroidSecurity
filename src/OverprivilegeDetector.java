@@ -3,7 +3,10 @@
  */
 
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.ibm.wala.classLoader.*;
+import com.ibm.wala.ipa.callgraph.*;
 import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyClassTargetSelector;
 import com.ibm.wala.ipa.callgraph.impl.ClassHierarchyMethodTargetSelector;
 import com.ibm.wala.ipa.callgraph.impl.DefaultContextSelector;
@@ -11,24 +14,22 @@ import com.ibm.wala.ipa.callgraph.impl.DefaultEntrypoint;
 import com.ibm.wala.ipa.callgraph.propagation.SSAPropagationCallGraphBuilder;
 import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXCFABuilder;
 import com.ibm.wala.ipa.callgraph.propagation.cfa.ZeroXInstanceKeys;
-import com.ibm.wala.types.*;
-import com.ibm.wala.ipa.cha.*;
-import com.ibm.wala.ipa.callgraph.*;
+import com.ibm.wala.ipa.cha.ClassHierarchy;
+import com.ibm.wala.ipa.cha.IClassHierarchy;
+import com.ibm.wala.types.ClassLoaderReference;
+import com.ibm.wala.types.Selector;
+import com.ibm.wala.types.TypeReference;
 import com.ibm.wala.util.config.AnalysisScopeReader;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.util.*;
 import java.util.jar.JarFile;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Node;
-import org.w3c.dom.Element;
 
 public class OverprivilegeDetector {
     private final String _androidLib = "lib/android.jar";
@@ -417,8 +418,17 @@ public class OverprivilegeDetector {
         IClassHierarchy cha = cg.getClassHierarchy();
         Iterator<CallSiteReference> callsiteIter = currentNode.iterateCallSites();
 
+
         while (callsiteIter.hasNext()) {
             CallSiteReference callsite = callsiteIter.next();
+
+            while (!(callsite.getClass().toString().contains("android") ||
+                    callsite.getClass().toString().contains("com.google.common") ||
+                    callsite.getClass().toString().contains("org.apache.http") ) &&
+                    callsiteIter.hasNext()){
+                callsiteIter.next();
+            }
+
             IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
 
             if (cg.getPossibleTargets(currentNode, callsite).isEmpty()) {
