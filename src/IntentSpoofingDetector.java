@@ -106,7 +106,6 @@ public class IntentSpoofingDetector {
     }
 
     public void intentSpoofAnalysis(Vulnerabilities vul, AnalysisScope appScope, String manifestPath) throws Exception {
-        System.out.println("--------------------");
         System.out.println("IntentSpoofingDetector");
         System.out.println("--------------------");
         ManifestModel model = new ManifestModel(manifestPath);
@@ -345,6 +344,10 @@ public class IntentSpoofingDetector {
     }
 
     private int callGraphTraverse2(CallGraph cg, CGNode currentNode, int level) {
+        // level > 2500 uses about 1GB ram (GC is slightly busy) and does not produce java/lang/stackOverflow error
+        // good tradeoff between effectiveness, performance and reliability
+        if (level > 2500)
+            return 0;
         IClassHierarchy cha = cg.getClassHierarchy();
         Iterator<CallSiteReference> callsiteIter2 = currentNode.iterateCallSites();
         while (callsiteIter2.hasNext()) {
