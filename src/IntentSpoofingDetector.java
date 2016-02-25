@@ -53,7 +53,8 @@ public class IntentSpoofingDetector {
         java.lang.System.out.println("Working Directory = " +
                 java.lang.System.getProperty("user.dir"));
         // String appDir = "AndroidApplications/Vulnerabilities/UnauthorizedIntentReceipt/apk/"; // default analysis application
-        String appDir = "Vulnerabilities/UnauthorizedIntentReceipt-APK/"; // default analysis application
+        // String appDir = "Vulnerabilities/IntentSpoofing-APK/"; // default analysis application
+        String appDir = "AndroidApplications/org.wopnersoft.unitconverter-69/apk/"; // default analysis application
         if (args.length == 0) {
             // do nothing, use default settings
         } else if (args.length == 1) {
@@ -66,8 +67,8 @@ public class IntentSpoofingDetector {
         java.lang.System.out.println("Starting vulnerability detection for " + appDir);
 
         IntentSpoofingDetector analysis = new IntentSpoofingDetector(appDir);
-        // analysis.analyze();
-        analysis.analyzeUnauthorized();
+        analysis.analyze();
+        // analysis.analyzeUnauthorized();
     }
 
     public IntentSpoofingDetector(String appDir) {
@@ -117,7 +118,6 @@ public class IntentSpoofingDetector {
                 int index = vulnerableComponentCheck(model, c);
                 if(index != -1) {
                     model.components.get(index).c = c;
-
                     int edata = extraDataCheck(appHierarchy, appScope, c, model.components.get(index).type);
                     if (edata == -1) {
                         model.components.get(index).findIntentUsage = false;
@@ -130,10 +130,12 @@ public class IntentSpoofingDetector {
                             model.components.get(index).extraData = false;
                         }
                     }
-//                    System.out.println("Found vulnerability in " +
-//                            model.components.get(index).name
-//                            + " with Intent usage: " + model.components.get(index).findIntentUsage
-//                            + " with extra data: " + model.components.get(index).extraData);
+                    System.out.println("Found vulnerability in " +
+                            model.components.get(index).name
+                            + " with Intent usage: " + model.components.get(index).findIntentUsage
+                            + " with extra data: " + model.components.get(index).extraData);
+                } else {
+                    // System.out.println(c + " is not vulnerable class.");
                 }
             }
         }
@@ -275,7 +277,12 @@ public class IntentSpoofingDetector {
 
     private static int vulnerableComponentCheck(ManifestModel model, IClass c) throws
             ParserConfigurationException, IOException, SAXException {
-        String name = (c.getName().getPackage().toString() + "/" + c.getName().getClassName().toString()).replaceAll("/", ".");
+        String name = new String();
+        if(c.getName().getPackage() != null) {
+            name += c.getName().getPackage().toString();
+            name += "/";
+        }
+        name = (name + c.getName().getClassName().toString()).replaceAll("/", ".");
         for(int i = 0; i < model.components.size(); i ++) {
             if (model.components.get(i).name.equals(name)) {
                 return i;
@@ -568,7 +575,7 @@ public class IntentSpoofingDetector {
                                 hasintent = true;
                             }
                         }
-                        if (hasintent) {
+                        if (hasintent && its != null) {
                             // add Intent in current node to callee dict
                             if(!dict.containsKey(calledMethod)) {
                                 dict.put(calledMethod, new MethodState());
@@ -583,7 +590,9 @@ public class IntentSpoofingDetector {
                                 dict.get(calledMethod).intents.add(calleeits);
                             }
                         }
+                        if(level < 200) {
                         callGraphTraverse(cg, targetNode, level + 1);
+                        }
                     } else {
                         // dont further zoom in because it reaches Android boundary
                     }
