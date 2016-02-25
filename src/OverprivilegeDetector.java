@@ -422,7 +422,10 @@ public class OverprivilegeDetector {
     }
 
     private void collectAppCalls(CallGraph cg, CGNode currentNode, int level, List<String>appCallSignatures) {
-
+        // level > 13 uses about 1GB ram (GC is slightly busy) and does not produce java/lang/stackOverflow error
+        // good tradeoff between effectiveness, performance and reliability
+        if (level > 13)
+            return;
         if (isAndroidAPI(currentNode.getMethod().getSignature()))
             appCallSignatures.add(currentNode.getMethod().getSignature());
 
@@ -432,13 +435,6 @@ public class OverprivilegeDetector {
 
         while (callsiteIter.hasNext()) {
             CallSiteReference callsite = callsiteIter.next();
-
-            while (!(callsite.getClass().toString().contains("android") ||
-                    callsite.getClass().toString().contains("com.google.common") ||
-                    callsite.getClass().toString().contains("org.apache.http") ) &&
-                    callsiteIter.hasNext()){
-                callsiteIter.next();
-            }
 
             IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
 
