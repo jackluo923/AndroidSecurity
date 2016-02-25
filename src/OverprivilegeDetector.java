@@ -122,14 +122,14 @@ public class OverprivilegeDetector {
         System.out.println("Starting vulnerability detection for " + appDir);
 
         OverprivilegeDetector analysis = new OverprivilegeDetector(appDir);
-        analysis.analyze();
+//        analysis.analyze(vulnerabilities);
     }
 
     public OverprivilegeDetector(String appDir) {
         _appDir = appDir;
     }
 
-    public void analyze() throws Exception {
+    public void analyze(Vulnerabilities vulnerabilities) throws Exception {
         String appPath = null;
         String manifestPath = null;
         String pscoutPermissionMapDir = "tools/pscout_out";
@@ -191,11 +191,6 @@ public class OverprivilegeDetector {
         List<String> appCallSignatures = new ArrayList<String>();
         collectAppCalls(appCallGraph, appCallGraph.getFakeRootNode(), 0, appCallSignatures);
         System.out.println(appCallSignatures.size());
-
-        // Store all detect vulnerabilities in here.  Add more fields to the 
-        // Vulnerabilities class if there are extra vulnerabilities (or extra details
-        // about a particular vulnerability) that you can detect.
-        Vulnerabilities vulnerabilities = new Vulnerabilities();
 
         // Check for cases of overprivilege
         List<Vulnerabilities.UnusedPermission> overprivilegeCases =

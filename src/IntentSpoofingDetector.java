@@ -68,7 +68,7 @@ public class IntentSpoofingDetector {
 
         IntentSpoofingDetector analysis = new IntentSpoofingDetector(appDir);
         analysis.analyze();
-        // analysis.analyzeUnauthorized();
+//        analysis.analyzeUnauthorized(vulnerabilities);
     }
 
     public IntentSpoofingDetector(String appDir) {
@@ -76,12 +76,12 @@ public class IntentSpoofingDetector {
         vul = new Vulnerabilities();
     }
 
-    public void analyzeUnauthorized() throws Exception {
-        String appPath = _appDir + "/classes.jar";
+    public void analyzeUnauthorized(Vulnerabilities vulnerabilities) throws Exception {
+        String appPath = _appDir + "/apk/classes.jar";
         AnalysisScope appScope = AnalysisScopeReader.makeJavaBinaryAnalysisScope(appPath, null);
         Module androidMod = new JarFileModule(new JarFile(_androidLib));
         appScope.addToScope(ClassLoaderReference.Extension, androidMod);
-        vulnerableIntentCheck(appScope);
+        vulnerableIntentCheck(appScope, vulnerabilities);
     }
 
     public void analyze() throws Exception {
@@ -413,7 +413,9 @@ public class IntentSpoofingDetector {
         IMethod sinker;
     }
 
-    private void vulnerableIntentCheck(AnalysisScope scope) throws ClassHierarchyException {
+    private void vulnerableIntentCheck(AnalysisScope scope, Vulnerabilities vulnerabilities) throws ClassHierarchyException {
+        System.out.println("UnauthorizedIntentReceipt");
+        System.out.println("--------------------");
         List<Vulnerabilities.VulnerableIntent> res = new ArrayList<Vulnerabilities.VulnerableIntent>();
         IClassHierarchy cha = ClassHierarchy.make(scope);
         List<Entrypoint> appEntrypoints = getAppEntrypoints(cha);
@@ -439,7 +441,7 @@ public class IntentSpoofingDetector {
                 res.add(vi);
             }
         }
-        vul.UnauthorizedIntentReceipt = res;
+        vulnerabilities.UnauthorizedIntentReceipt = res;
     }
 
     private boolean isIntentType(TypeReference tp) {
