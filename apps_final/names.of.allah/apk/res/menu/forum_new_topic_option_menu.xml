@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/holo_light_social_send_now" android:id="@id/menu_submit" android:orderInCategory="1" android:title="@string/submit" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_attach" android:visible="false" android:orderInCategory="2" android:title="@string/attach" android:showAsAction="never" />
+    <item android:icon="@drawable/menu_smile" android:id="@id/menu_insert_smiley" android:visible="false" android:orderInCategory="2" android:title="@string/insert_smiley" android:showAsAction="never" />
+    <item android:id="@id/menu_insert_url" android:visible="false" android:orderInCategory="2" android:title="@string/insert_url" android:showAsAction="never" />
+    <item android:id="@id/menu_insert_image_link" android:visible="false" android:orderInCategory="2" android:title="@string/insert_image_link" android:showAsAction="never" />
+</menu>

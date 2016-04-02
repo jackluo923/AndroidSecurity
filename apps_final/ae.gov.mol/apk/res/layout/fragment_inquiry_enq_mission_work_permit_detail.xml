@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_nawakaslist_detail_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_nawakaslist_detail_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:text="@string/company_information" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_company_number" android:text="@string/company_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_value_company_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_value_company_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_pending_payment" android:text="@string/pending_payment" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_value_pending_payment" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_required_grant" android:text="@string/required_grant" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_value_required_grant" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:id="@id/fragment_inquiry_application_status_textview_header_companyinfo" android:padding="@dimen/padding_5" android:text="@string/mission_work_permit" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_work_permit_number" android:text="@string/work_permit_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_value_work_permit_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_row_transaction_number" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_transaction_number" android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_transaction_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_person_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_nationality" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_card_expiry" android:text="@string/card_expiry" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_card_expiry" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_pay_card_number" android:text="@string/paycard_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_pay_card_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_row_link" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_link" android:text="@string/link" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_enq_mission_work_permit_detail_textview_value_link" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

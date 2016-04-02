@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_pending_transactions_details_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_pending_transactions_details_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_pending_transactions_details_header">
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_pending_transactions_details_relative_container" android:padding="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/fragment_pending_transactions_details_textview_header_transaction_info" android:padding="@dimen/padding_5" android:text="@string/company_information" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_top_curved_bottom_line">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_company_no" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_company_no" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_bottom_curved">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_company_name" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:id="@id/fragment_pending_transactions_details_textview_header_service_info" android:padding="@dimen/padding_5" android:text="@string/service_information" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:visibility="gone" style="@style/detail_text_bg_top_curved_bottom_line">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_service_no" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_service_no" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_bottom_curved">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_service_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_service_name" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:id="@id/fragment_pending_transactions_details_textview_header_transactoin_info" android:padding="@dimen/padding_5" android:text="@string/transaction_info" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_top_curved_bottom_line">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_transaction_id" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_transaction_id" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_bottom_curved">
+                <TextView android:textStyle="bold" android:scrollbars="none" android:text="@string/pending_transaction_add_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_pending_transactions_details_textview_add_date" android:paddingBottom="@dimen/padding_Smaller" android:scrollbars="none" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:textStyle="bold" android:visibility="gone" android:scrollbars="none" android:text="@string/pending_transaction_payment_page" style="@style/detail_page_semiheader" />
+            <TextView android:id="@id/fragment_pending_transactions_details_textview_payment_page" android:paddingBottom="@dimen/padding_Smaller" android:visibility="gone" android:scrollbars="none" android:singleLine="true" style="@style/detail_page_normal" />
+            <RelativeLayout android:padding="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textColor="@android:color/white" android:id="@id/fragment_pending_transactions_details_btn_delete" android:background="@drawable/bg_button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_Smaller" android:text="@string/pending_transaction_payment_delete" android:maxLines="2" android:lines="2" android:minLines="2" android:layout_toLeftOf="@id/adjust_textview" android:layout_alignParentLeft="true" />
+                <TextView android:id="@id/adjust_textview" android:padding="@dimen/padding_Smaller" android:visibility="invisible" android:scrollbars="none" android:layout_width="1.0dip" android:layout_height="1.0dip" android:singleLine="true" android:layout_centerInParent="true" />
+                <Button android:textColor="@android:color/white" android:id="@id/fragment_pending_transactions_details_btn_payment" android:background="@drawable/bg_button_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_Smaller" android:text="@string/pending_transaction_payment_payment" android:maxLines="2" android:lines="2" android:minLines="2" android:layout_toRightOf="@id/adjust_textview" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

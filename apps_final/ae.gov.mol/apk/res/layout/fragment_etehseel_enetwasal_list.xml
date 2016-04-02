@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_etehseel_enetwasal_relative" android:background="@drawable/bg_main_image" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/fragment_etehseel_enetwasal_list" android:padding="@dimen/padding_Normal" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@color/header_text_color" android:dividerHeight="@dimen/height_0.5" android:footerDividersEnabled="false" />
+</LinearLayout>

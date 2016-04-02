@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="50.0">
+        <TextView android:textStyle="bold" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Employees" style="@style/text_black_12" />
+        <TextView android:id="@id/company_category_expandable_child_row_tvEmployees" android:padding="@dimen/padding_Smaller" style="@style/text_black_12" />
+        <TextView android:textStyle="bold" android:padding="@dimen/padding_Smaller" android:text="@string/AbscondedEmployees" style="@style/text_black_12" />
+        <TextView android:id="@id/company_category_expandable_child_row_tvAbsondingEmployees" android:padding="@dimen/padding_Smaller" style="@style/text_black_12" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="50.0">
+        <TextView android:textStyle="bold" android:padding="@dimen/padding_Smaller" android:text="@string/ApprovedGroup" style="@style/text_black_12" />
+        <TextView android:id="@id/company_category_expandable_child_row_tvApprovedGroup" android:padding="@dimen/padding_Smaller" style="@style/text_black_12" />
+        <TextView android:textStyle="bold" android:padding="@dimen/padding_Smaller" android:text="@string/percentage" style="@style/text_black_12" />
+        <TextView android:id="@id/company_category_expandable_child_row_tvPercentage" android:padding="@dimen/padding_Smaller" style="@style/text_black_12" />
+    </LinearLayout>
+</LinearLayout>

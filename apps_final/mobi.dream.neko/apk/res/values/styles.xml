@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MonacaSlideTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.MonacaSlideActivity</item>
+    </style>
+    <style name="Animation.MonacaSlideActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/monaca_slide_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/monaca_slide_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/monaca_slide_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/monaca_slide_close_exit</item>
+    </style>
+    <style name="MonacaDialogTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.MonacaDialogActivity</item>
+    </style>
+    <style name="Animation.MonacaDialogActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/monaca_dialog_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/monaca_dialog_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/monaca_dialog_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/monaca_dialog_close_exit</item>
+    </style>
+</resources>

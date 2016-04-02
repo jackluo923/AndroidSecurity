@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_enetwasal_form_header" layout="@layout/header" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/margin_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_15" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/fragment_inquiry_form_textview" android:padding="@dimen/margin_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:textSize="@dimen/TextNormal" android:id="@id/fragment_inquiry_form_edittext" android:background="@drawable/text_box" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:inputType="textCapCharacters" android:imeOptions="actionDone" />
+        <Button android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/fragment_inquiry_form_button_submit" android:background="@drawable/bg_button_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10" android:minWidth="@dimen/button_minimum_width" android:minHeight="@dimen/button_minimum_height" android:text="@string/btn_go" />
+    </LinearLayout>
+</LinearLayout>

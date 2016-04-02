@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_details_linear_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/text_18" android:id="@id/contact_details_textview_title" android:text="ABC" style="@style/text_black_normal_15" />
+            <ImageView android:id="@id/contact_details_seperator" android:layout_width="fill_parent" android:layout_marginTop="@dimen/padding_10" android:src="@drawable/separator" style="@style/imageView_style_normal" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/contact_details_linear_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10">
+                <ImageView android:layout_gravity="center" android:id="@id/contact_details_imageview_address" android:src="@drawable/ic_launcher" style="@style/imageView_style_normal" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contact_details_address_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_10">
+                    <TextView android:id="@id/contact_details_textview_address_label" android:text="@string/address" style="@style/text_black_normal_15" />
+                    <TextView android:id="@id/contact_details_textview_address" android:text="@string/address" style="@style/text_black_normal_16" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/contact_details_address_seperator" android:layout_width="fill_parent" android:src="@drawable/separator" style="@style/imageView_style_normal" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/contact_details_linear_department" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10">
+                <ImageView android:layout_gravity="center" android:id="@id/contact_details_imageview_department" android:src="@drawable/ic_launcher" style="@style/imageView_style_normal" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contact_details_department_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_10">
+                    <TextView android:id="@id/contact_details_textview_department_label" android:text="@string/department" style="@style/text_black_normal_15" />
+                    <TextView android:id="@id/contact_details_textview_department" android:text="@string/department" style="@style/text_black_normal_16" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/contact_details_working_hours_seperator" android:layout_width="fill_parent" android:src="@drawable/separator" style="@style/imageView_style_normal" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/contact_details_linear_working_hours" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10">
+                <ImageView android:layout_gravity="center" android:id="@id/contact_details_imageview_working_hours" android:src="@drawable/ic_launcher" style="@style/imageView_style_normal" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contact_details_working_hours_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_10">
+                    <TextView android:id="@id/contact_details_textview_working_hours_label" android:text="@string/working_hours" style="@style/text_black_normal_15" />
+                    <TextView android:id="@id/contact_details_textview_working_hours" android:text="@string/working_hours" style="@style/text_black_normal_16" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.maps.MapView android:id="@id/contact_details_mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="API_KEY" />
+    </LinearLayout>
+</RelativeLayout>

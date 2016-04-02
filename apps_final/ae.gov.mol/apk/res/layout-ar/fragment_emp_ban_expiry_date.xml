@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_emp_ban_expiry_date_relative_main" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_emp_ban_expiry_date_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_emp_ban_expiry_date_scrollview" android:background="@color/bg_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_emp_ban_expiry_date_header">
+        <RelativeLayout android:id="@id/fragment_inquiry_application_status_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_company" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/ban_expiry" style="@style/detail_page_header" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_company">
+                <TableRow android:gravity="center_vertical" android:id="@id/fragment_emp_ban_expiry_date_tablerow_ban_expiry_title" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/fragment_emp_ban_expiry_date_textview_ban_expiry_date" android:text="@string/ban_expiry_date" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/fragment_emp_ban_expiry_date_textview_value_ban_expiry_date" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

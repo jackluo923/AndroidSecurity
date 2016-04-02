@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/appwidget_article_text_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/appwidget_icon" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/appwidget_icon" android:scaleType="fitStart" android:adjustViewBounds="true" android:alpha="0.3" />
+        <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/appwidget_article_title" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_weight="1.0" android:fontFamily="sans-serif-condensed" />
+        <RelativeLayout android:id="@id/appwidget_separator" android:background="#66ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" />
+        <include layout="@layout/appwidget_article_noimage_meta" />
+    </LinearLayout>
+</RelativeLayout>

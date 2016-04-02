@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:id="@id/fragment_inquiry_enq_mission_work_permit_list_row_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_5">
+        <TextView android:gravity="right" android:id="@id/fragment_inquiry_enq_mission_work_permit_list_row_value_company_number" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:id="@id/fragment_inquiry_enq_mission_work_permit_list_row_title_work_permit_number" android:scrollbars="none" android:text="@string/work_permit_number" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_5">
+        <TextView android:gravity="right" android:id="@id/fragment_inquiry_enq_mission_work_permit_list_row_value_company_name" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:id="@id/fragment_inquiry_enq_mission_work_permit_list_row_title_company_name" android:scrollbars="none" android:text="@string/person_name" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+    </TableRow>
+</TableLayout>

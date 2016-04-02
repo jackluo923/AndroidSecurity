@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_work_permit_receipt_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_work_permit_receipt_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_work_permit_receipt_scrollview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_work_permit_receipt_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:text="@string/company_information" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_value_company_code" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_value_company_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:padding="@dimen/padding_5" android:text="@string/personal_data" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_person_name" android:text="@string/name" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_value_person_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_value_nationality" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:padding="@dimen/padding_5" android:text="@string/card_detail" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_value_card_number" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_date" android:text="@string/date" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_work_permit_receipt_textview_value_date" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:padding="@dimen/padding_5" android:text="@string/payment" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_work_permit_receipt_textview_payment_card_number" android:text="@string/paycard_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_work_permit_receipt_textview_value_payment_card_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

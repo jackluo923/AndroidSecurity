@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:id="@id/fragment_gcc_employee_list_row_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <TextView android:id="@id/fragment_gcc_employee_list_row_title_person_name" android:scrollbars="none" android:text="@string/person_name" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:id="@id/fragment_gcc_employee_list_row_value_person_name" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5">
+        <TextView android:id="@id/fragment_gcc_employee_list_row_person_code" android:scrollbars="none" android:text="@string/person_code" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:id="@id/fragment_gcc_employee_list_row_value_person_code" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+    </TableRow>
+</TableLayout>

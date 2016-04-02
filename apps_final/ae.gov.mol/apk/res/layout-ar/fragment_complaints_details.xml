@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_complaints_details_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_complaints_details_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_complaints_details_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_complaints_details_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/company_information" style="@style/detail_page_header" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_company_number" android:scrollbars="none" android:text="@string/company_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_company_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_value_company_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TextView android:gravity="right" android:padding="@dimen/padding_5" android:scrollbars="none" android:layout_width="fill_parent" android:text="@string/complaints" style="@style/detail_page_header" />
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_complaint_date" android:scrollbars="none" android:text="@string/complaint_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_complaint_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_complaint_number" android:scrollbars="none" android:text="@string/complaint_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_complaint_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_complaint_result" android:scrollbars="none" android:text="@string/complaint_result" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_complaint_result" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_complaint_type" android:scrollbars="none" android:text="@string/complaint_type" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_complaint_type" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_complaints_details_textview_contact_person" android:scrollbars="none" android:text="@string/contact_person" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_complaints_details_textview_value_contact_person" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

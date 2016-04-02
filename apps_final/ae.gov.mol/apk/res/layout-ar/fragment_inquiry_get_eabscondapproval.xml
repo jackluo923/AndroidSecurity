@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inquiry_get_eabscondapproval_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_inquiry_get_eabscondapproval_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_inquiry_get_eabscondapproval_scrollview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/padding_5" android:layout_below="@id/fragment_inquiry_get_eabscondapproval_header">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="right" android:padding="@dimen/padding_5" android:text="@string/company_information" style="@style/detail_page_header" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_company_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_Category" android:text="@string/category" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_Category" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_company_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_license_no" android:text="@string/license_no" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_license_no" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_expire_date" android:text="@string/expire_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_expire_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_po_box_number" android:text="@string/po_box_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_po_box_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_emirate" android:text="@string/emirate" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_emirate" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_LabourOffice" android:text="@string/company_labour_office" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_LabourOffice" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_companyimmigrationcode" android:text="@string/company_immigration_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_companyimmigrationcode" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:layout_gravity="right" android:padding="@dimen/padding_5" android:text="@string/card_information" style="@style/detail_page_header" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_card_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_card_type" android:text="@string/card_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_card_type" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_card_type_code" android:text="@string/card_type_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_card_type_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_issue_date" android:text="@string/card_issue_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_issue_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_expiry_date" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_expiry_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_passport_number" android:text="@string/passport_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_passport_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_passport_expire_date" android:text="@string/passport_expire_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_passport_expire_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_nationality" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_nat_code" android:text="@string/nationality_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_nat_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_person_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_visanumber" android:text="@string/visanumber" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_visanumber" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_person_code" android:text="@string/person_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_person_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_visaexpirydate" android:text="@string/visaexpirydate" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_visaexpirydate" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_job" android:text="@string/job" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_job" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_personmobilenumber" android:text="@string/personmobilenumber" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_get_eabscondapproval_textview_value_personmobilenumber" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

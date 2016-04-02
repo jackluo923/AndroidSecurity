@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_color" android:paddingBottom="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_home_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_dashboard_scrollview" android:paddingLeft="@dimen/padding_10" android:paddingRight="@dimen/padding_10" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_home_header" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_dashboard_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10">
+            <android.support.v4.view.ViewPager android:id="@id/pager" android:paddingLeft="@dimen/margin_two_dp" android:paddingRight="@dimen/margin_two_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_5" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_10" android:paddingRight="@dimen/padding_10" android:paddingBottom="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_10">
+                <View android:id="@id/fragment_dashboard_view_middle" android:background="@drawable/bg_company_list_seperator" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/fragment_dashboard_linear_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_e_netwasal" android:background="@drawable/bg_dashboard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="48.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/fragment_dashboard_imageview_e_netwasal" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:src="@drawable/ic_enetwasal_dashboard" style="@style/imageView_style_normal" />
+                        <TextView android:textColor="@android:color/black" android:ellipsize="start" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_e_netwasal" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/enetwasal" android:singleLine="true" style="@style/text_white_14" />
+                    </LinearLayout>
+                    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="4.0" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_mservice" android:background="@drawable/bg_dashboard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="48.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/fragment_dashboard_imageview_mservice" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:src="@drawable/ic_tasheel_mservice_dashboard" style="@style/imageView_style_normal" />
+                        <TextView android:textColor="@android:color/black" android:ellipsize="start" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_mservice" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/mservice" android:singleLine="true" style="@style/text_white_14" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/fragment_dashboard_linear_bottom_transaction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_15" android:weightSum="100.0" android:layout_below="@id/fragment_dashboard_linear_bottom">
+                    <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_recent_transaction" android:background="@drawable/bg_dashboard" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="48.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/fragment_dashboard_imageview_recent_transaction" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:src="@drawable/ic_recent_transaction_dashboard" style="@style/imageView_style_normal" />
+                        <TextView android:textColor="@android:color/black" android:ellipsize="start" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_recent_transaction" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/recenttransactions" android:singleLine="true" style="@style/text_white_14" />
+                    </LinearLayout>
+                    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="4.0" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_pending_transaction" android:background="@drawable/bg_dashboard" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="48.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/fragment_dashboard_imageview_pending_transaction" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:src="@drawable/ic_pending_dashboard" style="@style/imageView_style_normal" />
+                        <TextView android:textColor="@android:color/black" android:ellipsize="start" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_pending_transaction" android:padding="@dimen/padding_10" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/pending_transaction" android:singleLine="true" style="@style/text_white_14" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

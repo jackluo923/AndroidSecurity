@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_public_service_details_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_news_details_header" layout="@layout/header" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <WebView android:id="@id/fragment_public_service_details_webview" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/DummyLinearLO" android:background="@color/bg_color" android:paddingTop="@dimen/top_standard" android:paddingBottom="@dimen/bottom_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="SETTING_ROOT"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:icon="@drawable/holo_dark_navigation_refresh" android:title="@string/settings_updates_title" android:key="SETTINGS_UPDATES_SCREEN">
+        <PreferenceCategory android:title="@string/settings_general_options">
+            <CheckBoxPreference android:title="@string/settings_updates_auto_title" android:key="SETTINGS_UPDATES_AUTOV3" android:defaultValue="true" />
+            <ListPreference android:entries="@array/updateinterval_entries" android:title="@string/settings_updates_updateinterval_title" android:key="SETTINGS_UPDATES_UPDATEINTERVALV3" android:defaultValue="60" android:entryValues="@array/updateinterval_values" />
+            <CheckBoxPreference android:title="@string/settings_updates_update_on_startup_title" android:key="SETTINGS_UPDATES_UPDATE_ON_STARTUPV3" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/settings_updates_wifionly_article_title" android:key="SETTINGS_UPDATES_WIFIONLYV3" android:summary="@string/settings_updates_wifionly_article_summary" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/settings_updates_wifionly_articleimage_title" android:key="SETTINGS_UPDATES_WIFIONLY_IMAGEV3" android:summary="@string/settings_updates_wifionly_articleimage_summary" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/settings_updates_wifionly_podcast_title" android:key="SETTINGS_UPDATES_WIFIONLY_PODCASTV3" android:summary="@string/settings_updates_wifionly_podcast_summary" android:defaultValue="false" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/holo_dark_content_picture" android:title="@string/settings_display_title" android:key="SETTINGS_DISPLAY_SCREEN">
+        <PreferenceCategory android:title="@string/settings_general_options">
+            <CheckBoxPreference android:title="@string/settings_display_keepstarredunread_title" android:key="SETTINGS_DISPLAY_KEEPSTARREDUNREADV3" android:summary="@string/settings_display_keepstarredunread_summary" android:defaultValue="false" />
+            <ListPreference android:title="@string/settings_display_language_title" android:key="SETTINGS_DISPLAY_LANGUAGEV3" android:defaultValue="en" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/holo_dark_device_access_storage" android:title="@string/settings_message_title">
+        <PreferenceCategory android:title="@string/settings_general_options">
+            <CheckBoxPreference android:title="@string/settings_message_keepunreaditems_title" android:key="SETTINGS_MESSAGE_KEEPUNREADITEMSV3" android:defaultValue="true" />
+            <ListPreference android:entries="@array/autocleanup_entries" android:title="@string/settings_message_auto_cleanup_read_title" android:key="SETTINGS_MESSAGE_AUTO_CLEANUP_READV3" android:summary="@string/settings_message_auto_cleanup_read_summary" android:defaultValue="0" android:entryValues="@array/autocleanup_values" />
+            <ListPreference android:entries="@array/autocleanup_entries" android:title="@string/settings_message_auto_cleanup_unread_title" android:key="SETTINGS_MESSAGE_AUTO_CLEANUP_UNREADV3" android:summary="@string/settings_message_auto_cleanup_unread_summary" android:defaultValue="0" android:entryValues="@array/autocleanup_values" />
+            <PreferenceScreen android:title="@string/settings_clearsearchhistory_title" android:key="SETTINGS_CLEARSEARCHHISTORY" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/holo_dark_action_notification" android:title="@string/settings_notifications_title">
+        <PreferenceCategory android:title="@string/settings_general_options">
+            <CheckBoxPreference android:title="@string/settings_notifications_title" android:key="SETTINGS_NOTIFICATIONS_NOTIFICATIONV3" android:summary="@string/settings_notifications_summary" android:defaultValue="true" />
+            <RingtonePreference android:title="@string/settings_notifications_ringtone_title" android:key="SETTINGS_NOTIFICATIONS_RINGTONEV3" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+            <CheckBoxPreference android:title="@string/settings_notifications_vibrate_title" android:key="SETTINGS_NOTIFICATIONS_VIBRATEV3" android:defaultValue="false" />
+            <CheckBoxPreference android:title="@string/settings_notifications_flashlight_title" android:key="SETTINGS_NOTIFICATIONS_FLASHLIGHTV3" android:defaultValue="false" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/holo_dark_content_email" android:title="@string/feedback" android:key="SETTINGS_FEEDBACK" />
+    <PreferenceScreen android:icon="@drawable/holo_dark_action_help" android:title="@string/help" android:key="SETTINGS_HELP" />
+    <PreferenceScreen android:icon="@drawable/holo_dark_action_about" android:title="@string/about" android:key="SETTINGS_ABOUT" />
+</PreferenceScreen>

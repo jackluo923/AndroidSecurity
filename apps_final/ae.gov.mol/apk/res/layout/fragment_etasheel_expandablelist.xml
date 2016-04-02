@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_etehseel_enetwasal_relative" android:background="@drawable/bg_main_image" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@id/fragment_etasheel_expandablelist" android:padding="@dimen/padding_Normal" android:paddingTop="@dimen/padding_Smaller" android:scrollbars="none" android:fadingEdge="none" android:animationCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:groupIndicator="@null" android:childDivider="#00000000" android:divider="@color/header_text_color" android:dividerHeight="@dimen/listDividerHeight" android:footerDividersEnabled="true" android:animateLayoutChanges="true" />
+</LinearLayout>

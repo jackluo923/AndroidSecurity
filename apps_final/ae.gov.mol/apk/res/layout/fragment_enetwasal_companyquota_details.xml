@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inquiry_work_permit_status_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_inquiry_work_permit_status_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_inquiry_work_permit_status_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_inquiry_work_permit_status_header">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10">
+            <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_header_company" android:padding="@dimen/padding_5" android:text="@string/company" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_company_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_company_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_labour_office_code" android:text="@string/labour_Office_Code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_labour_office_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_company_Address" android:text="@string/company_address" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_company_Address" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_labour_office" android:text="@string/company_labour_office" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_labour_office" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_company_Address_one" android:text="@string/company_address_one" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_company_Address_one" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_header_quota" android:padding="@dimen/padding_5" android:text="@string/quota" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_quota_type_id" android:text="@string/quota_id" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_quota_type_id" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_quota_type_name" android:text="@string/quota_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_quota_type_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_category" android:text="@string/category" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_category" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_approved" android:text="@string/approved" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_approved" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_permit_status_textview_used" android:text="@string/used" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_companyquota_details_textview_value_used" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

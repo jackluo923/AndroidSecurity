@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_labour_service_header" layout="@layout/header" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fragment_labour_service_row1" android:paddingLeft="@dimen/padding_Large" android:paddingTop="@dimen/padding_Large" android:paddingRight="@dimen/padding_Large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_labour_service_header">
+        <LinearLayout android:id="@id/fragment_labour_service_mysalary" android:background="@drawable/bg_labour_services" android:padding="@dimen/padding_Small" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_Small" android:layout_weight="1.0" style="@style/home_linear_small">
+            <ImageView android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:src="@drawable/ic_main_my_salary" style="@style/home_imageview_small" />
+            <TextView android:textColor="@drawable/home_text_selector" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:clickable="false" android:duplicateParentState="true" android:text="@string/labour_services_my_salary" android:onClick="onClick" style="@style/home_textview_small" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/fragment_labour_service_mycontract" android:background="@drawable/bg_labour_services" android:padding="@dimen/padding_Small" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_Small" android:layout_weight="1.0" style="@style/home_linear_small">
+            <ImageView android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:src="@drawable/ic_main_contact" style="@style/home_imageview_small" />
+            <TextView android:textColor="@drawable/home_text_selector" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:clickable="false" android:duplicateParentState="true" android:text="@string/labour_services_my_contract" android:onClick="onClick" style="@style/home_textview_small" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/padding_Large" android:paddingTop="@dimen/padding_Large" android:paddingRight="@dimen/padding_Large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_labour_service_row1">
+        <LinearLayout android:id="@id/fragment_labour_service_labourlaw" android:background="@drawable/bg_labour_services" android:padding="@dimen/padding_Small" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_Small" android:layout_weight="1.0" style="@style/home_linear_small">
+            <ImageView android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:src="@drawable/ic_main_labour_law" style="@style/home_imageview_small" />
+            <TextView android:textColor="@drawable/home_text_selector" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:clickable="false" android:duplicateParentState="true" android:text="@string/labour_services_labour_law" android:onClick="onClick" style="@style/home_textview_small" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/fragment_labour_service_faq" android:background="@drawable/bg_labour_services" android:padding="@dimen/padding_Small" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_Small" android:layout_weight="1.0" style="@style/home_linear_small">
+            <ImageView android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:src="@drawable/ic_main_faq" style="@style/home_imageview_small" />
+            <TextView android:textColor="@drawable/home_text_selector" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:clickable="false" android:duplicateParentState="true" android:text="@string/labour_services_my_faq" android:onClick="onClick" style="@style/home_textview_small" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

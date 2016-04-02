@@ -1,0 +1,905 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: YIjDXGouiQYRgaaLQ7BHY4y2HmM=
+
+Name: res/drawable/sso_shape_circle_head_in.xml
+SHA1-Digest: BCCqqStURaBnRhOubJulk6xbtZA=
+
+Name: res/drawable-hdpi/app_20000134.png
+SHA1-Digest: DrvfzLgzSkBX7YbLsXlyrn0XmV0=
+
+Name: res/drawable-hdpi/app_2014021200003129.png
+SHA1-Digest: lX/Ji/FDDbNQbvZh+5/hBgOoo/c=
+
+Name: res/drawable-hdpi/app_10000033.png
+SHA1-Digest: GRuKtOmGtHwuY8xyFBhlxkqOCBM=
+
+Name: res/drawable-hdpi/app_20000168.png
+SHA1-Digest: DpDlmXW68DLre8oFkVlpM9qa7q0=
+
+Name: res/drawable-hdpi/app_20000245.png
+SHA1-Digest: Hj6qU2kssHI5ysq2RWh0W1CtHlg=
+
+Name: res/layout/envelope_notify.xml
+SHA1-Digest: CTRALimi1JV7IFLS2+Wuau0gYLw=
+
+Name: assets/apps_preInstall/2013062600000474.jar
+SHA1-Digest: FY49iwYdIpbkLgcRovKw65XDcuc=
+
+Name: res/drawable-xhdpi/startclient.png
+SHA1-Digest: vr2G6aqAzEj4PHa7vxcQyClPIWc=
+
+Name: res/drawable-xhdpi/appicon_push.png
+SHA1-Digest: fK9EzB1CkNorvAo2Wsv+RpK1Gzo=
+
+Name: lib/armeabi/libandroid-phone-wealth-ccrapp.so
+SHA1-Digest: bygVVojXnCJpoBn0u5gUT+aO/GM=
+
+Name: lib/armeabi/libmnet-ssl.so
+SHA1-Digest: 9GphSWJ5QtSTjCekozfZHL96MRg=
+
+Name: res/drawable-xxhdpi/wifiapp.png
+SHA1-Digest: aWt9UEG+BzMgYXDhXtxjITkqopc=
+
+Name: res/raw/diaoluo_da.mp3
+SHA1-Digest: 0e4WhaVaxy9fwQhLFr8982+E/vU=
+
+Name: res/xml/taobao_account_preferences.xml
+SHA1-Digest: ydijBM6wIxGKx1/DQdlzSBTJ7Oo=
+
+Name: res/drawable-ldpi/wifiapp.png
+SHA1-Digest: 8boyxZbdGtUc3kjuozC0wdMxz1I=
+
+Name: lib/armeabi/libandroid-phone-personalapp-socialwidget.so
+SHA1-Digest: a0AyzrOxhJ3LIe9uix98b/mHjRY=
+
+Name: lib/armeabi/libmnet.so
+SHA1-Digest: 8gtTvy5gSeXdiJrE19G37GDVSkk=
+
+Name: res/drawable-hdpi/app_20000078.png
+SHA1-Digest: 5SghCVRihz5Vbaqx3Yfi4aZCRbc=
+
+Name: assets/apps_preInstall/emoji.amr
+SHA1-Digest: of4hadvluGJZEqVdIzO/Q4etILc=
+
+Name: lib/armeabi/libandroid-phone-personalapp-socialpayee.so
+SHA1-Digest: S5JJYluH9rt8hKIFuKU0hyN+yeU=
+
+Name: lib/armeabi/libandroid-phone-discovery-redenvelope.so
+SHA1-Digest: MVnOJY3z5a4ASt4dfX5lWc8TYCA=
+
+Name: res/drawable-hdpi/wifiapp_small.png
+SHA1-Digest: GSAh9UO91YcqTsfVoHllPhUKLAQ=
+
+Name: res/drawable-xxhdpi/startclient.png
+SHA1-Digest: H7F+MrZRhUeM3Y8donCFvbRgj5g=
+
+Name: res/anim/push_up_in.xml
+SHA1-Digest: H7qaH90SCiddqhD4ypzvJbwuZc0=
+
+Name: res/drawable-xxhdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: Nqe9MGe8XZsOJQttWEULcwZoP80=
+
+Name: lib/armeabi/librotationUtil_1.0.so
+SHA1-Digest: rz+Jzi1E5jLdXuSrbI6JQkuYVbY=
+
+Name: lib/armeabi/libandroid-phone-scancode-scan.so
+SHA1-Digest: wCOvwW6FbRJ19Rdpl16Ofyi2fU0=
+
+Name: res/drawable/download_progress_horizontal.xml
+SHA1-Digest: VtB2sRuGw1PLEYs8Mb5i6ejrwvE=
+
+Name: lib/armeabi/libandroid-phone-personalapp-chatapp.so
+SHA1-Digest: kKKjPC9fV4X5T6pwa1OpxB4YQo8=
+
+Name: res/drawable-hdpi/appicon.png
+SHA1-Digest: 8BDNHJ2lx5fdi1+1MWb0QevNkYI=
+
+Name: res/drawable-hdpi/app_20000131.png
+SHA1-Digest: E13sbemuVSW7iUkdF8SYKoSbA38=
+
+Name: lib/armeabi/libgcanvas.so
+SHA1-Digest: 8H7NG30gVs2BA+JpoI1co7oecTg=
+
+Name: assets/chatbg/chat_bg_default.png
+SHA1-Digest: ozrmQ6tZ9d8+/tVOo6Gqux3SVG8=
+
+Name: lib/armeabi/libsecuritysdk-2.7.43.so
+SHA1-Digest: 5UBwBroEFvUZt4wkHBI50qARbwY=
+
+Name: res/drawable/download_cancel_press.png
+SHA1-Digest: mjNjqFrVsByJvsCVZEdP53jPDm8=
+
+Name: res/drawable-hdpi/app_20000161.png
+SHA1-Digest: S78NyMi/9UB4QXc8sBox7g/Tq0o=
+
+Name: res/drawable-hdpi/app_10000014.png
+SHA1-Digest: XQMqwfIkzEns9tcugx5baPlNTHs=
+
+Name: res/raw/silent.mp3
+SHA1-Digest: cv0GVys+xBWKXhPnDVoIOk7w5U0=
+
+Name: res/layout/sso_login_confirm.xml
+SHA1-Digest: 3Q3YqXrHwBuCHfZNwrp36HVBJGg=
+
+Name: res/drawable-hdpi/wifi_signal_level4.png
+SHA1-Digest: N4uhNnPfuVGt+++UjUr7cJbrg3M=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-phonecashier.so
+SHA1-Digest: 7gunq4Io8TMEycEy4nIpNBlhWNg=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-beehive.so
+SHA1-Digest: 5+gw5FZVEyN2GGe9ZLC8atbxJ90=
+
+Name: res/xml/authenticator.xml
+SHA1-Digest: qcXFcTu9HuzAxLi+Qg6wZ1K8m/o=
+
+Name: assets/ctwifiapi_rc.lic
+SHA1-Digest: /vKxGoTxHx0uFbcrMc6ya2PkLK8=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-tablauncher.so
+SHA1-Digest: EmLtG9a1x0rQIjdUaHp3zFjW/ec=
+
+Name: lib/armeabi/libandroid-phone-openplatform-common.so
+SHA1-Digest: xxoXzc+SGznLittikKcAurSiwNI=
+
+Name: lib/armeabi/libandroid-phone-wealth-familyaccount.so
+SHA1-Digest: 6zKyuBRDoF23SsZAZws+sqHeN+k=
+
+Name: lib/armeabi/libandroid-phone-onsitepay-onsitepay.so
+SHA1-Digest: I2Kt0300fVrLLxayrnNWM5aMqoM=
+
+Name: lib/armeabi/libandroid-phone-alitv-tvhelper.so
+SHA1-Digest: 8xekcsls5HfJ9hLmp1dPE0MZq9s=
+
+Name: assets/commandCenter_jsFrame.js
+SHA1-Digest: 8h/M1l2kjW/zDiQdgAY0SaHPMuc=
+
+Name: res/drawable-hdpi/app_09999988.png
+SHA1-Digest: e3zjSf1JdqErU307HKnzXN7yws4=
+
+Name: res/drawable-hdpi/app_20000160.png
+SHA1-Digest: DNNuJa/9T4ms6UrH6+mCIMasrTs=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-mtop.so
+SHA1-Digest: mfi7rOnKejiSccesU0Y9TlOy+lA=
+
+Name: res/drawable-hdpi/app_20000193.png
+SHA1-Digest: oj1UF8983mgFi6YtTlrdfJo3g2Y=
+
+Name: lib/armeabi/libhoks.so
+SHA1-Digest: AoIrZinnliqExaSRQslt+GM/qXk=
+
+Name: assets/apps_preInstall/20000155.amr
+SHA1-Digest: doM5f791SthAO+B2wVcwBi/xRe4=
+
+Name: assets/trafficMonitor.config
+SHA1-Digest: TpbNMONR88/treaAn7oVlx1lK/0=
+
+Name: res/drawable-hdpi/ic_sso_alipay_account.png
+SHA1-Digest: 6QJRuXK+3f9h58Ef6Fn7M6XRLTg=
+
+Name: res/drawable-xhdpi/wifi_signal_level0.png
+SHA1-Digest: RyFbNgYb1Xu54A3A1kvc/tBgnUw=
+
+Name: res/drawable-hdpi/app_20000032.png
+SHA1-Digest: U6D9OLfFeKS1us0rK8YbJqVNTAc=
+
+Name: res/drawable/appicon.png
+SHA1-Digest: Gz9m2fRukn7MFllCBPtv1tNqcNQ=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-multimedia.so
+SHA1-Digest: x5RNtRTZK940iZOuBjLD/OWgd90=
+
+Name: lib/armeabi/libandroid-phone-securityapp-securitybiz.so
+SHA1-Digest: lsBbABnT1puuep/obUnf2eMjSyg=
+
+Name: res/anim/push_down_out.xml
+SHA1-Digest: SxSMRl41rmnRgGMA++MevKJVHvs=
+
+Name: assets/puk.dat
+SHA1-Digest: 4PNKKjKmOMzTp3TGwpF1LXvvnV4=
+
+Name: res/drawable-hdpi/com_ucmobile.png
+SHA1-Digest: HfOJcmQhkcssTEcqS1xIrHn7Wmk=
+
+Name: res/raw/mcdonalds.mp3
+SHA1-Digest: RD4YU6oNs69EtQAVo2Bi36PdJhs=
+
+Name: res/drawable-mdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: XE6hA2M5KT0kaBCRyz36820a4WY=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-badge.so
+SHA1-Digest: w+51RgLMhc09aL5mNNlOfowYgX8=
+
+Name: res/drawable-hdpi/app_10000008.png
+SHA1-Digest: E1JkkDeRz5gzcK09qAQcUqwcZYY=
+
+Name: res/raw/diaoluo_xiao.mp3
+SHA1-Digest: +yg08ocheWj3EaNMpqiCEI3GtvU=
+
+Name: res/drawable-xxhdpi/push_chat_default.png
+SHA1-Digest: 6YtQzp8sgLDE6ObvdmY1Zvw1lbg=
+
+Name: res/drawable-hdpi/app_20000690.png
+SHA1-Digest: 1QNWtVRun0htcbZsiJQqUzZFoIc=
+
+Name: res/drawable-mdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: yCraz6VSo3JCSDS+C8hBd2iAcy4=
+
+Name: res/drawable-hdpi/appicon_push.png
+SHA1-Digest: Fea4DvkK9cFGYmVEHLUUWi3W47k=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-cityselect.so
+SHA1-Digest: VwrIbhH242kLIm0jaJP0FSOwKDo=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-nfc.so
+SHA1-Digest: DxZIADHSsqnHTPYdhuFkyU+owWs=
+
+Name: res/drawable/app_launch_from_short_bg.xml
+SHA1-Digest: eQ1AN9FFFw/ucpbXnK11cqPez9w=
+
+Name: lib/armeabi/libandroid-phone-personalapp-personalbase.so
+SHA1-Digest: qOoUHGqggGtXH3YL0WTt/0cBFjs=
+
+Name: res/xml/authenticator_taobao.xml
+SHA1-Digest: LrR/uPfxO95RTMcIlnBrWUgcBJ0=
+
+Name: assets/commandCenter_initial.html
+SHA1-Digest: wFvfE8x0/SiH1OhzgKlvASHf91s=
+
+Name: res/drawable/download_cancel_normal.png
+SHA1-Digest: VJCLxi0WwHGAGTPI7iPe2UhnZJU=
+
+Name: res/drawable-xxhdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: 3skJvvnD90GqofPCeOBQfHKmeJ0=
+
+Name: lib/armeabi/libandroid-phone-discovery-o2o.so
+SHA1-Digest: 8hSt2IaVSjVsMlfKUzuEIZAnlLk=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-ui.so
+SHA1-Digest: WAxX77PHQQg9agAChfwuHQcIA2g=
+
+Name: lib/armeabi/libandroid-phone-wealth-spend.so
+SHA1-Digest: lZ4PPr2dbK0dHSRig7bE3oisrM4=
+
+Name: res/layout/app_launch_from_shotcut.xml
+SHA1-Digest: Hyyw77qnGTyGzrH6BJGz0O2jUN0=
+
+Name: res/drawable-hdpi/app_2013082800000932.png
+SHA1-Digest: 83gTIA4zpNSmfB/H7OhsOX6HsN4=
+
+Name: res/drawable-hdpi/msp_bg_panel.9.png
+SHA1-Digest: esOnAbBz1C+OMqndKPNzKzSAK+I=
+
+Name: res/drawable-xxxhdpi/appicon_push.png
+SHA1-Digest: icHsaDYGQmAcohEaKxApctx9Dc4=
+
+Name: res/drawable-hdpi/app_10000114.png
+SHA1-Digest: GnoVNycIdTFjaUxTzWtY2wpzc50=
+
+Name: lib/armeabi/libandroid-phone-personalapp-payee.so
+SHA1-Digest: 2veH0dhpfTrNbmP9c+6qitKeL/M=
+
+Name: res/drawable-hdpi/com_taobao_trip.png
+SHA1-Digest: NIQGqzVi1rVn/OLE2TbLHL4DeDU=
+
+Name: lib/armeabi/libandroid-phone-securityapp-clientsecurity.so
+SHA1-Digest: v0Wah02rc+ynvge9lRZZ+40k0XA=
+
+Name: lib/armeabi/libandroid-phone-personalapp-aapay.so
+SHA1-Digest: BTi5h1Ls5UMo7JfNEjuNxpbjxzY=
+
+Name: res/drawable-xxhdpi/appicon.png
+SHA1-Digest: +15/9s4fz3FGIvcThte8jouB9CI=
+
+Name: res/drawable-hdpi/app_20000177.png
+SHA1-Digest: egj4CvCAkQgKt7qpjTyQ1Z05VCQ=
+
+Name: lib/armeabi/libandroid-phone-wealth-home.so
+SHA1-Digest: u1hD7Zrfx/Bgef263T5PcX09tS0=
+
+Name: assets/apps_preInstall/20000135.amr
+SHA1-Digest: MDhKJQyWTNuEYHrAiEaflOC6K5o=
+
+Name: lib/armeabi/libandroid-phone-bill-detail.so
+SHA1-Digest: cafP9AiJJGVByYnVZR4PZU+YnDs=
+
+Name: res/drawable-hdpi/wifipop_close_pressed.png
+SHA1-Digest: qkX6B2BlqqLMEp0dMKrbVmcpTMI=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-aliuser.so
+SHA1-Digest: MrztCTX7WKFbFhBUNk1HksrH5wA=
+
+Name: lib/armeabi/libandroid-phone-wealth-ccbapp.so
+SHA1-Digest: rtyAaBhSO7gjjF0xHPB9TigCFr4=
+
+Name: lib/armeabi/libandroid-phone-securityapp-mobileotp.so
+SHA1-Digest: qROuE0ZwEjCNxbiXqPqBobJQFFo=
+
+Name: lib/armeabi/libandroid-phone-rome-pushservice.so
+SHA1-Digest: /nEDMVpjlrdSpiP7nx3vHjs5zAU=
+
+Name: lib/armeabi/libandroid-phone-openplatform-home.so
+SHA1-Digest: sDPRcI6bN7d/mSzbZXlUNOkvzmQ=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-share.so
+SHA1-Digest: XNHhD3Q9kivA7iOzCAweHVdY4K0=
+
+Name: lib/armeabi/libandroid-phone-nfd-nfdbiz.so
+SHA1-Digest: T6OZu6vY/oFYYZVNSMP4tpF2sCo=
+
+Name: lib/armeabi/libandroid-phone-merchant-industrycommon.so
+SHA1-Digest: 4sUotQNO1cdCbD4Cs+G1X7lyeTs=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-common.so
+SHA1-Digest: TMVeIG9vypuY5Ro3qpRkGD12qwQ=
+
+Name: lib/armeabi/liblivenessdetection_v2.2.3.so
+SHA1-Digest: 0ao6SOYYhGHR2V7L7nSDteTiLgk=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-transportext.so
+SHA1-Digest: MgDYEUAWhsR+3ITS/YSH2htSegY=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-commonbiz.so
+SHA1-Digest: RWQOWV7yH/7jiVoOpPXvwQmc9EU=
+
+Name: res/drawable/sso_shape_circle_head_out.xml
+SHA1-Digest: mOPU287LVeEcdpuAK8EIl/bZtck=
+
+Name: lib/armeabi/libandroid-phone-personalapp-contactsapp.so
+SHA1-Digest: QbABPhQV/cq0BD4h/xztBV8eSU4=
+
+Name: res/anim/dialog_enter.xml
+SHA1-Digest: CJMS8Ra+Rhi5zXNZzjWlnYqM2XA=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-verifyidentity.so
+SHA1-Digest: 15SpkIsq7gNAdO1l9ntA9BKQPpM=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-multimediabiz.so
+SHA1-Digest: Y9RHEy6DoSBJN6TUFBo7fKYTIZE=
+
+Name: lib/armeabi/libandroid-phone-wealth-withdraw.so
+SHA1-Digest: 2nqcK99536DomCxZg+Rxhx4NuCk=
+
+Name: lib/armeabi/libandroid-phone-merchant-cityservice.so
+SHA1-Digest: t8IJlOGextEt409xV4SV6ZTb/OQ=
+
+Name: res/drawable-hdpi/app_11000002.png
+SHA1-Digest: sIqIrQgN46G72zQSbz+bXWiRfug=
+
+Name: res/drawable-hdpi/app_20000088.png
+SHA1-Digest: z91ms/VyBC7lS8NS7saQn2IxFLc=
+
+Name: res/drawable/download_cancel_drawable.xml
+SHA1-Digest: ED+KX0ExoLyo/8EbHAC4eovJAlY=
+
+Name: res/drawable-hdpi/app_20000135.png
+SHA1-Digest: zfaqg5jaQhMNRV53TkO+D/d0nTU=
+
+Name: lib/armeabi/libamnet-mmtp.so
+SHA1-Digest: sBGx8aTe0fkE0v3X14xac/+vbHs=
+
+Name: lib/armeabi/libdatabase_sqlcrypto.so
+SHA1-Digest: KM1ay01h386zM20PinCzgSRuq0g=
+
+Name: res/drawable-hdpi/btn_wifipop_connect_bg_press.9.png
+SHA1-Digest: 5qY3w5+hfa/uZUmbfHWYTOd1d2M=
+
+Name: res/drawable-hdpi/app_10000011.png
+SHA1-Digest: N+Xcyq3mt24sCgy2fMyB7Tmfo7I=
+
+Name: lib/armeabi/libcocklogic.so
+SHA1-Digest: wSb4WAzFMpD/d5hkIvg5SmzX9ic=
+
+Name: assets/apps_preinstall_config/h5_plugins.json
+SHA1-Digest: 3GNGVf9HkuBvZRL4tbU0HipeSGY=
+
+Name: lib/armeabi/libgif.so
+SHA1-Digest: 3Uur1SfDDfW1YUu4sJN0U7LuPzA=
+
+Name: res/drawable/sso_shape_button_normal_nm.xml
+SHA1-Digest: c74RDq4ZvA2TNZLjsMTTcm1oh9Q=
+
+Name: res/layout/custom_wifi_notification_small.xml
+SHA1-Digest: 9XVX3v9rKMgk4MqrkQbUO3nRwBM=
+
+Name: res/anim/buttom_out.xml
+SHA1-Digest: v9d53tMzrJ+2TaSRQCms14dmqdk=
+
+Name: res/drawable-hdpi/wifiapp.png
+SHA1-Digest: kQFo2avPejisdBV4u+suX/nbF8c=
+
+Name: assets/location_public_key.der
+SHA1-Digest: 6/Mghx0ztUtl3VkNGSYj+sqPuy0=
+
+Name: res/drawable-hdpi/app_20000162.png
+SHA1-Digest: hYIZzMOwJaI4Z+Px5irKZCY6/Kk=
+
+Name: lib/armeabi/libandroid-phone-personalapp-dearpay.so
+SHA1-Digest: YxIs5OsfVJsphzrjwSMf47+3gHE=
+
+Name: res/xml/nfc_tech_filter.xml
+SHA1-Digest: GlyDl97uwrWIAYZCZz1CwOA041w=
+
+Name: assets/iconfont/com.alipay.android.app.template/ttf/apcuiconfont
+ .ttf
+SHA1-Digest: RhrAV+VCtCWSnApz/8hUdMpXxFE=
+
+Name: res/drawable-hdpi/app_20000066.png
+SHA1-Digest: nKx2uzR2en4TTuBFLfiK91QGxDU=
+
+Name: lib/armeabi/libmnet-tcp.so
+SHA1-Digest: X/uB9SYql3rCmLYel+tgr0SDQu4=
+
+Name: res/drawable/tiledstripes.xml
+SHA1-Digest: uBCdvsOLq8CSoQ+9yr/x9dM2aKI=
+
+Name: lib/armeabi/libatls.so
+SHA1-Digest: B6ztjyQeRmmmI/b1HGp2fB9nYP4=
+
+Name: res/drawable-hdpi/security_login_logo_a.png
+SHA1-Digest: doZWKdJoprD9BtiHMuMo/5sS9SE=
+
+Name: lib/armeabi/libamnet-mng.so
+SHA1-Digest: hdJwsGQJCs7Oh6o6zKk3OKUin0o=
+
+Name: lib/armeabi/libandroid-phone-rome-syncservice.so
+SHA1-Digest: +JY+IG2rca8byEMGqB9YEXSqaKQ=
+
+Name: assets/putMailAgreement.html
+SHA1-Digest: JIU4i0wAx3DAfEMRacAxdI3yvBk=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-h5plugins.so
+SHA1-Digest: AS2H8tpRY8PDJHmtasijvxP4lHk=
+
+Name: res/drawable-hdpi/app_88886666.png
+SHA1-Digest: VVZ+K4Rj8w6oUTdZKfww5VPf8rk=
+
+Name: assets/apps_preinstall_config/main_recommend_app.json
+SHA1-Digest: JVbE66wfVJgMBi6fAD7DAkzj11M=
+
+Name: res/drawable-mdpi/appicon.png
+SHA1-Digest: pcWOUBc8tPuWB92c5i7DRANNkA8=
+
+Name: lib/armeabi/libandroid-phone-discovery-movieticket.so
+SHA1-Digest: rmuTTSJjkWDm0vPQcU+RlkH62I8=
+
+Name: res/drawable-hdpi/app_20000046.png
+SHA1-Digest: kkrMzZSM0p0Wn6MN5dPpbfWwDhA=
+
+Name: res/drawable-hdpi/app_20000152.png
+SHA1-Digest: n+fSZAcboygub1xSbYSQMsEJBgM=
+
+Name: lib/armeabi/libandroid-phone-personalcredit-trust.so
+SHA1-Digest: ACWhNbw/o3hICPg9nE1vELTzwyw=
+
+Name: assets/apps_preinstall_config/preinstall_appid.json
+SHA1-Digest: cu8O6t/Sm/pFm00ko+aRuXDXVGA=
+
+Name: res/drawable/sso_button_bg_normal.xml
+SHA1-Digest: rnb79cEf84aiv6wV2LYu2n2bK3g=
+
+Name: res/raw/hongbao_gx.mp3
+SHA1-Digest: 2trzNIH/ebvf3+IeJX6oJiKT72k=
+
+Name: assets/apps_preinstall_config/banned_channel_appid.json
+SHA1-Digest: J6QN2plztzUgZs6bLFka1vyahTg=
+
+Name: lib/armeabi/libandroid-phone-wealth-accountdetail.so
+SHA1-Digest: as/5wkKjPvOD9oBYrq2ZjAb+TEo=
+
+Name: res/drawable/btn_nfd_wifipop_close.xml
+SHA1-Digest: tOUW9QF5TlWMMKSxFmyTIHcjLfI=
+
+Name: lib/armeabi/libandroid-phone-openplatform-openplatform.so
+SHA1-Digest: zOUNIS9tk3miIescUTL6+1xNzyA=
+
+Name: res/xml/alipay_authenticator.xml
+SHA1-Digest: Pp0awjRPeQwo+RG5RDAaK/NxmCM=
+
+Name: res/anim/dialog_exit.xml
+SHA1-Digest: 5CNu9H8JYIMzgKY5PhZGMsDsoy4=
+
+Name: res/drawable-hdpi/app_20000725.png
+SHA1-Digest: ptA2UmdK0iqO8eBQp0h30isPOZU=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-accountauth.so
+SHA1-Digest: a8oNiUYx072EoL7wh2kWG7t8cEg=
+
+Name: assets/lazy_bundles_plain.cfg
+SHA1-Digest: VB8OeqTNnbO/52n7QNcWYWfr/Eg=
+
+Name: res/drawable-xhdpi/wifi_signal_level3.png
+SHA1-Digest: r+W3Eaj1iLgVZuC5ZOqYownT2Gw=
+
+Name: res/raw/servicecert.cer
+SHA1-Digest: am5TPIztNtUtj05P9eSSEEAL9E4=
+
+Name: res/drawable/stripes.png
+SHA1-Digest: oGR7JgOoBOh9UonV3IiqY1TcFVE=
+
+Name: assets/SE.bin
+SHA1-Digest: j4iIoWfbm6mGOpY7S7WHiR+CmMw=
+
+Name: res/drawable-hdpi/wifipop_close_normal.png
+SHA1-Digest: FzF21+UVBSWMEBggqx+pSR7IWuQ=
+
+Name: lib/armeabi/libandroid-phone-wealth-bankcardmanager.so
+SHA1-Digest: ulIIag6zRe+2L6/T4N3oFklwtNg=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-h5container.so
+SHA1-Digest: RGBKprBwV17dsej/FHxf2w4+vhA=
+
+Name: res/anim/zoomin.xml
+SHA1-Digest: zqmJVVO1I44DrQWunNDvtHE90Sk=
+
+Name: assets/channel.config
+SHA1-Digest: TRdzFcxOKfR/mPcNluIUPH90UWM=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-accountauthbiz.so
+SHA1-Digest: kyreTpnmjm9x3/2uH838LXAw3xE=
+
+Name: res/drawable-hdpi/app_20000130.png
+SHA1-Digest: enVNwkchIWJ7rUsPEaa19J1nQlc=
+
+Name: res/layout/custom_wifi_notification.xml
+SHA1-Digest: mk+lnDucdLvMgKxbRnWVuqHk1HE=
+
+Name: res/drawable/btn_nfd_wifipop_color.xml
+SHA1-Digest: oI/MUdZnI9ErO3lJGZ8G43VutxQ=
+
+Name: res/drawable/btn_nfd_nt_bg.xml
+SHA1-Digest: 9PThE5oCBs79VE9RP6ReHMdPxfY=
+
+Name: res/drawable-hdpi/btn_wifipop_connect_bg.9.png
+SHA1-Digest: FKTvvMP9kC/opjK4CLDDA/qt5fE=
+
+Name: lib/armeabi/libandroid-phone-wealth-mobilewealth.so
+SHA1-Digest: zXcy0oLQNESqiQzxa5z+oh3Yy9I=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-imageworker.so
+SHA1-Digest: VE8O1A4d2xQhqQCn8I5vq6Q7/jQ=
+
+Name: assets/bundles.cfg
+SHA1-Digest: rdlSUKC5I2QwdlgQhB4H8Ys4mCc=
+
+Name: res/anim/bill_detail_anim_out.xml
+SHA1-Digest: EYskgSvfYqdScdrih27aDZm/7Go=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-templatemanager.so
+SHA1-Digest: ArQtmCo5N8NsMgtF8Oxl8ewlAYQ=
+
+Name: assets/apps_preinstall_config/preinstall_apps_info.json
+SHA1-Digest: No6V6l/2Cm/I1bc4xMELA5uCUcw=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-framework.so
+SHA1-Digest: wDlu0+fvBXb3IA+Wn1d1e50b1ZU=
+
+Name: res/drawable-hdpi/wifi_signal_level2.png
+SHA1-Digest: 4OGSTsfp1UNw8wgem/gXH5zxu08=
+
+Name: res/drawable/btn_nfd_nt_bg_round_pressed.xml
+SHA1-Digest: /uSfRp9S7YwJuo0HNrGdEddFrUo=
+
+Name: res/drawable/alipay_autotest.png
+SHA1-Digest: fkAQsU7qJCrFJyhA4vLFFJPFfgE=
+
+Name: res/anim/bill_detail_anim_in.xml
+SHA1-Digest: 9aRdd/RlRZSPyRJCzz2GOyDf+Bk=
+
+Name: res/drawable-hdpi/btn_background.png
+SHA1-Digest: n4KWTJk820/lOHTnyIr3NGBEWeQ=
+
+Name: assets/common.css
+SHA1-Digest: P7vCLBZ2MsBoggMH+idF2cDf30U=
+
+Name: res/drawable/sso_shape_button_normal_dw.xml
+SHA1-Digest: eePbY4VXVBZNDQphjwlPhShgBLI=
+
+Name: resources.arsc
+SHA1-Digest: fHhUrjvGETvKQl/lLKU7l4ZnaXo=
+
+Name: res/drawable-hdpi/app_20000132.png
+SHA1-Digest: P7Zryy6Eoq/H2KjmpxL78mrkefY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: /hc/QqzreJPk2ttdnJtyMNobhlY=
+
+Name: res/drawable-hdpi/app_09999999.png
+SHA1-Digest: R3kybmvL9qrm5OcPpN/ND+ardTw=
+
+Name: res/drawable-xhdpi/wifi_signal_level4.png
+SHA1-Digest: ghZvu6QCXJVOCvJkn3Kn43xU27s=
+
+Name: lib/armeabi/libandroid-phone-wealth-wealthtools.so
+SHA1-Digest: 7VPrRfAwfTuKSG5YtDDD+2gB02U=
+
+Name: res/layout/activity_start_logo.xml
+SHA1-Digest: +51T6GpWz2DVFJIxL9rsHIKiIrE=
+
+Name: res/xml/alipay_account_preferences.xml
+SHA1-Digest: lGFqVUvKS3derFR99yEDQKKAK74=
+
+Name: assets/apps_preInstall/20000046.jar
+SHA1-Digest: 0DUOrBlfr9E4ahpIFTZLIPOSoLQ=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-voice.so
+SHA1-Digest: 52at3wQBORrf8Ldz/Y6Cno5at6c=
+
+Name: res/raw/hongbao_gq.mp3
+SHA1-Digest: GaBCDmaWNQe3d6Oc/Qwr6T94yWU=
+
+Name: lib/armeabi/libpushtrackerso.so
+SHA1-Digest: nVfebNMvcOM0CB5wOg/xAVmiy4E=
+
+Name: lib/armeabi/libandroid-phone-merchant-lifepaymentapp.so
+SHA1-Digest: lt7tkU+8OVKJYwc/1O5TjXIrkH8=
+
+Name: lib/armeabi/libandroid-phone-wealth-fund.so
+SHA1-Digest: LaRscGRi9OkbbgV2NGF9IgqNbwY=
+
+Name: res/drawable-hdpi/wifi_signal_level0.png
+SHA1-Digest: +A3SlTzKjn777umokOrx88MjJpk=
+
+Name: res/layout/alipay_push_dialog.xml
+SHA1-Digest: IeNJCbg/RjHzM54oyjSddc5K0HQ=
+
+Name: res/drawable-hdpi/app_2013062600000474.png
+SHA1-Digest: P7Rq1wThjVwxRB4lScRs7yOfT+k=
+
+Name: res/drawable/download_icon.png
+SHA1-Digest: GSgV29C2Eg8/V9rMmKceUULSqMw=
+
+Name: assets/libplugins.so
+SHA1-Digest: 8ZK2+S55a0oJRaYuVRdRtK7dBOo=
+
+Name: assets/verisign.cer
+SHA1-Digest: v01Ze6bjj+0DxNCn3Nb3qGcrqPI=
+
+Name: classes.dex
+SHA1-Digest: Kn76u6q/Of8PuyDke0+Q0EnMF94=
+
+Name: res/drawable-hdpi/wifi_signal_level1.png
+SHA1-Digest: PeBpXunTswbhZxM3fgIvx6JMLGY=
+
+Name: assets/NativeApkEngine.apk
+SHA1-Digest: ODhN+i3tVllWzm5pC1UlbhDipdM=
+
+Name: lib/armeabi/libandroid-phone-alipass-alipassapp.so
+SHA1-Digest: l4IjYS+g1oBTEGCLj3H7CJ4rB+o=
+
+Name: lib/armeabi/libandroid-phone-personalapp-favorite.so
+SHA1-Digest: KUD5vSfROmssmK4t1i0zVTYQjzs=
+
+Name: res/drawable-hdpi/app_20000155.png
+SHA1-Digest: bD0zK3GaPy+EJUUqWqI6D6mOOC4=
+
+Name: lib/armeabi/libandroid-phone-wealth-loan.so
+SHA1-Digest: yeu+maCx/0oAcZmd8gCRXBshA/Q=
+
+Name: res/drawable-xxhdpi/social_head_default.png
+SHA1-Digest: FpcLSCQB+dP1rJhliiHy7nPDD7g=
+
+Name: res/drawable-hdpi/app_10000110.png
+SHA1-Digest: O3y8meXKM0AzmywdOHcom83IxfA=
+
+Name: lib/armeabi/libandroid-phone-alipass-alipassnfcapp.so
+SHA1-Digest: njQy/oO5s0mf3ukaY9v5GKxRDyI=
+
+Name: res/drawable-xhdpi/wifi_signal_level1.png
+SHA1-Digest: oE94ew031Ct6JDhRPiDpiuKdhhU=
+
+Name: res/drawable-hdpi/app_80000002.png
+SHA1-Digest: Mcoi8D4ZskMi4BqlDqhhALhuN14=
+
+Name: lib/armeabi/libandroid-phone-bill-list.so
+SHA1-Digest: KjdPPuZFwCTSJgH1wtOfTisCF9I=
+
+Name: res/drawable/yw_1222.jpg
+SHA1-Digest: +sFwEsf/hKoUfsmOr+ESkQACx18=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-thirdparty.so
+SHA1-Digest: +5eMhOR6vWoYU93lQEaJ7AO2jlE=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-globalsearch.so
+SHA1-Digest: EnAoMyG11XbZB3JiIU/WlEHyWNw=
+
+Name: lib/armeabi/libandroid-phone-wealth-tally.so
+SHA1-Digest: d+mDmAbL0sec20px0P0kP9R+OpA=
+
+Name: res/drawable/sso_button_text_normal.xml
+SHA1-Digest: YjR7gMfWDiIMbji5CDfjX3auvno=
+
+Name: lib/armeabi/libandroid-phone-wealth-insurance.so
+SHA1-Digest: eYtuec5d48csVdwJQYZg/Giu9A4=
+
+Name: res/drawable-hdpi/app_20000123.png
+SHA1-Digest: Gt5O/ndz/UF2jc4oI88HoROtTbc=
+
+Name: res/drawable-ldpi/appicon.png
+SHA1-Digest: QHTEvRD3DwGSlmGJOHvBIwVSEW0=
+
+Name: assets/apps_preinstall_config/my_appid.json
+SHA1-Digest: Wl2yCxAjH30VPBPplYL5QWzIlo4=
+
+Name: res/drawable/btn_nfd_wifipop_connect_bg.xml
+SHA1-Digest: 4g9rSrY1GSqvW5f8MEK/PVAO7fM=
+
+Name: lib/armeabi/libdexposed.so
+SHA1-Digest: Vdnur3+zQ5Z83peioTTPPedkqgA=
+
+Name: lib/armeabi/libandroid-phone-thirdparty-weibosdk.so
+SHA1-Digest: JnQuZHXB+kdGxQs9Dmlr8F05+2M=
+
+Name: lib/armeabi/libandroid-phone-personalapp-socialsdk.so
+SHA1-Digest: SFOSPOFR6Zqd5BoadP+75sLraYk=
+
+Name: assets/ctwifiapi.lic
+SHA1-Digest: 569a+b+Al6mUsbBBgcyFo8VyHdM=
+
+Name: res/drawable-hdpi/com_sina_weibo.png
+SHA1-Digest: QLsUW9GVnnKI8/AOj3QzA5KF4+k=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-advertisement.so
+SHA1-Digest: KUPiVTYbT9Lea6bVHVKWP5SZS1M=
+
+Name: lib/armeabi/libandroid-phone-personalapp-transferapp.so
+SHA1-Digest: B7kL+5Zb0V2Keut9R/zbdTnaH2o=
+
+Name: lib/armeabi/libandroid-phone-wealth-transfercardapp.so
+SHA1-Digest: +zxxTUi+IegdGgsEcXbfAr/+Gcs=
+
+Name: res/xml/account_preferences.xml
+SHA1-Digest: E/dao6w/AIJ94TLBvK07fFH2krE=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-hardwarepay.so
+SHA1-Digest: CvzjtwOAOIujDKzJRw3sQjL/Z6k=
+
+Name: res/drawable-hdpi/wifi_signal_level3.png
+SHA1-Digest: wTBeIKu+z7veLsjdEzrpQlJ488A=
+
+Name: lib/armeabi/libandroid-phone-personalapp-payanotherapp.so
+SHA1-Digest: Hwt4bqijL4bFuLU9efk3zJ9EUCI=
+
+Name: assets/apps_preinstall_config/home_display_apps_info.json
+SHA1-Digest: Hp+bCtTQcKBESeRtz3NDwHYRJqA=
+
+Name: lib/armeabi/libandroid-phone-publicplatform-ppchat.so
+SHA1-Digest: iNwAI5RxoWz3/90z9VG3m82pOhs=
+
+Name: res/drawable-hdpi/app_20000197.png
+SHA1-Digest: p7vwd8afneZRSrywm13F8gb1g5Q=
+
+Name: lib/armeabi/libandroid-phone-publicplatform-common.so
+SHA1-Digest: b7s2luP2x/wlWRxOKCvtLroSQIU=
+
+Name: res/layout/alipay_push_notification.xml
+SHA1-Digest: t168gNs2CF0fnfItHyxHbPM+Ek8=
+
+Name: lib/armeabi/libandroid-phone-wealth-mobilechargeapp.so
+SHA1-Digest: ryop75Fg18+gkEPLmAFbm8RTQ+Q=
+
+Name: lib/armeabi/libmnet-http.so
+SHA1-Digest: yLRyi+piw3vdTE0p18xbecKMVvE=
+
+Name: lib/armeabi/libpushinitzip.so
+SHA1-Digest: kI5WGks6hYCQOnPHqjWn70wXpow=
+
+Name: res/drawable-hdpi/app_20000233.png
+SHA1-Digest: RXSWPikS2ETQDE4ssnQf+r4ffrc=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-mapbiz.so
+SHA1-Digest: RgmiDsmjaBXWQZvOFghcqiUiSZQ=
+
+Name: res/anim/buttom_in.xml
+SHA1-Digest: FgAd6MKb7CZmKh1tOJy1iW17SwU=
+
+Name: lib/armeabi/libandroid-phone-wealth-common.so
+SHA1-Digest: ioPXJpJuBb4a9cvx+tTZ3oy0m3M=
+
+Name: lib/armeabi/libandroid-phone-discovery-o2ohome.so
+SHA1-Digest: J+Pul0vnR006RsO4FfPRAWnEwMI=
+
+Name: lib/armeabi/libandroid-phone-wealth-wealthcurrency.so
+SHA1-Digest: RRLPP/01OERtD0hdE8szv2s0PjM=
+
+Name: res/drawable-hdpi/app_20000691.png
+SHA1-Digest: kqqUCkp1gS+eVqQaINEdUT7h6ls=
+
+Name: res/drawable-hdpi/app_10000009.png
+SHA1-Digest: vPHrnXaCOhOcRB7tfqnTGqR5nME=
+
+Name: lib/armeabi/libmotu-crash.so
+SHA1-Digest: Cf4QThY4QXncU4DFpS+Vo60Ynuk=
+
+Name: res/drawable-hdpi/ic_sso_taobao_account.png
+SHA1-Digest: pH2eYn0LGX4eJ89l1h719lyvyP0=
+
+Name: lib/armeabi/libandroid-phone-wealth-stock.so
+SHA1-Digest: iFHgV5FimG+WtD3x6WWjTHNN448=
+
+Name: res/drawable-xxxhdpi/appicon.png
+SHA1-Digest: VeQLbvY3n+nTSpuub88oq7P3zng=
+
+Name: lib/armeabi/libandroid-phone-smartwear-yunoswear.so
+SHA1-Digest: CM+aj4Ar9w++mgYWaRfBTsNyX08=
+
+Name: res/drawable-xhdpi/wifi_signal_level2.png
+SHA1-Digest: aZBUH3hz2gJxvj/qQHwd1JL//8o=
+
+Name: res/drawable-hdpi/app_20000101.png
+SHA1-Digest: Q5mBdk3Qc5gQi11I1kI5CLt9Zmg=
+
+Name: lib/armeabi/libandroid-phone-publicplatform-search.so
+SHA1-Digest: mhYrnQhofoRNHeoFdTA8XTNYPiQ=
+
+Name: res/drawable/btn_nfd_nt_bg_round_normal.xml
+SHA1-Digest: 6GmaAeKM2SFbp3LJpXJy1MB62iI=
+
+Name: res/drawable-hdpi/app_20000153.png
+SHA1-Digest: NpCZqo6gUH1ko/QF/aq2PdqwfdE=
+
+Name: res/drawable-xhdpi/appicon.png
+SHA1-Digest: ORTe+P53cKdPrhUu++yJ9iqiMN8=
+
+Name: res/drawable-hdpi/app_20001000.png
+SHA1-Digest: W3uWGEnYPIreuwHCFG6oLMg6Uog=
+
+Name: res/anim/zoomout.xml
+SHA1-Digest: /JQRirfLUQsb6dcdZ4XDkQqiWEY=
+
+Name: res/drawable-hdpi/app_20000205.png
+SHA1-Digest: MKfANOLGGwY3Wi9NT4jD2ceThrc=
+
+Name: res/drawable-hdpi/app_10000003.png
+SHA1-Digest: hLhF4aqn5/9PI62F7NsohvUhmCQ=
+
+Name: res/drawable-hdpi/startclient.png
+SHA1-Digest: Jas9ibBvcDcMb5343aMKlRX0tOY=
+
+Name: res/anim/dismiss_out.xml
+SHA1-Digest: siY+I7NfiTpn7s+5v8/PGus/Ylo=
+
+Name: assets/cnregion4alipay.txt
+SHA1-Digest: z++3T8Hk+pg+Us9otj7NPjwU0z0=
+
+Name: res/drawable-xxhdpi/appicon_push.png
+SHA1-Digest: b4FbqFfp+prDFIWWi7PlyEhNqtE=
+
+Name: lib/armeabi/libandroid-phone-mobilesdk-thirdpartyext.so
+SHA1-Digest: WZj9Sak38z3g2xREePJnxkbb+FU=
+
+Name: res/xml/taobao_authenticator.xml
+SHA1-Digest: Y3sBilTdmK5YK+tKJqdTXS8NJXg=
+
+Name: lib/armeabi/libandroid-phone-businesscommon-prefrence.so
+SHA1-Digest: nc2JAOV+Ach4kDslr6A8E6l7QU8=
+
+Name: res/layout/download_progress.xml
+SHA1-Digest: DGN4Yg1KPU+idBPBA7P3XAMZjSI=
+
+Name: res/drawable-hdpi/app_20000107.png
+SHA1-Digest: S5SGiOgvlaQ/7+oiQwcP1tGBcEY=
+
+Name: res/drawable-hdpi/app_20000120.png
+SHA1-Digest: Y2zcrKm6+RUedNnpa6iq2X7RjuE=
+
+Name: assets/apps_preInstall/88888899.amr
+SHA1-Digest: yOvMTyG51xDLLwa6Wv+ByxtafEw=
+
+Name: lib/armeabi/libdexposed2.3.so
+SHA1-Digest: qVgA7NoSDykKqTD2fLw9+Pe2/+4=
+
+Name: lib/armeabi/libandroid-phone-messagebox-messageboxapp.so
+SHA1-Digest: VWTz6DAFXvTojDdXbboKXRCyYMs=
+
+Name: assets/yw_1222.jpg
+SHA1-Digest: 7R81BDbL0pwaYbIUd0Hz4pYHUm0=
+
+Name: res/layout/wifi_popup.xml
+SHA1-Digest: uqdJj/Cg84WnLCU93tqucpVGoD0=
+
+Name: lib/armeabi/libandroid-phone-mobilecommon-falcon.so
+SHA1-Digest: wCO0KiVTwa0HEOIrILllzpl6O6c=
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/holo_dark_navigation_refresh" android:id="@id/menu_refresh" android:orderInCategory="1" android:title="@string/refresh" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/holo_dark_collections_sort_by_size" android:id="@id/menu_sortby" android:orderInCategory="1" android:title="@string/sort_by" android:showAsAction="ifRoom" />
+</menu>

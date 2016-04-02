@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_transactions_details_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_enetwasal_form_header" layout="@layout/header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_enetwasal_form_header">
+        <ScrollView android:id="@id/fragment_enetwasal_form_scrollview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/margin_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/TextSmall" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/fragment_enetwasal_form_textview" android:padding="@dimen/margin_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <EditText android:id="@id/fragment_enetwasal_form_edittext" android:background="@drawable/text_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:inputType="textCapSentences" android:imeOptions="actionDone" />
+                <Button android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/fragment_enetwasal_form_button_submit" android:background="@drawable/bg_button_submit" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_20" android:minWidth="100.0dip" android:text="@string/btn_go" />
+            </LinearLayout>
+        </ScrollView>
+        <ListView android:id="@id/fragment_enetwasal_form_listview" android:visibility="visible" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_20" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/fragment_expire_labour_card_list_row_text" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

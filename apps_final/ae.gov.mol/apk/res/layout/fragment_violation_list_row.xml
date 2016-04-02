@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:gravity="center" android:background="@drawable/bg_employee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_Smaller">
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5" android:layout_marginRight="@dimen/margin_5">
+            <TextView android:scrollbars="none" android:text="@string/violations" android:layout_weight="0.2" style="@style/label_nawakas_list_title" />
+            <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+            <TextView android:id="@id/fragment_violation_list_row_violation" android:scrollbars="none" android:layout_weight="0.5" style="@style/label_nawakas_list_value" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5" android:layout_marginRight="@dimen/margin_5">
+            <TextView android:scrollbars="none" android:text="@string/help" android:layout_weight="0.2" style="@style/label_nawakas_list_title" />
+            <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+            <TextView android:id="@id/fragment_violation_list_row_help" android:scrollbars="none" android:layout_weight="0.5" style="@style/label_nawakas_list_value" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

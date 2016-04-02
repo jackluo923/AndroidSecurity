@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_aboutus_relative_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_contactus_header" layout="@layout/header" />
+    <RelativeLayout android:id="@id/fragment_aboutus_pager_relative_container" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:id="@id/fragment_aboutus_relative_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ae.gov.mol.helper.PagerSlidingTabStripContect android:id="@id/fragment_contactus_tabs" android:padding="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.v4.view.ViewPager android:id="@id/fragment_contactus_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_contactus_tabs" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fragment_aboutus_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

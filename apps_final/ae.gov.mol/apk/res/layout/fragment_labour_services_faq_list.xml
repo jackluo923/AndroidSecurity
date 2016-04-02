@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_etehseel_enetwasal_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@id/fragment_labour_services_faq_list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@android:color/transparent" android:divider="@null" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/TextLarge" android:textColor="@android:color/white" android:id="@id/question_submit_btn" android:background="@drawable/bg_button_submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_10" android:minHeight="35.0dip" android:text="@string/ask_question" />
+</LinearLayout>

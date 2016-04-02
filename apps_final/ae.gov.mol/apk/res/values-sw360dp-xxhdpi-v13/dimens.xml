@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSmallestForCompanyList">8.0sp</dimen>
+    <dimen name="TextSmallest">5.0sp</dimen>
+</resources>

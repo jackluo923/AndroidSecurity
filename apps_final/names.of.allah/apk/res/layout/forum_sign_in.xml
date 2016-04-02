@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/regist_layout" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+        <TextView android:textSize="15.0sp" android:id="@id/tapa_id_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="10.0dip" android:text="@string/account_login_message" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <EditText android:textSize="16.0sp" android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:hint="@string/sign_in_username_hint" android:layout_below="@id/tapa_id_tips" android:inputType="textEmailAddress" />
+        <EditText android:textSize="16.0sp" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/password" android:layout_below="@id/email" android:inputType="textPassword" android:imeOptions="actionDone" />
+        <Button android:textStyle="bold" android:id="@id/sign_up" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/sign_up" android:layout_below="@id/sign_in" />
+        <Button android:textStyle="bold" android:id="@id/sign_in" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/sign_in" android:layout_below="@id/password" android:layout_alignLeft="@id/sign_up" />
+        <ProgressBar android:id="@id/progress" android:paddingBottom="60.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+    </RelativeLayout>
+</ScrollView>

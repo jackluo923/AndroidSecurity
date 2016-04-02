@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/holo_dark_content_edit" android:id="@id/menu_reply" android:orderInCategory="1" android:title="@string/reply" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/holo_dark_forward" android:id="@id/menu_go_to" android:orderInCategory="2" android:title="@string/go_to" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_share" android:visible="false" android:orderInCategory="3" android:title="@string/share_with" android:showAsAction="never" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    <item android:icon="@drawable/menu_save_for_later" android:id="@id/menu_star" android:visible="false" android:orderInCategory="4" android:title="@string/toggle_star" android:showAsAction="never" />
+    <item android:icon="@drawable/holo_dark_navigation_refresh" android:id="@id/menu_refresh" android:orderInCategory="5" android:title="@string/refresh" android:showAsAction="never" />
+    <item android:id="@id/menu_copy_link" android:visible="false" android:orderInCategory="6" android:title="@string/copy_link" android:showAsAction="never" />
+</menu>

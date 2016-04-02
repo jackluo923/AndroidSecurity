@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_enetwasal_list_adjust" android:background="@color/bg_color" android:paddingTop="@dimen/padding_3" android:paddingBottom="@dimen/padding_3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/row_enetwasal_list_image" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/text_18" android:id="@id/row_enetwasal_list_text" style="@style/detail_page_header" />
+    </RelativeLayout>
+    <ImageView android:id="@id/row_enetwasal_list_image" android:paddingLeft="@dimen/padding_Small" android:paddingTop="@dimen/padding_Small" android:paddingBottom="@dimen/padding_Small" android:clickable="true" android:src="@drawable/ic_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" style="@style/imageView_style_normal" />
+</RelativeLayout>

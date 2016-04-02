@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_company_transaction_list_detailsrelative_main" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_company_transaction_list_detailsheader" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_company_transaction_list_detailsscrollview" android:background="@color/bg_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_company_transaction_list_detailsheader">
+        <RelativeLayout android:id="@id/fragment_inquiry_application_status_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_inquiry_application_status_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="right" android:id="@id/fragment_company_transaction_list_details_textview_header_company" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:text="@string/company" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_company_transaction_list_details_textview_header_company">
+                    <TableRow android:gravity="center_vertical" android:id="@id/fragment_company_transaction_list_detailstablerow_personal_data_title" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_company_number" android:text="@string/company_number" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_company_code" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_company_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_license_number" android:text="@string/license_no" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_license_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:gravity="right" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:text="@string/transaction" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:id="@id/fragment_company_transaction_list_detailstablerow_card_data_title" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_transaction_type" android:text="@string/transaction_type" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_transaction_type" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_transaction_number" android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_transaction_number" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="right" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_expiry_date_of_submit" android:text="@string/date_of_submit" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_date_of_submit" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="right" android:background="@drawable/detail_text_bg_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_location" android:text="@string/location" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_transaction_list_detailstextview_value_location" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

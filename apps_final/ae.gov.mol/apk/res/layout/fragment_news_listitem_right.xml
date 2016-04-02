@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_news_list_relative" android:background="@drawable/bg_news_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fragment_news_listitem_img_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignTop="@id/fragment_news_listitem_news_linear_layout" android:layout_alignBottom="@id/fragment_news_listitem_news_linear_layout" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_news_listitem_news_linear_layout" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/fragment_news_listitem_img_icon">
+        <TextView android:textColor="@color/red" android:layout_gravity="right" android:id="@id/fragment_news_listitem_txt_title" android:singleLine="true" style="@style/text_black_14_smallPadding" />
+        <TextView android:ellipsize="end" android:gravity="right" android:id="@id/fragment_news_listitem_txt_description" android:maxLines="2" android:lines="2" android:singleLine="false" style="@style/text_black_14_smallPadding" />
+        <ImageView android:layout_gravity="right" android:id="@id/fragment_news_listitem_img_go" android:paddingBottom="@dimen/screen_padding_topBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/submit" android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</RelativeLayout>

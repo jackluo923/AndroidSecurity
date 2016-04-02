@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: sp1322369402.apk
+compressionType: false
+doNotCompress:
+- arsc
+- apk
+- lic
+- dat
+- jar
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '11'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.0
+versionInfo:
+  versionCode: '77'
+  versionName: 9.0.0.070802

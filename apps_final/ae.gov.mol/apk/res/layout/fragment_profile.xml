@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_profile_details_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_profile_details_header" layout="@layout/header" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fragment_profile_details_linier_container" android:padding="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_profile_details_header">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/fragment_profile_details_imageview_flag" android:padding="@dimen/padding_Smaller" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_company_list" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/padding_Small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_Small" android:layout_weight="0.6">
+            <TextView android:textSize="@dimen/text_18" android:ellipsize="end" android:id="@id/fragment_profile_details_textview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:lines="3" android:maxEms="10" />
+            <TableRow android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_14" android:id="@id/fragment_profile_details_title_company_code" android:layout_marginTop="@dimen/padding_Smaller" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+            </TableRow>
+            <TableRow android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_14" android:id="@id/fragment_profile_details_textview_company_code" android:scrollbars="none" android:layout_marginTop="@dimen/padding_Smaller" android:text="\ 123456789" android:singleLine="true" style="@style/detail_page_normal" />
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/fragment_profile_details_view_devider" android:background="@color/gray_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/padding_10" android:layout_marginRight="@dimen/padding_10" android:layout_below="@id/fragment_profile_details_linier_container" />
+    <TextView android:textSize="@dimen/text_14" android:id="@id/fragment_profile_details_textview_company_info" android:layout_marginLeft="@dimen/padding_Small" android:layout_marginTop="@dimen/padding_Smaller" android:text="@string/profile_information" android:layout_below="@id/fragment_profile_details_view_devider" style="@style/detail_page_semiheader" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_profile_details_linear_container" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_Small" android:layout_marginTop="@dimen/padding_Smaller" android:layout_marginRight="@dimen/padding_Small" android:layout_below="@id/fragment_profile_details_textview_company_info">
+        <RelativeLayout android:gravity="center" android:id="@id/fragment_profile_email_edit_relative_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_5">
+            <TextView android:id="@id/fragment_profile_details_title_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email" />
+            <EditText android:enabled="false" android:id="@id/fragment_profile_details_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/fragment_profile_details_title_email" />
+            <ImageView android:id="@id/fragment_profile_details_email_edit" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:id="@id/fragment_profile_details_view_company_info_devider" android:background="@color/gray_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:gravity="center" android:id="@id/fragment_profile_mobile_edit_relative_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_5">
+            <TextView android:id="@id/fragment_profile_details_title_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone" />
+            <EditText android:enabled="false" android:id="@id/fragment_profile_details_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:layout_below="@id/fragment_profile_details_title_mobile" android:inputType="phone" />
+            <ImageView android:id="@id/fragment_profile_details_mobile_edit" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/fragment_profile_details_view_devider_end" android:background="@color/gray_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/padding_10" android:layout_marginTop="@dimen/padding_10" android:layout_marginRight="@dimen/padding_10" android:layout_below="@id/fragment_profile_details_linear_container" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/fragment_profile_details_view_linear" android:padding="@dimen/padding_20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_below="@id/fragment_profile_details_view_devider_end">
+        <Button android:textColor="@android:color/white" android:id="@id/fragment_profile_details_button_save" android:background="@drawable/bg_button_submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="40.0" />
+        <ImageView android:padding="@dimen/padding_20" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:textColor="@android:color/white" android:id="@id/fragment_profile_details_button_cancel" android:background="@drawable/bg_button_submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="40.0" />
+    </LinearLayout>
+</RelativeLayout>

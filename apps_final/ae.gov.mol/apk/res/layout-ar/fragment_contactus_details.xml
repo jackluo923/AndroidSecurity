@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ae.gov.mol.helper.MapWrapperLayout android:id="@id/map_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_contactus_details_header" layout="@layout/header" />
+    <fragment android:id="@id/fragment_contactus_details_map" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/fragment_contactus_details_header" class="com.google.android.gms.maps.SupportMapFragment" />
+</ae.gov.mol.helper.MapWrapperLayout>

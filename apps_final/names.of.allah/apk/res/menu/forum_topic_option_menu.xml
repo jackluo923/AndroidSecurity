@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/holo_dark_content_edit" android:id="@id/menu_new_thread" android:orderInCategory="1" android:title="@string/new_thread" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/holo_dark_navigation_refresh" android:id="@id/menu_refresh" android:orderInCategory="2" android:title="@string/refresh" android:showAsAction="never" />
+</menu>

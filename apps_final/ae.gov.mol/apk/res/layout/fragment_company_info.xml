@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/company_info_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/company_info_relative_main" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/company_info_textview_company_title" android:text="@string/company" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_company" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/company_info_textview_company_title">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:weightSum="100.0" style="@style/detail_text_bg_top_curved_bottom_line">
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_company_number_label" android:text="@string/company_number" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_company_number" android:text="456" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_status_label" android:text="@string/status" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_status" android:text="@string/alert_ok" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_type_details" android:padding="@dimen/padding_10" style="@style/detail_text_bg_bottom_curved">
+                    <TextView android:id="@id/company_info_textview_company_name_label" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_company_name" android:text="@string/company_name" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/company_info_textview_license_title" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10" android:text="@string/license" android:layout_below="@id/company_info_linear_company" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_license" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/company_info_textview_license_title">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:weightSum="100.0" style="@style/detail_text_bg_top_curved_bottom_line">
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_license_number_label" android:text="@string/license_number" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_license_number" android:text="12" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_number_details" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_category_label" android:text="@string/category" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_category" android:text="@string/category" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_expiry_date_label" android:text="@string/expiry_date" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_expiry_date" android:text="@string/expiry_date" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_type_details" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_type_label" android:text="@string/type" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_type" android:text="@string/type" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_issued_place_details" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_issued_place_label" android:text="@string/issued_place" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_issued_place" android:text="@string/issued_place" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/company_info_textview_contact_title" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10" android:text="@string/contact" android:layout_below="@id/company_info_linear_license" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/company_info_textview_contact_title">
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/detail_text_bg_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_phone_label" android:text="@string/phone" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_phone" android:text="12234234" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/company_info_textview_fax_label" android:text="@string/fax" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/company_info_textview_fax" android:text="@string/fax" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_po_box_details" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_po_box_label" android:text="@string/p_o_box" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_po_box" android:text="@string/p_o_box" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_emirates_details" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_emirates_label" android:text="@string/emirate" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_emirates" android:text="@string/emirate" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/company_info_linear_labour_office_details" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/company_info_textview_labour_office_label" android:text="@string/labour_office" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/company_info_textview_labour_office" android:text="@string/labour_office" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

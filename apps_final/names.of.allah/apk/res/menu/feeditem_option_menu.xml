@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/holo_light_action_search" android:id="@id/menu_search" android:title="@string/search" android:showAsAction="collapseActionView|ifRoom" android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+    <item android:id="@id/menu_show_read" android:title="@string/show_read" />
+    <item android:id="@id/menu_hide_read" android:title="@string/hide_read" />
+    <item android:id="@id/menu_mark_all_read" android:title="@string/mark_all_read" android:showAsAction="never" />
+    <item android:id="@id/menu_delete_all" android:title="@string/delete_all" />
+    <item android:id="@id/menu_deleteallread" android:title="@string/delete_all_read" />
+    <item android:id="@id/menu_sortby" android:title="@string/sort_by" />
+    <item android:id="@id/menu_layout" android:title="@string/switch_layout" />
+    <item android:id="@id/menu_sync_now" android:title="@string/sync_now" />
+</menu>

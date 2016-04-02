@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center" android:background="@color/login_background" android:paddingLeft="@dimen/left_standard" android:paddingTop="@dimen/top_standard" android:paddingRight="@dimen/right_standard" android:paddingBottom="@dimen/bottom_standard" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_login" style="@style/text_black_14_smallPadding" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/login_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_login_username" style="@style/text_black_14_smallPadding" />
+        <EditText android:textColor="@color/login_text_color" android:id="@id/fragment_login_edittext_username" android:background="@drawable/text_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/login_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_login_password" style="@style/text_black_14_smallPadding" />
+        <EditText android:textColor="@color/login_text_color" android:id="@id/fragment_login_edittext_password" android:background="@drawable/text_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/fragment_login_checkbox_show_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_password" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/top_standard" android:paddingBottom="@dimen/bottom_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="2">
+            <Button android:textColor="@android:color/white" android:id="@id/fragment_login_btn_login" android:background="@drawable/login_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_5" android:layout_marginTop="@dimen/top_standard" android:layout_marginBottom="@dimen/bottom_standard" android:minHeight="35.0dip" android:text="@string/home_login" android:layout_weight="1.0" />
+            <Button android:textColor="@android:color/white" android:id="@id/fragment_login_btn_cancel" android:background="@drawable/login_button_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_5" android:layout_marginTop="@dimen/top_standard" android:layout_marginBottom="@dimen/bottom_standard" android:minHeight="35.0dip" android:text="@string/home_login_cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/login_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="2" android:text="@string/fragment_login_message" style="@style/text_black_14_smallPadding" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textColor="@android:color/white" android:id="@id/fragment_login_btn_call_us_on" android:background="@drawable/login_button_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_5" android:layout_marginTop="@dimen/top_standard" android:layout_marginBottom="@dimen/bottom_standard" android:minHeight="35.0dip" android:text="@string/fragment_login_message_call_us_on_number" />
+    </TableRow>
+</TableLayout>

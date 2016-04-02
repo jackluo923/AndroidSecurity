@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_bank_guaruntee_info_details_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_bank_guaruntee_info_details_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_bank_guaruntee_info_details_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_bank_guaruntee_info_details_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/company_information" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_company_number" android:text="@string/company_number" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_company_number" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_value_company_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_no_of_employees" android:text="@string/total_employee" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_no_of_employees" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_category" android:text="@string/companycategory" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_category" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:gravity="right" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/certificate" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_bank_name" android:text="@string/bank_name" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_bank_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_certificate_number" android:text="@string/certificate_number" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_certificate_number" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_date" android:text="@string/date" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_date" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_refund_amount" android:text="@string/refund_amount" style="@style/detail_page_semiheader" />
+                                <TextView android:id="@id/fragment_bank_guaruntee_info_details_textview_value_refund_amount" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

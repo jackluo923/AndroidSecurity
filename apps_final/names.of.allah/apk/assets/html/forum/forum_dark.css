@@ -1,0 +1,19 @@
+body {font-family: AppYet-Regular-Sans; line-height: 26px; margin: 0px; padding: 0px;overflow: hidden;color: #EEEEEE;background-color:#222222;word-wrap:break-word;} 
+h1 {font-size: 16px; line-height: 19px;} 
+h2 {font-size: 16px; line-height: 20px;}
+h3 {font-size: 16px; line-height: 20px;} 
+a {color:#4272DB;text-decoration:none}
+br {line-height:0px}
+img {display:block; width: auto !important; height: auto !important; max-width: 100%; padding:0px !important; margin-left:0px !important; margin-right:0px !important; margin-top:0px !important; margin-bottom:0px !important}
+object, iframe {display:block;width:500px;height:320px; max-width: 100%; padding:0px !important; margin:0px !important}
+hr{width: 100%;height: 1px;background-color: #4A4A4A;color: #cccccc;border: 0;}
+.posts { word-wrap: break-word;overflow: hidden; line-height: 26px;margin-bottom:150px;margin-top: 15px;}
+.post { margin-left: 15px; margin-right: 15px;}
+.posthead { float: left; width: 100%; }
+.postbody { float: left; width: 100%; text-align: justify;margin-top: 6px;} 
+.postfooter { float: left; width: 100%; margin-bottom: 8px; }
+.postavatar { float: left; width: 36px !important; height: 36px !important; }
+.postauthor { float:left; margin-left:8px; font-size: 10pt; color:#14B3DB; margin-top:6px} 
+.postdate { font-size: 10pt;color:#999999;float:left; margin-top:6px}
+.postindex{ font-size: 10pt;color:#999999;float:left; margin-top:6px}
+.quote {background-color: #3B3B3B;border:1px solid #1F1F1F;padding-top: 2px;padding-bottom: 2px;padding-left:8px;padding-right:8px;}

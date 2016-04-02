@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gridRow">
+        <item name="android:background">#99aaaaaa</item>
+        <item name="android:layout_width">160.0dip</item>
+        <item name="android:layout_height">160.0dip</item>
+    </style>
+    <style name="gridView" parent="@android:style/Widget.GridView">
+        <item name="android:gravity">center</item>
+        <item name="android:horizontalSpacing">5.0dip</item>
+        <item name="android:verticalSpacing">5.0dip</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:columnWidth">160.0dip</item>
+        <item name="android:numColumns">auto_fit</item>
+    </style>
+</resources>

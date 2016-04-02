@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="plugins/plugin-loader.js"></script>
+    <link rel="stylesheet" href="plugins/plugin-loader.css">
+    
+    <!--  JQueryライブラリの読み込み -->
+    <script src="./jquery/jquery.mobile-1.2.1.js"></script>
+    <link rel="stylesheet" href="./jquery/jquery.mobile-1.2.1.css">
+    <link rel="stylesheet" href="./jquery/jquery.mobile.structure-1.2.1.css">
+    <link rel="stylesheet" href="./jquery/jquery.mobile.theme-1.2.1.css">
+    
+    <link rel="stylesheet" href="./slide.css">
+    
+    <script>
+        monaca.viewport({width: 320});
+    </script>
+    <style>
+    div#about
+    {
+        background:url("./images/background_image.png") center center;
+        background-size:cover;
+    }
+    </style>
+</head>
+<body>
+<div data-role="page" id="about">
+<div data-role="header" data-position="fixed"> 
+<h1 style="margin-left: 10%; margin-right: 10%;">このアプリについて</h1> 
+</div>
+<div class="about-panel">
+猫の写真集です。<br />
+</div>
+</div>
+
+</body>
+</html>

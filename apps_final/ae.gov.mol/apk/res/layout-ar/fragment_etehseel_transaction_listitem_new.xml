@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/fragment_etehseel_transaction_listitem_new_linear" android:padding="@dimen/padding_15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <ImageView android:id="@id/fragment_etehseel_transaction_listitem_new_imageview_status" android:layout_width="0.0dip" android:src="@drawable/ic_true" android:layout_weight="15.0" style="@style/imageView_style_normal" />
+        <TextView android:textSize="@dimen/TextExtraLarge" android:ellipsize="end" android:gravity="right" android:id="@id/fragment_etehseel_transaction_listitem_new_textview_transaction_type" android:layout_width="0.0dip" android:singleLine="true" android:layout_weight="45.0" style="@style/detail_page_header" />
+        <TextView android:textSize="@dimen/TextExtraLarge" android:ellipsize="end" android:gravity="right" android:id="@id/fragment_etehseel_transaction_listitem_new_textview_transaction_no" android:layout_width="0.0dip" android:singleLine="true" android:layout_weight="40.0" style="@style/detail_page_header" />
+    </LinearLayout>
+</RelativeLayout>

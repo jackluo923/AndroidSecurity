@@ -54,7 +54,8 @@ public class IntentSpoofingDetector {
                 java.lang.System.getProperty("user.dir"));
         // String appDir = "AndroidApplications/Vulnerabilities/UnauthorizedIntentReceipt/apk/"; // default analysis application
         // String appDir = "Vulnerabilities/IntentSpoofing-APK/"; // default analysis application
-        String appDir = "AndroidApplications/org.wopnersoft.unitconverter-69/apk/"; // default analysis application
+        // String appDir = "AndroidApplications/org.wopnersoft.unitconverter-69/apk/"; // default analysis application
+        String appDir = "apps_final/names.of.allah/"; // default analysis application
         if (args.length == 0) {
             // do nothing, use default settings
         } else if (args.length == 1) {
@@ -67,7 +68,7 @@ public class IntentSpoofingDetector {
         java.lang.System.out.println("Starting vulnerability detection for " + appDir);
 
         IntentSpoofingDetector analysis = new IntentSpoofingDetector(appDir);
-        analysis.analyze();
+        analysis.analyzeIntentSpoofing();
 //        analysis.analyzeUnauthorized(vulnerabilities);
     }
 
@@ -77,14 +78,14 @@ public class IntentSpoofingDetector {
     }
 
     public void analyzeUnauthorized(Vulnerabilities vulnerabilities) throws Exception {
-        String appPath = _appDir + "/apk/classes.jar";
+        String appPath = _appDir + "apk/classes.jar";
         AnalysisScope appScope = AnalysisScopeReader.makeJavaBinaryAnalysisScope(appPath, null);
         Module androidMod = new JarFileModule(new JarFile(_androidLib));
         appScope.addToScope(ClassLoaderReference.Extension, androidMod);
         vulnerableIntentCheck(appScope, vulnerabilities);
     }
 
-    public void analyze() throws Exception {
+    public void analyzeIntentSpoofing() throws Exception {
         String appPath = null;
         String manifestPath = null;
 
@@ -93,8 +94,8 @@ public class IntentSpoofingDetector {
         File extractedApkDir = new File(extractedApkPath);
 
         if (extractedApkDir.isDirectory()) {
-            appPath = extractedApkPath + "/classes.jar";
-            manifestPath = extractedApkPath + "/AndroidManifest.xml";
+            appPath = extractedApkPath + "apk/classes.jar";
+            manifestPath = extractedApkPath + "apk/AndroidManifest.xml";
         } else {
             java.lang.System.out.println("\nMissing AndroidManifest.xml and/or classes.jar files in target APK directory. Exiting");
             return;
@@ -391,7 +392,6 @@ public class IntentSpoofingDetector {
     }
 
     private HashMap<IMethod, MethodState> dict;
-
 
     public class MethodState {
         IMethod method;

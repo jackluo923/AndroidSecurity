@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inspection_request_information_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_inspection_request_information_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_inspection_request_information_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_inspection_request_information_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inspection_request_information_header_transaction_info" android:padding="@dimen/padding_10" android:text="@string/person_information" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inspection_request_information_header_transaction_info">
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_person_code" android:text="@string/person_code" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_person_code" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_person_name" android:text="@string/person_name" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_person_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_nationality" android:text="@string/nationality" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_nationality" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_passport_number" android:text="@string/passport_number" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_passport_number" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:padding="@dimen/padding_10" android:text="@string/company_inspection_information" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_company_code" android:text="@string/company_code" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_company_code" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                            <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:id="@id/fragment_inspection_request_information_textview_company_name" android:text="@string/company_name" style="@style/detail_page_header" />
+                                <TextView android:id="@id/fragment_inspection_request_information_value_company_name" style="@style/detail_page_normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
