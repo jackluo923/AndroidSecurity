@@ -3,6 +3,8 @@ Found vul in function: < Application, Lcom/google/ads/AdActivity, onCreate(Landr
 
 Dog Wars:
 Found vul in function: < Application, Lkagegames/apps/DWBeta/_DWActivity, CheckForInterrupts()V > with data: true
+// false positive
+// explicit  intent instead of implicit
 
 FakeNetflix:
 No vulnerabilities

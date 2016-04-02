@@ -1,6 +1,11 @@
 Endofday
 Found vulnerability in com.YahwehOrNoWay.PostingServiceReceiver with Intent usage: true with extra data: true
+// false positive
+// intent action check: android.system
+
 Found vulnerability in com.YahwehOrNoWay.SMSsmack with Intent usage: true with extra data: true
+// true positive
+// without any intent action check, directly getExtras
 
 DogWars
 Found vulnerability in com.dogbite.Doghouse with Intent usage: true with extra data: true
@@ -10,6 +15,7 @@ No vulnerabilities
 
 com.yanex.emoticons-21
 Found vulnerability in com.yanex.emoticons.OnBootReceiver with Intent usage: true with extra data: true
+// false positive, system intent
 
 com.pocketools.currency-28
 Found vulnerability in com.pocketools.currency.billing.BillingReceiver with Intent usage: true with extra data: true
