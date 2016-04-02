@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:padding="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fragment_rulesandprocidurerow_image" android:paddingLeft="@dimen/padding_Small" android:paddingTop="@dimen/padding_Small" android:paddingBottom="@dimen/padding_Small" android:clickable="true" android:src="@drawable/ic_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" style="@style/imageView_style_normal" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_rulesandprocidurerow_image" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+        <TextView android:textColor="@color/welcome_screen_text" android:id="@id/fragment_rulesandprocidurerow_text" android:paddingRight="@dimen/padding_15" android:layout_marginLeft="@dimen/padding_5" style="@style/label_main_content_white_name" />
+    </RelativeLayout>
+</RelativeLayout>

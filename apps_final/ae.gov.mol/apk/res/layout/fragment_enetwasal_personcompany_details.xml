@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_enetwasal_personcode_status_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_enetwasal_personcode_status_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/padding_5" android:layout_below="@id/fragment_enetwasal_personcode_status_header">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_company_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_company_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_status" android:text="@string/status" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_status" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_authorised_signature" android:text="@string/authorised_signature" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_authorised_signature" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_sponsor" android:text="@string/sponsor" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_sponsor" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_owner" android:text="@string/owner" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_owner" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_enetwasal_personcode_status_textview_licences_expiry_date" android:text="@string/license_expiry_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_personcode_textview_value_licences_expiry_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

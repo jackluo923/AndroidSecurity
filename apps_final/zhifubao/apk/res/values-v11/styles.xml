@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeNew" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MspAppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+    <style name="tablauncher_theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="MspAppTranslucentBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+</resources>

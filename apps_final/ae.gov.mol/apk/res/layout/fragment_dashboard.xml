@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ProgressWheel="http://schemas.android.com/apk/res/ae.gov.mol" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/fragment_dashboard_relative_main" android:background="@android:color/white" android:paddingLeft="@dimen/padding_5" android:paddingTop="@dimen/padding_10" android:paddingRight="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/fragment_dashboard_relative_company" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_dashboard_linear_status">
+            <TextView android:textSize="@dimen/text_20" android:textColor="@color/title_dashboard" android:id="@id/fragment_dashboard_textview_company_name" android:maxLines="2" android:lines="2" style="@style/text_white_18" />
+            <TextView android:textSize="@dimen/TextExtraLarge" android:textColor="@color/sub_title_dashboard" android:id="@id/fragment_dashboard_textview_company_title" android:layout_marginTop="@dimen/padding_15" android:text="@string/company_code" android:layout_below="@id/fragment_dashboard_textview_company_name" style="@style/text_black_normal_15" />
+            <TextView android:textSize="@dimen/TextExtraLarge" android:textColor="@color/sub_title_dashboard" android:id="@id/fragment_dashboard_textview_company_colon" android:layout_marginTop="@dimen/padding_15" android:text=" : " android:layout_toRightOf="@id/fragment_dashboard_textview_company_title" android:layout_below="@id/fragment_dashboard_textview_company_name" style="@style/text_black_normal_15" />
+            <TextView android:textSize="@dimen/TextExtraLarge" android:textColor="@color/sub_title_dashboard" android:id="@id/fragment_dashboard_textview_company_code" android:layout_marginTop="@dimen/padding_15" android:layout_toRightOf="@id/fragment_dashboard_textview_company_colon" android:layout_below="@id/fragment_dashboard_textview_company_name" style="@style/text_black_normal_15" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_status" android:background="@drawable/bg_top_right" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/text_14" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_status_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_dashboard" />
+            <TextView android:textSize="@dimen/text_14" android:layout_gravity="center" android:id="@id/fragment_dashboard_textview_status" android:visibility="gone" style="@style/text_white_18" />
+            <ImageView android:layout_gravity="center" android:id="@id/fragment_dashboard_imageview_status" android:src="@drawable/ic_true" style="@style/imageView_style_normal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/fragment_dashboard_linear_middle" android:background="@drawable/bg_dashboard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_15" android:weightSum="100.0" android:layout_below="@id/fragment_dashboard_relative_company">
+            <LinearLayout android:gravity="center" android:id="@id/fragment_dashboard_linear_employees_details" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="25.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_dashboard_linear_employees" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_employees" android:src="@drawable/ic_employees" style="@style/imageView_style_normal" />
+                    <TextView android:textSize="@dimen/text_11" android:textColor="@color/light_grey_dashboard" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_employees_label" android:layout_marginTop="@dimen/padding_10" android:text="@string/total_employee" android:maxLines="2" android:lines="2" android:minLines="2" style="@style/text_gray_14" />
+                    <TextView android:textSize="@dimen/text_14" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_employees" android:layout_marginTop="@dimen/padding_15" android:maxLines="2" android:minLines="2" style="@style/text_black_18" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+            <LinearLayout android:gravity="center" android:id="@id/fragment_dashboard_linear_absconding_cases_details" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="25.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_dashboard_linear_absconding_cases" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_absconding_cases" android:src="@drawable/ic_absconding_cases" style="@style/imageView_style_normal" />
+                    <TextView android:textSize="@dimen/text_11" android:textColor="@color/light_grey_dashboard" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_absconding_cases_label" android:layout_marginTop="@dimen/padding_10" android:text="@string/absconding_cases" android:maxLines="2" android:lines="2" android:minLines="2" style="@style/text_gray_14" />
+                    <TextView android:textSize="@dimen/text_14" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_absconding_cases" android:layout_marginTop="@dimen/padding_15" android:maxLines="2" android:minLines="2" style="@style/text_black_18" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+            <LinearLayout android:gravity="center" android:id="@id/fragment_dashboard_linear_complaints_details" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="25.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_dashboard_linear_complaints" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_complaints" android:src="@drawable/ic_complaints" style="@style/imageView_style_normal" />
+                    <TextView android:textSize="@dimen/text_11" android:textColor="@color/light_grey_dashboard" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_complaints_label" android:layout_marginTop="@dimen/padding_10" android:text="@string/complaint" android:maxLines="2" android:lines="2" android:minLines="2" style="@style/text_gray_14" />
+                    <TextView android:textSize="@dimen/text_14" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_complaints" android:layout_marginTop="@dimen/padding_15" android:maxLines="2" android:minLines="2" style="@style/text_black_18" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+            <LinearLayout android:gravity="center" android:id="@id/fragment_dashboard_linear_emirates_details" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="24.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_dashboard_linear_emirates" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_emirates" android:src="@drawable/ic_emirates" style="@style/imageView_style_normal" />
+                    <TextView android:textSize="@dimen/text_11" android:textColor="@color/light_grey_dashboard" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_emirates_label" android:layout_marginTop="@dimen/padding_10" android:text="@string/emirates" android:maxLines="2" android:lines="2" android:minLines="2" style="@style/text_gray_14" />
+                    <TextView android:textSize="@dimen/text_14" android:ellipsize="end" android:gravity="center" android:id="@id/fragment_dashboard_textview_emirates" android:layout_marginTop="@dimen/padding_15" android:maxLines="2" android:minLines="2" style="@style/text_black_18" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/fragment_dashboard_linear_quota" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_15" android:weightSum="100.0" android:layout_below="@id/fragment_dashboard_linear_middle">
+            <TextView android:textColor="@color/light_grey_dashboard" android:id="@id/noquota" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/no_quota_status" android:layout_weight="48.0" style="@style/text_black_normal_15" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_quota_status" android:padding="@dimen/padding_Smaller" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="48.0">
+                <TextView android:textSize="@dimen/TextExtraLarge" android:textColor="@color/light_grey_dashboard" android:id="@id/fragment_dashboard_textview_quota_status" android:text="@string/quota_status" style="@style/text_black_normal_15" />
+                <ae.gov.mol.helper.ProgressWheel android:layout_gravity="center" android:id="@id/fragment_dashboard_progresswheel" android:layout_width="150.0dip" android:layout_height="150.0dip" ProgressWheel:text="100" ProgressWheel:textColor="#ff222222" ProgressWheel:textSize="14.0sp" ProgressWheel:barColor="@color/progress_red_color" ProgressWheel:rimColor="@color/progress_green_color" ProgressWheel:rimWidth="30.0dip" ProgressWheel:spinSpeed="30.0dip" ProgressWheel:delayMillis="75" ProgressWheel:barWidth="30.0dip" ProgressWheel:barLength="30.0dip" />
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_used" android:padding="@dimen/padding_5" android:src="@drawable/ic_quota_status_used" style="@style/imageView_style_normal" />
+                    <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_used" android:text="@string/used" style="@style/text_white_14" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_remaining_quota" android:padding="@dimen/padding_5" android:src="@drawable/ic_quota_status_remaining" style="@style/imageView_style_normal" />
+                    <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_remaining_quota" android:text="@string/remaining_quota" style="@style/text_white_14" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/fragment_dashboard_imageview_total_quota" android:padding="@dimen/padding_5" android:src="@drawable/ic_quota_status_total" style="@style/imageView_style_normal" />
+                    <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_total_quota" android:text="@string/total" style="@style/text_white_14" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/padding_5" android:layout_marginRight="@dimen/padding_10" android:layout_weight="0.3" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_dashboard_linear_labour_card" android:padding="@dimen/padding_Smaller" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="49.0">
+                <TextView android:textSize="@dimen/TextExtraLarge" android:textColor="@color/light_grey_dashboard" android:id="@id/fragment_dashboard_textview_labour_card" android:text="@string/labour_card" style="@style/text_black_normal_15" />
+                <RelativeLayout android:id="@id/fragment_dashboard_relative_more_than_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_15">
+                    <RelativeLayout android:id="@id/fragment_dashboard_rel_more_than_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_dashboard_imageview_more_than_sixty_year" android:layout_alignParentLeft="true">
+                        <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_more_than_sixty_year_label" android:text="@string/expire_more_than_60" style="@style/text_white_14" />
+                        <TextView android:textSize="@dimen/text_20" android:textColor="@color/dashboard_dark_blue" android:id="@id/fragment_dashboard_textview_more_than_sixty_year" android:layout_marginTop="@dimen/padding_5" android:layout_below="@id/fragment_dashboard_textview_more_than_sixty_year_label" style="@style/text_white_14" />
+                        <ImageView android:background="@drawable/ic_arrow_dashboard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fragment_dashboard_textview_more_than_sixty_year_label" android:layout_alignRight="@id/fragment_dashboard_textview_more_than_sixty_year" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/fragment_dashboard_imageview_more_than_sixty_year" android:visibility="invisible" android:src="@drawable/ic_arrow_dashboard" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/imageView_style_normal" />
+                </RelativeLayout>
+                <View android:background="@drawable/bg_company_list_seperator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10" />
+                <RelativeLayout android:id="@id/fragment_dashboard_relative_less_than_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/fragment_dashboard_rel_less_than_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_dashboard_imageview_less_than_sixty_year" android:layout_alignParentLeft="true">
+                        <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_less_than_sixty_year_label" android:text="@string/expire_less_than_60" style="@style/text_white_14" />
+                        <TextView android:textSize="@dimen/text_20" android:textColor="@color/dashboard_med_blue" android:id="@id/fragment_dashboard_textview_less_than_sixty_year" android:layout_marginTop="@dimen/padding_5" android:layout_below="@id/fragment_dashboard_textview_less_than_sixty_year_label" style="@style/text_white_14" />
+                        <ImageView android:background="@drawable/ic_arrow_dashboard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fragment_dashboard_textview_less_than_sixty_year_label" android:layout_alignRight="@id/fragment_dashboard_textview_less_than_sixty_year" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/fragment_dashboard_imageview_less_than_sixty_year" android:visibility="invisible" android:src="@drawable/ic_arrow_dashboard" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/imageView_style_normal" />
+                </RelativeLayout>
+                <View android:background="@drawable/bg_company_list_seperator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/padding_10" android:layout_marginBottom="@dimen/padding_10" />
+                <RelativeLayout android:id="@id/fragment_dashboard_relative_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/fragment_dashboard_rel_sixty_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_dashboard_imageview_sixty_year" android:layout_alignParentLeft="true">
+                        <TextView android:textColor="@android:color/black" android:id="@id/fragment_dashboard_textview_sixty_year_label" android:text="@string/expiring_in_60" style="@style/text_white_14" />
+                        <TextView android:textSize="@dimen/text_20" android:textColor="@color/dashboard_light_blue" android:id="@id/fragment_dashboard_textview_sixty_year" android:layout_marginTop="@dimen/padding_5" android:layout_below="@id/fragment_dashboard_textview_sixty_year_label" style="@style/text_white_14" />
+                        <ImageView android:background="@drawable/ic_arrow_dashboard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fragment_dashboard_textview_sixty_year_label" android:layout_alignRight="@id/fragment_dashboard_textview_sixty_year" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/fragment_dashboard_imageview_sixty_year" android:visibility="invisible" android:src="@drawable/ic_arrow_dashboard" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/imageView_style_normal" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

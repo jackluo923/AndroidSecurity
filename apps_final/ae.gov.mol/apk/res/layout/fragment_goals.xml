@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/fragment_mol_goals_relative_main" android:background="@drawable/bg_main_image" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/fragment_goal_imageview_left_vision" android:background="@drawable/line_about_seprater" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_toLeftOf="@id/fragment_goals_textview_title" android:layout_centerVertical="true" />
+        <TextView android:textStyle="bold" android:id="@id/fragment_goals_textview_title" android:paddingLeft="@dimen/screen_padding_leftRight" android:paddingRight="@dimen/screen_padding_leftRight" android:text="@string/goals" android:layout_centerHorizontal="true" style="@style/text_black_15" />
+        <View android:id="@id/fragment_goal_imageview_right_vision" android:background="@drawable/line_about_seprater" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_toRightOf="@id/fragment_goals_textview_title" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:id="@id/fragment_goals_textview_title_content" style="@style/text_black_15" />
+</LinearLayout>

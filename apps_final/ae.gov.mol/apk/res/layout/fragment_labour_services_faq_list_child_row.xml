@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/fragment_labourservices_list_row_relative" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_textbox_labour_service" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_10">
+        <TextView android:id="@id/fragment_labourservices_faq_description_textview" android:text="Answer" style="@style/label_faq_list_value" />
+    </LinearLayout>
+</RelativeLayout>

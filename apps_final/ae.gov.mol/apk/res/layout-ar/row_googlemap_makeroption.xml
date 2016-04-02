@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_contactus_scrollview_container" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="right" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/title_heading" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/row_googlemap_makeroption_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ministry of Labour-Abu Dhabi Office" android:layout_alignParentRight="true" style="@style/text_gray_14_smallPadding" />
+            <ImageView android:id="@id/row_googlemap_makeroption_imageview_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_5" android:src="@drawable/ic_close" android:layout_alignParentLeft="true" android:contentDescription="@string/cancel" />
+        </RelativeLayout>
+        <TextView android:layout_gravity="right" android:id="@id/row_googlemap_makeroption_item_textview_address" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/contact_us_detail_page_normal" />
+        <TextView android:layout_gravity="right" android:id="@id/row_googlemap_makeroption_item_textview_dept" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/contact_us_detail_page_normal" />
+        <TextView android:layout_gravity="right" android:id="@id/row_googlemap_makeroption_item_textview_working_time" android:singleLine="false" style="@style/contact_us_detail_page_normal" />
+        <TextView android:textSize="@dimen/text_14" android:textStyle="bold" android:textColor="@color/blue_direction" android:layout_gravity="right" android:id="@id/row_googlemap_makeroption_item_textview_direction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="اتجاهات" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

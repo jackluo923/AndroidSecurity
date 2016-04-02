@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:id="@id/fragment_nawakas_row__list_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_5">
+        <TextView android:gravity="right" android:id="@id/fragment_nawakaslist_row_value_textview_transaction_number" android:scrollbars="none" android:layout_weight="0.6" style="@style/label_nawakas_list_value" />
+        <TextView android:textColor="@android:color/darker_gray" android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:id="@id/fragment_nawakaslist_row_title_textview_transaction_number" android:scrollbars="none" android:text="@string/transaction_number" android:layout_weight="0.35" style="@style/label_nawakas_list_title" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_5">
+        <TextView android:gravity="right" android:id="@id/fragment_nawakaslist_row_value_textview_nawakes_type" android:scrollbars="none" android:layout_weight="0.6" style="@style/label_nawakas_list_value" />
+        <TextView android:textColor="@android:color/darker_gray" android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:id="@id/fragment_nawakaslist_row_title_textview_nawakes_type" android:scrollbars="none" android:text="@string/nawakas_type" android:layout_weight="0.35" style="@style/label_nawakas_list_title" />
+    </TableRow>
+</TableLayout>

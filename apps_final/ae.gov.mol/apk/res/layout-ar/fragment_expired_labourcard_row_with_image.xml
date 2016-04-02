@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_expired_labourcard_row_with_image_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="right" android:id="@id/fragment_expired_labourcard_row_with_image_middle_relative" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/fragment_expired_labourcard_row_with_image_relative_image" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/fragment_expired_labourcard_row_with_image_relative_image_photo" android:background="@drawable/bg_dashboard_main" android:padding="@dimen/padding_Normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_username" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/fragment_expired_labourcard_row_with_image_content" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_expired_labourcard_row_with_image_relative_image">
+            <TextView android:gravity="right" android:id="@id/fragment_expired_labourcard_row_with_image_tv_value_person_name" android:padding="@dimen/padding_5" android:maxLines="2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/detail_page_header" />
+            <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fragment_expired_labourcard_row_with_image_tv_value_person_name" android:layout_alignParentRight="true">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle_curve" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@id/fragment_expired_labourcard_row_with_image_textview_value_cardnumber" style="@style/detail_page_normal" />
+                        <TextView android:text="@string/colon" style="@style/detail_page_semiheader" />
+                        <TextView android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:id="@id/fragment_expired_labourcard_row_with_image_textview_value_expirydate" style="@style/detail_page_normal" />
+                        <TextView android:text="@string/colon" style="@style/detail_page_semiheader" />
+                        <TextView android:text="@string/expiry_date" style="@style/detail_page_semiheader" />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

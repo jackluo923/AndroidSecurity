@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inquiry_work_labor_card_information_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_inquiry_work_labor_card_information_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/padding_5" android:layout_below="@id/fragment_inquiry_work_labor_card_information_header">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_company_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_est_name_arabic" android:text="@string/est_name_arabic" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_est_name_arabic" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_est_name" android:text="@string/est_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_est_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_category" android:text="@string/category" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_category" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_type" android:text="@string/card_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_type" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_active" android:text="@string/card_active" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_active" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_expiry" android:text="@string/card_expiry" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_expiry" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_paycard_number" android:text="@string/payment_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_paycard_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_payment_number" android:text="@string/paycard_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_payment_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_person_code" android:text="@string/person_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_person_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_transaction_number" android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_transaction_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_designation" android:text="@string/designation" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_designation" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_number_2" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_number_2" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_type_2" android:text="@string/card_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_type_2" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_card_status" android:text="@string/card_status" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_card_status" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_transaction_number_2" android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_inquiry_work_labor_card_information_textview_value_transaction_number_2" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

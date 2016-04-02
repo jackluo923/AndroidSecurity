@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="volumekeyaction_entries">
+        <item>@string/previous_next_article</item>
+        <item>@string/scroll_up_down</item>
+        <item>@string/none</item>
+    </string-array>
+    <string-array name="volumekeyaction_values">
+        <item>PREVIOUS_NEXT</item>
+        <item>UP_DOWN</item>
+        <item>NONE</item>
+    </string-array>
+    <string-array name="sortarticleby_entries">
+        <item>@string/unread_first</item>
+        <item>@string/read_first</item>
+        <item>@string/publish_date_ascending</item>
+        <item>@string/publish_date_descending</item>
+        <item>@string/download_date_ascending</item>
+        <item>@string/download_date_descending</item>
+        <item>@string/title</item>
+    </string-array>
+    <string-array name="sortarticleby_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="font_size_entries">
+        <item>@string/extra_small</item>
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+        <item>@string/extra_large</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="sort_file_entries">
+        <item>@string/name</item>
+        <item>@string/date</item>
+        <item>@string/size</item>
+    </string-array>
+    <string-array name="sort_file_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="autocleanup_entries">
+        <item>@string/never</item>
+        <item>@string/one_day</item>
+        <item>@string/two_days</item>
+        <item>@string/three_days</item>
+        <item>@string/four_days</item>
+        <item>@string/five_days</item>
+        <item>@string/one_week</item>
+        <item>@string/two_week</item>
+        <item>@string/four_week</item>
+    </string-array>
+    <string-array name="autocleanup_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>14</item>
+        <item>28</item>
+    </string-array>
+    <string-array name="articledownloadprovider_entries">
+        <item>@string/instapaper_mobilizer</item>
+        <item>@string/google_mobilizer</item>
+    </string-array>
+    <string-array name="articledownloadprovider_values">
+        <item>INSTAPAPER_MOBILIZER</item>
+        <item>GOOGLE_MOBILIZER</item>
+    </string-array>
+    <string-array name="updateinterval_entries">
+        <item>@string/updateinterval_1_min</item>
+        <item>@string/updateinterval_2_mins</item>
+        <item>@string/updateinterval_3_mins</item>
+        <item>@string/updateinterval_5_mins</item>
+        <item>@string/updateinterval_15_mins</item>
+        <item>@string/updateinterval_30_mins</item>
+        <item>@string/updateinterval_1_hour</item>
+        <item>@string/updateinterval_2_hours</item>
+        <item>@string/updateinterval_4_hours</item>
+        <item>@string/updateinterval_8_hours</item>
+        <item>@string/updateinterval_12_hours</item>
+        <item>@string/updateinterval_24_hours</item>
+    </string-array>
+    <string-array name="updateinterval_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="translation_language_entries">
+        <item>Afrikaans</item>
+        <item>Shqip (Albanian)</item>
+        <item>العربية (Arabic)</item>
+        <item>Հայերէն (Armenian)</item>
+        <item>Azerbaijani</item>
+        <item>Euskara (Basque)</item>
+        <item>Беларуская мова (Belarusian)</item>
+        <item>Bengali</item>
+        <item>Български (Bulgarian)</item>
+        <item>Català (Catalan)</item>
+        <item>中文(简体) (Chinese Simplified)</item>
+        <item>中文(繁体) (Chinese Traditional)</item>
+        <item>Hrvatski (Croatian)</item>
+        <item>Čeština (Czech)</item>
+        <item>Dansk (Danish)</item>
+        <item>Nederlands (Dutch)</item>
+        <item>English</item>
+        <item>Eesti keel (Estonian)</item>
+        <item>Filipino</item>
+        <item>Suomi (Finnish)</item>
+        <item>Français (French)</item>
+        <item>Galician</item>
+        <item>Georgian</item>
+        <item>Deutsch (German)</item>
+        <item>ελληνικά (Greek)</item>
+        <item>Gujarati</item>
+        <item>Haitian Creole</item>
+        <item>עברית (Hebrew)</item>
+        <item>हिन्दी (Hindi)</item>
+        <item>Magyar (Hungarian)</item>
+        <item>Íslenska (Icelandic)</item>
+        <item>Bahasa Indonesia (Indonesian)</item>
+        <item>Irish</item>
+        <item>Italiano (Italian)</item>
+        <item>日本語 (Japanese)</item>
+        <item>Kannada</item>
+        <item>한국어 (Korean)</item>
+        <item>Latin</item>
+        <item>Latviešu valoda (Latvian)</item>
+        <item>Lietuvių kalba (Lithuanian)</item>
+        <item>Macedonian</item>
+        <item>Bahasa melayu (Malay)</item>
+        <item>Malti (Maltese)</item>
+        <item>Norsk (Norwegian)</item>
+        <item>Persian</item>
+        <item>Polski (Polish)</item>
+        <item>Português (Portuguese)</item>
+        <item>Limba română (Romanian)</item>
+        <item>Русский (Russian)</item>
+        <item>Cрпски (Serbian)</item>
+        <item>Slovenčina (Slovak)</item>
+        <item>Slovenščina (Slovenian)</item>
+        <item>Español (Spanish)</item>
+        <item>Kiswahili (Swahili)</item>
+        <item>Svenska (Swedish)</item>
+        <item>தமிழ் (Tamil)</item>
+        <item>Telugu</item>
+        <item>ภาษาไทย (Thai)</item>
+        <item>Türkçe (Turkish)</item>
+        <item>Український (Ukrainian)</item>
+        <item>Urdu</item>
+        <item>tiếng việt (Vietnamese)</item>
+        <item>Welsh</item>
+        <item>Yiddish</item>
+    </string-array>
+    <string-array name="translation_language_values">
+        <item>af</item>
+        <item>sq</item>
+        <item>ar</item>
+        <item>hy</item>
+        <item>az</item>
+        <item>eu</item>
+        <item>be</item>
+        <item>bn</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>et</item>
+        <item>tl</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gl</item>
+        <item>ka</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>ht</item>
+        <item>iw</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>id</item>
+        <item>ga</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>kn</item>
+        <item>ko</item>
+        <item>la</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>mk</item>
+        <item>ms</item>
+        <item>mt</item>
+        <item>no</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sw</item>
+        <item>sv</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>vi</item>
+        <item>cy</item>
+        <item>yi</item>
+    </string-array>
+</resources>

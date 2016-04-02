@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/feeditem_context_menu_toggle_star" android:title="@string/toggle_star" />
+    <item android:id="@id/feeditem_context_menu_toggle_read" android:title="@string/toggle_read" />
+    <item android:id="@id/feeditem_context_menu_mark_readuntilhere" android:title="@string/mark_read_until_here" />
+    <item android:id="@id/feeditem_context_menu_mark_readtobottom" android:title="@string/mark_read_to_bottom" />
+    <item android:id="@id/feeditem_context_menu_delete" android:title="@string/delete" />
+</menu>

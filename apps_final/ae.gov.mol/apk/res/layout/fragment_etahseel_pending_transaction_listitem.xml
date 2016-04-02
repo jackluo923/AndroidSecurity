@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:padding="@dimen/padding_Normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TableRow android:paddingTop="@dimen/padding_Smaller" android:paddingBottom="@dimen/padding_Smaller">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pending_transaction_company_no" style="@style/text_black_12" />
+            <TextView android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/colon" style="@style/text_black_12" />
+            <TextView android:id="@id/fragment_etahseel_pending_transaction_textview_company_no" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_black_12" />
+        </TableRow>
+        <TableRow android:paddingTop="@dimen/padding_Smaller" android:paddingBottom="@dimen/padding_Smaller">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pending_transaction_company_name" style="@style/text_black_12" />
+            <TextView android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/colon" style="@style/text_black_12" />
+            <TextView android:id="@id/fragment_etahseel_pending_transaction_textview_company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_black_12" />
+        </TableRow>
+        <TableRow android:paddingTop="@dimen/padding_Smaller" android:paddingBottom="@dimen/padding_Smaller">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pending_transaction_service_name" style="@style/text_black_12" />
+            <TextView android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/colon" style="@style/text_black_12" />
+            <TextView android:id="@id/fragment_etahseel_pending_transaction_textview_service_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_black_12" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

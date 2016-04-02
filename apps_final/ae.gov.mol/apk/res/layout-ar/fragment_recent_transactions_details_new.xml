@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_transactions_details_new_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_transactions_details_new_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_transactions_details_new_header">
+        <RelativeLayout android:id="@id/fragment_transactions_details_new_relative_container" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/fragment_transactions_details_new_textview_date_title" android:layout_width="fill_parent" android:text="@string/date" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/fragment_transactions_details_new_textview_date_title">
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_details" android:padding="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_date_label" android:text="@string/transaction_date" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_date" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:gravity="right" android:id="@id/fragment_transactions_details_new_textview_transactions" android:layout_width="fill_parent" android:layout_marginTop="@dimen/padding_10" android:text="@string/transaction" android:layout_below="@id/fragment_transactions_details_new_linear_transaction" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transactions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/fragment_transactions_details_new_textview_transactions">
+                <LinearLayout android:orientation="horizontal" android:id="@id/fragment_transactions_details_new_linear_transactions_details" android:weightSum="100.0" style="@style/detail_text_bg_top_curved_bottom_line">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_number_details" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_number_label" android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_number" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_name_details" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_name_label" android:text="@string/transaction_name" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_name" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_type_details" android:padding="@dimen/padding_10" style="@style/detail_text_bg_bottom_curved">
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_type_label" android:text="@string/transaction_type" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_type" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:gravity="right" android:id="@id/fragment_transactions_details_new_textview_status" android:layout_width="fill_parent" android:layout_marginTop="@dimen/padding_10" android:text="@string/status" android:layout_below="@id/fragment_transactions_details_new_linear_transactions" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_status" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/fragment_transactions_details_new_textview_status">
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_lineartransaction_status_details" android:padding="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_status_label" android:text="@string/transaction_status" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/fragment_transactions_details_new_textview_transaction_status" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

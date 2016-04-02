@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center" android:background="@drawable/dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_20" android:layout_gravity="center_vertical" android:layout_marginLeft="@dimen/padding_10" android:text="@string/new_user_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/detail_page_semiheader" />
+            <ImageView android:id="@id/fragment_register_newuser_imageview_close" android:layout_marginRight="@dimen/padding_10" android:src="@drawable/ic_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/imageView_style_normal" />
+        </RelativeLayout>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/seperator_details_page" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/padding_5" android:layout_marginBottom="@dimen/padding_5" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/login_text" android:padding="@dimen/padding_10" android:text="@string/new_user" style="@style/detail_page_normal" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+            <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/fragment_register_newuser_btn_cancel" android:background="@drawable/bg_button_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/home_login_cancel" android:layout_weight="50.0" />
+            <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/fragment_register_newuser_btn_call" android:background="@drawable/bg_button_submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15" android:text="@string/fragment_login_message_call_us_on_number_call" android:layout_weight="50.0" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

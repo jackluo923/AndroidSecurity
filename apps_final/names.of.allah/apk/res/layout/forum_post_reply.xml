@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollwrap" android:layout_width="fill_parent" android:layout_height="0.0px" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="18.0sp" android:gravity="top" android:id="@id/editcontent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:hint="@string/body" android:inputType="textLongMessage|textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone|flagNoEnterAction|flagNoExtractUi" />
+            <CheckBox android:id="@id/signature_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:checked="true" android:maxLines="2" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/attachsectiontitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/attachlay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/foot" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/progress" android:paddingBottom="60.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+</LinearLayout>

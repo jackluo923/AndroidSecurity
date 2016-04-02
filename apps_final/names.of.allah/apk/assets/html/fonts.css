@@ -1,0 +1,61 @@
+/**
+ * Copyright 2011 Google Inc.  All Rights Reserved.
+ *
+ * Author: shalabi@google.com (Sami Shalabi)
+ */
+
+@font-face {
+  font-family: 'AppYet-Regular-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto');
+}
+
+@font-face {
+  font-family: 'AppYet-Regular-Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto');
+}
+
+@font-face {
+  font-family: 'AppYet-Regular-Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto');
+}
+
+@font-face {
+  font-family: 'AppYet-Regular-Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto');
+}
+
+@font-face {
+  font-family: 'AppYet-Condensed-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('sans-serif-condensed');
+}
+
+@font-face {
+  font-family: 'AppYet-Condensed-Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('sans-serif-condensed');
+}
+
+@font-face {
+  font-family: 'AppYet-Light-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('sans-serif-light');
+}
+
+@font-face {
+  font-family: 'AppYet-Light-Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('sans-serif-light');
+}

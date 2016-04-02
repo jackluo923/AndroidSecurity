@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="plugins/plugin-loader.js"></script>
+    <link rel="stylesheet" href="plugins/plugin-loader.css">
+    
+    <!--  JQueryライブラリの読み込み -->
+    <script src="./jquery/jquery.mobile-1.2.1.js"></script>
+    <link rel="stylesheet" href="./jquery/jquery.mobile-1.2.1.css">
+    <link rel="stylesheet" href="./jquery/jquery.mobile.structure-1.2.1.css">
+    <link rel="stylesheet" href="./jquery/jquery.mobile.theme-1.2.1.css">
+    <script>
+        monaca.viewport({width: 320});
+    </script>
+    <script type="text/javascript">
+$(document).ready(function(){
+    $.get('http://tool.apps.jp.net/advertisement/get/app_id/22/media_id/0', function(data) {
+        $('div#recapps').html(data);
+    $(".rounded-img, .rounded-img2").load(function() {
+    	$(this).wrap(function(){
+			return '<span class="' + $(this).attr('class') + '" style="background:url(' + $(this).attr('src') + ') no-repeat;background-size:cover; width: 70px; height: 70px;" />';
+		});
+		$(this).css("opacity","0");
+        
+	});
+});
+    
+
+});
+
+
+</script>
+<style>
+.rounded-img {
+    display: inline-block;
+	overflow: hidden;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+.ui-header .ui-title {
+  margin-left: 12%;
+  margin-right: 12%
+}
+</style>
+</head>
+<body>
+<div data-role="page">
+<div id="recapps">
+
+</div>
+</div>
+</body>
+</html>

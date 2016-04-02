@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="273.0dip" android:minHeight="55.0dip" android:updatePeriodMillis="0" android:initialLayout="@layout/appwidget_initial_layout" android:configure="com.appyet.activity.WidgetConfigureActivity" android:resizeMode="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

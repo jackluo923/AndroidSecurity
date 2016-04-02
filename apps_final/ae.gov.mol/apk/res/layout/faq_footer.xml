@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/TextLarge" android:textColor="@android:color/white" android:id="@id/question_submit_btn" android:background="@drawable/bg_button_submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_10" android:minHeight="35.0dip" android:text="@string/ask_question" />
+</FrameLayout>

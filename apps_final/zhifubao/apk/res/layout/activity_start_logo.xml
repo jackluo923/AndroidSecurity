@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/alipaylogin_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/client_bg" android:background="@drawable/startclient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/first_deploy_logo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

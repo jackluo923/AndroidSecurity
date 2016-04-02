@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:gravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/textView5" android:padding="@dimen/padding_Smaller" android:maxLines="2" />
+    <TextView android:gravity="center" android:id="@id/textView4" android:padding="@dimen/padding_Smaller" />
+    <TextView android:gravity="center" android:id="@id/textView3" android:padding="@dimen/padding_Smaller" android:maxLines="2" />
+    <TextView android:gravity="center" android:id="@id/textView2" android:padding="@dimen/padding_Smaller" android:maxLines="2" />
+    <TextView android:gravity="center" android:id="@id/textView1" android:padding="@dimen/padding_Smaller" android:maxLines="2" />
+</TableRow>

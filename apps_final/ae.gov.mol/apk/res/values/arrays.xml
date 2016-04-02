@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expandable_groupitem">
+        <item>Service Definition</item>
+        <item>Application Form</item>
+        <item>Conditions</item>
+        <item>Require Documents</item>
+        <item>Steps to Follow</item>
+        <item>Where to Apply</item>
+        <item>Fees</item>
+        <item>Number of Transaction till 2012</item>
+        <item>Time</item>
+        <item>Demo Videos</item>
+    </string-array>
+    <array name="inquiry_icons">
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+    </array>
+    <string-array name="mol_inquiryservicelist">
+        <item>Application Status</item>
+        <item>Card Information</item>
+        <item>Company Information</item>
+        <item>Work Permit Status</item>
+        <item>Bank Guarantee Detail</item>
+        <item>E-Quota Status By Company No</item>
+        <item>E-Quota Status By Transaction No</item>
+        <item>E-Immigration Establishment Link Status</item>
+        <item>Mission Work Permit</item>
+        <item>Pending Payment</item>
+        <item>E-Abscond Approval</item>
+    </string-array>
+    <string-array name="mol_enetwatallist">
+        <item>Company Information</item>
+        <item>Company Quota Details</item>
+        <item>PRO Details</item>
+        <item>Specific Labour Card Info</item>
+        <item>Expired Labour Cards</item>
+        <item>National Labour Card List</item>
+        <item>Nawakas List</item>
+        <item>Electronic Visa Status</item>
+        <item>Company Category Information</item>
+        <item>GCC Employees List</item>
+        <item>Company Transaction List</item>
+        <item>Get Expired Cards Date Range</item>
+        <item>Work Permit Receipt</item>
+        <item>Company Status</item>
+        <item>Owner Company Statistics</item>
+        <item>Employee Ban Expiry Date</item>
+        <item>Payment Receipt Details</item>
+        <item>EQuota Enquiry</item>
+        <item>Complaints</item>
+        <item>Bank Guarantee Information</item>
+        <item>Inspection Request</item>
+        <item>Inspection Status</item>
+        <item>Employee Salary Paid Information</item>
+    </string-array>
+    <string-array name="mol_expired_labour_card">
+        <item>Card to be expired in next 60 days</item>
+        <item>Card expired and not more than 60 days</item>
+        <item>Card expired more than 60 days before</item>
+    </string-array>
+    <string-array name="mol_about_us_contact">
+        <item>Call Center</item>
+        <item>Offices</item>
+        <item>Feedback</item>
+    </string-array>
+    <array name="contact_us_icons">
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+    </array>
+</resources>

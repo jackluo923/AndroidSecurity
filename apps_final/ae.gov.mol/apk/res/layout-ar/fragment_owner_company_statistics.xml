@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_owner_company_statistics_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_owner_company_statistics_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_owner_company_statistics_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_owner_company_statistics_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:text="@string/company_information" android:layout_alignParentRight="true" style="@style/detail_page_header" />
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_company_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_company_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_abscornding" android:text="@string/abscornding" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_abscornding" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_total_employee" android:text="@string/total_employee" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_total_employee" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_expired_cards" android:text="@string/expired_cards" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_expired_cards" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_complaints" android:text="@string/complaints" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_complaints" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:gravity="right" android:id="@id/fragment_owner_company_statistics_textview_expired_work_permit" android:text="@string/expired_work_permit" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_expired_work_permit" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_license_end_date" android:text="@string/license_end_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_license_end_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_owner_company_statistics_textview_labour_Office" android:text="@string/labour_Office" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_owner_company_statistics_value_labour_Office" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

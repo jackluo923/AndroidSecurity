@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/TextLarge" android:textStyle="bold" android:textColor="@color/detail_page_header" android:id="@id/row_enetwasal_parent_title" android:padding="@dimen/padding_Smaller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/row_enetwasal_parent_image" android:layout_centerVertical="true" style="@style/text_black_12" />
+    <ImageView android:id="@id/row_enetwasal_parent_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_Smaller" android:src="@drawable/plus_minus" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+</RelativeLayout>

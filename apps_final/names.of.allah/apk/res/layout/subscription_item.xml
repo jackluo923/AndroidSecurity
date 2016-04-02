@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:dots="http://schemas.android.com/apk/res/com.google.android.apps.currents">
+    <FrameLayout android:id="@id/thumbnail_wrapper" android:background="@drawable/app_icon_background" android:layout_width="@dimen/app_grid_icon_size_with_border" android:layout_height="@dimen/app_grid_icon_size_with_border" android:layout_marginRight="@dimen/subscription_internal_spacing" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail" android:layout_width="@dimen/app_grid_icon_size" android:layout_height="@dimen/app_grid_icon_size" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center|right|top" android:id="@id/widgetGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/subscription_internal_spacing" android:layout_alignParentRight="true">
+        <Button android:textSize="@dimen/subscription_subtitle_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/unsubscribe" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove" style="@style/GrayButton" />
+        <Button android:textSize="@dimen/subscription_subtitle_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/subscribe" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" style="@style/BlueButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/textGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/widgetGroup" android:layout_toRightOf="@id/thumbnail_wrapper" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="@dimen/subscription_title_text_size" android:textColor="@android:color/black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/subscription_subscribers_text_size" android:textColor="@color/accent" android:id="@id/subscribers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/subscription_subtitle_text_size" android:textColor="#ff707070" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="1.1" />
+    </LinearLayout>
+</merge>

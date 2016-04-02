@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_inquiry_card_information_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_inquiry_card_information_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_inquiry_application_status_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_inquiry_card_information_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content_header" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:text="@string/company_information" style="@style/detail_page_header" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_company_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_company_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_company_category" android:text="@string/companycategory" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_company_category" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:padding="@dimen/padding_5" android:text="@string/card_information" style="@style/detail_page_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_employee_classification" android:text="@string/employee_classification" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_employee_classification" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_type" android:text="@string/card_type" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_type" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_issue_date" android:text="@string/card_issue_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_issue_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_expiry" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_expiry" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TextView android:visibility="gone" android:text="@string/personal_information" style="@style/label_inquiry_detail_header" />
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_person_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_sex" android:text="@string/sex" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_sex" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_nationality" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_nationality_code" android:text="@string/nationality_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_nationality_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_nationality_code_im" android:text="@string/nationality_code_im" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_nationality_code_im" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_passport_number" android:text="@string/passport_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_passport_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_passport_expiry_date" android:text="@string/passport_expire_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_passport_expiry_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_birth_country" android:text="@string/birth_country" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_birth_country" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_birth_date" android:text="@string/birth_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_birth_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_birth_place" android:text="@string/birth_place" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_birth_place" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_passport_place" android:text="@string/passport_place" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_passport_place" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_type_code" android:text="@string/card_type_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_type_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_card_status" android:text="@string/card_status" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_card_status" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_job_code" android:text="@string/job_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_job_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_license" android:text="@string/license" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_inquiry_card_information_textview_value_license" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

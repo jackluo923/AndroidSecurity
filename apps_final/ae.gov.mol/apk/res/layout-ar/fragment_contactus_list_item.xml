@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/padding_Small" android:paddingBottom="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fragment_contactus_list_item_textview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/text_black_14_smallPadding" />
+    <ImageView android:id="@id/fragment_contactus_list_item_imageview" android:paddingLeft="@dimen/padding_Small" android:paddingTop="@dimen/padding_Small" android:paddingBottom="@dimen/padding_Small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_centerVertical="true" />
+</RelativeLayout>

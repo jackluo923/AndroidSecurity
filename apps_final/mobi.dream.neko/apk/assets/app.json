@@ -1,0 +1,51 @@
+{
+    "plugins": {
+        "jQuery": {
+            "jquery-js": [
+                "jquery-min.js"
+            ]
+        },
+        "monaca.js": [
+
+        ],
+        "phonegap\/cordova.js": [
+
+        ],
+        "monaca.viewport.js": [
+
+        ],
+        "phonegap-plugins\/childBrowser": [
+
+        ],
+        "phonegap-plugins\/datePicker": [
+
+        ],
+        "phonegap-plugins\/bluetooth": [
+
+        ],
+        "phonegap-plugins\/share": [
+
+        ],
+        "phonegap-plugins\/barcodeScanner": [
+
+        ],
+        "phonegap-plugins\/webIntent": [
+
+        ],
+        "winjs\/Microsoft.WinJS": {
+            "ui-color": [
+                "CSS-UI-DARK"
+            ]
+        }
+    },
+    "splash": {
+        "android": {
+            "background": "#CC8B0A",
+            "autoHide": true
+        }
+    },
+    "version": "1.0",
+    "pushNotification": {
+        "pushProjectId": "SQ3uLFTtyVOUpHFC"
+    }
+}

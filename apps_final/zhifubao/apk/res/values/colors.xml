@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="nfd_wifipop_btn_text_normal">#ffffffff</color>
+    <color name="nfd_wifipop_btn_text_pressed">#ffdadada</color>
+    <color name="nfd_wifipop_btn_bg_normal">#ff69aaed</color>
+    <color name="nfd_wifipop_btn_bg_pressed">#ff4d8fd2</color>
+</resources>

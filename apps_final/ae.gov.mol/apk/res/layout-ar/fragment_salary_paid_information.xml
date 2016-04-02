@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_salary_paid_information_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_salary_paid_information_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_salary_paid_information_scrollview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_salary_paid_information_header">
+        <RelativeLayout android:id="@id/fragment_properson_details_relative_content" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_transaction_info" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/company_information" style="@style/detail_page_header" />
+            <TableLayout android:id="@id/fragment_salary_paid_information_middle_tablelayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_inquiry_application_status_textview_header_transaction_info">
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle_curve" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_company_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_salary_paid_information_value_company_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TextView android:gravity="right" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:layout_marginTop="@dimen/padding_10" android:text="@string/card_detail" style="@style/detail_page_header" />
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_card_number" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_office_name" android:text="@string/office_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_office_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_card_issue_date" android:text="@string/card_issue_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_card_issue_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_card_expiry_date" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_card_expiry_date" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_person_name" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_person_code" android:text="@string/person_code" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_person_code" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_contract_printing" android:text="@string/contract_type" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_contract_printing" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_description" android:text="@string/description" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_description" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_middle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_contract_transportation" android:text="@string/contract_transportation" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_contract_transportation" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_contract_residence" android:text="@string/contract_residance" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_contract_residence" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:gravity="center_vertical" android:background="@drawable/detail_text_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:id="@id/fragment_salary_paid_information_textview_salary" android:text="@string/salary" style="@style/detail_page_semiheader" />
+                            <TextView android:id="@id/fragment_company_info_details_textview_value_salary" style="@style/detail_page_normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+            <TextView android:gravity="right" android:id="@id/fragment_salary_paid_information_list_title_textview" android:padding="@dimen/padding_Smaller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/salaryinformation" android:layout_below="@id/fragment_salary_paid_information_middle_tablelayout" style="@style/detail_page_header" />
+            <TableLayout android:id="@id/fragment_salary_paid_information_list_tablelayout" android:paddingTop="@dimen/padding_Smaller" android:paddingBottom="@dimen/padding_Small" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*" android:layout_below="@id/fragment_salary_paid_information_list_title_textview" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

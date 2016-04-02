@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/fragment_etehseel_enetwasal_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/fragment_etehseel_enetwasal_linear_header" android:background="@drawable/bg_pending_trans_label" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <TextView android:textSize="@dimen/text_15" android:gravity="center" android:layout_width="0.0dip" android:text="@string/status" android:layout_weight="15.0" style="@style/detail_page_semiheader" />
+        <TextView android:textSize="@dimen/text_15" android:gravity="right" android:layout_width="0.0dip" android:text="@string/company_name" android:layout_weight="45.0" style="@style/detail_page_semiheader" />
+        <TextView android:textSize="@dimen/text_15" android:gravity="right" android:layout_width="0.0dip" android:layout_marginRight="@dimen/padding_5" android:text="@string/company_number" android:layout_weight="40.0" style="@style/detail_page_semiheader" />
+    </LinearLayout>
+    <ListView android:id="@id/fragment_etehseel_pending_transaction_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/fragment_etehseel_seprater" android:dividerHeight="@dimen/height_0.5" android:layout_below="@id/fragment_etehseel_enetwasal_linear_header" android:overScrollMode="never" />
+</RelativeLayout>

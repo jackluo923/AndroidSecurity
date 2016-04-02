@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_company_info_detail_header" layout="@layout/header" />
+    <ScrollView android:id="@id/company_info_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_company_info_detail_header">
+        <RelativeLayout android:id="@id/mycontract_info_relative_main" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/company_info_textview_company_title" android:layout_width="fill_parent" android:text="@string/card_details" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/card_info_linear_card_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/company_info_textview_company_title">
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_details" android:padding="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_card_number_label" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_card_number" android:text="@string/card_number" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/fragment_transactions_details_new_linear_transactions_details" android:layout_marginTop="@dimen/padding_10" android:weightSum="100.0" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_number_details" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_card_expiry_date_label" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_card_exppiry_date" android:text="@string/card_expiry_date" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/fragment_transactions_details_new_linear_transaction_name_details" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_card_start_date_label" android:text="@string/card_start_date" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_card_start_date" android:text="@string/card_start_date" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:gravity="right" android:id="@id/mycontract_details_textview_contract_details_label" android:layout_width="fill_parent" android:layout_marginTop="@dimen/padding_10" android:text="@string/contract_details" android:layout_below="@id/card_info_linear_card_details" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mycontract_details_contract_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_10" android:layout_below="@id/mycontract_details_textview_contract_details_label">
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_contract_type_label" android:text="@string/contract_type" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_contract_type" android:text="@string/contract_type" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/padding_10" android:weightSum="100.0" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_contract_end_date_label" android:text="@string/contract_end_date" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_contract_end_date" android:text="@string/contract_end_date" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_contract_start_date_label" android:text="@string/contract_start_date" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_contract_start_date" android:text="@string/contract_start_date" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_marginTop="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_job_description_label" android:text="@string/job_description" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_job_description" android:text="@string/job_description" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/padding_10" android:weightSum="100.0" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_total_salary_label" android:text="@string/total_salary" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_total_salary" android:text="@string/total_salary" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_basic_salary_label" android:text="@string/basic_salary" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_basic_salary" android:text="@string/basic_salary" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/padding_10" android:weightSum="100.0" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_allowance_transport_label" android:text="@string/allowance_transport" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_allowance_transport" android:text="@string/allowance_transport" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                    <View android:background="@android:color/darker_gray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+                        <TextView android:id="@id/mycontract_details_textview_allowance_residence_label" android:text="@string/allowance_residence" style="@style/detail_page_semiheader" />
+                        <TextView android:id="@id/mycontract_details_textview_allowance_residence" android:text="@string/allowance_residence" style="@style/detail_page_normal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_marginTop="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other2_label" android:text="@string/allowance_other_2" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other2" android:text="@string/allowance_other_2" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_marginTop="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other3_label" android:text="@string/allowance_other_3" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other3" android:text="@string/allowance_other_3" style="@style/detail_page_normal" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_marginTop="@dimen/padding_10" style="@style/detail_text_bg_middle_curve_top_bottom">
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other4_label" android:text="@string/allowance_other_4" style="@style/detail_page_semiheader" />
+                    <TextView android:id="@id/mycontract_details_textview_allowance_other4" android:text="@string/allowance_other_4" style="@style/detail_page_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

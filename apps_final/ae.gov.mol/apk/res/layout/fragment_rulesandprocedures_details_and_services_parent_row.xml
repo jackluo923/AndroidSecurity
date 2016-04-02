@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="@dimen/TextNormal" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/parent_textview" android:background="@color/bg_color" android:padding="@dimen/padding_Small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/ic_arrow"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

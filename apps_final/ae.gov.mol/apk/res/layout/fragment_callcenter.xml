@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@drawable/dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/text_20" android:textColor="@color/detail_page_semiheader" android:id="@id/textview_callcenter" android:padding="@dimen/padding_10" android:text="@string/call_center" android:layout_toLeftOf="@id/fragment_callcenter_imageview_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/detail_page_semiheader" />
+        <ImageView android:id="@id/fragment_callcenter_imageview_close" android:padding="@dimen/padding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_5" android:src="@drawable/ic_close" android:layout_alignParentRight="true" android:contentDescription="@string/cancel" />
+    </RelativeLayout>
+    <View android:id="@id/seprator" android:background="@color/seperator_details_page" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/padding_5" android:layout_marginBottom="@dimen/padding_5" android:layout_below="@id/title_heading" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_below="@id/seprator">
+        <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/fragment_callcenter_btn_cancel" android:background="@drawable/bg_button_cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/home_login_cancel" android:layout_weight="50.0" />
+        <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/fragment_callcenter_btn_call" android:background="@drawable/bg_button_submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_5" android:text="@string/fragment_login_message_call_us_on_number_call" android:layout_weight="50.0" />
+    </LinearLayout>
+</RelativeLayout>

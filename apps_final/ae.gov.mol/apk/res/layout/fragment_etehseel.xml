@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_transaction_relative_main" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/fragment_transaction_relative_top_bar" android:background="@drawable/fragment_etehseel_tabbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_transaction_content_0_0" android:text="@string/aboutus" android:layout_centerHorizontal="true" style="@style/textview_header_text" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/fragment_transaction_relative_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_transaction_relative_top_bar">
+        <ImageView android:id="@id/fragment_transaction_image_0_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/fragment_etehseel_topimage" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <ae.gov.mol.helper.PagerSlidingTabStrip android:id="@id/fragment_transaction_tabs" android:background="@drawable/background_tabs" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/fragment_transaction_image_0_0" />
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_transaction_tabs" />
+    </RelativeLayout>
+</RelativeLayout>

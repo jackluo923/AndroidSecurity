@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_national_labour_card_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_national_labour_card_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_national_labour_card_scrollview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_national_labour_card_header">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_personal_data" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/personal_data" style="@style/detail_page_header" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_person_code" android:text="@string/person_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_person_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_person_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_sex" android:text="@string/sex" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_sex" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_nationality" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_job" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/job" style="@style/detail_page_header" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_job_type" android:text="@string/job_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_job_type" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_salary" android:text="@string/salary" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_salary" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:gravity="right" android:id="@id/fragment_inquiry_application_status_textview_header_personal_card" android:padding="@dimen/padding_5" android:layout_width="fill_parent" android:text="@string/card" style="@style/detail_page_header" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_card_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_card_issue_date" android:text="@string/card_issue_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_card_issue_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_national_labour_card_textview_card_expiry_date" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_national_labour_card_textview_value_card_expiry_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right|top" android:orientation="vertical" android:id="@id/fragment_mol_goals_relative_main" android:background="@color/bg_color" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:id="@id/fragment_mol_goals_textview_title" android:text="@string/goals" style="@style/text_black_15" />
+    <TextView android:id="@id/fragment_mol_goals_textview_0_0" android:scrollbars="none" style="@style/text_black_15" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row" android:layout_width="160.0dip" android:layout_height="160.0dip" style="@style/gridRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/feeditem_item_thumb" android:layout_width="fill_parent" android:layout_height="160.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/tile_text" android:textColor="@color/white" android:id="@id/feeditem_item_title" android:background="#99000000" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip" android:maxLines="3" android:layout_alignParentBottom="true" />
+</RelativeLayout>

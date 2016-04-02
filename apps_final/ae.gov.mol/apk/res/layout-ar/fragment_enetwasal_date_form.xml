@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_transactions_details_relative_main" android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_enetwasal_date_form_header" layout="@layout/header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_enetwasal_date_form_header">
+        <ScrollView android:id="@id/fragment_enetwasal_date_form_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/margin_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:gravity="right" android:id="@id/fragment_enetwasal_date_form_textview_title" android:padding="@dimen/margin_5" android:layout_width="fill_parent" style="@style/detail_page_semiheader" />
+                <EditText android:gravity="right" android:id="@id/fragment_enetwasal_date_form_edittext" android:background="@drawable/bg_textbox_login" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:inputType="number" android:imeOptions="actionDone" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/fragment_enetwasal_date_form_linear_layout_date" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_15" android:weightSum="100.0">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="45.0">
+                        <TextView android:textStyle="bold" android:id="@id/fragment_enetwasal_date_form_textview_to_date" android:padding="@dimen/margin_5" android:text="@string/to_date" style="@style/detail_page_semiheader" />
+                        <EditText android:gravity="right" android:id="@id/fragment_enetwasal_date_form_edittext_to_date" android:background="@drawable/bg_textbox_login" android:padding="@dimen/padding_10" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:inputType="none" android:imeOptions="actionDone" />
+                    </LinearLayout>
+                    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" />
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="45.0">
+                        <TextView android:textStyle="bold" android:id="@id/fragment_enetwasal_date_form_textview_from_date" android:padding="@dimen/margin_5" android:text="@string/from_date" style="@style/detail_page_semiheader" />
+                        <EditText android:gravity="right" android:id="@id/fragment_enetwasal_date_form_edittext_from_date" android:background="@drawable/bg_textbox_login" android:padding="@dimen/padding_10" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_5" android:inputType="none" android:imeOptions="actionDone" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/fragment_enetwasal_date_form_button_submit" android:background="@drawable/bg_button_submit" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_20" android:minWidth="100.0dip" android:text="@string/btn_go" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/feeditem_detail_option_menu_share" android:orderInCategory="1" android:title="@string/share_with" android:showAsAction="ifRoom" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+    <item android:icon="@drawable/menu_save_for_later" android:id="@id/feeditem_detail_option_menu_star" android:orderInCategory="2" android:title="@string/toggle_star" android:showAsAction="ifRoom" />
+    <item android:id="@id/feeditem_detail_option_menu_text_size" android:orderInCategory="3" android:title="@string/text_size" android:showAsAction="never" />
+    <item android:id="@id/feeditem_detail_option_menu_translate" android:orderInCategory="4" android:title="@string/translate" android:showAsAction="never" />
+    <item android:id="@id/feeditem_detail_option_menu_delete" android:orderInCategory="5" android:title="@string/delete" android:showAsAction="never" />
+    <item android:id="@id/feeditem_detail_option_menu_copy_link" android:orderInCategory="6" android:title="@string/copy_link" android:showAsAction="never" />
+</menu>

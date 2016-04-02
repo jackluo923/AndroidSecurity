@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_home_viewpager_relative_root" android:background="@drawable/home_middle_bg" android:paddingBottom="@dimen/padding_64" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/row_home_viewpager_relative_info" android:background="#88000000" android:padding="@dimen/right_standard" android:layout_width="225.0dip" android:layout_height="175.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/text_20" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/row_home_viewpager_textview_info_discription" android:text="" style="@style/home_textview_small" />
+    </RelativeLayout>
+</RelativeLayout>

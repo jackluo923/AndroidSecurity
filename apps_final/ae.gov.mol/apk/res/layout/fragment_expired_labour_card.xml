@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_expired_labour_card_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_expired_labour_card_header" layout="@layout/header" />
+    <ScrollView android:id="@id/fragment_expired_labour_card_scrollview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_expired_labour_card_header">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/fragment_inquiry_application_status_textview_header_company" android:padding="@dimen/padding_5" android:text="@string/company" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_company_code" android:text="@string/company_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_company_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_company_name" android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_company_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_company_address" android:text="@string/company_address" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_company_address" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_company_license_number" android:text="@string/company_license_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_company_license_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_LabourOffice" android:text="@string/company_labour_office" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_LabourOffice" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_employee_count" android:text="@string/employee_count" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_employee_count" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_category" android:text="@string/category" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_category" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_company_status" android:text="@string/company_status" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_company_status" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:id="@id/fragment_inquiry_application_status_textview_header_personal_data" android:padding="@dimen/padding_5" android:text="@string/personal_data" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_person_code" android:text="@string/person_code" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_person_code" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_person_name" android:text="@string/person_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_person_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_nationality" android:text="@string/nationality" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_nationality" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_passport_number" android:text="@string/passport_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_passport_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <TextView android:id="@id/fragment_inquiry_application_status_textview_header_card" android:padding="@dimen/padding_5" android:text="@string/card" style="@style/detail_page_header" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_card_number" android:text="@string/card_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_card_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_card_description" android:text="@string/card_description" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_card_description" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_expired_labour_card_textview_card_expiry_date" android:text="@string/card_expiry_date" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_expired_labour_card_textview_value_card_expiry_date" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/fragment_expired_labour_card_btn_renew" android:background="@drawable/btn_selector" android:padding="@dimen/left_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_small" android:layout_marginBottom="@dimen/bottom_small" android:text="@string/renew_card" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/appwidget_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/appwidget_transition" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/appwidget_button_next" android:paddingLeft="50.0dip" android:paddingTop="27.0dip" android:paddingRight="14.0dip" android:paddingBottom="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/appwidget_arrow" android:scaleType="centerInside" android:adjustViewBounds="true" android:maxWidth="87.0dip" android:maxHeight="55.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:alpha="0.7" />
+</RelativeLayout>

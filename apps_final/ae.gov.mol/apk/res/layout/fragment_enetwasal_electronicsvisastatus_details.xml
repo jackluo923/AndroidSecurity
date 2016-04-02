@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_enetwasal_electronicsvisastatus_details_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_enetwasal_electronicsvisastatus_details_header" layout="@layout/header" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/padding_5" android:layout_below="@id/fragment_enetwasal_electronicsvisastatus_details_header">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_top_bottom_line" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/transaction_number" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_transaction_number" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/date_of_submit" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_dateofsubmit" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/company_name" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_company_name" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/emirate" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_emirate" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/transaction_type" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_transaction_type" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/location" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_location" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_middle" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/state" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_state" style="@style/detail_page_normal" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/detail_text_bg_bottom" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/status" style="@style/detail_page_semiheader" />
+                <TextView android:id="@id/fragment_enetwasal_electronicsvisastatus_details_textview_value_status" style="@style/detail_page_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

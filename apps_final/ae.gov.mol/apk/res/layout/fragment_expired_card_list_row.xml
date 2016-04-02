@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:id="@id/fragment_expired_card_list_row_list_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <TextView android:id="@id/fragment_expired_card_list_row_title_card_number" android:scrollbars="none" android:text="@string/card_number" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:id="@id/fragment_expired_card_list_row_value_card_number" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+        <TextView android:id="@id/fragment_expired_card_list_row_card_type" android:scrollbars="none" android:text="@string/card_type" android:layout_weight="0.3" style="@style/label_nawakas_list_title" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:id="@id/fragment_expired_card_list_row_value_card_type" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+    </TableRow>
+</TableLayout>

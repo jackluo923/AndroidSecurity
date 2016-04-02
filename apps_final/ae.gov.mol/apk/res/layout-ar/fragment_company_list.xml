@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_company_list_header" layout="@layout/header" />
+    <EditText android:textColorHint="@android:color/darker_gray" android:gravity="right" android:id="@id/fragment_company_list_edittext_search" android:background="@drawable/bg_textbox_search" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_margin="@dimen/margin_10" android:hint="@string/hint_search" android:drawableRight="@drawable/ic_search" android:drawablePadding="@dimen/padding_Normal" android:layout_below="@id/fragment_company_list_header" android:layout_centerVertical="true" android:inputType="textPersonName" android:imeOptions="actionDone" android:textCursorDrawable="@null" style="@style/detail_page_header" />
+    <View android:id="@id/fragment_company_list_view" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="@dimen/height_0.5" android:layout_below="@id/fragment_company_list_edittext_search" />
+    <ListView android:id="@id/fragment_company_list_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_5" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_below="@id/fragment_company_list_view" />
+</RelativeLayout>

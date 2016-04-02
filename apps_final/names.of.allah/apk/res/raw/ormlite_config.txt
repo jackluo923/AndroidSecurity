@@ -1,0 +1,374 @@
+#
+# generated on 2014/01/22 03:35:08
+#
+# --table-start--
+dataClass=com.appyet.data.Feed
+tableName=Feed
+# --table-fields-start--
+# --field-start--
+fieldName=mFeedId
+columnName=FeedId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mTitle
+columnName=Title
+# --field-end--
+# --field-start--
+fieldName=mLink
+columnName=Link
+canBeNull=false
+uniqueIndexName=IDX_Feed_Link
+# --field-end--
+# --field-start--
+fieldName=mWebLink
+columnName=WebLink
+# --field-end--
+# --field-start--
+fieldName=mModuleId
+columnName=ModuleId
+# --field-end--
+# --field-start--
+fieldName=mPubDate
+columnName=PubDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=mSyncDate
+columnName=SyncDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=mUnreadCount
+columnName=UnreadCount
+defaultValue=0
+# --field-end--
+# --field-start--
+fieldName=mTotalCount
+columnName=TotalCount
+defaultValue=0
+# --field-end--
+# --field-start--
+fieldName=mFeedType
+columnName=FeedType
+# --field-end--
+# --field-start--
+fieldName=mEncoding
+columnName=Encoding
+# --field-end--
+# --field-start--
+fieldName=mStreamHash
+columnName=StreamHash
+# --field-end--
+# --field-start--
+fieldName=mFavIcon
+columnName=FavIcon
+# --field-end--
+# --field-start--
+fieldName=mImageLink
+columnName=ImageLink
+# --field-end--
+# --field-start--
+fieldName=mIsAutoMobilize
+columnName=IsAutoMobilize
+# --field-end--
+# --field-start--
+fieldName=mMobilizeProvider
+columnName=MobilizeProvider
+# --field-end--
+# --field-start--
+fieldName=mIsDownloadNewEnclosure
+columnName=IsDownloadNewEnclosure
+# --field-end--
+# --field-start--
+fieldName=mGuid
+columnName=Guid
+# --field-end--
+# --field-start--
+fieldName=mCacheGuid
+columnName=CacheGuid
+# --field-end--
+# --field-start--
+fieldName=mHTTPLastModified
+columnName=HTTPLastModified
+# --field-end--
+# --field-start--
+fieldName=mHTTPETag
+columnName=HTTPETag
+# --field-end--
+# --field-start--
+fieldName=mArticleNumberLimit
+columnName=ArticleNumberLimit
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.appyet.data.FeedItem
+tableName=FeedItem
+# --table-fields-start--
+# --field-start--
+fieldName=mFeedItemId
+columnName=FeedItemId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mFeed
+columnName=FeedId
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=mTitle
+columnName=Title
+# --field-end--
+# --field-start--
+fieldName=mDescription
+columnName=Description
+# --field-end--
+# --field-start--
+fieldName=mArticle
+columnName=Article
+# --field-end--
+# --field-start--
+fieldName=mLink
+columnName=Link
+# --field-end--
+# --field-start--
+fieldName=mAuthor
+columnName=Author
+# --field-end--
+# --field-start--
+fieldName=mPubDate
+columnName=PubDate
+dataPersister=DATE_LONG
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mCreatedDate
+columnName=CreatedDate
+dataPersister=DATE_LONG
+# --field-end--
+# --field-start--
+fieldName=mIsRead
+columnName=IsRead
+# --field-end--
+# --field-start--
+fieldName=mIsDeleted
+columnName=IsDeleted
+# --field-end--
+# --field-start--
+fieldName=mIsStar
+columnName=IsStar
+# --field-end--
+# --field-start--
+fieldName=mCommentsLink
+columnName=CommentsLink
+# --field-end--
+# --field-start--
+fieldName=mCommentsCount
+columnName=CommentsCount
+# --field-end--
+# --field-start--
+fieldName=mCommentsWebLink
+columnName=CommentsWebLink
+# --field-end--
+# --field-start--
+fieldName=mThumbnail
+columnName=Thumbnail
+# --field-end--
+# --field-start--
+fieldName=mSnippet
+columnName=Snippet
+# --field-end--
+# --field-start--
+fieldName=mEnclosureLink
+columnName=EnclosureLink
+# --field-end--
+# --field-start--
+fieldName=mEnclosureType
+columnName=EnclosureType
+# --field-end--
+# --field-start--
+fieldName=mEnclosureLength
+columnName=EnclosureLength
+# --field-end--
+# --field-start--
+fieldName=mEnclosureDuration
+columnName=EnclosureDuration
+# --field-end--
+# --field-start--
+fieldName=mEnclosureCurrentPosition
+columnName=EnclosureCurrentPosition
+# --field-end--
+# --field-start--
+fieldName=mUniqueKey
+columnName=UniqueKey
+# --field-end--
+# --field-start--
+fieldName=mIsQueued
+columnName=IsQueued
+# --field-end--
+# --field-start--
+fieldName=mQueueOrder
+columnName=QueueOrder
+# --field-end--
+# --field-start--
+fieldName=mArticleStatus
+columnName=ArticleStatus
+# --field-end--
+# --field-start--
+fieldName=mEnclosureStatus
+columnName=EnclosureStatus
+# --field-end--
+# --field-start--
+fieldName=mCacheGuid
+columnName=CacheGuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.appyet.data.FileCache
+tableName=FileCache
+# --table-fields-start--
+# --field-start--
+fieldName=mFileCacheId
+columnName=FileCacheId
+canBeNull=false
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mFileLink
+columnName=FileLink
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mFileType
+columnName=FileType
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mFileCacheName
+columnName=FileCacheName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mDownloadAttempt
+columnName=DownloadAttempt
+defaultValue=0
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mDownloadStatus
+columnName=DownloadStatus
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mCacheGuid
+columnName=CacheGuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.appyet.data.Module
+tableName=Module
+# --table-fields-start--
+# --field-start--
+fieldName=mModuleId
+columnName=ModuleId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mName
+columnName=Name
+# --field-end--
+# --field-start--
+fieldName=mGroupName
+columnName=GroupName
+# --field-end--
+# --field-start--
+fieldName=mStatusLabel
+columnName=StatusLabel
+# --field-end--
+# --field-start--
+fieldName=mIcon
+columnName=Icon
+# --field-end--
+# --field-start--
+fieldName=mType
+columnName=Type
+# --field-end--
+# --field-start--
+fieldName=mSortOrder
+columnName=SortOrder
+# --field-end--
+# --field-start--
+fieldName=mGuid
+columnName=Guid
+# --field-end--
+# --field-start--
+fieldName=mLayout
+columnName=Layout
+# --field-end--
+# --field-start--
+fieldName=mIsHidden
+columnName=IsHidden
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.appyet.data.Web
+tableName=web
+# --table-fields-start--
+# --field-start--
+fieldName=mWebId
+columnName=WebId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mModuleId
+columnName=ModuleId
+# --field-end--
+# --field-start--
+fieldName=mType
+columnName=Type
+# --field-end--
+# --field-start--
+fieldName=mData
+columnName=Data
+# --field-end--
+# --field-start--
+fieldName=mGuid
+columnName=Guid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.appyet.data.Forum
+tableName=Forum
+# --table-fields-start--
+# --field-start--
+fieldName=mForumId
+columnName=ForumId
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=mGuid
+columnName=Guid
+# --field-end--
+# --field-start--
+fieldName=mModuleId
+columnName=ModuleId
+# --field-end--
+# --field-start--
+fieldName=mLink
+columnName=Link
+canBeNull=false
+uniqueIndexName=Forum_Link_idx
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

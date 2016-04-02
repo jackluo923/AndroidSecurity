@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_news_details_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fragment_news_details_header" layout="@layout/header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_news_details_relative_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_news_details_header">
+        <ImageView android:id="@id/fragment_news_details_image_0_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <RelativeLayout android:id="@id/relative_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/fragment_news_details_linear_date" android:layout_alignParentLeft="true">
+                <ImageView android:id="@id/fragment_news_details_icon_facebook" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_slider_facebook" />
+                <ImageView android:id="@id/fragment_news_details_icon_instagram" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_slider_instagram" />
+                <ImageView android:id="@id/fragment_news_details_icon_twitter" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_slider_twitter" />
+                <ImageView android:id="@id/fragment_news_details_icon_youtube" android:padding="@dimen/padding_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_slider_youtube" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/TextLarge" android:textStyle="bold" android:ellipsize="end" android:id="@id/fragment_news_details_textview_headline" android:padding="@dimen/margin_Small" android:maxLines="3" android:singleLine="false" android:layout_below="@id/fragment_news_details_linear_date" android:layout_alignParentLeft="true" style="@style/text_black_14_smallPadding" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_news_details_linear_date" android:background="@color/red" android:padding="@dimen/margin_Smaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_Small" android:layout_alignParentRight="true">
+                <TextView android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/fragment_news_details_textview_news_date" android:singleLine="true" style="@style/text_white_14" />
+                <TextView android:textSize="@dimen/TextSmall" android:textColor="@android:color/white" android:id="@id/fragment_news_details_textview_news_month" android:singleLine="true" style="@style/text_white_14" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/TextSmall" android:textColor="@color/color_gray_wishlist" android:ellipsize="end" android:id="@id/fragment_news_details_textview_news_snaps" android:paddingLeft="@dimen/left_standard" android:paddingRight="@dimen/right_standard" android:maxLines="2" style="@style/text_black_14_smallPadding" />
+        <ImageView android:id="@id/fragment_news_details_seperator_image" android:padding="@dimen/margin_Small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/fragment_news_details_seprater" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <WebView android:id="@id/fragment_news_details_webview" android:background="@android:color/transparent" android:padding="@dimen/margin_Small" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fragment_news_details_relative_middle" />
+</RelativeLayout>

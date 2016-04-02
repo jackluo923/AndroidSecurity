@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:id="@id/fragment_inqury_enq_pending_payment_list_row_relative" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_5">
+        <TextView android:gravity="right" android:id="@id/fragment_inqury_enq_pending_payment_list_row_value_person_name" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:scrollbars="none" android:text="@string/person_name" android:layout_weight="0.2" style="@style/label_nawakas_list_title" />
+    </TableRow>
+    <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_5">
+        <TextView android:gravity="right" android:id="@id/fragment_inqury_enq_pending_payment_list_row_value_description" android:scrollbars="none" android:layout_weight="0.4" style="@style/label_nawakas_list_value" />
+        <TextView android:scrollbars="none" android:text="@string/colon" android:layout_weight="0.05" style="@style/label_inquiry_detail_title" />
+        <TextView android:gravity="right" android:scrollbars="none" android:text="@string/description" android:layout_weight="0.2" style="@style/label_nawakas_list_title" />
+    </TableRow>
+</TableLayout>

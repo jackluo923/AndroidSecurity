@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_items" android:layout_centerInParent="true" />
+    <com.mobeta.android.dslv.DragSortListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" dslv:collapsed_height="1.0dip" dslv:float_alpha="0.6" dslv:drag_enabled="true" dslv:drag_handle_id="@id/slidicon" dslv:use_default_controller="true" />
+    <ProgressBar android:id="@id/progress" android:paddingBottom="60.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+</RelativeLayout>

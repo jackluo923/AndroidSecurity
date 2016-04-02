@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:id="@id/fragment_aboutus_relative_main" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/ae.gov.mol">
+    <include android:id="@id/fragment_aboutus_header" layout="@layout/header" />
+    <RelativeLayout android:gravity="center" android:id="@id/fragment_aboutus_relative_middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fragment_aboutus_header">
+        <ae.gov.mol.helper.PagerSlidingTabStrip android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabs" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fragment_aboutus_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

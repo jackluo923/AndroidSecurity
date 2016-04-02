@@ -1,0 +1,26 @@
+{
+    "bottom": {
+        "container" : "tabbar",
+        "style" : {
+            "activeIndex" : 0
+        },
+        "items" : [
+            {
+                "component" : "tabbarItem",
+                "style" : {
+                    "text" : "HOME",
+                    "image" : "./images/home-icon.png"
+                },
+                "link" : "index.html"
+            },
+            {
+                "component" : "tabbarItem",
+                "style" : {
+                    "text" : "このアプリについて",
+                    "image" : "./images/about-icon.png"
+                },
+                "link" : "about.html"
+            }
+            ]
+    }
+}

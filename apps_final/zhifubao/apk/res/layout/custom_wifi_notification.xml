@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/nfd_notification_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nfd_notification_logo" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/wifiapp" android:scaleType="center" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="9.0dip" android:paddingTop="2.0dip" android:paddingRight="9.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/nfd_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/WifiNotificationTitle" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/nfd_notification_click_to_connect" android:background="@drawable/btn_nfd_nt_bg" android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:id="@id/nfd_notification_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="3" android:singleLine="false" android:layout_weight="1.0" style="@style/WifiNotificationText" />
+    </LinearLayout>
+</LinearLayout>

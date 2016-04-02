@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expandable_groupitem">
+        <item>تعريف الخدمة</item>
+        <item>نموذج طلب</item>
+        <item>الشروط</item>
+        <item>الوثائق المطلوبة</item>
+        <item>الخطوات التي يجب اتباعها</item>
+        <item>مكان التقديم</item>
+        <item>رسوم</item>
+        <item>المعاملات</item>
+        <item>الوقت</item>
+        <item>فيديو تجريبي</item>
+    </string-array>
+    <array name="inquiry_icons">
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+        <item>@drawable/home_icon_info_hover</item>
+    </array>
+    <string-array name="mol_inquiryservicelist">
+        <item>حالة الطلب</item>
+        <item>بيانات البطاقة</item>
+        <item>بيانات المنشأة</item>
+        <item>حالة تصريح العمل</item>
+        <item>بيانات الضمان المصرفي</item>
+        <item>حالة الحصة بواسطة رقم المنشأة</item>
+        <item>حالة الحصة الالكترونية بواسطة رقم المعاملة</item>
+        <item>حالة ملف الإقامة في الإدارة االعامة للإقامة وشؤون الأجانب</item>
+        <item>تصريح مهمة</item>
+        <item>غير مسددة الرسوم</item>
+        <item>موافقة البلاغ الإلكتروني</item>
+    </string-array>
+    <string-array name="mol_enetwatallist">
+        <item>بيانات المنشأة</item>
+        <item>تفاصيل حصة المنشأة</item>
+        <item>تفاصيل المندوب</item>
+        <item>بيانات بطاقة العمل</item>
+        <item>صلاحية بطاقة العمل</item>
+        <item>قائمة بطاقة العمل للمواطنين</item>
+        <item>قائمة نواقص</item>
+        <item>حالة تصريح العمل الإلكتروني</item>
+        <item>بيانات فئة المنشأة</item>
+        <item>قائمة موظفي دول مجلس التعاون الخليجي</item>
+        <item>قائمة معاملات المنشأة</item>
+        <item>عرض البطاقات المنتهية الصلاحية في تاريخ معين</item>
+        <item>إيصال تصريح العمل</item>
+        <item>حالة المنشأة</item>
+        <item>احصائيات مالك المنشأة</item>
+        <item>تاريخ انتهاء الحرمان</item>
+        <item>تفصيل ايصال الدفع</item>
+        <item>الاستعلام عن الحصة الإلكترونية</item>
+        <item>‫الشكاوى‬</item>
+        <item>بيانات الضمان البنكي</item>
+        <item>طلب التفتيش</item>
+        <item>حالة التفتيش</item>
+        <item>بيانات دفع راتب الموظف</item>
+    </string-array>
+    <string-array name="mol_expired_labour_card">
+        <item>أنتهت أكثر من 60 يوم</item>
+        <item>انتهت أقل من 60 يوم</item>
+        <item>تنتهي في 60 يوم</item>
+    </string-array>
+    <string-array name="mol_about_us_contact">
+        <item>‏‫مركز الاتصال</item>
+        <item>المكاتب</item>
+        <item>الأراء</item>
+    </string-array>
+</resources>
