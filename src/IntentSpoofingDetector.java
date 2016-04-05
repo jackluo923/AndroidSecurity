@@ -25,6 +25,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -68,8 +69,8 @@ public class IntentSpoofingDetector {
         java.lang.System.out.println("Starting vulnerability detection for " + appDir);
 
         IntentSpoofingDetector analysis = new IntentSpoofingDetector(appDir);
-        analysis.analyzeIntentSpoofing();
-//        analysis.analyzeUnauthorized(vulnerabilities);
+        //analysis.analyzeIntentSpoofing();
+        analysis.analyzeUnauthorized(analysis.vul);
     }
 
     public IntentSpoofingDetector(String appDir) {
@@ -140,7 +141,7 @@ public class IntentSpoofingDetector {
             }
         }
         // TODO: Add dynamically created IntentSpoofing Receivers
-        vul.IntentSpoofing = new ArrayList<>();
+        vul.IntentSpoofing = new ArrayList<Vulnerabilities.SpoofedComponent>();
         for(int i = 0; i < model.components.size(); i ++) {
             Vulnerabilities.SpoofedComponent spc = new Vulnerabilities.SpoofedComponent();
             spc.component = model.components.get(i).name;
@@ -194,7 +195,7 @@ public class IntentSpoofingDetector {
                     com.permission = e.getAttribute("android:permission");
                 }
                 NodeList intentFilters = e.getElementsByTagName("intent-filter");
-                com.intentFilter = new ArrayList<>();
+                com.intentFilter = new ArrayList<IntentFilter>();
                 for(int j = 0; j < intentFilters.getLength(); j ++) {
                     IntentFilter ifilter = new IntentFilter();
                     Element ife = (Element)intentFilters.item(j);
@@ -218,11 +219,27 @@ public class IntentSpoofingDetector {
             }
             return null;
         }
+
+        private byte[] fileIntoByteArray(String path) {
+            File f = new File(path);
+            byte[] r = new byte[(int)f.length()];
+            try {
+
+                FileInputStream fis = new FileInputStream(f);
+                fis.read(r);
+                fis.close();
+                return r;
+            }catch (Exception e) {
+                e.printStackTrace();
+            }
+            return r;
+        }
+
         public ManifestModel(String manifestPath) throws ParserConfigurationException, IOException, SAXException {
             DocumentBuilderFactory factory =
                     DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            ByteArrayInputStream input = new ByteArrayInputStream(Files.readAllBytes(Paths.get(manifestPath)));
+            ByteArrayInputStream input = new ByteArrayInputStream(fileIntoByteArray(manifestPath));
             Document doc = builder.parse(input);
             Element root = doc.getDocumentElement();
             NodeList rootList = root.getChildNodes();
@@ -233,7 +250,7 @@ public class IntentSpoofingDetector {
                 }
             }
             NodeList activities = root.getElementsByTagName("activity");
-            this.components = new ArrayList<>();
+            this.components = new ArrayList<Component>();
             for(int i = 0; i < activities.getLength(); i ++) {
                 Component com = this.parseNode("Activity", activities.item(i));
                 if (com != null) {
@@ -329,6 +346,7 @@ public class IntentSpoofingDetector {
         for (String lifecycle : ac) {
             for(IMethod m : declaredMethods) {
                 if (m.toString().contains(lifecycle)) {
+                    // System.out.println("Adding entry point: " + m.getDeclaringClass().toString() + ", Name: " + m.getName());
                     entrypoints.add(new DefaultEntrypoint(m, cha));
                 }
             }
@@ -354,29 +372,33 @@ public class IntentSpoofingDetector {
         while (callsiteIter2.hasNext()) {
             CallSiteReference callsite = callsiteIter2.next();
             IMethod calledMethod = cha.resolveMethod(callsite.getDeclaredTarget());
+            if(calledMethod != null) {
+                IMethod callee = calledMethod;
+                if(isIntentType(callee.getDeclaringClass().getReference())) {
+                    String name = callee.getName().toString();
+                    boolean r = false;
+                    for(String options : intentGetMethods) {
+                        if(name.contains(options)) {
+                            r = true;
+                            break;
+                        }
+                    }
+                    // r is false means there is some other methods got called
+                    if (!r) {
+                        return 1; // 1 means find Intent with extra data
+                    } else {
+                        return 0; // 0 means find Intent without extra data
+                    }
+                } else {
+                    // System.out.println("Not an intent!");
+                }
+            }
+
             if (cg.getPossibleTargets(currentNode, callsite).isEmpty()) {
                 // do nothing
             } else {
                 for (CGNode targetNode : cg.getPossibleTargets(currentNode, callsite)) {
-                    IMethod callee = targetNode.getMethod();
-                    if(isIntentType(callee.getDeclaringClass().getReference())) {
-                        String name = callee.getName().toString();
-                        boolean r = false;
-                        for(String options : intentGetMethods) {
-                            if(name.contains(options)) {
-                                r = true;
-                                break;
-                            }
-                        }
-                        // r is false means there is some other methods got called
-                        if (!r) {
-                            return 1; // 1 means find Intent with extra data
-                        } else {
-                            return 0; // 0 means find Intent without extra data
-                        }
-                    } else {
-                        // System.out.println("Not an intent!");
-                    }
+
                     if (targetNode.getMethod().getDeclaringClass().getClassLoader().getReference().equals(ClassLoaderReference.Application)) {
                         int rr = callGraphTraverse2(cg, targetNode, level + 1);
                         if(rr != -1) {
@@ -423,7 +445,7 @@ public class IntentSpoofingDetector {
         CGNode root = cg.getFakeRootNode();
 
         // Traverse  call graph
-        dict = new HashMap<>();
+        dict = new HashMap<IMethod, MethodState>();
         callGraphTraverse(cg, root, 0);
         for(Map.Entry<IMethod, MethodState> entry : dict.entrySet()) {
             MethodState state = entry.getValue();
@@ -496,7 +518,7 @@ public class IntentSpoofingDetector {
             dict.put(currentMethod, new MethodState());
         }
         if(dict.get(currentMethod).intents == null) {
-            dict.get(currentMethod).intents = new ArrayList<>();
+            dict.get(currentMethod).intents = new ArrayList<IntentState>();
         }
         if(dict.get(currentMethod).intents.size() != 0) {
             its = dict.get(currentMethod).intents.get(0); // get first one if it is not null

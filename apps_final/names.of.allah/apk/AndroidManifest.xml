@@ -57,7 +57,8 @@
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info_4_1"/>
         </receiver>
         <service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
-        <receiver android:exported="true" android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver">
+        <receiver android:exported
+		  ="true" android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>

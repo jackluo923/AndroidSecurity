@@ -1,0 +1,44 @@
+package com.appyet.activity.forum;
+
+import android.os.Build;
+import android.widget.EditText;
+import com.appyet.context.ApplicationContext;
+import com.appyet.f.a;
+import com.appyet.manager.an;
+import com.appyet.manager.ao;
+
+final class b
+  extends a<Void, Void, Void>
+{
+  private ao b;
+  
+  private b(ForumNewTopicActivity paramForumNewTopicActivity) {}
+  
+  private Void f()
+  {
+    try
+    {
+      String str1 = ForumNewTopicActivity.a(a).getText().toString() + "\n\n " + String.format(a.getString(2131230995), new Object[] { Build.MODEL, a.getString(2131230998) });
+      b = a.a.p.a(a.b, ForumNewTopicActivity.b(a), ForumNewTopicActivity.c(a).getText().toString(), str1);
+      return null;
+    }
+    catch (Exception localException)
+    {
+      for (;;)
+      {
+        String str2 = ForumNewTopicActivity.a(a).getText().toString();
+      }
+    }
+  }
+  
+  protected final void a()
+  {
+    ForumNewTopicActivity.e(a);
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.appyet.activity.forum.b
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */
